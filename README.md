@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# SELETA
 
 `Análise e Desenvolvimento de Sistemas`
 
