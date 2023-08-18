@@ -1,5 +1,17 @@
 # Introdução
 
+  A indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades e desafiada a considerar as particularidades de vários grupos, dentre eles o das pessoas que demonstram algum problema de saúde de origem alimentar, que demandam determinadas restrições alimentares e que impactam diretamente no hábito de consumo desses sujeitos.
+  
+  Os números relacionados às restrições alimentares expressam que essa questão não se trata mais de casos isolados, mas de números significativos que vem crescendo cada vez mais. De acordo uma pesquisa realizada pela Euromonitor Internacional (2011), 75% da população mundial apresenta intolerância a lactose ou má absorção de lactose. Esses números, somados aos números relacionados a outros tipos de restrições alimentares, exprimem a urgência do tema.
+
+  Para além das circunstâncias internas dos consumidores, a experiência de consumo pode ser crucial na hora da compra e pode afetar as intenções dos sujeitos (BATISTA, 2022). Uma das dificuldades que as pessoas com restrições alimentares encontram está relacionada à rotulagem dos alimentos.
+
+>A falta de regularização de rotulagem, principalmente, para alergênicos >alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no >Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos >alimentares que se uniram pela internet para reivindicar o direito à >informação e criaram uma cartilha com informações.
+
+  Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.
+  
+
+
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
