@@ -41,16 +41,11 @@ Os principais objetivos especificos são:
 ## Justificativa
 
 <div align="justify">
-Existem vários tipos de intolerâncias alimentares. A intolerância ao glúten (a proteína do trigo) e a intolerância à lactose (o açúcar do leite) são as mais comuns. As desordens relacionadas ao glúten incluem, por exemplo, a doença celíaca, a sensibilidade ao glúten não celíaca e a alergia ao trigo. Estima-se que 1% da população apresente a doença celíaca, 6% tenham sensibilidade ao glúten não celíaca e no caso da alergia ao trigo a prevalência é de 15%-20% em crianças (CRUCINSKY, DAMIÃO, CASTRO, 2021).</div>
-
-<div align="justify"> 
-Já a intolerância a lactose pode ser classificada como congênita, primária e secundária. A congênita é diagnosticada no nascimento da criança e é uma condição genética herdada dos pais e refere a ausência completa de lactase jejunal. A primária é a mais comum e ocorre quando há diminuição naturalmente a produção de lactase. A secundária ou adquirida surge de lesões no intestino delgado ou como sequela de alguma doença. Um estudo apontou que a intolerância à lactose está presente em 65% da população mundial (BATISTA, ASSUNÇÃO, PENAFORTE, JAPUR, 2018).</div>
-
-<div align="justify"> 
-Apesar das alergias e intolerâncias alimentares serem um problema crescente em todo o mundo, ainda hoje pessoas com restrições alimentares tem dificuldade em encontrar produtos que atendam às suas necessidades. Por esse motivo, a ideia de desenvolvimento da aplicação é proporcionar um ambiente a essas pessoas que facilite o conhecimento e acesso a produtos que possam ser consumidos com segurança.</div> 
-
-<div align="justify"> 
-Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar cada vez mais um maior número de pessoas.</div>
+Existem vários tipos de intolerâncias alimentares. A intolerância ao glúten (a proteína do trigo) e a intolerância à lactose (o açúcar do leite) são as mais comuns. As desordens relacionadas ao glúten incluem, por exemplo, a doença celíaca, a sensibilidade ao glúten não celíaca e a alergia ao trigo. Estima-se que 1% da população apresente a doença celíaca, 6% tenham sensibilidade ao glúten não celíaca e no caso da alergia ao trigo a prevalência é de 15%-20% em crianças (CRUCINSKY, DAMIÃO, CASTRO, 2021). <br><br>
+Já a intolerância a lactose pode ser classificada como congênita, primária e secundária. A congênita é diagnosticada no nascimento da criança e é uma condição genética herdada dos pais e refere a ausência completa de lactase jejunal. A primária é a mais comum e ocorre quando há diminuição naturalmente a produção de lactase. A secundária ou adquirida surge de lesões no intestino delgado ou como sequela de alguma doença. Um estudo apontou que a intolerância à lactose está presente em 65% da população mundial (BATISTA, ASSUNÇÃO, PENAFORTE, JAPUR, 2018).<br><br>
+Apesar das alergias e intolerâncias alimentares serem um problema crescente em todo o mundo, ainda hoje pessoas com restrições alimentares tem dificuldade em encontrar produtos que atendam às suas necessidades. Por esse motivo, a ideia de desenvolvimento da aplicação é proporcionar um ambiente a essas pessoas que facilite o conhecimento e acesso a produtos que possam ser consumidos com segurança.<br><br>
+Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar cada vez mais um maior número de pessoas.<br><br>
+</div>
 
 ## Público-Alvo
 
