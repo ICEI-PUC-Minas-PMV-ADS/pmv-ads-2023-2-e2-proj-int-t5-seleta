@@ -12,7 +12,7 @@
 </div>
 
 
->A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações.
+>"A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações."
 
 
 <div align="justify">
