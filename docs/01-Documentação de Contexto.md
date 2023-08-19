@@ -11,12 +11,13 @@
 <p>Para além das circunstâncias internas dos consumidores, a experiência de consumo pode ser crucial na hora da compra e pode afetar as intenções dos sujeitos (BATISTA, 2022). Uma das dificuldades que as pessoas com restrições alimentares encontram está relacionada à rotulagem dos alimentos.</p>
 </div>
 
-<div align="justify">
+
 >A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações.
-</div>
+
 
 <div align="justify">
-Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.</div>
+<p>Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.</p>
+</div>
 
 
 ## Problema
