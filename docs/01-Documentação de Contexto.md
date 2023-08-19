@@ -15,6 +15,7 @@ A falta de regularização de rotulagem, principalmente, para alergênicos alime
 <div align="justify">
 Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.</div>
 
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
@@ -29,7 +30,8 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-<div align="justify">O objetivo geral deste trabalho é desenvolver uma aplicação que permita a indivíduos com restrições alimentares localizar estabelecimentos que ofereçam produtos adequados às suas necessidades, sendo elas, intolerância à lactose, intolerância ao glúten e diabetes.</div>
+<div align="justify">
+O objetivo geral deste trabalho é desenvolver uma aplicação que permita a indivíduos com restrições alimentares localizar estabelecimentos que ofereçam produtos adequados às suas necessidades, sendo elas, intolerância à lactose, intolerância ao glúten e diabetes.</div>
 
 Os principais objetivos especificos são:
 - Fornecer funcionalidades que permita ao usuário navegar e listar estabelecimentos proximo de si que vendam produtos dos quais está procurando.
