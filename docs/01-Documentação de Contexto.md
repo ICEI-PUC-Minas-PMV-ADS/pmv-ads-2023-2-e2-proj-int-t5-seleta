@@ -1,14 +1,19 @@
 # Introdução
 
-<div align="justify">A indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades e desafiada a considerar as particularidades de vários grupos, dentre eles o das pessoas que demonstram algum problema de saúde de origem alimentar, que demandam determinadas restrições alimentares e que impactam diretamente no hábito de consumo desses sujeitos.</div>
+<div align="justify">
+A indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades e desafiada a considerar as particularidades de vários grupos, dentre eles o das pessoas que demonstram algum problema de saúde de origem alimentar, que demandam determinadas restrições alimentares e que impactam diretamente no hábito de consumo desses sujeitos.</div>
   
-<div align="justify">Os números relacionados às restrições alimentares expressam que essa questão não se trata mais de casos isolados, mas de números significativos que vem crescendo cada vez mais. De acordo uma pesquisa realizada pela Euromonitor Internacional (2011), 75% da população mundial apresenta intolerância a lactose ou má absorção de lactose. Esses números, somados aos números relacionados a outros tipos de restrições alimentares, exprimem a urgência do tema.</div>
+<div align="justify">
+Os números relacionados às restrições alimentares expressam que essa questão não se trata mais de casos isolados, mas de números significativos que vem crescendo cada vez mais. De acordo uma pesquisa realizada pela Euromonitor Internacional (2011), 75% da população mundial apresenta intolerância a lactose ou má absorção de lactose. Esses números, somados aos números relacionados a outros tipos de restrições alimentares, exprimem a urgência do tema.</div>
 
-<div align="justify">Para além das circunstâncias internas dos consumidores, a experiência de consumo pode ser crucial na hora da compra e pode afetar as intenções dos sujeitos (BATISTA, 2022). Uma das dificuldades que as pessoas com restrições alimentares encontram está relacionada à rotulagem dos alimentos.</div>
+<div align="justify">
+Para além das circunstâncias internas dos consumidores, a experiência de consumo pode ser crucial na hora da compra e pode afetar as intenções dos sujeitos (BATISTA, 2022). Uma das dificuldades que as pessoas com restrições alimentares encontram está relacionada à rotulagem dos alimentos.</div>
 
-<div align="justify">A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações.</div>
+<div align="justify">
+A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações.</div>
 
-<div align="justify">Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.</div>
+<div align="justify">
+Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.</div>
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -33,15 +38,20 @@ Os principais objetivos especificos são:
 
 ## Justificativa
 
-<div align="justify"> Existem vários tipos de intolerâncias alimentares. A intolerância ao glúten (a proteína do trigo) e a intolerância à lactose (o açúcar do leite) são as mais comuns.</div>
+<div align="justify">
+Existem vários tipos de intolerâncias alimentares. A intolerância ao glúten (a proteína do trigo) e a intolerância à lactose (o açúcar do leite) são as mais comuns.</div>
 
-<div align="justify"> As desordens relacionadas ao glúten incluem, por exemplo, a doença celíaca, a sensibilidade ao glúten não celíaca e a alergia ao trigo. Estima-se que 1% da população apresente a doença celíaca, 6% tenham sensibilidade ao glúten não celíaca e no caso da alergia ao trigo a prevalência é de 15%-20% em crianças (CRUCINSKY, DAMIÃO, CASTRO, 2021).</div>
+<div align="justify"> 
+As desordens relacionadas ao glúten incluem, por exemplo, a doença celíaca, a sensibilidade ao glúten não celíaca e a alergia ao trigo. Estima-se que 1% da população apresente a doença celíaca, 6% tenham sensibilidade ao glúten não celíaca e no caso da alergia ao trigo a prevalência é de 15%-20% em crianças (CRUCINSKY, DAMIÃO, CASTRO, 2021).</div>
 
-<div align="justify"> A intolerância a lactose pode ser classificada como congênita, primária e secundária. A congênita é diagnosticada no nascimento da criança e é uma condição genética herdada dos pais e refere a ausência completa de lactase jejunal. A primária é a mais comum e ocorre quando há diminuição naturalmente a produção de lactase. A secundária ou adquirida surge de lesões no intestino delgado ou como sequela de alguma doença. Um estudo apontou que a intolerância à lactose está presente em 65% da população mundial (BATISTA, ASSUNÇÃO, PENAFORTE, JAPUR, 2018).</div>
+<div align="justify"> 
+A intolerância a lactose pode ser classificada como congênita, primária e secundária. A congênita é diagnosticada no nascimento da criança e é uma condição genética herdada dos pais e refere a ausência completa de lactase jejunal. A primária é a mais comum e ocorre quando há diminuição naturalmente a produção de lactase. A secundária ou adquirida surge de lesões no intestino delgado ou como sequela de alguma doença. Um estudo apontou que a intolerância à lactose está presente em 65% da população mundial (BATISTA, ASSUNÇÃO, PENAFORTE, JAPUR, 2018).</div>
 
-<div align="justify"> Apesar das alergias e intolerâncias alimentares serem um problema crescente em todo o mundo, ainda hoje pessoas com restrições alimentares tem dificuldade em encontrar produtos que atendam às suas necessidades. Por esse motivo, a ideia de desenvolvimento da aplicação é proporcionar um ambiente a essas pessoas que facilite o conhecimento e acesso a produtos que possam ser consumidos com segurança.</div> 
+<div align="justify"> 
+Apesar das alergias e intolerâncias alimentares serem um problema crescente em todo o mundo, ainda hoje pessoas com restrições alimentares tem dificuldade em encontrar produtos que atendam às suas necessidades. Por esse motivo, a ideia de desenvolvimento da aplicação é proporcionar um ambiente a essas pessoas que facilite o conhecimento e acesso a produtos que possam ser consumidos com segurança.</div> 
 
-<div align="justify"> Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar cada vez mais um maior número de pessoas.</div>
+<div align="justify"> 
+Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar cada vez mais um maior número de pessoas.</div>
 
 ## Público-Alvo
 
