@@ -28,12 +28,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é desenvolver uma aplicação que permita a indivíduos com restrições alimentares localizar estabelecimentos que ofereçam produtos adequados às suas necessidades, sendo elas, intolerância à lactose, intolerância ao glúten e diabetes.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Os principais objetivos especificos são:
+- Fornecer funcionalidades que permita ao usuário navegar e listar estabelecimentos proximo de si que vendam produtos dos quais está procurando.
+- Disponibilizar estabelecimentos de acordo com a localização do usuário.
+- Permitir a criação de uma lista de compras a opção de envia-la por email ou baixa-la.
 
 ## Justificativa
 
