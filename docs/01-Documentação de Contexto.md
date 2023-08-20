@@ -56,6 +56,5 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
->
-> - > VEJA. Você é intolerante ao glúten? Conheça os verdadeiros sinais do problema Leia mais em: https://veja.abril.com.br/saude/voce-e-intolerante-a-lactose-conheca-os-verdadeiros-sinais-do-problema/. 2018. Disponível em: https://veja.abril.com.br/saude/voce-e-intolerante-a-lactose-conheca-os-verdadeiros-sinais-do-problema/. Acesso em: 20 ago. 2023.
->   > SENSILATTE. Intolerantes à lactose no Brasil. 2017. Disponível em: https://www.sensilatte.com.br/intolerantes-lactose-no-brasil/. Acesso em: 20 ago. 2023.
+> - VEJA. Você é intolerante ao glúten? Conheça os verdadeiros sinais do problema Leia mais em: https://veja.abril.com.br/saude/voce-e-intolerante-a-lactose-conheca-os-verdadeiros-sinais-do-problema/. 2018. Disponível em: https://veja.abril.com.br/saude/voce-e-intolerante-a-lactose-conheca-os-verdadeiros-sinais-do-problema/. Acesso em: 20 ago. 2023.
+> - SENSILATTE. Intolerantes à lactose no Brasil. 2017. Disponível em: https://www.sensilatte.com.br/intolerantes-lactose-no-brasil/. Acesso em: 20 ago. 2023.
