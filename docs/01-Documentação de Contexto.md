@@ -12,11 +12,15 @@
 </div>
 
 
->"A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações."
+>A falta de regularização de rotulagem, principalmente, para alergênicos alimentares, levou consumidores a se mobilizarem e criarem a campanha 'Põe no Rótulo'. Essa campanha foi criada por famílias brasileiras de alérgicos alimentares que se uniram pela internet para reivindicar o direito à informação e criaram uma cartilha com informações. (BATISTA, 2022).
 
 
 <div align="justify">
-<p>Quando se trata de compras online, a situação se mostra ainda mais aguda. As compras online cresceram exponencialmente nos últimos anos, principalmente no pós pandemia do Covid-19. As pessoas passaram cada vez mais a consumir de forma remota.</p>
+<p>Novas dinâmicas de comercialização emergiram com a pandemia do Covid-19, o aumento das compras online expressam esse novo padrão de consumo. De acordo com Bracarense et al. (2022): "Observou-se ainda o crescimento de compras por meio digital de categorias de produtos que não tinham uma forte presença on-line, como alimentos, bebidas, e material de limpeza." </p>
+</div>
+
+<div align="justify">
+<p>No que confere às compras online, a situação se mostra ainda mais aguda para pessoas com restrições alimentares. A impossibilidade de acesso a rotulagem nas compras online, dificulta a compra segura e coloca pra sociedade a necessidade de um ambiente que centralize esses alimentos e facilite o acesso. </p>
 </div>
 
 
