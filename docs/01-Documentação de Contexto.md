@@ -1,4 +1,5 @@
 # Introdução
+## Problema
 
 <div align="justify">
 <p>A indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades e desafiada a considerar as particularidades de vários grupos, dentre eles o das pessoas que demonstram algum problema de saúde de origem alimentar, que demandam determinadas restrições alimentares e que impactam diretamente no hábito de consumo desses sujeitos.</p></div>
@@ -22,19 +23,6 @@
 <div align="justify">
 <p>No que confere às compras online, a situação se mostra ainda mais aguda para pessoas com restrições alimentares. A impossibilidade de acesso a rotulagem nas compras online, dificulta a compra segura e coloca pra sociedade a necessidade de um ambiente que centralize esses alimentos e facilite o acesso. </p>
 </div>
-
-
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
