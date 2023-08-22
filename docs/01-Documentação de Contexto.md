@@ -49,16 +49,7 @@ Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Embora qualquer pessoa possa usufruir desta solução, foi determinado como público-alvo: 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+- pessoas com restrições alimentares.
 
-> **Links Úteis**:
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-> - VEJA. Você é intolerante ao glúten? Conheça os verdadeiros sinais do problema Leia mais em: https://veja.abril.com.br/saude/voce-e-intolerante-a-lactose-conheca-os-verdadeiros-sinais-do-problema/. 2018. Disponível em: https://veja.abril.com.br/saude/voce-e-intolerante-a-lactose-conheca-os-verdadeiros-sinais-do-problema/. Acesso em: 20 ago. 2023.
-> - SENSILATTE. Intolerantes à lactose no Brasil. 2017. Disponível em: https://www.sensilatte.com.br/intolerantes-lactose-no-brasil/. Acesso em: 20 ago. 2023.
