@@ -1,5 +1,4 @@
-# Introdução
-## Problema
+# Documentação de contexto
 
 <div align="justify">
 <p>A indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades, bem como desafiada a considerar as particularidades de vários grupos. Dentre eles, o das pessoas que demonstram algum problema de saúde de origem alimentar, possuem determinadas restrições alimentares e que impactam diretamente no hábito de consumo desses sujeitos.</p></div>
@@ -22,6 +21,11 @@
 
 <div align="justify">
 <p>No que confere às compras online, a situação se mostra ainda mais aguda para pessoas com restrições alimentares. A impossibilidade de acesso a rotulagem nas compras online, dificulta a compra segura e coloca pra sociedade a necessidade de um ambiente que centralize esses alimentos e facilite o acesso. </p>
+</div>
+
+## Problema
+<div align="justify">
+<p>O problema que se busca resolver com esta proposta é a dificuldade que pessoas com restrições alimentares tem de encontrar em supermercados próximos alimentos voltados para tal parcela da população.</p>
 </div>
 
 ## Objetivos
