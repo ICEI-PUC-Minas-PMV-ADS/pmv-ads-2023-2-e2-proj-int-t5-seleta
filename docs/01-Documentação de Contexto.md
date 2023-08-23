@@ -43,7 +43,7 @@ Apesar das alergias e intolerâncias alimentares serem um problema crescente em 
 Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar um maior número de pessoas.
 </div>
 
-## Público-Alvo
+## Público-alvo
 
 Embora qualquer pessoa possa usufruir desta solução, foi determinado como público-alvo: 
 
