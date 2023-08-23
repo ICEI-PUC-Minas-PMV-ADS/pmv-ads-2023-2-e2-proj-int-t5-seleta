@@ -15,6 +15,9 @@
 <div align="justify">
 <p>Portanto, atender esta demanda crescente pode beneficiar os mercados ao aumentar a fidelidade do cliente, atrair um público mais amplo e diversificado, demonstrar sensibilidade às necessidades individuais e melhorar a reputação da marca por meio do fornecimento de opções inclusivas e seguras. </p>
 </div>
+<div align="justify">
+<p>Em suma, é imprescindível a criação de uma plataforma centralizada que reúne informações detalhadas sobre produtos alimentares adequados para diferentes restrições alimentares, os diferentes mercados e comércios onde esses produtos podem ser encontrados e que também oferece a opção de montar listas de compras baseadas nos produtos de sua escolha. Dessa forma, os consumidores saberão o que estão consumindo e conseguem encontrar mais facilmente o que desejam comprar, o que melhora sua experiência de compra, reduz riscos à saúde e proporciona maior tranquilidade ao fazerem escolhas alimentares.</p>
+</div>
 
 ## Problema
 <div align="justify">
