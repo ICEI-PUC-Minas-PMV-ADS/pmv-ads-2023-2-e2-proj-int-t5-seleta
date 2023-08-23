@@ -9,10 +9,13 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Quadro 1 – Entrevista com a primeira persona** 
 
-|<img src="img/ricardo.jpg" width="160" height="160">  | **Ricardo - Diabetes** |
+|<img src="img/ricardo.jpg" width="160" height="160">  | **Ricardo** <br> 50 anos|
 |:---------------------------------------:|:-------------------------------:|
-|<div align="justify"> aaaaaaaaa
-</div>
+|**Profissão** | Engenheiro |
+|**Restrição** | Diabetes |
+|**Motivação** | Busca alimentos com baixo teor de açúcar e carboidratos para manter o controle da glicemia. |
+|**Comportamento** | Valoriza informações nutricionais claras nos produtos. Gosta de planejar as refeições com antecedência e busca por lanches saudáveis. |
+|**Desafio** | Encontrar alimentos que tenham baixo teor de açúcar e carboidratos, com informações nutricionais claras. |
 
 **Fonte:** Elaborado pelos autores. 
 
