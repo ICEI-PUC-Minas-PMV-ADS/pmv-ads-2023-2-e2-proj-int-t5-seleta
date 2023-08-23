@@ -6,13 +6,12 @@ REVISTA LEITE E DERIVADOS. A lactose é negligenciada em mercados em fase de cre
 
 BATISTA, Pedro Fagundes Muniz. Entendendo as vulnerabilidades do consumidor celíaco no contexto de compra de produtos industrializados sem glúten. 2022. 50 f. Monografia (Graduação) - Universidade de Brasília, Faculdade de Economia, Administração, Contabilidade e Gestão de Políticas Públicas, Departamento de Administração, Brasília, 2022. Disponível em: https://bdm.unb.br/bitstream/10483/33309/1/2022_PedroFagundesMunizBatista_tcc.pdf. Acesso em: 18 ago. 2023.
 
+Restrições Alimentares e a necessidade de inovação do setor de alimentos. Qualimentos jr., 2023. Disponível em: https://qualimentosjr.com.br/restricoes-alimentares-e-a-necessidade-de-inovacao-do-setor-de-alimentos/. Acesso em: 23 ago. 2023.
 
-https://www.scielo.br/j/csc/a/4Qh3Rd46QRJky4nnvqWHrPk/
-https://www.scielo.br/j/csp/a/CbkrnrBWPNTXmmTRJcmHFzR/?lang=pt#
+Como as restrições alimentares movimentam a indústria alimentícia?. Sig, 2021. Disponível em: https://www.sig.biz/signals/pt/artigos/restricoesalimentares#:~:text=As%20restrições%20alimentares%20e%20o,do%20organismo%20a%20certos%20alimentos. Acesso em: 23 ago. 2023.
 
+Souza, C., Passada, D., Ribeiro, F., Antunes, J. D., Dias, M., Amaro, S., Queiroz, T. V., Ramos, V. L. Cartilha da Alergia Alimentar. Rio de Janeiro: 2017.
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+Batista, R. A. B., Assunção, D. C. B., Penaforte, F. R. de O., & Japur, C. C. (2018). Lactose em alimentos industrializados: avaliação da disponibilidade da informação de quantidade. Ciência & Saúde Coletiva, 23(12), 4119–4128. doi:10.1590/1413-812320182312.21992016 
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Crucinsky, J., Damião, J. J., Castro, I. R. R. (2021). Fragilidades no cuidado em saúde às pessoas com desordens relacionadas ao glúten. Cadernos de saúde pública, 37(2):e00244219. doi: 10.1590/0102-311X00244219 
