@@ -11,7 +11,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 |**Ricardo - Diabetes**|
 |--------------------|
-|<div align="justify"> 
+|<div align="justify"> aaaaaaaaa
 </div>
 
 **Fonte:** Elaborado pelos autores. 
@@ -21,7 +21,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 | **Eduardo - Doença celíaca**                               |
 | ------------------------------------------------------------ |
-|<div align="justify"> 
+|<div align="justify"> aaaaaaa
 </div> 
 
 **Fonte:** Elaborado pelos autores. 
@@ -31,7 +31,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 | **Amanda - Intolerância à lactose**            |
 | ------------------------------------------------------------ |
-| <div align="justify"> 
+| <div align="justify"> aaaaa
 </div> 
 
 **Fonte:** Elaborado pelos autores. 
