@@ -10,7 +10,7 @@
 </p>
 </div>
 <div align="justify">
-<p>Novas dinâmicas de comercialização emergiram com a pandemia do Covid-19, o aumento das compras online expressam esse novo padrão de consumo. De acordo com Bracarense et al. (2022): "Observou-se ainda o crescimento de compras por meio digital de categorias de produtos que não tinham uma forte presença on-line, como alimentos, bebidas, e material de limpeza." </p>
+<p>Ademais, de acordo com Bracarense et al. (2022), novas dinâmicas de comercialização emergiram com a pandemia do Covid-19. Foi observado o aumento das compras por meio digital de categorias de produtos que não tinham uma forte presença on-line, como alimentos, bebidas e material de limpeza, o que expressa um novo padrão de consumo. Este fato se tornou preocupante pois existe uma impossibilidade de acesso a rotulagem nas compras online, o que dificulta a compra segura e demonstra mais uma vez a necessidade de um ambiente que centralize esses alimentos e facilite o acesso.</p>
 </div>
 
 <div align="justify">
