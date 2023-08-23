@@ -12,9 +12,8 @@
 <div align="justify">
 <p>Ademais, de acordo com Bracarense et al. (2022), novas dinâmicas de comercialização emergiram com a pandemia do Covid-19. Foi observado o aumento das compras por meio digital de categorias de produtos que não tinham uma forte presença on-line, como alimentos, bebidas e material de limpeza, o que expressa um novo padrão de consumo. Este fato se tornou preocupante pois existe uma impossibilidade de acesso a rotulagem nas compras online, o que dificulta a compra segura e demonstra mais uma vez a necessidade de um ambiente que centralize esses alimentos e facilite o acesso.</p>
 </div>
-
 <div align="justify">
-<p>No que confere às compras online, a situação se mostra ainda mais aguda para pessoas com restrições alimentares. A impossibilidade de acesso a rotulagem nas compras online, dificulta a compra segura e coloca pra sociedade a necessidade de um ambiente que centralize esses alimentos e facilite o acesso. </p>
+<p>Portanto, atender esta demanda crescente pode beneficiar os mercados ao aumentar a fidelidade do cliente, atrair um público mais amplo e diversificado, demonstrar sensibilidade às necessidades individuais e melhorar a reputação da marca por meio do fornecimento de opções inclusivas e seguras. </p>
 </div>
 
 ## Problema
