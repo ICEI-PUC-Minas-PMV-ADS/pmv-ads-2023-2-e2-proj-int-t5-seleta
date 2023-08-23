@@ -1,8 +1,7 @@
 # Documentação de contexto
 
 <div align="justify">
-<p>A indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades, bem como desafiada a considerar as particularidades de vários grupos. Dentre eles, o das pessoas que demonstram algum problema de saúde de origem alimentar, possuem determinadas restrições alimentares e que impactam diretamente no hábito de consumo desses sujeitos.</p></div>
-  
+<p>Com o aumento de diagnósticos médicos relacionados à intolerância e alergia ou com a percepção de reações do organismo a certos alimentos, as restrições alimentares têm ganhado cada vez mais destaque nos hábitos de consumo da população. Tendo isso em vista, a indústria alimentícia tem sido cada vez mais chamada a olhar para as novas demandas dos consumidores e suas especificidades, bem como desafiada a considerar as particularidades de vários grupos de pessoas.</p></div>
 <div align="justify">
 <p>Os números relacionados às restrições alimentares expressam que essa questão não se trata mais de casos isolados, mas de números significativos que vem crescendo cada vez mais. De acordo uma pesquisa realizada pela Euromonitor Internacional (2011), 75% da população mundial poderá apresentar intolerância a lactose ou má absorção de lactose ao longo da vida. Esses números, somados aos números relacionados a outros tipos de restrições alimentares, exprimem a urgência do tema.</p>
 </div>
