@@ -22,29 +22,38 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Quadro 2 – Entrevista com a segunda persona** 
 
-| **Eduardo - Doença celíaca**                               |
-| ------------------------------------------------------------ |
-|<div align="justify"> aaaaaaa
-</div> 
+|<img src="img/eduardo.jpg" width="160" height="160">  | **Eduardo** <br> 21 anos|
+|:---------------------------------------:|:-------------------------------:|
+|**Profissão** | Estudante |
+|**Restrição** | Doença celíaca |
+|**Motivação** | Busca por alimentos sem glúten para evitar reações alérgicas e problemas de saúde. |
+|**Comportamento** | Interessado em receitas caseiras e produtos específicos para celíacos. Gosta de experimentar novos sabores. |
+|**Desafio** | Encontrar estabelecimentos que vendam alimentos sem glúten e que estejam cientes das precauções necessárias para evitar contaminação cruzada. |
 
 **Fonte:** Elaborado pelos autores. 
 
 
 **Quadro 3 – Entrevista com a terceira persona** 
 
-| **Amanda - Intolerância à lactose**            |
-| ------------------------------------------------------------ |
-| <div align="justify"> aaaaa
-</div> 
+|<img src="img/amanda.jpg" width="160" height="160">  | **Amanda** <br> 30 anos|
+|:---------------------------------------:|:-------------------------------:|
+|**Profissão** | Educadora física |
+|**Restrição** | Intolerância à lactose |
+|**Motivação** | Procura produtos sem lactose para manter uma dieta saudável e evitar desconfortos gastrointestinais. |
+|**Comportamento** | Gosta de produtos naturais e orgânicos. Frequenta restaurantes e cafeterias que oferecem opções sem lactose. |
+|**Desafio** | Encontrar estabelecimentos que ofereçam uma variedade de opções sem lactose. |
 
 **Fonte:** Elaborado pelos autores. 
 
 **Quadro 4 – Entrevista com a quarta persona** 
 
-| **Adriana - Empreendedora**            |
-| ------------------------------------------------------------ |
-| <div align="justify"> aaaaa
-</div> 
+|<img src="img/adriana.jpg" width="160" height="160">  | **Adriana** <br> 45 anos|
+|:---------------------------------------:|:-------------------------------:|
+|**Profissão** | Empreendedora |
+|**Background** | Tem um estabelecimento especializado na venda de produtos alimentares para pessoas com restrições alimentares. |
+|**Motivação** | Comprometida em oferecer soluções nutritivas e saborosas para indivíduos com diferentes restrições e necessidades alimentares. |
+|**Comportamento** | É ativa nas redes sociais, compartilhando dicas de alimentação saudável e informações sobre os produtos que vende. |
+|**Desafio** | Aumentar o número de consumidores de seus produtos. |
 
 **Fonte:** Elaborado pelos autores. 
 
