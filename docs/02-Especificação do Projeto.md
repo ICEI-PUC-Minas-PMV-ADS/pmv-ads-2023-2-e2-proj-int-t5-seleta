@@ -41,7 +41,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 |**Restrição** | Intolerância à lactose |
 |**Motivação** | Procura produtos sem lactose para manter uma dieta saudável e evitar desconfortos gastrointestinais. |
 |**Comportamento** | Gosta de produtos naturais e orgânicos. Frequenta restaurantes e cafeterias que oferecem opções sem lactose. |
-|**Desafio** | Encontrar estabelecimentos que ofereçam uma variedade de opções sem lactose. |
+|**Desafio** | Encontrar estabelecimentos que ofereçam uma variedade de opções de alimentos sem lactose. |
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -66,8 +66,11 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 
 |EU COMO... <br /> `PERSONA`| QUERO/PRECISO ... <br /> `FUNCIONALIDADE` |PARA ... <br /> `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ricardo  | Encontrar alimentos com informações nutricionais claras em seus rótulos         | Ingerir apenas alimentos com baixo teor de açucar e carboidratos               |
+|Eduardo      | Encontrar estabelecimentos que vendam produtos específicos para celíacos              | Preparar refeições caseiras sem correr o risco de ingerir glúten |
+|Amanda     | Encontrar estabelecimentos que ofereçam produtos e alimentos para intolerantes a lactose             | Evitar desconfortos gastrointestinais |
+|Adriana      | De uma plataforma que divulgue onde encontrar produtos para pessoas com restrições alimentares            | Aumentar o número de consumidores em seu estabelecimento  |
+
 
 
 **Fonte:** Elaborado pelos autores. 
