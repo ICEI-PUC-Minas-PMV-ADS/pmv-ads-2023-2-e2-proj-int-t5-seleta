@@ -96,9 +96,8 @@ As questões que restringem a execução desse projeto e que refletem as obriga�
 | RE-01 | O projeto deve ser entregue no final do semestre letivo, sendo 04/12/2023 a data limite. |
 | RE-02 | O sistema deve estar acessível na web.       |
 | RE-03 | A equipe desenvolvedora deve ser composta apenas pelos alunos que fazem parte do projeto.       |
-| RE-04 | O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD). |
-
-Não pode ser desenvolvido um módulo de backend 
+| RE-04 | O projeto deve conter um módulo de back-end e um módulo de front-end. |
+| RE-05 | O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD). |
 
 
 ## Diagrama de Casos de Uso
