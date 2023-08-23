@@ -5,9 +5,9 @@
 <div align="justify">
 <p>Os números relacionados às restrições alimentares expressam que essa questão não se trata mais de casos isolados. De acordo uma pesquisa realizada pela Euromonitor Internacional (2011), 75% da população mundial poderá apresentar intolerância a lactose ou má absorção de lactose ao longo da vida. Esses números, somados aos números relacionados a outros tipos de restrições alimentares, exprimem a urgência do tema.</p>
 </div>
-
 <div align="justify">
-<p>Para além das circunstâncias internas dos consumidores, a experiência de consumo pode ser crucial na hora da compra e pode afetar as intenções dos sujeitos (BATISTA, 2022). Uma das dificuldades que as pessoas com restrições alimentares encontram está relacionada à rotulagem dos alimentos.</p>
+<p>Para além das circunstâncias internas dos consumidores, a experiência de consumo pode ser crucial na hora da compra e pode afetar as intenções dos sujeitos (BATISTA, 2022).  A falta de informações centralizadas prejudica a experiência de compra das pessoas com restrições alimentares, uma vez que elas enfrentam dificuldade em encontrar produtos seguros para o consumo. Além disso, uma das dificuldades que as pessoas com restrições alimentares encontram está relacionada à rotulagem dos alimentos, pois dependem das informações sobre alérgenos que deveriam estar claramente contidas nos rótulos dos produtos e, muitas vezes, isso não ocorre. 
+</p>
 </div>
 
 
