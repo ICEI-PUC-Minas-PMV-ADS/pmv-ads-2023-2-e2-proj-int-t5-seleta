@@ -30,9 +30,9 @@
 O objetivo geral deste trabalho é desenvolver uma aplicação que permita a indivíduos com restrições alimentares localizar estabelecimentos que ofereçam produtos adequados às suas necessidades, sendo elas, intolerância à lactose, intolerância ao glúten e diabetes.<br><br></div>
 
 Os principais objetivos especificos são:
-- Fornecer funcionalidades que permita ao usuário navegar e listar estabelecimentos próximo de si que vendam produtos dos quais está procurando.
+- Facilitar o acesso ao produtos indicados para cada restrição.
 - Disponibilizar estabelecimentos de acordo com a localização do usuário.
-- Permitir a criação de uma lista de compras a opção de envia-la por email ou baixa-la.
+- Incentivar estabelecimentos à disponibilizarem produtos para atenderem aos usuários da aplicação.
 
 ## Justificativa
 
