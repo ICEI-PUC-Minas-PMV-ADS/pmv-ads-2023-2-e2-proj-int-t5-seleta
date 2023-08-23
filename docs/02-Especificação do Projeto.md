@@ -9,7 +9,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Quadro 1 – Entrevista com a primeira persona** 
 
-|**Ricardo - Diabetes**|
+|<img src="img/ricardo.jpg" width="160" height="160">  |**Ricardo - Diabetes**|
 |--------------------|
 |<div align="justify"> aaaaaaaaa
 </div>
