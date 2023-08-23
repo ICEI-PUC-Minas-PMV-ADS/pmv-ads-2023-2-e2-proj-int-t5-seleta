@@ -21,7 +21,7 @@
 
 ## Problema
 <div align="justify">
-<p>O problema que se busca resolver com esta proposta é a dificuldade que pessoas com restrições alimentares tem de encontrar em supermercados próximos alimentos voltados para tal parcela da população.</p>
+<p>O problema que se busca resolver com esta proposta é a ausência de uma fonte centralizada de informações sobre produtos adequados para pessoas com restrições alimentares nos mercados.</p>
 </div>
 
 ## Objetivos
