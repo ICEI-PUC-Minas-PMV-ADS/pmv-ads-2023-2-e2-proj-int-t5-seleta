@@ -48,9 +48,11 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir do entendimento das personas identificadas para o projeto, foram estabelecidas as seguintes histórias de usuário.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+**Quadro 6 – História de usuários** 
+
+|EU COMO... <br /> `PERSONA`| QUERO/PRECISO ... <br /> `FUNCIONALIDADE` |PARA ... <br /> `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
