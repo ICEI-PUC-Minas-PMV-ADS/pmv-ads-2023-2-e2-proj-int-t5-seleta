@@ -50,9 +50,9 @@ Embora qualquer pessoa possa usufruir desta solução, foi determinado como púb
 
 - pessoas com restrições alimentares.<br>
 
-De forma secundária, também se benefiarão com o uso do aplicativo, os estabelecimentos comerciais que fazem a venda dos produtos específicos bem como os próprios fabricantes, pois ambos podem ter aumento em seu número de vendas.
+- De forma secundária, também se benefiarão com o uso do aplicativo, os estabelecimentos comerciais que fazem a venda dos produtos específicos bem como os próprios fabricantes, pois ambos podem ter aumento em seu número de vendas.
 
-Em terceiro plano, o próprio sistema de saúde público poderá se beneficiar do aplicativo, uma vez que, as pessoas se alimentem conforme as suas necessidades precisarão de atendimento médico por motivos de reações alérgicas e advérsas com menor frequência.
+- Em terceiro plano, o próprio sistema de saúde público poderá se beneficiar do aplicativo, uma vez que, as pessoas se alimentem conforme as suas necessidades precisarão de atendimento médico por motivos de reações alérgicas e advérsas com menor frequência.
 
 <img src="img/Mapa-Stakeholders.jpg" alt="Mapa de Stakeholders">
 
