@@ -101,7 +101,7 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário pesquise produtos  | ALTA | 
+|RF-001| A aplicação deve permitir que o usuário pesquise produtos alimentícios | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
 ### Requisitos não Funcionais
