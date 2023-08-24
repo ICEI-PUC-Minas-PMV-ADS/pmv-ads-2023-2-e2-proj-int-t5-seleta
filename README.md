@@ -4,7 +4,7 @@
 
 `Projeto - EIXO 2`
 
-O projeto Seleta consiste em um aplicativo para que pessoas com restrições alimenteares encontrem de maneira mais rápida e descomplicada produtos específicos que possam consumir. Dessa forma, não será preciso procurar em diversos estabelecimentos por determinado produto, será possível consultar e fazer listas de compras e ir direto no mercado mais próximo com a disponibilidade do item.
+O projeto Seleta consiste em um aplicativo para que pessoas com restrições alimentares encontrem de maneira mais rápida e descomplicada produtos específicos que possam consumir. Dessa forma, não será preciso procurar em diversos estabelecimentos por determinado produto, será possível consultar, fazer listas de compras e ir direto no mercado mais próximo com a disponibilidade do item.
 
 ## Integrantes
 
