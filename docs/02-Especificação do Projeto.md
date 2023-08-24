@@ -113,7 +113,7 @@ A tabela a seguir especifica os requisitos não funcionais que devem ser atendid
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móveis | MÉDIA | 
+|RNF-001| A aplicação deve ser responsiva para rodar em dispositivos móveis | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 ## Restrições
