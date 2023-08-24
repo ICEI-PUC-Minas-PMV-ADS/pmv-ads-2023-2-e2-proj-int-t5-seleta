@@ -72,7 +72,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Quadro 6 – Entrevista com a sexta persona** 
 
-|<img src="" width="160" height="160">  | **Antônia** <br> 45 anos|
+|<img src="img/veronica.jpg" width="160" height="160">  | **Antônia** <br> 45 anos|
 |:---------------------------------------:|:-------------------------------:|
 |**Profissão** | Auxiliar de serviços gerais  |
 |**Restrição** | Limitação de tempo, não pode se ausentar por longos períodos |
