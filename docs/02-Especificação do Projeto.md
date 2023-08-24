@@ -87,7 +87,6 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 |Verônica    | De uma plataforma intuitiva e fácil de navegar            | Buscar onde vendem os alimentos necessários para dieta do filho no menor tempo possível  |
 
 
-
 **Fonte:** Elaborado pelos autores. 
 
 ## Requisitos
