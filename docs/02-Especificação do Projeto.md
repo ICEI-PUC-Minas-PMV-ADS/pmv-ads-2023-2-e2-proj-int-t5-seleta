@@ -57,7 +57,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Fonte:** Elaborado pelos autores. 
 
-**Quadro 5 – Entrevista com a quarta persona** 
+**Quadro 5 – Entrevista com a quinta persona** 
 
 |<img src="" width="160" height="160">  | **André** <br> 29 anos|
 |:---------------------------------------:|:-------------------------------:|
