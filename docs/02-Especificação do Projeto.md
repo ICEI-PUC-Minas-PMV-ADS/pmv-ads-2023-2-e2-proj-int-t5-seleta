@@ -39,9 +39,10 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 |:---------------------------------------:|:-------------------------------:|
 |**Profissão** | Educadora física |
 |**Restrição** | Intolerância à lactose |
-|**Motivação** | Procura produtos sem lactose para manter uma dieta saudável e evitar desconfortos gastrointestinais. |
-|**Comportamento** | Gosta de produtos naturais e orgânicos. Frequenta restaurantes e cafeterias que oferecem opções sem lactose. |
-|**Desafio** | Encontrar estabelecimentos que ofereçam uma variedade de opções de alimentos sem lactose. |
+|**Background** | Amanda nasceu com deficiência visual devido a uma malformação congênita. Os seus pais sempre a protegeram ao máximo, mas quando se tornou adulta, Amanda entrou na faculdade, se apaixonou pela tecnologia e viu nela uma aliada para lidar com as limitações impostas pela sociedade.|
+|**Motivação** | Deseja facilitar sua rotina diária e explorar novas receitas, adaptadas a sua restrição alimentar. Sua motivação envolve principalmente superar as barreiras de acessibilidade na busca por produtos sem lactose para manter uma dieta saudável e evitar desconfortos gastrointestinais. |
+|**Comportamento** | Gosta de produtos naturais e orgânicos. Frequenta restaurantes e cafeterias que oferecem opções sem lactose. Utiliza o leitor de tela NVDA para navegar nas páginas Web, não é ativa nas redes sociais, mas utiliza a internet para realizar estudos da faculdade e para buscar informações sobre os alimentos, antes de comprá-los. |
+|**Desafio** | Encontrar estabelecimentos que ofereçam uma variedade de opções de alimentos sem lactose. Outro grande desafio é a navegação pelos sites, que não são adaptadas aos leitores de telas.|
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -59,27 +60,14 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Quadro 5 – Entrevista com a quinta persona** 
 
-|<img src="" width="160" height="160">  | **André** <br> 29 anos|
-|:---------------------------------------:|:-------------------------------:|
-|**Profissão** | Estudante |
-|**Restrição** | Alergia à proteína do leite |
-|**Background** | André é um homem de 29 anos, que devido a causas congênitas nasceu com deficiência visual. Os seus pais sempre o protegeram ao máximo, mas quando se tornou adulto, André entrou na faculdade , se apaixonou pela tecnologia e viu nela uma aliada para lidar com as limitações impostas pela sociedade.|
-|**Motivação** | André é pessoa com deficiência visual, tem a intenção de levar uma vida independente. Deseja facilitar sua rotina diária e explorar novas receitas, adaptadas a sua restrição alimentar. Sua motivação envolve principalmente superar as barreiras de acessibilidade na busca por alimentos para pessoas alérgicas à proteína do leite.|
-|**Comportamento** | Utiliza o leitor de tela NVDA para navegar nas páginas Web, não é ativo nas redes sociais, mas utiliza a internet para realizar estudos da faculdade e em busca de informações sobre os alimentos, antes de comprá-los.|
-|**Desafio** | Encontrar informações centralizadas e precisas sobre onde comprar os produtos para sua restrição alimentar. Outro grande desafio é a navegação pelos sites, que não são adaptadas aos leitores de telas.|
-
-**Fonte:** Elaborado pelos autores. 
-
-**Quadro 6 – Entrevista com a sexta persona** 
-
-|<img src="img/veronica.jpg" width="160" height="160">  | **Antônia** <br> 45 anos|
+|<img src="img/veronica.jpg" width="160" height="160">  | **Verônica** <br> 45 anos|
 |:---------------------------------------:|:-------------------------------:|
 |**Profissão** | Auxiliar de serviços gerais  |
 |**Restrição** | Limitação de tempo, não pode se ausentar por longos períodos |
-|**Background** | Antônia trabalha 40 horas por semana, além do tempo com deslocamento. Aos 35 anos descobriu que estava grávida de Davi. Atualmente Davi tem 5 anos, aos 3 anos foi diagnosticado com autismo e mais recentemente com doença celíaca. Ana tem o suporte apenas da sua mãe, que fica com o filho durante seu turno de trabalho. O tempo que resta no seu dia é muito restrito e ela tenta dar o máximo de atenção e suporte para Davi nas horas livres. |
-|**Motivação** | Antonia deseja que seu filho Davi tenha acesso aos alimentos adequados à doença celíaca, sem a necessidade de despender muito tempo das poucas horas que restam do seu dia.|
-|**Comportamento** | Antônia não tem muita intimidade com a tecnologia, costuma usar apenas aplicativos de mensagens instantâneas, pois participa de grupos de mães com filhos autistas, onde acompanha notícias e pesquisas sobre o tema.|
-|**Desafio** | O maior desafio de Antonia é equilibrar as necessidades do filho, as demandas do trabalho e as outras responsabilidades diárias.|
+|**Background** | Verônica trabalha 40 horas por semana, além do tempo com deslocamento. Aos 35 anos descobriu que estava grávida de Davi. Atualmente Davi tem 5 anos, aos 3 anos foi diagnosticado com autismo e mais recentemente com doença celíaca. Verônica tem o suporte apenas da sua mãe, que fica com o filho durante seu turno de trabalho. O tempo que resta no seu dia é muito restrito e ela tenta dar o máximo de atenção e suporte para Davi nas horas livres. |
+|**Motivação** | Verônica deseja que seu filho Davi tenha acesso aos alimentos adequados à doença celíaca, sem a necessidade de despender muito tempo das poucas horas que restam do seu dia.|
+|**Comportamento** | Verônica não tem muita intimidade com a tecnologia, costuma usar apenas aplicativos de mensagens instantâneas, pois participa de grupos de mães com filhos autistas, onde acompanha notícias e pesquisas sobre o tema.|
+|**Desafio** | O maior desafio de Verônica é equilibrar as necessidades do filho, as demandas do trabalho e as outras responsabilidades diárias.|
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -94,7 +82,9 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 |Ricardo  | Encontrar alimentos com informações nutricionais claras em seus rótulos         | Ingerir apenas alimentos com baixo teor de açucar e carboidratos               |
 |Eduardo      | Encontrar estabelecimentos que vendam produtos específicos para celíacos              | Preparar refeições caseiras sem correr o risco de ingerir glúten |
 |Amanda     | Encontrar estabelecimentos que ofereçam produtos e alimentos para intolerantes a lactose             | Evitar desconfortos gastrointestinais |
+|Amanda     | De um site adaptado a leitores de telas            | Conseguir navegar na plataforma para buscar informações sobre os alimentos antes de comprá-los |
 |Adriana      | De uma plataforma que divulgue onde encontrar produtos para pessoas com restrições alimentares            | Aumentar o número de consumidores em seu estabelecimento  |
+|Verônica    | De uma plataforma intuitiva e fácil de navegar            | Buscar onde vendem os alimentos necessários para dieta do filho no menor tempo possível  |
 
 
 
