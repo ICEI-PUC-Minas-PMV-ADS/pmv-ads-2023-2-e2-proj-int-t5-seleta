@@ -48,7 +48,7 @@ Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na
 
 Embora qualquer pessoa possa usufruir desta solução, foi determinado como público-alvo: 
 
-- pessoas com restrições alimentares.<br>
+- Pessoas com restrições alimentares.<br>
 
 - De forma secundária, também se benefiarão com o uso do aplicativo, os estabelecimentos comerciais que fazem a venda dos produtos específicos bem como os próprios fabricantes, pois ambos podem ter aumento em seu número de vendas.
 
