@@ -114,7 +114,7 @@ A tabela a seguir especifica os requisitos não funcionais que devem ser atendid
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser publicada em um ambiente acessível publicamente no GitHub Pages. | ALTA | 
-|RNF-002| A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | MÉDIA | 
+|RNF-002| A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
 |RNF-003| A aplicação deve ser responsiva, permitindo a visualização tanto em desktops e notebooks, quanto em celulares com telas de variados tamanhos. | MÉDIA | 
 |RNF-004| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
