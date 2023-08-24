@@ -57,6 +57,17 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 
 **Fonte:** Elaborado pelos autores. 
 
+**Quadro 5 – Entrevista com a quarta persona** 
+
+|<img src="" width="160" height="160">  | **André** <br> 29 anos|
+|:---------------------------------------:|:-------------------------------:|
+|**Profissão** | Estudante |
+|**Background** | André é um homem de 29 anos, que devido a causas congênitas nasceu com deficiência visual. Os seus pais sempre o protegeram ao máximo, mas quando se tornou adulto, André entrou na faculdade , se apaixonou pela tecnologia e viu nela uma aliada para lidar com as limitações impostas pela sociedade.|
+|**Motivação** | André é pessoa com deficiência visual, tem a intenção de levar uma vida independente. Deseja facilitar sua rotina diária e explorar novas receitas, adaptadas a sua restrição alimentar. Sua motivação envolve principalmente superar as barreiras de acessibilidade na busca por alimentos para pessoas alérgicas à proteína do leite.|
+|**Comportamento** | Utiliza o leitor de tela NVDA para navegar nas páginas Web, não é ativo nas redes sociais, mas utiliza a internet para realizar estudos da faculdade e em busca de informações sobre os alimentos, antes de comprá-los.|
+|**Desafio** | Encontrar informações centralizadas e precisas sobre onde encontrar os produtos para sua restrição alimentar. Além de encontrar as informações, um dos maiores desafios é a navegação pelos sites, que não são adaptadas aos leitores de telas.|
+
+**Fonte:** Elaborado pelos autores. 
 
 ## Histórias de Usuários
 
