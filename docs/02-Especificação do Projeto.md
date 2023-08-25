@@ -103,6 +103,12 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o usuário pesquise produtos alimentícios | ALTA | 
 |RF-002| A aplicação deve permitir salvar produtos para consultas futuras  | MÉDIA |
+|RF-003| A aplicação deve permitir que o usuário crie listas de compras com os produtos selecionados  | ALTA |
+|RF-004| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada  | MÉDIA |
+|RF-005| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário  | BAIXA |
+|RF-006| A aplicação deve apresentar na página inicial as funcionalidades disponíveis para o usuário  | ALTA |
+|RF-007| A aplicação deve ser organizada da melhor forma para facilitar o desempenho do leitor de tela | MÉDIA | 
+|RF-008| A aplicação deve possuir uma interface simples, apresentando as informações de forma visual e acessível | MÉDIA | 
 
 ### Requisitos não Funcionais
 
@@ -113,10 +119,12 @@ A tabela a seguir especifica os requisitos não funcionais que devem ser atendid
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser publicada em um ambiente acessível publicamente no GitHub Pages. | ALTA | 
-|RNF-002| A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
-|RNF-003| A aplicação deve ser responsiva, permitindo a visualização tanto em desktops e notebooks, quanto em celulares com telas de variados tamanhos. | MÉDIA | 
-|RNF-004| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação deve ser publicada em um ambiente acessível publicamente no GitHub Pages | ALTA | 
+|RNF-002| A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA | 
+|RNF-003| A aplicação deve ser responsiva, permitindo a visualização tanto em desktops e notebooks, quanto em celulares com telas de variados tamanhos | MÉDIA | 
+|RNF-004| A aplicação deve estar disponível para acesso a qualquer horário do dia | MÉDIA | 
+|RNF-005| A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
+|RNF-006| A aplicação deve processar requisições do usuário em no máximo 5s |  BAIXA | 
 
 ## Restrições
 
