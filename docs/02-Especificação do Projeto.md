@@ -84,7 +84,7 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 |Amanda     | Encontrar estabelecimentos que ofereçam produtos e alimentos para intolerantes a lactose             | Evitar desconfortos gastrointestinais |
 |Amanda     | De um site adaptado a leitores de telas            | Conseguir navegar na plataforma para buscar informações sobre os alimentos antes de comprá-los |
 |Adriana      | De uma plataforma que divulgue onde encontrar produtos para pessoas com restrições alimentares            | Aumentar o número de consumidores em seu estabelecimento  |
-|Verônica    | De uma plataforma intuitiva e fácil de navegar            | Buscar onde vendem os alimentos necessários para dieta do filho no menor tempo possível  |
+|Verônica    | De uma plataforma intuitiva e fácil de navegar           | Buscar onde vendem os alimentos necessários para dieta do filho no menor tempo possível  |
 
 
 **Fonte:** Elaborado pelos autores. 
