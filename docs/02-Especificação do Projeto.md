@@ -28,7 +28,7 @@ Para ajudar no entendimento do problema e melhor identificar as necessidades dos
 |**Restrição** | Doença celíaca |
 |**Motivação** | Busca por alimentos sem glúten para evitar reações alérgicas e problemas de saúde. |
 |**Comportamento** | Interessado em receitas caseiras e produtos específicos para celíacos. Gosta de experimentar novos sabores. |
-|**Desafio** | Encontrar estabelecimentos que vendam alimentos sem glúten e que estejam cientes das precauções necessárias para evitar contaminação cruzada. |
+|**Desafio** | Encontrar estabelecimentos que vendam alimentos sem glúten e que estejam cientes das precauções necessárias para evitar contaminação cruzada. Encontrar produtos com valores acessíveis. |
 
 **Fonte:** Elaborado pelos autores. 
 
@@ -79,14 +79,16 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 
 |EU COMO... <br /> `PERSONA`| QUERO/PRECISO ... <br /> `FUNCIONALIDADE` |PARA ... <br /> `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ricardo  | Ingerir apenas alimentos com baixo teor de açucar e carboidratos | Encontrar alimentos com informações nutricionais claras em seus rótulos |
-|Ricardo  | Diversificar as opções de lanches | Descobrir novas opções de alimentos compatíveis com a restrição alimentar               |
-|Eduardo      | Encontrar estabelecimentos que vendam produtos específicos para celíacos              | Preparar refeições caseiras sem correr o risco de ingerir glúten |
-|Amanda     | Encontrar estabelecimentos que ofereçam produtos e alimentos para intolerantes a lactose             | Evitar desconfortos gastrointestinais |
-|Amanda     | De um site adaptado a leitores de telas            | Conseguir navegar na plataforma para buscar informações sobre os alimentos antes de comprá-los |
-|Adriana      | De uma plataforma que divulgue onde encontrar produtos para pessoas com restrições alimentares            | Aumentar o número de consumidores em seu estabelecimento  |
-|Verônica    | De uma plataforma intuitiva e fácil de navegar           | Buscar onde vendem os alimentos necessários para dieta do filho no menor tempo possível  |
-
+|Ricardo  | Encontrar alimentos com informações nutricionais claras em seus rótulos | Ingerir apenas alimentos com baixo teor de açucar e carboidratos |
+|Ricardo  | Descobrir novas opções de alimentos compatíveis com a restrição alimentar | Diversificar as opções de lanches |
+|Eduardo  | Encontrar estabelecimentos que vendam produtos específicos para celíacos  | Preparar refeições caseiras sem correr o risco de ingerir glúten |
+|Eduardo  | Comparar produtos e preços  | Encontrar produtos com valores mais acessíveis |
+|Amanda   | Encontrar estabelecimentos que ofereçam produtos e alimentos para intolerantes a lactose | Evitar desconfortos gastrointestinais |
+|Amanda   | Encontrar um site adaptado a leitores de telas | Conseguir navegar na plataforma para buscar informações sobre os alimentos antes de comprá-los |
+|Adriana  | Divulgar produtos para pessoas com restrições alimentares | Aumentar o número de consumidores em seu estabelecimento |
+|Adriana  | Identificar quais produtos são mais procurados/pesquisados pelas pessoas que tem restrição alimentar | Entender o comportamento desse tipo de consumidor |
+|Verônica | Encontrar uma plataforma intuitiva e fácil de navegar | Localizar de forma rápida estabelecimentos que vendem alimentos atendem a dieta específica do filho |
+|Verônica | Encontrar uma plataforma que mostre de forma simples diferentes produtos para celíacos | Otimizar seu tempo planejando a alimentação adequada para o filho |
 
 **Fonte:** Elaborado pelos autores. 
 
