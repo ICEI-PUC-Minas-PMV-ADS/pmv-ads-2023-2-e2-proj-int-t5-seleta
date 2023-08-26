@@ -112,6 +112,11 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |RF-009| A aplicação deve permitir que o estabelecimento gerencie seus produtos | ALTA | 
 |RF-010| A aplicação deve permitir o estabelecimento especificar a sua localidade | ALTA | 
 |RF-011| A aplicação deve permitir que o estabelecimento crie e gerencie sua conta | ALTA | 
+|RF-012| A aplicação deve fornecer informações detalhadas sobre os produtos | ALTA |
+|RF-013| A aplicação deve indicar claramente qual restrição alimentares o produto atende | ALTA |
+|RF-014| A aplicação deve permitir que o usuário pesquise produtos de acordo com um tipo específico de restrição alimentar | ALTA |
+|RF-015| A aplicação deve permitir que o usuário pesquise por estabelecimentos de acordo com a localidade | ALTA |
+
 
 
 ### Requisitos não Funcionais
