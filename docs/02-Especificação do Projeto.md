@@ -79,7 +79,8 @@ A partir do entendimento das personas identificadas para o projeto, foram estabe
 
 |EU COMO... <br /> `PERSONA`| QUERO/PRECISO ... <br /> `FUNCIONALIDADE` |PARA ... <br /> `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ricardo  | Encontrar alimentos com informações nutricionais claras em seus rótulos         | Ingerir apenas alimentos com baixo teor de açucar e carboidratos               |
+|Ricardo  | Ingerir apenas alimentos com baixo teor de açucar e carboidratos | Encontrar alimentos com informações nutricionais claras em seus rótulos |
+|Ricardo  | Diversificar as opções de lanches | Descobrir novas opções de alimentos compatíveis com a restrição alimentar               |
 |Eduardo      | Encontrar estabelecimentos que vendam produtos específicos para celíacos              | Preparar refeições caseiras sem correr o risco de ingerir glúten |
 |Amanda     | Encontrar estabelecimentos que ofereçam produtos e alimentos para intolerantes a lactose             | Evitar desconfortos gastrointestinais |
 |Amanda     | De um site adaptado a leitores de telas            | Conseguir navegar na plataforma para buscar informações sobre os alimentos antes de comprá-los |
