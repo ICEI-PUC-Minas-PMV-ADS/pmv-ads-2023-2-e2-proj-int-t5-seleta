@@ -109,6 +109,10 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |RF-006| A aplicação deve apresentar na página inicial as funcionalidades disponíveis para o usuário  | ALTA |
 |RF-007| A aplicação deve ser organizada da melhor forma para facilitar o desempenho do leitor de tela | MÉDIA | 
 |RF-008| A aplicação deve possuir uma interface simples, apresentando as informações de forma visual e acessível | MÉDIA | 
+|RF-009| A aplicação deve permitir que o estabelecimento gerencie seus produtos | ALTA | 
+|RF-010| A aplicação deve permitir o estabelecimento especificar a sua localidade | ALTA | 
+|RF-011| A aplicação deve permitir que o estabelecimento crie e gerencie sua conta | ALTA | 
+
 
 ### Requisitos não Funcionais
 
