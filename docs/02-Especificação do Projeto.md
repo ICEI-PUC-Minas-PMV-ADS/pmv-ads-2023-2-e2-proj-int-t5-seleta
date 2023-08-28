@@ -105,16 +105,16 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve apresentar na página inicial as funcionalidades disponíveis para o usuário  | ALTA |
-|RF-002| A aplicação deve permitir que o usuário pesquise produtos de acordo com um tipo específico de restrição alimentar | ALTA |
-|RF-003| A aplicação deve permitir que o usuário pesquise por estabelecimentos de acordo com a localidade | ALTA |
-|RF-004| A aplicação deve permitir que o usuário crie listas de compras com os produtos selecionados  | ALTA |
+|RF-002| A aplicação deve permitir que o usuário visitante pesquise produtos de acordo com um tipo específico de restrição alimentar | ALTA |
+|RF-003| A aplicação deve permitir que o usuário visitante pesquise por estabelecimentos de acordo com a localidade | ALTA |
+|RF-004| A aplicação deve permitir que o usuário visitante gerencie listas de compras com os produtos selecionados  | ALTA |
 |RF-005| A aplicação deve permitir que o estabelecimento crie e gerencie sua conta | ALTA |
 |RF-006| A aplicação deve permitir o estabelecimento especificar a sua localidade | ALTA | 
 |RF-007| A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos | ALTA | 
 |RF-008| A aplicação deve fornecer informações detalhadas sobre os produtos | ALTA | 
 |RF-009| A aplicação deve indicar claramente qual(is) restrição(ões) alimentar(es) o produto atende | ALTA |
 |RF-010| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada  | MÉDIA |
-|RF-011| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário  | BAIXA |
+|RF-011| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante  | BAIXA |
 |RF-012| A aplicação deve permitir salvar produtos para consultas futuras  | BAIXA |
 
 
