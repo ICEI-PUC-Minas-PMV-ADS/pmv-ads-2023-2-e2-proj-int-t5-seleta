@@ -114,9 +114,8 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |RF-008| A aplicação deve fornecer informações detalhadas sobre os produtos | ALTA | 
 |RF-009| A aplicação deve indicar claramente qual(is) restrição(ões) alimentar(es) o produto atende | ALTA |
 |RF-010| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada  | MÉDIA |
-|RF-011| A aplicação deve ser organizada da melhor forma para facilitar o desempenho do leitor de tela | MÉDIA | 
-|RF-012| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário  | BAIXA |
-|RF-013| A aplicação deve permitir salvar produtos para consultas futuras  | BAIXA |
+|RF-011| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário  | BAIXA |
+|RF-012| A aplicação deve permitir salvar produtos para consultas futuras  | BAIXA |
 
 
 
@@ -135,7 +134,8 @@ A tabela a seguir especifica os requisitos não funcionais que devem ser atendid
 |RNF-004| A aplicação deve possuir uma interface simples, apresentando as informações de forma visual e acessível | MÉDIA | 
 |RNF-005| A aplicação deve estar disponível para acesso a qualquer horário do dia | MÉDIA | 
 |RNF-006| A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
-|RNF-007| A aplicação deve processar requisições do usuário em no máximo 5s |  BAIXA | 
+|RNF-007| A aplicação deve ser organizada da melhor forma para facilitar o desempenho do leitor de tela | MÉDIA | 
+|RNF-008| A aplicação deve processar requisições do usuário em no máximo 5s |  BAIXA | 
 
 ## Restrições
 
