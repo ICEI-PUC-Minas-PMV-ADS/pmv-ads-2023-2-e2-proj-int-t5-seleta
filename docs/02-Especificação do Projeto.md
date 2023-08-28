@@ -104,7 +104,7 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve apresentar na página inicial as funcionalidades disponíveis para o usuário  | ALTA |
+|RF-001| A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma| ALTA |
 |RF-002| A aplicação deve permitir que o usuário visitante pesquise produtos de acordo com um tipo específico de restrição alimentar | ALTA |
 |RF-003| A aplicação deve permitir que o usuário visitante pesquise por estabelecimentos de acordo com a localidade | ALTA |
 |RF-004| A aplicação deve permitir que o usuário visitante gerencie listas de compras com os produtos selecionados  | ALTA |
