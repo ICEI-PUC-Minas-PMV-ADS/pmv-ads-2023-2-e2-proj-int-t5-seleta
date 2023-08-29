@@ -112,7 +112,7 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |RF-006| A aplicação deve permitir que o estabelecimento crie e gerencie os itens da  sua conta | ALTA |
 |RF-007| A aplicação deve permitir o estabelecimento especificar a sua localidade | ALTA | 
 |RF-008| A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos | ALTA | 
-|RF-009| A aplicação deve fornecer informações detalhadas sobre os produtos | ALTA | 
+|RF-009| A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos | ALTA | 
 |RF-010| A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende | ALTA |
 |RF-011| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada  | MÉDIA |
 |RF-012| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante  | BAIXA |
