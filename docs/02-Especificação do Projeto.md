@@ -116,7 +116,6 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |RF-010| A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende | ALTA |
 |RF-011| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada  | MÉDIA |
 |RF-012| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante  | BAIXA |
-|RF-013| A aplicação deve permitir salvar produtos para consultas futuras  | BAIXA |
 
 
 
