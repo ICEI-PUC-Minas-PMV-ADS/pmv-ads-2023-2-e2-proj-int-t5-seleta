@@ -160,7 +160,7 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 <div align="center">
 <img src="img/diagrama1.png" width="50%"><br>
 Figura 1 - Diagrama Usuário visitante
-  </div>
+  </div><br>
 
 <div align="center">
 <img src="img/diagrama2.png" width="50%"><br>
