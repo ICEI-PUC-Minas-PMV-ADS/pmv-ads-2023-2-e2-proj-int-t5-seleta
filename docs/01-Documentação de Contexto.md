@@ -27,11 +27,11 @@
 ## Objetivos
 
 <div align="justify">
-O objetivo geral deste trabalho é desenvolver uma aplicação que permita a indivíduos com restrições alimentares localizar estabelecimentos que ofereçam produtos adequados às suas necessidades, sendo elas, intolerância à lactose, intolerância ao glúten e diabetes. O aplicativo também atenderá pessoas com dieferentes opções alimentares como o veganismo, por exemplo.<br><br></div>
+O objetivo geral deste trabalho é desenvolver uma aplicação que permita a indivíduos com restrições alimentares localizar estabelecimentos que ofereçam produtos adequados às suas necessidades, sendo elas, intolerância à lactose, intolerância ao glúten e diabetes. O aplicativo também atenderá pessoas com diferentes opções alimentares como o veganismo, por exemplo.<br><br></div>
 
 Os principais objetivos especificos são:
 - Facilitar o acesso a produtos indicados para cada restrição;
-- Otimizar o tempo do usuário ao direcioná-lo para o supermercado que ofereça o produto específico;
+- Otimizar o tempo do usuário ao direcioná-lo para o estabelecimento que ofereça o produto específico;
 - Disponibilizar estabelecimentos de acordo com a localização do usuário;
 - Incentivar estabelecimentos a disponibilizar produtos para atenderem aos usuários da aplicação.
 
@@ -41,7 +41,7 @@ Os principais objetivos especificos são:
 Existem vários tipos de intolerâncias alimentares. A intolerância ao glúten (a proteína do trigo) e a intolerância à lactose (o açúcar do leite) são as mais comuns, de acordo com estudo do DataFolha, cerca de 53 milhões de pessoas sofrem com desconforto intestinal causado pela lactose, isso corresponde a 35% da população nacional de acordo com o site da Sensilatte (2017) e há mais 2 milhões de pessoas no país com sensibilidade ao glúten conforme pesquisa do site especializado Medical News Today, publicada na revista Veja (2017). As desordens relacionadas ao glúten incluem, por exemplo, a doença celíaca, a sensibilidade ao glúten não celíaca e a alergia ao trigo. Estima-se que 1% da população apresente a doença celíaca, 6% tenham sensibilidade ao glúten não celíaca e no caso da alergia ao trigo a prevalência é de 15%-20% em crianças (CRUCINSKY, DAMIÃO, CASTRO, 2021). <br><br>
 Já a intolerância a lactose pode ser classificada como congênita, primária e secundária. A congênita é diagnosticada no nascimento da criança e é uma condição genética herdada dos pais e refere a ausência completa de lactase jejunal. A primária é a mais comum e ocorre quando há diminuição naturalmente a produção de lactase. A secundária ou adquirida surge de lesões no intestino delgado ou como sequela de alguma doença. Um estudo apontou que a intolerância à lactose está presente em 65% da população mundial (BATISTA, ASSUNÇÃO, PENAFORTE, JAPUR, 2018).<br><br>
 Apesar das alergias e intolerâncias alimentares serem um problema crescente em todo o mundo, ainda hoje pessoas com restrições alimentares tem dificuldade em encontrar produtos que atendam às suas necessidades. Por esse motivo, a ideia de desenvolvimento da aplicação é proporcionar um ambiente a essas pessoas que facilite o conhecimento e acesso a produtos que possam ser consumidos com segurança.<br><br>
-Sob o ponto de vista dos supermercados, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar um maior número de pessoas.
+Sob o ponto de vista dos estabelecimentos comerciais, a aplicação proposta poderá ajudar na compreensão do comportamento dos consumidores de produtos relacionados a restrições alimentares, podendo pensar em estratégias para alcançar um maior número de pessoas.
 </div>
 
 ## Público-alvo
@@ -52,7 +52,7 @@ Embora qualquer pessoa possa usufruir desta solução, foi determinado como púb
 
 - De forma secundária, também se benefiarão com o uso do aplicativo, os estabelecimentos comerciais que fazem a venda dos produtos específicos bem como os próprios fabricantes, pois ambos podem ter aumento em seu número de vendas.
 
-- Em terceiro plano, o próprio sistema de saúde público poderá se beneficiar do aplicativo, uma vez que, as pessoas se alimentem conforme as suas necessidades precisarão de atendimento médico por motivos de reações alérgicas e advérsas com menor frequência.
+- Em terceiro plano, o próprio sistema de saúde público poderá se beneficiar do aplicativo, uma vez que, com as pessoas se alimentando conforme as suas necessidades, precisarão de atendimento médico por motivos de reações alérgicas e advérsas com menor frequência.
 
 <img src="img/Mapa-Stakeholders.jpg" alt="Mapa de Stakeholders">
 
