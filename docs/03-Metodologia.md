@@ -1,15 +1,13 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+<div align="justify"> A metodologia contempla todas as ferramentas definidas pelos componentes para a manutenção dos códigos e demais artefatos, e para a organização da equipe na execução das tarefas do projeto.
+</div>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -17,61 +15,57 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
+- `bugfix`: usadas para ajustar melhorias com problemas
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+<div align="justify"> 
+<p>
+A branch principal é a main, em que estará a versão estável da aplicação. Já na branch dev, serão armazenadas as modificações feitas pela equipe de desenvolvimento. Na branch testing, todas as alterações serão enviadas, sem erros, para serem testadas nessa branch.
+</p>
+<p>
+Para a criação de novas funcionalidades da aplicação, será usada a convenção de <b>feature</b> seguida por uma breve descrição da tarefa pra uma melhor forma de identificar a branch. Já para a correção de bugs, a 
+convenção usada será <b>bugfix</b> que carregará o nome da issue que está sendo resolvida.
+</p>
+</div>
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Para realizar o gerenciamento do projeto, os alunos optaram em utilizar o Scrum como metodologia ágil.  
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe foi organizada da seguinte maneira: 
+
+- Scrum Master: Ana Carolina Nazareth.
+- Product Owner: Victor Bastos.
+- Equipe de Desenvolvimento: Gabriela Penaforte, Naianna Duarte e Nikita Ceccon.
+
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+<p align="justify">Para uma melhor organização, distribuição e acompanhamento das tarefas do projeto, foi utilizado o Trello. A ferramenta foi estruturada com as seguintes listas:</p>
+
+- Backlog do produto: lista de requisitos e demais tarefas identificadas no decorrer do projeto.  
+- A Fazer: consta as tarefas que devem ser trabalhadas no momento.  
+- Em andamento: relação de tarefas que estão sendo trabalhadas.  
+- Revisão/Teste: tarefas que estão sendo revisadas, passando por testes e controle de qualidade.  
+- Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.  
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Visual Studio Code
+- Ferramentas de comunicação: Trello
+- Ferramentas de desenho de tela: Figma
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+<div align="justify"> O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e, por isso, foram selecionadas. Por fim, para criar diagramas, utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+</div>)
