@@ -12,10 +12,9 @@ A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-s
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
 - `bugfix`: usadas para ajustar melhorias com problemas
+- `feature`: usadas para criar novas funcionalidades
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
