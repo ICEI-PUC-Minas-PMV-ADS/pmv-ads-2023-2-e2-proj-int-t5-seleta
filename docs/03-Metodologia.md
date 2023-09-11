@@ -79,7 +79,7 @@ A equipe foi organizada da seguinte maneira:
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: Visual Studio Code
+- Editor de código: Visual Studio
 - Gerenciamento e repósitorio de código: GitHub
 - Ferramentas de comunicação: Whatsapp e Microsoft Teams
 - Ferramentas de desenho de tela: Figma
