@@ -13,6 +13,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
 - `dev`: versão de desenvolvimento do software
+- `testing`: versão ainda instavel do software
 - `bugfix`: usadas para ajustar melhorias com problemas
 - `feature`: usadas para criar novas funcionalidades
 
