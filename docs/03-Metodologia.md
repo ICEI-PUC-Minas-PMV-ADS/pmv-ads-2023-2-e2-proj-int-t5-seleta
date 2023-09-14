@@ -77,7 +77,7 @@ A equipe foi organizada da seguinte maneira:
  <div align="center">
 <img src="img/trello1.jpg" width="50%"><br>
 Figura 3 - Tela do kanban utilizada pelo grupo
-  </div>
+  </div><br>
 
   <div align="center">
 <img src="img/trello2.jpg" width="50%"><br>
