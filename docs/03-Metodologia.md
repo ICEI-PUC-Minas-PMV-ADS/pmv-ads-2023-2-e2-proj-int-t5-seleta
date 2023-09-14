@@ -75,12 +75,12 @@ A equipe foi organizada da seguinte maneira:
 - Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.
   
  <div align="center">
-<img src="img/trello1.jpg" width="50%"><br>
+<img src="img/trello1.jpg" width="80%"><br>
 Figura 3 - Tela do kanban utilizada pelo grupo
   </div><br>
 
   <div align="center">
-<img src="img/trello2.jpg" width="50%"><br>
+<img src="img/trello2.jpg" width="80%"><br>
 Figura 4 - Tela do kanban utilizada pelo grupo
   </div>
 
