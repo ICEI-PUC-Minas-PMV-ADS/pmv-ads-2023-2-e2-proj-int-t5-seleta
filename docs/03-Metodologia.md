@@ -72,8 +72,17 @@ A equipe foi organizada da seguinte maneira:
 - A Fazer: consta as tarefas que devem ser trabalhadas no momento.  
 - Em andamento: relação de tarefas que estão sendo trabalhadas.  
 - Revisão/Teste: tarefas que estão sendo revisadas, passando por testes e controle de qualidade.  
-- Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.  
- 
+- Concluído: tarefas que foram concluídas, aprovadas e estão prontas para serem entregues ao usuário.
+  
+ <div align="center">
+<img src="img/trello1.jpg" width="50%"><br>
+Figura 3 - Tela do kanban utilizada pelo grupo
+  </div>
+
+  <div align="center">
+<img src="img/trello2.jpg" width="50%"><br>
+Figura 4 - Tela do kanban utilizada pelo grupo
+  </div>
 
 ### Ferramentas
 
