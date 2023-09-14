@@ -8,7 +8,7 @@
 
 <div align="justify"> 
 
-  O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 2. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no
+  O fluxo de interação do usuário pelas telas do sistema é mostrado no fluxograma visto na Figura 4. Cada uma das telas deste fluxo é detalhada na seção de Wireframes a seguir. Para visualizar o wireframe interativo, acesse o ambiente do projeto no
 [Figma].
   
  </div><br>
