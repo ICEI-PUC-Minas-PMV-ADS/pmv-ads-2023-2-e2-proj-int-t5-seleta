@@ -26,7 +26,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
  
 <div align="center">
 <img src="img/modelo-bd.png"><br>
-Figura 17  - Projeto da Base de Dados
+<b>Figura 21</b>  - Projeto da Base de Dados
 </div><br>
 
 ## Tecnologias Utilizadas
