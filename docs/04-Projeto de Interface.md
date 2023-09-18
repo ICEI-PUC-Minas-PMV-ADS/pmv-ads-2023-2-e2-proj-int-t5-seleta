@@ -20,15 +20,105 @@ Figura 4 - Diagrama de fluxo
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+A seguir são apresentados os protótipos de interface para indicar a estrutura e layout do site, bem como a interação entre suas páginas. 
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+### Tela - Home Page e buscar produtos
+
+<div align="justify"> A Home Page começa apresentando o propósito e os valores da plataforma por meio de um carrossel. Além disso, é a tela onde o usuário visitante pode fazer sua busca pelos produtos desejados, aplicando os filtros que quiser e precisar (categoria, localidade e restrição alimentar). Nesta página, também se encontrará o botão para criar uma lista de compras, tendo dicas de como realizar essa ação.
+   </div><br>
+
+   <div align="center">
+<img src="img/pagina-inicial1.jpg" width="50%"><br>
+<b>Figura 3</b> - Tela Inicial
+  </div>
+
+### Tela - Perfil do profuto
+
+<div align="justify"> Ao pesquisar os produtos desejados na página inicial, o usuário pode clicar em cima do botão "Ver detalhes" e o site será redirecionado para a página do Perfil do produto, onde se encontrarão a descrição e informações adicionais sobre o produto.
+  </div><br>
+
+   <div align="center">
+<img src="img/pagina-inicial1.jpg" width="50%"><br>
+<b>Figura 3</b> - Tela Inicial
+  </div>
+
+### Tela - Lista de compras
+
+<div align="justify"> A Lista de compras é a tela para onde o usuário é redirecionado após o usuário inserir seu e-mail e selecionar os produtos que deseja adicionar na lista. Nesta página, o usuário pode gerenciar os produtos e escolher se prefere fazer download da lista ou enviar para um e-mail.
+  </div><br>
+
+   <div align="center">
+<img src="img/pagina-inicial1.jpg" width="50%"><br>
+<b>Figura 3</b> - Tela Inicial
+  </div>
+
+  ### Tela - Cadastro do usuário 
+
+<div align="justify"> Caso o usuário queira anunciar seus produtos no site, ele deverá clicar em um dos botões para ser redirecionado a página de cadastro. A tela de cadastro do usuário é utilizada para criar o acesso ao sistema. Caso já tenha cadastro, o usuário poderá ser direcionado para a tela de login também por essa tela. 
+  </div><br>
+
+<div align="center">
+<img src="img/cadastro1.jpg" width="50%"><br>
+<b>Figura 6</b> - Tela Cadastro
+</div>
+
+### Tela - Login do usuário
+
+<div align="justify"> Para os usuários que já possuem uma conta, o acesso é feito pela tela de login. Para entrar, bastar clicar no botão "Login", o site será redirecionado para a tela e o usuário deve informar o email e senha escolhida no momento do cadastro. Caso seja o primeiro acesso do usuário, ele poderá ser direcionado para a tela de cadastro também por essa tela. 
+  </div><br>
+
+<div align="center">
+<img src="img/cadastro3.jpg" width="50%"><br>
+<b>Figura 8</b> - Tela Login/Entrar
+  </div>
+
+  ### Tela - Perfil do usuário
+
+<div align="justify"> Tela de Perfil do usuário é o local onde o usuário poderá adicionar e gerenciar os seus estabelecimentos.
+  </div><br>
+
+<div align="center">
+<img src="img/perfil-profissional.jpg" width="50%"><br>
+<b>Figura 9</b> - Tela Meu Perfil (perfil do profissional)
+  </div>
+
+### Tela - Cadastro de estabelecimento
+
+<div align="justify"> Esta tela é onde o usuário irá colocar todas as informações pedidas para realizar o cadastro do seu estabelecimento no site.
+  </div><br>
+
+<div align="center">
+<img src="img/perfil-profissional.jpg" width="50%"><br>
+<b>Figura 9</b> - Tela Meu Perfil (perfil do profissional)
+  </div>
+
+### Tela - Gerenciar estabelecimentos
+
+<div align="justify"> Esta tela é onde o usuário poderá escolher um de seus estabelecimentos cadastrados para abrir seu perfil, editar suas as informações ou até mesmo excluir o estabelecimento da plataforma.
+  </div><br>
+
+<div align="center">
+<img src="img/perfil-profissional.jpg" width="50%"><br>
+<b>Figura 9</b> - Tela Meu Perfil (perfil do profissional)
+  </div>
+
+### Tela - Gereciamento de produtos
+
+<div align="justify"> Ao clicar em um estabelecimento, o site será redirecionado para essa tela, onde aparecerão todos os produtos cadastrados neste estabelecimento. O usuário pode escolher cadastrar um novo produto, editar ou excluir um produto já cadastrado.
+  </div><br>
+
+<div align="center">
+<img src="img/perfil-profissional.jpg" width="50%"><br>
+<b>Figura 9</b> - Tela Meu Perfil (perfil do profissional)
+  </div>
+
+### Tela - Cadastro de produto
+
+<div align="justify"> Ao clicar em cadastrar produto, o usuário será direcionado para essa tela, onde ele irá inserir todas as informações pedidas sobre o novo produto e, no final da página, clicará em Cadastrar para subir o produto para a plataforma.
+  </div><br>
+
+<div align="center">
+<img src="img/perfil-profissional.jpg" width="50%"><br>
+<b>Figura 9</b> - Tela Meu Perfil (perfil do profissional)
+  </div>
