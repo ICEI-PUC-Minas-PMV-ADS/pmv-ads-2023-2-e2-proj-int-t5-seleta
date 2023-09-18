@@ -16,7 +16,7 @@ Figura 15 - Diagrama de classes
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
  <div align="center">
-<img src="img/modelo-er-2.png"><br>
+<img src="img/modelo-er.png"><br>
 Figura 16  - Diagrama Entidade-Relacionamento (ER)
   </div><br>
 
