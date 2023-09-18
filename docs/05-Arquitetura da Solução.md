@@ -8,7 +8,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
  <div align="center">
 <img src="img/diagrama de classe.png"><br>
-Figura 15 - Diagrama de classes
+<b>Figura 19</b> - Diagrama de classes
   </div><br>
 
 ## Modelo ER (Projeto Conceitual)
@@ -17,7 +17,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
  <div align="center">
 <img src="img/modelo-er.png"><br>
-Figura 16  - Diagrama Entidade-Relacionamento (ER)
+<b>Figura 20</b>  - Diagrama Entidade-Relacionamento (ER)
   </div><br>
 
 ## Projeto da Base de Dados
