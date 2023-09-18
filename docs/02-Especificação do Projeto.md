@@ -158,7 +158,7 @@ As imagens a seguir mostram diagramas de casos de uso do projeto, que contemplam
 
 <div align="center">
 <img src="img/diagrama-casos-uso.png"><br>
-Figura 1 - Diagrama de casos de uso
+<b>Figura 1</b> - Diagrama de casos de uso
   </div><br>
 
 
