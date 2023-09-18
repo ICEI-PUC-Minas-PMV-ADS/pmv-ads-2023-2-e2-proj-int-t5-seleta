@@ -24,7 +24,10 @@ Figura 16  - Diagrama Entidade-Relacionamento (ER)
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+<div align="center">
+<img src="img/modelo-bd.png"><br>
+Figura 17  - Projeto da Base de Dados
+</div><br>
 
 ## Tecnologias Utilizadas
 
