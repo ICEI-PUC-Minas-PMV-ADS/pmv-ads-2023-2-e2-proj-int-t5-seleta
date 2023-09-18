@@ -76,12 +76,12 @@ A equipe foi organizada da seguinte maneira:
   
  <div align="center">
 <img src="img/trello1.jpg" width="80%"><br>
-Figura 3 - Tela do kanban utilizada pelo grupo
+Figura 2 - Tela do kanban utilizada pelo grupo
   </div><br>
 
   <div align="center">
 <img src="img/trello2.jpg" width="80%"><br>
-Figura 4 - Tela do kanban utilizada pelo grupo
+Figura 3 - Tela do kanban utilizada pelo grupo
   </div>
 
 ### Ferramentas
