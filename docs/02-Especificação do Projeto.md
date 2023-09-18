@@ -157,7 +157,7 @@ As questões que restringem a execução desse projeto e que refletem as obriga�
 As imagens a seguir mostram diagramas de casos de uso do projeto, que contemplam a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 <div align="center">
-<img src="img/diagrama-casos-uso.png" width="90%"><br>
+<img src="img/diagrama-casos-uso.png"><br>
 Figura 1 - Diagrama de casos de uso
   </div><br>
 
