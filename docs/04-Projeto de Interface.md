@@ -15,7 +15,7 @@ Figma.
  
  <div align="center">
 <img src="img/diagrama de fluxo.png"><br>
-Figura 4 - Diagrama de fluxo
+<b>Figura 4 </b>- Diagrama de fluxo
   </div><br>
 
 ## Wireframes
