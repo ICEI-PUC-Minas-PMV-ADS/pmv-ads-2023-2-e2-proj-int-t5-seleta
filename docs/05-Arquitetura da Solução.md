@@ -31,7 +31,10 @@ Figura 17  - Projeto da Base de Dados
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+- Linguagens: C#, Javascript, HTML/CSS;
+- Frameworks e/ou bibliotecas: Bootstrap, ASP.NET MVC, Entity Framework;
+- IDEs: Visual Studio ou Visual Studio Code;
+- Ferramentas: MySQL;
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
