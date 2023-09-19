@@ -30,27 +30,27 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
    <div align="center">
 <img src="img/Home page.png" width="50%"><br>
-<b>Figura 5</b> - Home Page
+<b>Figura 5</b> - Home Page do site
   </div><br>
 
 <div align="center">
 <img src="img/Home page - Filtros de Pesquisa.png" width="50%"><br>
-<b>Figura 6</b> - Filtros de pesquisa
+<b>Figura 6</b> - Imagem que mostra os filtros de pesquisa que podem ser aplicados nos produtos
   </div><br>
 
 <div align="center">
 <img src="img/Home Page - Carrossel 2.png" width="50%"><br>
-<b>Figura 7</b> - Segunda foto do carrossel
+<b>Figura 7</b> - Imagem que mostra a segunda parte do carrossel com o lema da plataforma
   </div><br>
 
 <div align="center">
 <img src="img/Home page - Carrossel 3.png" width="50%"><br>
-<b>Figura 8</b> - Terceira foto do carrossel
+<b>Figura 8</b> - Imagem que mostra a terceira parte do carrossel 
   </div><br>
 
 <div align="center">
 <img src="img/Resultado da busca.png" width="50%"><br>
-<b>Figura 9</b> - Resultado de busca de produtos
+<b>Figura 9</b> - Imagem que mostra o resultado de busca de produtos
   </div><br>
 
 
@@ -61,7 +61,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
    <div align="center">
 <img src="img/Perfil do Produto.png" width="50%"><br>
-<b>Figura 10</b> - Tela Perfil do produto
+<b>Figura 10</b> - Tela de Perfil do produto
   </div>
 
 ### Tela - Lista de compras
@@ -71,7 +71,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
    <div align="center">
 <img src="img/Criar Lista.png" width="50%"><br>
-<b>Figura 11</b> - Tela Lista de compras
+<b>Figura 11</b> - Tela de Lista de compras
   </div>
 
   ### Tela - Cadastro do usuário 
@@ -81,7 +81,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Cadastro - Usuário.png" width="50%"><br>
-<b>Figura 12</b> - Tela Cadastro
+<b>Figura 12</b> - Tela de Cadastro
 </div>
 
 ### Tela - Login do usuário
@@ -91,7 +91,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Área de Login - Usuário.png" width="50%"><br>
-<b>Figura 13</b> - Tela Login/Entrar
+<b>Figura 13</b> - Tela de Login/Entrar
   </div>
 
   ### Tela - Perfil do usuário
@@ -101,7 +101,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Perfil do Usuário.png" width="50%"><br>
-<b>Figura 14</b> - Tela Perfil do usuário
+<b>Figura 14</b> - Tela de Perfil do usuário
   </div>
 
 ### Tela - Cadastro de estabelecimento
@@ -111,7 +111,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Cadastrar estabelecimento.png" width="50%"><br>
-<b>Figura 15</b> - Tela Cadastro de estabelecimento
+<b>Figura 15</b> - Tela de Cadastro de estabelecimento
   </div>
 
 ### Tela - Gerenciar estabelecimentos
@@ -121,7 +121,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Gerenciar estabelecimentos.png" width="50%"><br>
-<b>Figura 16</b> - Tela Gerenciar estabelecimentos
+<b>Figura 16</b> - Tela de Gerenciamento de estabelecimentos
   </div>
 
 ### Tela - Gereciamento de produtos
@@ -131,7 +131,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Gerenciamento de produtos.png" width="50%"><br>
-<b>Figura 17</b> - Tela Gerenciar produtos
+<b>Figura 17</b> - Tela de Gerenciamento de produtos
   </div>
 
 ### Tela - Cadastro de produto
@@ -141,5 +141,5 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 <div align="center">
 <img src="img/Adicionar Produto.png" width="50%"><br>
-<b>Figura 18</b> - Tela Cadastro de produtos
+<b>Figura 18</b> - Tela de Cadastro de produtos
   </div>
