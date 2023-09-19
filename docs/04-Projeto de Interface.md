@@ -80,7 +80,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
   </div><br>
 
 <div align="center">
-<img src="img/Cadastro - Usuário.png" width="50%"><br>
+<img src="img/cadastro.png" width="50%"><br>
 <b>Figura 12</b> - Tela de Cadastro
 </div>
 
@@ -90,7 +90,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
   </div><br>
 
 <div align="center">
-<img src="img/Área de Login - Usuário.png" width="50%"><br>
+<img src="img/login.png" width="50%"><br>
 <b>Figura 13</b> - Tela de Login/Entrar
   </div>
 
