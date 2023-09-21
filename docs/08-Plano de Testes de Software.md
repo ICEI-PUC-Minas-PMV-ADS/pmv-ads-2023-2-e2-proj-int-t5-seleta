@@ -6,8 +6,16 @@ Os requisitos para realização dos testes de software são:
 - Conectividade de Internet para acesso às plataformas (APISs).
   
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+
+| **Caso de Teste** 	| **CT-01 – Página inicial** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001 - A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma |
+| Objetivo do Teste 	| Verificar existe na página inicial dicas que facilitem a experiência do usuário no site |
+| Passos 	| - Acessar a aplicação <br> - Buscar na página inicial um botão de ajuda <br> - Clicar em cima do botão e verificar se abrem instruções de uso |
+|Critério de Êxito | - O usuário visitante consegue visualizar as dicas na página inicial |
+|  	|  	|
  
-| **Caso de Teste** 	| **CT-01 – Buscar Produtos** 	|
+| **Caso de Teste** 	| **CT-02 – Buscar Produtos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - A aplicação deve permitir que o usuário visitante pesquise por produtos, resultando em todos os produtos equivalentes ao que foi pesquisado <br> RF-003 - A aplicação deve permitir que o usuário visitante pesquise produtos de acordo com tipo específico de restrição alimentar, resultando em todos os produtos próprios para o tipo de restrição pesquisado <br> RF-004 - A aplicação deve permitir que o usuário visitante busque por produtos desejados e/ou estabelecimentos de acordo com a localidade inserida no filtro de pesquisa <br> RF-012 - A aplicação deve permitir que o usuário visitante busque por produtos desejados de acordo com a categoria inserida no filtro de pesquisa|
 | Objetivo do Teste 	| Verificar se o usuário visitante consegue encontrar os produtos que deseja. |
@@ -16,7 +24,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  	|  	|
 
 
-| Caso de Teste 	| **CT-02 – Criar Lista de Produtos**	|
+| Caso de Teste 	| **CT-03 – Criar Lista de Produtos**	|
 |:---:	|:---:	|
 |Requisito Associado  | RF-005	- A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados. <br> RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
 | Objetivo do Teste 	| Verificar se o usuário visitante consegue criar lista de produtos. |
@@ -25,7 +33,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  	|  	|
 
 
-| Caso de Teste 	| **CT-03 – Fazer Download Lista de Produtos**	|
+| Caso de Teste 	| **CT-04 – Fazer Download Lista de Produtos**	|
 |:---:	|:---:	|
 | Requisito Associado | RF-013	- A aplicação deve oferecer a opção de realizar download da lista de compras elaborada. |
 | Objetivo do Teste 	| Verificar se o usuário visitante consegue fazer download da sua lista de produtos. |
@@ -34,7 +42,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |  	|  	|
 
 
-| Caso de Teste 	| **CT-04 – Enviar Lista de Produtos por e-mail**	|
+| Caso de Teste 	| **CT-05 – Enviar Lista de Produtos por e-mail**	|
 |:---:	|:---:	|
 |Requisito Associado | RF-014	- A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante |
 | Objetivo do Teste 	| Verificar se o usuário consegue enviar sua lista de produtos para o email informado. |
