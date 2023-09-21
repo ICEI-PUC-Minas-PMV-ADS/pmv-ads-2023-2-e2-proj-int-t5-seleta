@@ -45,8 +45,15 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Caso de Teste 	| **CT-05 – Enviar Lista de Produtos por e-mail**	|
 |:---:	|:---:	|
 |Requisito Associado | RF-014	- A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante |
-| Objetivo do Teste 	| Verificar se o usuário consegue enviar sua lista de produtos para o email informado. |
+| Objetivo do Teste 	| Verificar se o usuário visitante consegue enviar sua lista de produtos para o email informado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista <br> - Finalizar lista <br> - Pedir para enviar para email informado |
 |Critério de Êxito | - O usuário visitante consegue receber sua lista de produtos no email informado. |
+
+| Caso de Teste 	| **CT-06 – Cadastro e gerenciamento do estabelecimento**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-007	- A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta <br> RF-008 - A aplicação deve permitir o estabelecimento especificar a sua localidade |
+| Objetivo do Teste 	| Verificar se o usuário consegue criar e editar a página de seu estabelecimento na plataforma. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Fazer login no site <br> - Selecionar a opção de cadastrar estabelecimento <br> - Inserir as informações pedidas sobre o estabelecimento e clicar no botão de Cadastrar <br> - Verificar se o estabelecimento foi criado e salvo no perfil do usuário <br> - Clicar no botão de editar estabelecimento e verificar se abrirá novamente a página de cadastro para que o usuário possa alterar informações se necessário <br> - Por fim, clicar em Cadastrar novamente |
+|Critério de Êxito | - O usuário consegue cadastrar e gerenciar seu estabelecimento na plataforma. |
  
 
