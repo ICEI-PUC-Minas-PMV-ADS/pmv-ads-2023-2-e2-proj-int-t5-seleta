@@ -14,6 +14,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos 	| - Acessar a aplicação <br> - Digitar o nome do produto na barra de pesquisa <br> - Inserir filtros de pesquisa se desejar <br> - Clicar em Pesquisar <br> - Visualizar o resultado da busca |
 |Critério de Êxito | - O usuário visitante consegue buscar e visualizar o produto desejado. |
 |  	|  	|
+
+
 | Caso de Teste 	| **CT-02 – Criar Lista de Produtos**	|
 |Requisito Associado | RF-005	- A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados. <br> RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
 | Objetivo do Teste 	| Verificar se o usuário visitante consegue criar lista de produtos. |
