@@ -10,8 +10,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | **Caso de Teste** 	| **CT-01 – Buscar Produtos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - A aplicação deve permitir que o usuário visitante pesquise por produtos, resultando em todos os produtos equivalentes ao que foi pesquisado <br> RF-003 - A aplicação deve permitir que o usuário visitante pesquise produtos de acordo com tipo específico de restrição alimentar, resultando em todos os produtos próprios para o tipo de restrição pesquisado <br> RF-004 - A aplicação deve permitir que o usuário visitante busque por produtos desejados e/ou estabelecimentos de acordo com a localidade inserida no filtro de pesquisa <br> RF-012 - A aplicação deve permitir que o usuário visitante busque por produtos desejados de acordo com a categoria inserida no filtro de pesquisa|
-| Objetivo do Teste 	| Verificar se o usuário visitante consegue encontrar produtos. |
-| Passos 	| - Acessar a aplicação <br> - Digitar o nome do produto na barra de pesquisa <br> - Clicar em Pesquisar <br> - Visualizar o resultado da busca |
+| Objetivo do Teste 	| Verificar se o usuário visitante consegue encontrar os produtos que deseja. |
+| Passos 	| - Acessar a aplicação <br> - Digitar o nome do produto na barra de pesquisa <br> - Inserir filtros de pesquisa se desejar <br> - Clicar em Pesquisar <br> - Visualizar o resultado da busca |
 |Critério de Êxito | - O usuário visitante consegue buscar e visualizar o produto desejado. |
 |  	|  	|
 | Caso de Teste 	| **CT-02 – Criar Lista de Produtos**	|
