@@ -17,7 +17,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
 | Caso de Teste 	| **CT-02 – Criar Lista de Produtos**	|
-|Requisito Associado | RF-005	- A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados. <br> RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
+|:---:	|:---:	|
+|Requisito Associado  | RF-005	- A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados. <br> RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
 | Objetivo do Teste 	| Verificar se o usuário visitante consegue criar lista de produtos. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista |
 |Critério de Êxito | - O usuário visitante consegue criar sua lista de produtos. |
@@ -25,7 +26,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
 | Caso de Teste 	| **CT-03 – Fazer Download Lista de Produtos**	|
-|Requisito Associado | RF-013	- A aplicação deve oferecer a opção de realizar download da lista de compras elaborada. |
+|:---:	|:---:	|
+| Requisito Associado | RF-013	- A aplicação deve oferecer a opção de realizar download da lista de compras elaborada. |
 | Objetivo do Teste 	| Verificar se o usuário visitante consegue fazer download da sua lista de produtos. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista <br> - Finalizar lista <br> - Pedir para fazer o download |
 |Critério de Êxito | - O usuário visitante consegue fazer download da sua lista de produtos. |
@@ -33,6 +35,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
 | Caso de Teste 	| **CT-04 – Enviar Lista de Produtos por e-mail**	|
+|:---:	|:---:	|
 |Requisito Associado | RF-014	- A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante |
 | Objetivo do Teste 	| Verificar se o usuário consegue enviar sua lista de produtos para o email informado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista <br> - Finalizar lista <br> - Pedir para enviar para email informado |
