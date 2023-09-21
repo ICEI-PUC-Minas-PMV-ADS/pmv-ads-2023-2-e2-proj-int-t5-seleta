@@ -4,6 +4,7 @@ Os requisitos para realização dos testes de software são:
 - Site publicado na Internet.
 - Navegador da Internet - Chrome, Firefox, Edge, Opera e Safari.
 - Conectividade de Internet para acesso às plataformas (APISs).
+- 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  
 | **Caso de Teste** 	| **CT-01 – Buscar Produtos** 	|
