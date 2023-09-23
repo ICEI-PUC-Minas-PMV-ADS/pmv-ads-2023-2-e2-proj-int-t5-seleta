@@ -1,8 +1,8 @@
 # Plano de Testes de Software
 
 Os requisitos para realização dos testes de software são:
-- Site publicado na Internet.
-- Navegador da Internet - Chrome, Firefox, Edge, Opera e Safari.
+- Site publicado na Internet;
+- Navegador da Internet - Chrome, Firefox, Edge, Opera e Safari;
 - Conectividade de Internet para acesso às plataformas (APISs).
   
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
@@ -27,7 +27,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Caso de Teste 	| **CT-03 – Criar Lista de Compras**	|
 |:---:	|:---:	|
 |Requisito Associado  | RF-005	- A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados. <br> RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
-| Objetivo do Teste 	| Verificar se o usuário visitante consegue criar lista de produtos. |
+| Objetivo do Teste 	| Verificar se o usuário visitante consegue criar lista de compras. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista |
 |Critério de Êxito | - O usuário visitante consegue criar sua lista de compras. |
 
@@ -45,7 +45,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Caso de Teste 	| **CT-05 – Enviar Lista de Compras por e-mail**	|
 |:---:	|:---:	|
 |Requisito Associado | RF-014	- A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante |
-| Objetivo do Teste 	| Verificar se o usuário visitante consegue enviar sua lista de produtos para o email informado. |
+| Objetivo do Teste 	| Verificar se o usuário visitante consegue enviar sua lista de compras para o email informado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista <br> - Finalizar lista <br> - Pedir para enviar para email informado |
 |Critério de Êxito | - O usuário visitante consegue receber sua lista de compras no email informado. |
 
@@ -62,5 +62,3 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar produtos na página do seu estabelecimento. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Fazer login no site <br> - Selecionar a opção de Gerenciar estabelecimentos <br> - Clicar no estabelecimento que deseja abrir <br> - Clicar em Cadastrar produtos <br> - Inserir as informações pedidas sobre o produto e clicar no botão de Cadastrar <br> - Visualizar o produto cadastrado no perfil do estabelecimento. |
 |Critério de Êxito | - O usuário consegue cadastrar os produtos no perfil do seu estabelecimento com todas as informações essenciais para o consumidor. |
- 
-
