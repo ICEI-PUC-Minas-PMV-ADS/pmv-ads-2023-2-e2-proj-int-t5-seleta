@@ -36,7 +36,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Caso de Teste 	| **CT-04 – Fazer Download Lista de Compras**	|
 |:---:	|:---:	|
 | Requisito Associado | RF-013	- A aplicação deve oferecer a opção de realizar download da lista de compras elaborada. |
-| Objetivo do Teste 	| Verificar se o usuário visitante consegue fazer download da sua lista de produtos. |
+| Objetivo do Teste 	| Verificar se o usuário visitante consegue fazer download da sua lista de compras. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista <br> - Finalizar lista <br> - Pedir para fazer o download |
 |Critério de Êxito | - O usuário visitante consegue fazer download da sua lista de compras. |
 
