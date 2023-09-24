@@ -1,16 +1,16 @@
 # Plano de Testes de Usabilidade
 
 <div align="justify">
-<p>O sucesso de uma aplicação, entre outros fatores, está muito relacionado à experiência do usuário. Aliado a isso, o teste de usabilidade é uma ferramenta fundamental para que seja possível avaliar se o usuário consegue realizar todas as ações que a aplicação permite, sem empecílhos.</p>
+<p>O sucesso de uma aplicação depende, entre outros fatores, da experiência do usuário. Aliado a isso o teste de usabilidade é uma ferramenta fundamental para que seja possível avaliar se o usuário consegue realizar todas as ações que a aplicação permite, sem empecilhos.</p>
 
 <div align="justify">
-<p>A qualidade de uma aplicação pode ser medida diretamente pelos testes de usabilidade. Este também fornecerá indicativos importantes para melhorias constantes. A fase de planejamento do sistema funciona como um norteador para os testes de usabilidade, uma vez que, consistem em avaliar se os requisitos conseguem ser atendidos pelo projeto.</p>
+<p>A qualidade de uma aplicação pode ser medida diretamente pelos testes de usabilidade. Estes também fornecerão indicativos importantes para melhorias constantes. A fase de planejamento do sistema funciona como um norteador para os testes de usabilidade, pois consistem em avaliar se os requisitos conseguem ser atendidos pelo projeto.</p>
 
-<div align="justify">Por meio de usuários reais será possível retirar informações de interatividade e usabilidade com a plataforma e inferir a facilidade e a possibilidade de alcançar os objetivos da aplicação, a facilidade desse manuseio diante do layout e ainda mensurar as reações dos usuários de forma a melhorar os pontos de dificuldade a fim de proporcionar a melhor experiência para o usuário.
+<div align="justify">Por meio de usuários reais será possível retirá-los informações de interatividade e usabilidade com a plataforma e inferir a facilidade e a possibilidade de alcançar os objetivos da aplicação, a facilidade desse manuseio diante do layout e ainda mensurar as reações dos usuários de forma a melhorá-los os pontos de dificuldade a fim de proporcionar a melhor experiência para o usuário.
 
 ## Objetivos
 
-<div align="justify">Para minimizar os erros, manter a aplicação coerente às regras de negócio e requisitos propostos, permitir que o usuário possua uma experiência agradável e execute com eficácia as tarefas será aplicado o plano de teste de usabilidade.  O plano de testes de usabilidade será norteado pelo requisitos levantados anteriormente e a facilidade de se chegar ao resultado esperado. Dessa forma, os objetivos da aplicação deste plano de testes é averiguar possíveis erros na aplicação e verificar pontos de melhoria para a experiência do usuário.
+<div align="justify">Para minimizar os erros, manter a aplicação coerente às regras de negócio e requisitos propostos, permitir que o usuário possua uma experiência agradável e execute com eficácia as tarefas será aplicado o plano de teste de usabilidade. O plano de testes de usabilidade será norteado pelo requisitos levantados anteriormente e a facilidade de se chegar ao resultado esperado. Dessa forma, os objetivos da aplicação deste plano de testes é averiguar possíveis erros de aplicação e verificar pontos de melhoria para a experiência do usuário.
 
 ## Participantes
 
