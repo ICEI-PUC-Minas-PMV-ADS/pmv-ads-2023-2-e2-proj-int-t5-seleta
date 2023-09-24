@@ -18,7 +18,7 @@
 
 ## Procedimentos
 
-<p><div align="justify">Devido a posição geográfica da equipe de desenvolvedores da aplicação, o procedimento determinado para prosseguir com os testes serão os Testes Remotos Não Moderados de Usabilidade. Essa modalidade permite a aplicação de testes de forma online, dessa forma, reduz os custos de implementação e o tempo disponibilizado pelos participantes, uma vez que podem fazer de seus próprios celulares, notebooks ou tablets, sem necessidade de deslocamento.</p>
+<p><div align="justify">Devido à posição geográfica da equipe de desenvolvedores da aplicação, o procedimento determinado para prosseguir com os testes será os Testes Remotos Não Moderados de Usabilidade. Essa modalidade permite a aplicação de testes de forma online, dessa forma, reduz os custos de implementação e o tempo disponibilizado pelos participantes, uma vez que podem os fazerem de seus próprios celulares, notebooks ou tablets, sem necessidade de deslocamento.</p>
 
 <div align="justify">
 <p>O método de observação é uma forma de avaliar a usabilidade de uma interface por meio da análise do comportamento dos usuários enquanto eles interagem com ela. Neste projeto o método definido para mensurar e avaliar os resultados é o de observação por medição. Assim, será possível quantificar aspectos da interação, como a duração, a ocorrência de erros, a frequência de uso, etc., o observador empregará ferramentas que permitem medir esses aspectos. O objetivo é coletar dados concretos e padronizados sobre a usabilidade da interface. Esses instrumentos serão câmeras, sensores,e cronômetros.</p>
