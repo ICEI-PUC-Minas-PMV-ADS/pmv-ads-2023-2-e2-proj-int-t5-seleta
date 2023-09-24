@@ -58,7 +58,7 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Enviar lista para email". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login; 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Enviar lista para email". |
 
 | **Caso de Teste** 	| **CT-07 – Fazer Download da Lista de Compras** 	|
 |:---:	|:---:	|
@@ -70,24 +70,58 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de cadastro de estabelecimento |
-| Ações Necessárias 	| 1. Após se cadastrar (CT-01) clicar em "Editar Perfil"; <br> 2. Preencher todas as informações solicaitadas na aba que irá abrir  3. Clicar em "Cadastrar"; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
+| Ações Necessárias 	| 1. Após se cadastrar (CT-01) clicar em "Editar Perfil"; <br> 2. Preencher todas as informações solicaitadas na aba que irá abrir;  3. Clicar em "Cadastrar"; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
 
-Um plano de teste de usabilidade deverá conter: ok
-o detalhamento dos objetivos (em função dos requisitos levantados/implementados), ok
-dos critérios que serão utilizados para a seleção dos participantes, ok
-dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), ok
-das tarefas a serem executadas, ok
-dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), 
-a ordem de execução das tarefas e das etapas da sessão de teste, 
-recursos demandados, 
-métricas coletadas etc.
+| **Caso de Teste** 	| **CT-09 – Cadastrar produtos** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade de cadastro de produtos |
+| Ações Necessárias 	| 1. Após cadastrar o estabelecimento (CT-08) clicar em "Cadastrar Produto"; <br> 2. Preencher todas as informações solicitadas na aba que irá abrir;  3. Clicar em "Salvar". |
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+| **Caso de Teste** 	| **CT-10 – Buscar produto por localidade** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por localidade |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Localidade";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+| **Caso de Teste** 	| **CT-10 – Buscar produto por categoria** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por categoria |
+| Ações Necessárias 	|  1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Categoria";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+| **Caso de Teste** 	| **CT-10 – Buscar produto por restrição alimentar** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por restrição alimentar |
+| Ações Necessárias 	|  1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Restrição alimentar";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
+
+
+## Dados a serem coletados
+
+Os dados a serem coletados devem contemplar as seguintes análises:
+
+> - Qual a quantidade de cliques para se obter o resultado esperado?
+> - Houve erros nas transições entre as telas?
+> - Qual o tempo de resposta para que o usuário tenha o resultado esperado?
+> - Quais obstáculos impedem que a tarefa seja concluída?
+> - Enumerar a frequência de pedidos de ajuda.
+> - Comparação do tempo gasto para executar uma tarefa pela primeira vez e pela segunda.
+> - Satisfação geral da usabilidade da aplicação, em uma escala de 01 a 05.
+
+Essas métricas fornecerão insumo para a equipe analisar os fatores de eficácia, eficiência e satisfação com a aplicação.
+
+## Pré Requisitos
+
+Os pré requisitos para a aplicação do teste são:
+> - Disponibilidade de acesso à rede de internet, wi-fi ou dados moveis;
+>  Disponibilidade de aparelho eletrónico capaz de baixar a aplicação (celular, tablet ou computador);
+> - Disponibilidade do usuário fazer reuniões online com compartilhamento de telas e preenchimento de relatórios.
+
+## Ordem de execução das tarefas
+
+- Determinação dos testadores com base nas personas definidas;
+- Envio de email de formalização, explicando os prossedimentos e recolhendo o termo de concordância, com a garantia da proteção de dados de acordo com a LGPD;
+- Teste a ser realizado, com as funcionalidades que se deseja testar bem como o que deverá ser mensurado;
+- Relatório final com entrevista ao participante, sua impressões, comentários e sugestões.
+
