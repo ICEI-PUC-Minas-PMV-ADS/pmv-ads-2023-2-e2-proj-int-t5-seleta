@@ -28,15 +28,31 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a tela de cadastro de novo usuário |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Clicar na opção "Cadastre-se"; <br> 4. Preencher as informações solicitadas; <br> 5. Concordar com os termos e condições; <br> 4. Clicar em “Cadastrar". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Clicar na opção "Cadastre-se"; <br> 4. Preencher as informações solicitadas; <br> 5. Concordar com os termos e condições; <br> 6. Clicar em “Cadastrar". |
 
+| **Caso de Teste** 	| **CT-02 – Login de usuário** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade da tela de Login |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Preencher as informações de email e senha; <br> 4. Clicar em “Entrar". |
 
+| **Caso de Teste** 	| **CT-03 – Criar Lista de Compras** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade da criação de lista |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Criar Lista de Compras” no canto superior direito; <br> 3. Criar um nome para a lista; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar". |
 
-Um plano de teste de usabilidade deverá conter: 
-o detalhamento dos objetivos (em função dos requisitos levantados/implementados), 
-dos critérios que serão utilizados para a seleção dos participantes, 
-dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), 
-das tarefas a serem executadas, 
+| **Caso de Teste** 	| **CT-03 – Criar Lista de Compras sem login** 	|
+|:---:	|:---:	|
+|	Perfil 	| Usuário (todos) |
+| Objetivo do Teste 	| Avaliar a usabilidade da criação de lista |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Digitar o e-mail 3. Clicar na opção “Criar Lista de Compras” na parte infeior da tela; <br> 4. Criar um nome para a lista; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
+
+Um plano de teste de usabilidade deverá conter: ok
+o detalhamento dos objetivos (em função dos requisitos levantados/implementados), ok
+dos critérios que serão utilizados para a seleção dos participantes, ok
+dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), ok
+das tarefas a serem executadas, ok
 dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), 
 a ordem de execução das tarefas e das etapas da sessão de teste, 
 recursos demandados, 
