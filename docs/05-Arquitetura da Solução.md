@@ -36,8 +36,6 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 - IDEs: Visual Studio ou Visual Studio Code;
 - Ferramentas: MySQL;
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
