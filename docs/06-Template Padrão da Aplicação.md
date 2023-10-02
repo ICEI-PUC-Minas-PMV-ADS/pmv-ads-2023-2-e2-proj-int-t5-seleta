@@ -8,7 +8,7 @@ O layout padrão a ser utilizado pela aplicação tem correspondência ao projet
 <b>Figura 22</b> - Paleta de Cores
 
 ## Tipografia
-<div align="justify"> A fonte escolhida para a construção da interface foi a Inter, para garantir a legibilida com um estilo moderno e uma sensação de harmonia. </div><br>
+<div align="justify"> A fonte escolhida para a construção da interface foi a Inter, para garantir a legibilidade com um estilo moderno e uma sensação de harmonia. </div><br>
 
 ## Telas
 Todas as telas apresentam um layout responsivo, tendo seu conteúdo ajustado para qualquer tamanho de tela. 
