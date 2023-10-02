@@ -3,9 +3,8 @@
 O layout padrão a ser utilizado pela aplicação tem correspondência ao projeto de Interface elaborado anteriormente.
 
 ## Paleta de Cores
-
  <div align="center">
-<img src="img/paleta-cores"><br>
+<img src="img/paleta-cores.png"><br>
 <b>Figura 22</b> - Paleta de Cores
 
 ## Tipografia
