@@ -1,14 +1,14 @@
 # Template Padrão da Aplicação
 
-O layout padrão a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente.
+O layout padrão a ser utilizado pela aplicação tem correspondência ao projeto de Interface elaborado anteriormente.
 
 ## Paleta de Cores
 
-COLOCAR IMAGEM PALETA DE CORES
+COLOCAR IMAGEM PALETA DE CORES <br>
 <b>Figura 22</b> - Paleta de Cores
 
 ## Tipografia
-A fonte escolhida para a construção da interface foi a Inter, para garantir a legibilidadeque com um estilo moderno e uma sensação de harmonia. 
+<div align="justify"> A fonte escolhida para a construção da interface foi a Inter, para garantir a legibilida com um estilo moderno e uma sensação de harmonia. </div><br>
 
 ## Telas
 Todas as telas apresentam um layout responsivo, tendo seu conteúdo ajustado para qualquer tamanho de tela. 
