@@ -11,7 +11,7 @@ O layout padrão a ser utilizado pela aplicação tem correspondência ao projet
 <div align="justify"> A fonte escolhida para a construção da interface foi a Inter, para garantir a legibilidade com um estilo moderno e uma sensação de harmonia. </div><br>
 
 ## Telas
-Todas as telas apresentam um layout responsivo, tendo seu conteúdo ajustado para qualquer tamanho de tela. 
+<div align="justify">Todas as telas apresentam um layout responsivo, tendo seu conteúdo ajustado para qualquer tamanho de tela. 
 O template criado é composto pelos seguintes layouts:
 - Home Page
 - Tela Perfil do produto
@@ -23,6 +23,7 @@ O template criado é composto pelos seguintes layouts:
 - Tela Gerenciar estabelecimentos
 - Tela Cadastro do produto
 - Tela Gerenciar produtos
+</div><br>
 
 ### Home Page
 <div align="justify"> A Home Page apresenta o propósito e os valores da plataforma por meio de um carrossel. Além disso, é a tela onde o usuário visitante pode fazer sua busca pelos produtos desejados, aplicando filtros. Nesta página, também se encontra o botão para criar uma lista de compras, tendo dicas de como realizar essa ação. A Home Page também permite que usuários (donos de estabelicimentos comerciais) façam seu cadastro ou façam login para acessar sua conta. </div><br>
@@ -74,9 +75,6 @@ O template criado é composto pelos seguintes layouts:
 <img src="img/cadastro.png" width="50%"><br>
 <b>Figura 26</b> 
 </div><br>
-<div align="justify">
-<br>RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende <br>RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
-</div><br>
 
 ### Tela - Login do usuário
 
@@ -112,6 +110,7 @@ O template criado é composto pelos seguintes layouts:
 </div><br>
 <div align="justify">
 <br>RF-008 - A aplicação deve permitir ao estabelecimento especificar a sua localidade
+<br>RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende <br>RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
 </div><br>
 
 ### Tela - Gerenciar estabelecimentos
