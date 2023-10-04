@@ -108,7 +108,7 @@ Na tabela a seguir estão listados os requisitos funcionais do projeto, bem como
 |RF-002| A aplicação deve permitir que o usuário visitante pesquise por produtos, resultando em todos os produtos equivalentes ao que foi pesquisado | ALTA |
 |RF-003| A aplicação deve permitir que o usuário visitante pesquise produtos de acordo com tipo específico de restrição alimentar, resultando em todos os produtos próprios para o tipo de restrição pesquisado | ALTA |
 |RF-004| A aplicação deve permitir que o usuário visitante busque por produtos desejados e/ou estabelecimentos de acordo com a localidade inserida no filtro de pesquisa | ALTA |
-|RF-005| A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados  | ALTA |
+|RF-005| A aplicação deve permitir que o usuário visitante gerencie sua lista de compras com produtos selecionados  | ALTA |
 |RF-006| A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras | ALTA |
 |RF-007| A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta | ALTA |
 |RF-008| A aplicação deve permitir o estabelecimento especificar a sua localidade | ALTA | 
