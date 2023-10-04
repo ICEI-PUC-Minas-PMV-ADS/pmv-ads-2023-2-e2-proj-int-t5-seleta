@@ -13,16 +13,16 @@ O layout padrão a ser utilizado pela aplicação tem correspondência ao projet
 ## Telas
 <div align="justify">Todas as telas apresentam um layout responsivo, tendo seu conteúdo ajustado para qualquer tamanho de tela. 
 O template criado é composto pelos seguintes layouts:
-- Home Page
-- Tela Perfil do produto
-- Tela Lista de compras
-- Tela do Cadastro do usuário
-- Tela da Login do usuário
-- Tela Perfil do usuário
-- Tela Cadastro do estabelecimento
-- Tela Gerenciar estabelecimentos
-- Tela Cadastro do produto
-- Tela Gerenciar produtos
+<br>- Home Page
+<br>- Tela Perfil do produto
+<br>- Tela Lista de compras
+<br>- Tela do Cadastro do usuário
+<br>- Tela da Login do usuário
+<br>- Tela Perfil do usuário
+<br>- Tela Cadastro do estabelecimento
+<br>- Tela Gerenciar estabelecimentos
+<br>- Tela Cadastro do produto
+<br>- Tela Gerenciar produtos
 </div><br>
 
 ### Home Page
