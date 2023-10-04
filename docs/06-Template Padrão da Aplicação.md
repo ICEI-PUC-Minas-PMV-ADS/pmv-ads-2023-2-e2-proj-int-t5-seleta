@@ -23,7 +23,7 @@ O template criado é composto pelos seguintes layouts:
 - Tela Gerenciar estabelecimentos
 - Tela Cadastro do produto
 - Tela Gerenciar produtos
-
+</div>
 ### Home Page
 <div align="justify"> A Home Page apresenta o propósito e os valores da plataforma por meio de um carrossel. Além disso, é a tela onde o usuário visitante pode fazer sua busca pelos produtos desejados, aplicando filtros. Nesta página, também se encontra o botão para criar uma lista de compras, tendo dicas de como realizar essa ação. A Home Page também permite que usuários (donos de estabelicimentos comerciais) façam seu cadastro ou façam login para acessar sua conta. </div><br>
 
@@ -57,8 +57,13 @@ O template criado é composto pelos seguintes layouts:
 
    <div align="center">
 <img src="img/Criar Lista.png" width="50%"><br>
-<b>Figura 25</b> RF-013 - A aplicação deve oferecer a opção de realizar download da lista de compras elaborada / RF-014 - A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante / RF-005 - A aplicação deve permitir que o usuário visitante gerencie sua lista de compras com produtos selecionados
-  </div>
+<b>Figura 25</b> 
+  </div><br>
+<div align="justify">
+RF-013 - A aplicação deve oferecer a opção de realizar download da lista de compras elaborada
+RF-014 - A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante
+RF-005 - A aplicação deve permitir que o usuário visitante gerencie sua lista de compras com produtos selecionados
+</div><br>
 
   ### Tela - Cadastro do usuário 
 
@@ -67,8 +72,11 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/cadastro.png" width="50%"><br>
-<b>Figura 26</b> - RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende / RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
-</div>
+<b>Figura 26</b> 
+</div><br>
+<div align="justify">
+RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende / RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
+</div><br>
 
 ### Tela - Login do usuário
 
@@ -87,8 +95,11 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Perfil do Usuário.png" width="50%"><br>
-<b>Figura 28</b> - RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta
-  </div>
+<b>Figura 28</b>
+</div><br>
+<div align="justify">
+RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta
+</div><br>
 
 ### Tela - Cadastro de estabelecimento
 
@@ -97,8 +108,11 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Cadastrar estabelecimento.png" width="50%"><br>
-<b>Figura 29</b> RF-008 - A aplicação deve permitir ao estabelecimento especificar a sua localidade
-  </div>
+<b>Figura 29</b> 
+</div><br>
+<div align="justify">
+RF-008 - A aplicação deve permitir ao estabelecimento especificar a sua localidade
+</div><br>
 
 ### Tela - Gerenciar estabelecimentos
 
@@ -127,5 +141,8 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Gerenciamento de produtos.png" width="50%"><br>
-<b>Figura 32</b> RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos
-  </div>
+<b>Figura 32</b> 
+</div><br>
+<div align="justify">
+RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos
+</div><br>
