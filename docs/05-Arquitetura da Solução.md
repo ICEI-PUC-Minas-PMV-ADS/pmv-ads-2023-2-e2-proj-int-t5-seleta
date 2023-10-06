@@ -38,4 +38,4 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Hospedagem
 
-O aplicação utilizará a plataforma GitHub Pages e o Microsoft Azure como ambientes de hospedagem. O site estará disponível vira URL: 
+O aplicação utilizará a plataforma GitHub Pages e o Microsoft Azure como ambientes de hospedagem. O site estará disponível através do endereço: 
