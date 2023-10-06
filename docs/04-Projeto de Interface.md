@@ -66,7 +66,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Lista de compras
 
-<div align="justify"> A Lista de compras é a tela para onde o usuário é redirecionado após o usuário inserir seu e-mail e selecionar os produtos que deseja adicionar na lista. Nesta página, o usuário pode gerenciar os produtos e escolher se prefere fazer download da lista ou enviar para um e-mail. Essa tela atende aos requisitos RF-005, RF-006, RF-013 e RF-014.
+<div align="justify"> A Lista de compras é a tela para onde o usuário é redirecionado após o usuário inserir seu e-mail e selecionar os produtos que deseja adicionar na lista. Nesta página, o usuário pode gerenciar os produtos e escolher se prefere fazer download da lista ou enviar para um e-mail. Essa tela atende aos requisitos RF-005, RF-013 e RF-014.
   </div><br>
 
    <div align="center">
