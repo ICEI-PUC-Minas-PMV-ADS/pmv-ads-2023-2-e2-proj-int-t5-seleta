@@ -110,8 +110,6 @@ O template criado é composto pelos seguintes layouts:
 </div><br>
 <div align="justify">
 <br>RF-008 - A aplicação deve permitir ao estabelecimento especificar a sua localidade
-<br>RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende <br>RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
-</div><br>
 
 ### Tela - Gerenciar estabelecimentos
 
@@ -132,6 +130,8 @@ O template criado é composto pelos seguintes layouts:
 <img src="img/Adicionar Produto.png" width="50%"><br>
 <b>Figura 31</b> - Tela de Cadastro de produtos
   </div>
+ <br>RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende <br>RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
+</div><br>
 
 ### Tela - Gereciar produtos
 
