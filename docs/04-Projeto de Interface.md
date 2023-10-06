@@ -25,7 +25,7 @@ A seguir são apresentados os protótipos de interface para indicar a estrutura 
 
 ### Tela - Home Page e buscar produtos
 
-<div align="justify"> A Home Page começa apresentando o propósito e os valores da plataforma por meio de um carrossel. Além disso, é a tela onde o usuário visitante pode fazer sua busca pelos produtos desejados, aplicando os filtros que quiser e precisar (categoria, localidade e restrição alimentar). Nesta página, também se encontrará o botão para criar uma lista de compras, tendo dicas de como realizar essa ação. Essa tela atende aos requisitos RF-001, RF-002, RF-003, RF-004, RF-005, RF-006 e RF-012.
+<div align="justify"> A Home Page começa apresentando o propósito e os valores da plataforma por meio de um carrossel. Além disso, é a tela onde o usuário visitante pode fazer sua busca pelos produtos desejados, aplicando os filtros que quiser e precisar (categoria, localidade e restrição alimentar). Nesta página, também se encontrará o botão para criar uma lista de compras, tendo dicas de como realizar essa ação. Essa tela atende aos requisitos RF-001, RF-002, RF-003, RF-004, RF-006 e RF-012.
    </div><br>
 
    <div align="center">
