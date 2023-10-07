@@ -58,7 +58,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 | Caso de Teste 	| **CT-07 – Cadastro de produtos**	|
 |:---:	|:---:	|
-|Requisito Associado | RF-009	- A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos <br> RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos <br> RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende |
+|Requisito Associado | RF-009	- A aplicação deve permitir que o estabelecimento adicione seus produtos <br> RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos <br> RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar produtos na página do seu estabelecimento. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Fazer login no site <br> - Selecionar a opção de Gerenciar estabelecimentos <br> - Clicar no estabelecimento que deseja abrir <br> - Clicar em Cadastrar produtos <br> - Inserir as informações pedidas sobre o produto e clicar no botão de Cadastrar <br> - Visualizar o produto cadastrado no perfil do estabelecimento. |
 |Critério de Êxito | - O usuário consegue cadastrar os produtos no perfil do seu estabelecimento com todas as informações essenciais para o consumidor. |
