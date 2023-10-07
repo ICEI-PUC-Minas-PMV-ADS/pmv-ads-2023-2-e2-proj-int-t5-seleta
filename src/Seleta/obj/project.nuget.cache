@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2Ja8mjNpLI5VqHBMdFoOmsLiW9gTHfjwUowFq20JTJuC6BHaMe1zjpXBYWAnmFtFDEpd/hbFOLKv7BdVNWsGqw==",
+  "dgSpecHash": "wJJxLy/a68o8plTsadcPTeTS4Tdlz93MT1sPNILuHi+GZm2Y006mz7MhIg0bMkBnp+emzjzwdpexwBWH9plZ/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vbmac\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\vbmac\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vbmac\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.22\\microsoft.aspnetcore.mvc.razor.extensions.6.0.22.nupkg.sha512",
     "C:\\Users\\vbmac\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.22\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.22.nupkg.sha512",

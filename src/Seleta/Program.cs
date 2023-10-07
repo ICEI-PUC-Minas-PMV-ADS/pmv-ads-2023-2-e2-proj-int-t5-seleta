@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
 
@@ -11,6 +12,19 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddDbContext<ApplicationDbContext>(opts => opts.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+builder.Services.Configure<CookiePolicyOptions>(opts =>
+{
+    opts.CheckConsentNeeded = context => true;
+    opts.MinimumSameSitePolicy = SameSiteMode.None;
+});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(opts =>
+    {
+        opts.AccessDeniedPath = "/Usuarios/AccessDenied/";
+        opts.LoginPath = "/Usuarios/Login/";
+    });
 
 var app = builder.Build();
 
@@ -26,6 +40,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
