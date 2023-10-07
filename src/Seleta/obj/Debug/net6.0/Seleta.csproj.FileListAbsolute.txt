@@ -388,3 +388,4 @@ C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-p
 C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\obj\Debug\net6.0\Seleta.pdb
 C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\obj\Debug\net6.0\Seleta.genruntimeconfig.cache
 C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\obj\Debug\net6.0\ref\Seleta.dll
+C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\bin\Debug\net6.0\BCrypt.Net-Next.dll
