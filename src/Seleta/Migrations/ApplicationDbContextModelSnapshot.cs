@@ -21,6 +21,31 @@ namespace Seleta.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Seleta.Models.Estabelecimento", b =>
+                {
+                    b.Property<int>("Cnpj")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Cnpj"), 1L, 1);
+
+                    b.Property<string>("Contato")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Cnpj");
+
+                    b.ToTable("Estabelecimentos");
+                });
+
             modelBuilder.Entity("Seleta.Models.Usuario", b =>
                 {
                     b.Property<string>("CPF")

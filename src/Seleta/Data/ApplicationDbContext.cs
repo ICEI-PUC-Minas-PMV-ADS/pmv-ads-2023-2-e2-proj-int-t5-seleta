@@ -10,6 +10,7 @@ namespace Seleta.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
+        public DbSet<Estabelecimento> Estabelecimentos { get; set; }
     }
 }
  
