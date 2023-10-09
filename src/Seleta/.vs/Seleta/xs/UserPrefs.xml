@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{AA592BB1-1BE1-4678-ABCE-75D680CCB1B7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Seleta PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Estabelecimentos/Create.cshtml">
+    <Files>
+      <File FileName="Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="Models/Usuario.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Program.cs" />
+      <File FileName="Migrations/ApplicationDbContextModelSnapshot.cs" />
+      <File FileName="Migrations/20231009152547_CreateTableEstabelecimento.cs" />
+      <File FileName="Migrations/20231004215833_CriarTabelaUsuario.cs" />
+      <File FileName="Controllers/UsuarioController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/EstabelecimentosController.cs" Line="30" Column="46" />
+      <File FileName="Views/Usuario/Cadastro.cshtml" Line="24" Column="5" />
+      <File FileName="Views/Usuario/Login.cshtml" Line="1" Column="1" />
+      <File FileName="Models/ErrorViewModel.cs" Line="5" Column="22" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Views/Shared/Error.cshtml" />
+      <File FileName="ViewModel/CadastroUsuarioViewModel.cs" />
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Pages/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="9" Column="1" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Views/Home/Privacy.cshtml" Line="7" Column="1" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="Models/Estabelecimento.cs" Line="1" Column="1" />
+      <File FileName="Views/Estabelecimentos/Index.cshtml" Line="4" Column="3" />
+      <File FileName="Views/Estabelecimentos/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/x64/sdk/6.0.414/Microsoft.Common.CurrentVersion.targets" Line="4699" Column="5" />
+      <File FileName="Views/Estabelecimentos/Create.cshtml" Line="7" Column="1" />
+      <File FileName="Views/Estabelecimentos/Create.cshtml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seleta">
+            <Node name="Seleta">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views">
+                <Node name="Estabelecimentos" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+                <Node name="Usuario" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
