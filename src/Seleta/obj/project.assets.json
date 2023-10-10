@@ -11169,19 +11169,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/naiannaduarte/.nuget/packages/": {}
+    "/Users/nikitaceccon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
+      "projectUniqueName": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
       "projectName": "Seleta",
-      "projectPath": "/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
-      "packagesPath": "/Users/naiannaduarte/.nuget/packages/",
-      "outputPath": "/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/obj/",
+      "projectPath": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
+      "packagesPath": "/Users/nikitaceccon/.nuget/packages/",
+      "outputPath": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/naiannaduarte/.nuget/NuGet/NuGet.Config"
+        "/Users/nikitaceccon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -11261,7 +11261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.414/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
