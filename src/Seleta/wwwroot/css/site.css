@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap') 
+
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: 'Inter';
 }
 
 @media (min-width: 768px) {
@@ -16,3 +19,106 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+.home-login {
+    position: absolute;
+    top: 40px;
+    left: 3%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #283618;
+    z-index: 1;
+}
+
+.home-login:hover {
+    text-decoration: underline;
+    color: #283618;
+}
+
+    .title-content {
+        position: absolute;
+        width: 38%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background-color: #BC6C25;
+        z-index: 0;
+    }
+
+.title-content .title {
+        position: absolute;
+        width: 420px;
+        height: 100px;
+        top: 40%;
+        left: 10%;
+        color: #FFFFFF;
+        font-size: 2.2rem;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0px;
+        text-align: left;
+}
+
+.title-content img {
+   position: absolute;
+   width: 140px;
+   height: 158px;
+   top: 65%;
+   left: 30%;
+}
+
+.voltar-login {
+    position: absolute;
+    top: 40px;
+    left: 90%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #283618;
+    z-index: 1;
+}
+
+.voltar-login:hover {
+    text-decoration: underline;
+    color: #283618;
+}
+
+.form-content {
+    position: absolute;
+    width: 62%;
+    height: 100%;
+    top: 0px;
+    left: 38%;
+    background-color: #FEFAE0;
+}
+
+    .form-content .caixa-login {
+        position: absolute;
+        width: 50%;
+        height: 55%;
+        top: 20%;
+        left: 25%;
+        border-radius: 50px;
+        border: 1px solid #606C38;
+        background-color: transparent;
+        padding: 40px;
+    }
+
+.form-login h5 {
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: center;
+    color: #283618;
+}
+
+
+
+
+

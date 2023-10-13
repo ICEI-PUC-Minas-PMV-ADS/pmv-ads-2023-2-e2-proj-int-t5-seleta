@@ -1,25 +1,42 @@
 ﻿@model Usuario
 @{
-    ViewData["Title"] = "Login Usuario";
+    ViewData["Title"] = "Login";
 }
 
-<form method="post">
-    <div class="row pb-2">
-        <h3 class="display-3">@ViewData["Title"]</h3>
-    </div>
-    <div asp-validation-summary="All"></div>
-    <div class="mb-3">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control">
-    </div>
-    <div class="mb-3">
-        <label asp-for="Senha"></label>
-        <input asp-for="Senha" class="form-control">
-    </div>
-    <button type="submit" class="btn btn-success" style="width:150px">Entrar</button>
+<a class="home-login" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+
+<section class="title-content">
+        <h3 class="title">BEM-VINDO (A) AO SELETA.</h3>
+        <img src="~/css/img/seguranca 1.png" alt="computador">
+</section>
+
+<a class="voltar-login" asp-area="" asp-controller="Home" asp-action="Index"> Voltar</a>
+
+<section class="form-content">
+    <div class="caixa-login">
+        <form class="form-login" method="post">
+            <div asp-validation-summary="All"></div>
+                <div class="mb-3">
+                    <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" style="border-radius: 10px">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Senha"></label>
+                <input asp-for="Senha" class="form-control" style="border-radius: 10px">
+                </div>
+                <br />
+                <br />
+            <button type="submit" class="btn" style="width:100%;color: #FFFFFF;background-color: #283618; border-radius: 10px">Entrar</button>
+
+                <br />
+                <br />
+                <br />
+                <hr / style="width:100%;">
     
-    <h5>Ainda não tem cadastro?</h5>
-    <a asp-controller="Usuario" asp-action="Cadastro" class="btn btn-primary">
-        Cadastre-se
-    </a>
-</form>
+                <h5>Ainda não tem cadastro?</h5>
+                <a asp-controller="Usuario" asp-action="Cadastro" class="btn" style="width:100%;color: #FFFFFF;background-color: #283618; border-radius: 10px;">
+                    Cadastre-se
+                </a>
+        </form>
+    </div>
+</section>
