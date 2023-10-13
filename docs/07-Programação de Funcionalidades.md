@@ -6,7 +6,7 @@ A tabela a seguir mostra os artefatos desenvolvidos para cada requisito implemen
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
+|RF-007| A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta | Login.cshtml / Cadastro.cshtml / Usuario.cs / Usuariocontroller.cs | 
 |RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
 
 # Instruções de acesso
