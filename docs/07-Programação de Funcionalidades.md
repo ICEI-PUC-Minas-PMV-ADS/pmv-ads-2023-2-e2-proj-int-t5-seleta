@@ -6,8 +6,8 @@ A tabela a seguir mostra os artefatos desenvolvidos para cada requisito implemen
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma   | Index.cshtml / Homecontroller.cs  |
-|RF-007| A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta | Login.cshtml / Cadastro.cshtml / Usuario.cs / Usuariocontroller.cs | 
+|RF-001| A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma   | Index.cshtml / HomeController.cs  |
+|RF-007| A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta | Login.cshtml / Cadastro.cshtml / Usuario.cs / UsuarioController.cs | 
 
 
 # Instruções de acesso
