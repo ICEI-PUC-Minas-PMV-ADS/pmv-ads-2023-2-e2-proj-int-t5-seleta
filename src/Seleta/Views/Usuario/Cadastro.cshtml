@@ -1,24 +1,40 @@
 ﻿@model Usuario
 @{
-    ViewData["Title"] = "Cadastro de usuario";
+    ViewData["Title"] = "Cadastro";
 }
 
-<form method="post">
-    <div class="row pb-2">
-        <h3 class="display-3">@ViewData["Title"]</h3>
+<a class="home-button" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+<a class="login-button" asp-area="" asp-controller="Usuario" asp-action="Login">LOGIN</a>
+
+
+<section class="title-content">
+    <h3 class="subtitle">SELETA</h3>
+    <h3 class="title">A PORTA DE ENTRADA PARA SUAS VENDAS.</h3>
+    <img src="~/css/img/cadastro 1.png" alt="computador">
+</section>
+
+<a class="voltar-button" asp-area="" asp-controller="Usuario" asp-action="Login">VOLTAR</a>
+
+<section class="form-content">
+    <div class="caixa-cadastro">
+        <form method="post">
+            <div asp-validation-summary="All"></div>
+                <div class="mb-3">
+                    <label asp-for="CPF"></label>
+                <input asp-for="CPF" class="form-control" style="border-radius: 10px">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" style="border-radius: 10px">
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Senha"></label>
+                <input asp-for="Senha" class="form-control" style="border-radius: 10px">
+                </div>
+
+                <br />
+                <br />
+            <button type="submit" class="btn" style="width:100%;color: #FFFFFF;background-color: #283618; border-radius: 10px">Cadastrar</button>
+        </form>
     </div>
-    <div asp-validation-summary="All"></div>
-        <div class="mb-3">
-            <label asp-for="CPF"></label>
-            <input asp-for="CPF" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label asp-for="Email"></label>
-            <input asp-for="Email" class="form-control">
-        </div>
-        <div class="mb-3">
-            <label asp-for="Senha"></label>
-            <input asp-for="Senha" class="form-control">
-        </div>
-    <button type="submit" class="btn btn-success" style="width:150px">Cadastrar</button>
-</form>
+</section>

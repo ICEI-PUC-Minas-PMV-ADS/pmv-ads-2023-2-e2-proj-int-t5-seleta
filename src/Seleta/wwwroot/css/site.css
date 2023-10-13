@@ -29,20 +29,50 @@ a {
     transform: scale(1.02);
 }
 
-.home-login {
+.home-button {
     position: absolute;
     top: 40px;
     left: 4%;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #283618;
     z-index: 1;
 }
 
-.home-login:hover {
+.home-button:hover {
     text-decoration: underline;
     color: #283618;
 }
+
+.login-button {
+    position: absolute;
+    top: 40px;
+    left: 12%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #283618;
+    z-index: 1;
+}
+
+.login-button:hover {
+    text-decoration: underline;
+    color: #283618;
+}
+
+.voltar-button {
+    position: absolute;
+    top: 40px;
+    left: 90%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #283618;
+    z-index: 1;
+}
+
+    .voltar-button:hover {
+        text-decoration: underline;
+        color: #283618;
+    }
 
     .title-content {
         position: absolute;
@@ -56,39 +86,38 @@ a {
 
 .title-content .title {
         position: absolute;
-        width: 420px;
+        width: 350px;
         height: 100px;
-        top: 40%;
+        top: 45%;
         left: 10%;
         color: #FFFFFF;
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 600;
         line-height: 50px;
         letter-spacing: 0px;
         text-align: left;
 }
 
+.title-content .subtitle {
+    position: absolute;
+    width: 420px;
+    height: 100px;
+    top: 30%;
+    left: 10%;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
 .title-content img {
    position: absolute;
-   width: 140px;
-   height: 158px;
+   width: 25%;
+   height: 25%;
    top: 65%;
-   left: 30%;
-}
-
-.voltar-login {
-    position: absolute;
-    top: 40px;
-    left: 90%;
-    font-size: 20px;
-    font-weight: 700;
-    color: #283618;
-    z-index: 1;
-}
-
-.voltar-login:hover {
-    text-decoration: underline;
-    color: #283618;
+   left: 35%;
 }
 
 .form-content {
@@ -112,6 +141,18 @@ a {
         padding: 40px;
     }
 
+    .form-content .caixa-cadastro {
+        position: absolute;
+        width: 50%;
+        height: 68%;
+        top: 20%;
+        left: 25%;
+        border-radius: 50px;
+        border: 1px solid #606C38;
+        background-color: transparent;
+        padding: 40px;
+    }
+
 .form-login h5 {
     font-size: 1rem;
     line-height: 25px;
@@ -122,12 +163,17 @@ a {
 
 @media screen and (max-width:767px) {
 
-    .home-login {
+    .home-button {
         position: absolute;
         left: 10%;
     }
 
-    .voltar-login {
+    .login-button {
+        position: absolute;
+        left: 30%;
+    }
+
+    .voltar-button {
         position: absolute;
         left: 80%;
     }
@@ -143,9 +189,13 @@ a {
     .title-content .title {
             position: absolute;
             top: 30%;
-            left: 0%;
-            font-size: 2.2rem;
+            left: 10%;
+            font-size: 2rem;
             text-align: center;
+    }
+
+     .title-content .subtitle {
+            display: none;
     }
 
     .title-content img {
@@ -172,6 +222,15 @@ a {
             left: 20%;
             padding: 30px;
     }
+
+        .form-content .caixa-cadastro {
+            position: absolute;
+            width: 60%;
+            height: 75%;
+            top: 10%;
+            left: 20%;
+            padding: 30px;
+        }
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -180,10 +239,24 @@ a {
         text-align: left;
     }
 
+    .title-content img {
+        position: absolute;
+        width: 25%;
+        height: 20%;
+        top: 70%;
+        left: 38%;
+    }
+
     .form-content .caixa-login {
         position: absolute;
         width: 50%;
         height: 40%;
+    }
+
+    .form-content .caixa-cadastro {
+        position: absolute;
+        width: 50%;
+        height: 50%;
     }
 }
 
