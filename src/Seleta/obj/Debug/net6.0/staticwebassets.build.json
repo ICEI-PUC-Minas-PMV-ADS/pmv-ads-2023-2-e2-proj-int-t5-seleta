@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3xkARDJ01PUuM+f5j6wPQCwZYi+yqdLyp9J+rGgAtI8=",
+  "Hash": "Y6iYUAa3QEZnTR+jqVgGOHax/AaDO5rHSIGeZbl/Jsc=",
   "Source": "Seleta",
   "BasePath": "_content/Seleta",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Seleta.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\cadastro 1.png",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/cadastro 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\cadastro 1.png"
     },
     {
       "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\seguranca 1.png",
