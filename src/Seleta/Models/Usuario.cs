@@ -9,6 +9,9 @@ namespace Seleta.Models
         [Key]
         public string CPF { get; set; }
 
+        [Required(ErrorMessage = "Necessario informar seu nome!")]
+        public string Nome { get; set; }
+
         [Required(ErrorMessage = "Necessario usar um email!")]
         [EmailAddress]
         public string Email { get; set; }

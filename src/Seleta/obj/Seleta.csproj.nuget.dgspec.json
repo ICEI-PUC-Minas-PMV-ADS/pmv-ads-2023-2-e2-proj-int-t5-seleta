@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {}
+    "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {
+    "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+        "projectUniqueName": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
         "projectName": "Seleta",
-        "projectPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
+        "projectPath": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+        "packagesPath": "C:\\Users\\vbmac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\vbmac\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vbmac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vbmac\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
