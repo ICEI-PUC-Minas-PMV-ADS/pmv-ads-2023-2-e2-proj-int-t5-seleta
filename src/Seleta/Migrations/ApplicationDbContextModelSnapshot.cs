@@ -41,7 +41,13 @@ namespace Seleta.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UsuarioCPF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Cnpj");
+
+                    b.HasIndex("UsuarioCPF");
 
                     b.ToTable("Estabelecimentos");
                 });
@@ -62,6 +68,22 @@ namespace Seleta.Migrations
                     b.HasKey("CPF");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Seleta.Models.Estabelecimento", b =>
+                {
+                    b.HasOne("Seleta.Models.Usuario", "Usuario")
+                        .WithMany("Estabelecimentos")
+                        .HasForeignKey("UsuarioCPF")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Seleta.Models.Usuario", b =>
+                {
+                    b.Navigation("Estabelecimentos");
                 });
 #pragma warning restore 612, 618
         }
