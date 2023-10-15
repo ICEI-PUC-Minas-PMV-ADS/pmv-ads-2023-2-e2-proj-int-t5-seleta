@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
@@ -88,10 +89,20 @@ namespace Seleta.Controllers
             return View();
         }
 
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
             return RedirectToAction(nameof(Login));
+        }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> Perfil()
+        {
+            var userId = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userLogged = await _context.Usuarios.FindAsync(userId);
+            return View(userLogged);
         }
     }
 }
