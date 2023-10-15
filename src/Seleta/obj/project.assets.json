@@ -11169,24 +11169,35 @@
     ]
   },
   "packageFolders": {
-    "/Users/naiannaduarte/.nuget/packages/": {}
+    "C:\\Users\\vbmac\\.nuget\\packages\\": {},
+    "C:\\Users\\vbmac\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
+      "projectUniqueName": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
       "projectName": "Seleta",
-      "projectPath": "/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
-      "packagesPath": "/Users/naiannaduarte/.nuget/packages/",
-      "outputPath": "/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/obj/",
+      "projectPath": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+      "packagesPath": "C:\\Users\\vbmac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vbmac\\OneDrive\\Documentos\\PUC Minas\\Eixo 2 - Seleta\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\vbmac\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/naiannaduarte/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vbmac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vbmac\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11261,7 +11272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.414/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
