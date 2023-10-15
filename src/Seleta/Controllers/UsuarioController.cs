@@ -52,7 +52,7 @@ namespace Seleta.Controllers
 
                     await HttpContext.SignInAsync(claimsPrincipal, props);
 
-                    return RedirectToAction(nameof(Index), "Home");
+                    return RedirectToAction(nameof(Perfil));
                 }
                 else
                 {
