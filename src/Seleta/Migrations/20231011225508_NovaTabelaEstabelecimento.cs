@@ -4,7 +4,7 @@
 
 namespace Seleta.Migrations
 {
-    public partial class CreateTableEstabelecimento : Migration
+    public partial class NovaTabelaEstabelecimento : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,7 +12,7 @@ namespace Seleta.Migrations
                 name: "Estabelecimentos",
                 columns: table => new
                 {
-                    Cnpj = table.Column<int>(type: "nvarchar(max)", nullable: false),
+                    Cnpj = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Contato = table.Column<string>(type: "nvarchar(max)", nullable: false)
@@ -25,8 +25,7 @@ namespace Seleta.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Estabelecimentos");
+
         }
     }
 }
