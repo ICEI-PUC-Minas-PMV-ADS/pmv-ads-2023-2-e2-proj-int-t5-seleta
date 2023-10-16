@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Seleta
 build_property.RootNamespace = Seleta
-build_property.ProjectDir = /Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/
+build_property.ProjectDir = /Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = /Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta
+build_property.MSBuildProjectDirectory = /Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Pages/_ValidationScriptsPartial.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Create.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Delete.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Details.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Edit.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Index.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Index.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Privacy.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/Error.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Cadastro.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9DYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Login.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewImports.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewStart.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_Layout.cshtml]
+[/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vlu31uqya4

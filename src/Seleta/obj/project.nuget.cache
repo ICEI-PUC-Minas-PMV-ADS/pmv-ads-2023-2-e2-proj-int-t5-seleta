@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vm8kB8PUlVyJEACiXI+dotImFJnN4vJduyezibxjVE+D1QcizGZS665k6xHtZGxvbfugc65uNIFEhMlz2D4Zpw==",
+  "dgSpecHash": "7zZ44FkNLq53r3yGhPmucyOAjtmB72ooSEmEQcO3fCBzPP4BBGy5NlrqGNAG/71h81lKf9k1cOloDJv9CmKY6Q==",
   "success": true,
-  "projectFilePath": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
+  "projectFilePath": "/Users/nikitaceccon/Desktop/ProjetoSeleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
   "expectedPackageFiles": [
     "/Users/nikitaceccon/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/nikitaceccon/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
