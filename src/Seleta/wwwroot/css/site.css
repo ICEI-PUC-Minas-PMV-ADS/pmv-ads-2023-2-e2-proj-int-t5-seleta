@@ -386,6 +386,79 @@ a {
             left: 20%;
             padding: 30px;
         }
+
+
+        .conteudo-perfil .side-buttons-perfil {
+            position: absolute;
+            width: 80%;
+            height: 15%;
+            top: 5%;
+            left: 10%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento img {
+            position: absolute;
+            width: 15%;
+            height: 10%;
+            top: 30%;
+            left: 42%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento h3 {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 41%;
+            left: 2%;
+            font-size: 16px;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento img {
+            position: absolute;
+            width: 15%;
+            height: 10%;
+            top: 52%;
+            left: 42%;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento h3 {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 63%;
+            left: 2%;
+            font-size: 16px;
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento img {
+            position: absolute;
+            width: 15%;
+            height: 13%;
+            top: 74%;
+            left: 42%;
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento h3 {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 85%;
+            left: 2%;
+            font-size: 16px;
+        }
+
+
+        .footer-perfil h3 {
+            position: absolute;
+            width: 100%;
+            left: 0%;
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .footer-perfil .container {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -413,6 +486,49 @@ a {
         width: 50%;
         height: 50%;
     }
+
+
+
+        .conteudo-perfil .side-buttons-perfil {
+            width: 20%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento img {
+            width: 10%;
+            height: 20%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento h3 {
+            position: absolute;
+            top: 33%;
+            left: 27%;
+            font-size: 18px;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento img {
+            width: 10%;
+            height: 20%;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento h3 {
+            position: absolute;
+            top: 33%;
+            left: 52%;
+            font-size: 18px;
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento img {
+            width: 10%;
+            height: 20%;
+
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento h3 {
+            position: absolute;
+            top: 33%;
+            left: 77%;
+            font-size: 18px;
+        }
 }
 
 
