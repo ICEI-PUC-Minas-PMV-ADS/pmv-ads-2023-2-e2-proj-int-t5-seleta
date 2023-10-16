@@ -1,7 +1,77 @@
 ﻿@model Usuario
 @{
-
+    ViewData["Title"] = "Perfil";
 }
 
-<h1>Olá @Model.Nome :D</h1>
-<h3>Cpf: @Model.CPF</h3>
+<header>
+    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Seleta</a>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                                    Perfil
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                                    Sair
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
+                                    Login
+                                </a>
+                            </li>
+                        }
+                    </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="conteudo-perfil">
+    <section class="side-buttons-perfil">
+
+        <button type="button" class="btn" style="width:100%;color: #283618;background-color: #FEFAE0; border: 1px solid #283618; border-radius: 5px; text-align: left;">Página Inicial</button>
+        <button type="button" class="btn" style="width:100%;color: #283618;background-color: #FEFAE0; border: 1px solid #283618; border-radius: 5px; text-align: left;">Editar perfil</button>
+        <button type="button" class="btn" style="width:100%;color: #283618;background-color: #FEFAE0; border: 1px solid #283618; border-radius: 5px; text-align: left;">Segurança</button>
+    </section>
+
+    <section class="main-buttons-perfil">
+        <div class="adicionar-estabelecimento">
+            <h3>ADICIONAR ESTABELECIMENTO</h3>
+            <img src="~/css/img/adicionar estabelecimento.png" alt="adicionar">
+        </div>
+
+        <div class="gerenciar-estabelecimento">
+            <h3>GERENCIAR ESTABELECIMENTOS</h3>
+            <img src="~/css/img/gerenciar estabelecimento.png" alt="gerenciar">
+        </div>
+
+        <div class="visualizar-estabelecimento">
+            <h3>VISUALIZAR ESTABELECIMENTOS</h3>
+            <img src="~/css/img/visualizar estabelecimento.png" alt="visualizar">
+        </div>
+
+    </section>
+</div>
+
+<footer class="footer-perfil">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container">
+    &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
