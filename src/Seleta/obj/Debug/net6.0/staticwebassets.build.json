@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8xfA7D00woPuTfegVgGNK4OS0bhB/x05t7J0OwuYjkI=",
+  "Hash": "o8eZO9fT+Uj005YpfnYwlRGBhZ/+xgdJB+J0Y76TsH4=",
   "Source": "Seleta",
   "BasePath": "_content/Seleta",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\img\\gerenciar estabelecimento.png"
+    },
+    {
+      "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png"
     },
     {
       "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\seguranca 1.png",
