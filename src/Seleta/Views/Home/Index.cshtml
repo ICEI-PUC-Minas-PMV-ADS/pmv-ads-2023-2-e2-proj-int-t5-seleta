@@ -1,8 +1,94 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Seleta";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<header>
+    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Seleta</a>
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                            Perfil
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                            Sair
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a asp-controller="" asp-action="" class="nav-link" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
+                    position: absolute; width: 170px; height: 30px; top: 15%; left:78%; border-radius: 5px; padding:2px;">
+                            Criar lista de compras
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
+                            Login
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="carrossel-home">
+    <h3>SELETA</h3>
+    <h4>Navegue e encontre alimentos que atendam às suas restrições alimentares, simplificando suas escolhas e cuidados da sua saúde.</h4>
+    <img src="~/css/img/carrossel 1.png" alt="carrossel 1">
+</section>
+
+
+<section class="search-home text-center">
+    PESQUISA
+</section>
+
+<section class="dicas-home">
+    <div class="primeiro-passo">
+        <h4>
+            1. Explore os produtos
+        </h4>
+        <p>
+            Use a barra de pesquisa para encontrar itens específicos</p>
+        <img src="~/css/img/motor-de-busca 1.png" alt="buscar produtos">
+    </div>
+    <div class="segundo-passo">
+        <h4>
+            2. Crie listas de compras</h4>
+        <p>
+            Insira seu endereço de e-mail no campo abaixo e clique em "Criar lista"</p>
+        <img src="~/css/img/lista-de-controle 1.png" alt="lista de compras">
+    </div>
+    <div class="terceiro-passo">
+        <h4>
+            3. Adicione os itens à sua lista</h4>
+        <p>
+            Escolha os produtos que deseja comprar e clique em "Adicionar à lista"</p>
+        <img src="~/css/img/adicionar-ficheiro 1.png" alt="adicionar produto">
+    </div>
+</section>
+
+<section class="lista-compras-home text-center">
+    LISTA DE COMPRAS
+</section>
+
+<footer class="footer-home">
+    <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
+    <h4>ENTRE EM CONTATO</h4>
+    <img src="~/css/img/facebook.png" alt="facebook" style="position: relative; width: 30px; height: 33.06px; top: 5%; left: 5%;">
+    <img src="~/css/img/instagram.png" alt="instagram" style="position: relative; width: 35px; height: 35px; top: 5%; left: 7%;">
+    <p> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+</footer>
