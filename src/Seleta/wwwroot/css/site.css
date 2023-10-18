@@ -603,6 +603,172 @@ a:hover {
         display: block;
     }
 
+    .carrossel-home {
+        height: 400px;
+    }
+
+        .carrossel-home h3 {
+            position: relative;
+            top: 15%;
+            font-size: 34px;
+        }
+
+        .carrossel-home h4 {
+            position: relative;
+            width: 80%;
+            top: 25%;
+            left: 10%;
+            font-size: 22px;
+            line-height: 25px;
+        }
+
+    .search-home {
+        position: absolute;
+        height: 400px;
+        top: 460px;
+    }
+
+    .dicas-home {
+        position: absolute;
+        height: 800px;
+        top: 860px;
+    }
+
+        .dicas-home .primeiro-passo {
+            position: absolute;
+            width: 100%;
+            height: 33%;
+            top: 0px;
+            left: 0px;
+        }
+
+            .dicas-home .primeiro-passo h4 {
+                position: relative;
+                top: 15%;
+                left: 5%;
+                font-size: 22px;
+                text-align: left;
+            }
+
+            .dicas-home .primeiro-passo p {
+                position: relative;
+                width: 50%;
+                top: 27%;
+                left: 5%;
+                font-size: 16px;
+                text-align: left;
+            }
+
+            .dicas-home .primeiro-passo img {
+                position: relative;
+                width: 22%;
+                height: 32%;
+                top: 0%;
+                left: 65%;
+            }
+
+        .dicas-home .segundo-passo {
+            position: absolute;
+            width: 100%;
+            height: 34%;
+            top: 33%;
+            left: 0%;
+        }
+
+            .dicas-home .segundo-passo h4 {
+                position: relative;
+                top: 15%;
+                left: 5%;
+                font-size: 22px;
+                text-align: left;
+            }
+
+            .dicas-home .segundo-passo p {
+                position: relative;
+                width: 50%;
+                top: 27%;
+                left: 5%;
+                font-size: 16px;
+                text-align: left;
+            }
+
+            .dicas-home .segundo-passo img {
+                position: relative;
+                width: 20%;
+                height: 30%;
+                top: 0%;
+                left: 65%;
+            }
+
+        .dicas-home .terceiro-passo {
+            position: absolute;
+            width: 100%;
+            height: 33%;
+            top: 67%;
+            left: 0%;
+        }
+
+            .dicas-home .terceiro-passo h4 {
+                position: relative;
+                top: 15%;
+                left: 5%;
+                font-size: 22px;
+                text-align: left;
+            }
+
+            .dicas-home .terceiro-passo p {
+                position: relative;
+                width: 50%;
+                top: 27%;
+                left: 5%;
+                font-size: 16px;
+                text-align: left;
+            }
+
+            .dicas-home .terceiro-passo img {
+                position: relative;
+                width: 20%;
+                height: 30%;
+                top: 0%;
+                left: 68%;
+            }
+
+    .lista-compras-home {
+        position: absolute;
+        height: 200px;
+        top: 1660px;
+    }
+
+
+    .footer-home {
+        position: absolute;
+        height: 350px;
+        top: 1860px;
+    }
+
+        .footer-home h3 {
+            position: relative;
+            width: 40%;
+            top: 10%;
+            left: 2%;
+            font-size: 20px;
+        }
+
+
+        .footer-home h4 {
+            position: relative;
+            width: 40%;
+            top: 40%;
+            left: 2%;
+            font-size: 20px;
+        }
+
+        .footer-home p {
+            position: relative;
+            top: 55%;
+            font-size: 12px;
+        }
+
     .home-button {
         position: absolute;
         left: 10%;
@@ -743,6 +909,189 @@ a:hover {
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
+    .menu-principal > ul > li {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+        .mobile-menu-icon button {
+            background-color: #283618;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 15%;
+            left: 85%;
+        }
+
+            .mobile-menu-icon button:hover {
+                transform: scale(1.11)
+            }
+
+    .mobile-menu ul {
+        position: relative;
+        top: -15px;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #FEFAE0;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        display: block;
+        padding-top: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .open {
+        display: block;
+    }
+
+
+    .carrossel-home {
+        position: absolute;
+        height: 500px;
+    }
+
+        .carrossel-home h3 {
+            position: relative;
+            top: 15%;
+            font-size: 40px;
+        }
+
+        .carrossel-home h4 {
+            position: relative;
+            width: 80%;
+            top: 25%;
+            left: 10%;
+            font-size: 28px;
+        }
+
+    .search-home {
+        position: absolute;
+        height: 500px;
+        top: 560px;
+    }
+
+    .dicas-home {
+        position: absolute;
+        height: 380px;
+        top: 1060px;
+    }
+
+            .dicas-home .primeiro-passo h4 {
+                position: relative;
+                top: 15%;
+                font-size: 24px;
+            }
+
+            .dicas-home .primeiro-passo p {
+                position: relative;
+                width: 80%;
+                top: 28%;
+                left: 10%;
+                font-size: 16px;
+            }
+
+            .dicas-home .primeiro-passo img {
+                position: relative;
+                width: 35%;
+                height: 30%;
+                top: 32%;
+                left: 28%;
+            }
+
+            .dicas-home .segundo-passo h4 {
+                position: relative;
+                top: 15%;
+                font-size: 24px;
+            }
+
+            .dicas-home .segundo-passo p {
+                position: relative;
+                width: 90%;
+                top: 28%;
+                left: 5%;
+                font-size: 16px;
+            }
+
+            .dicas-home .segundo-passo img {
+                position: relative;
+                width: 35%;
+                height: 30%;
+                top: 32%;
+                left: 30%;
+            }
+
+
+            .dicas-home .terceiro-passo h4 {
+                position: relative;
+                width: 98%;
+                top: 15%;
+                left: 1%;
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .dicas-home .terceiro-passo p {
+                position: relative;
+                width: 90%;
+                top: 21%;
+                left: 5%;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .dicas-home .terceiro-passo img {
+                position: relative;
+                width: 35%;
+                height: 30%;
+                top: 27%;
+                left: 34%;
+            }
+
+    .lista-compras-home {
+        position: absolute;
+        height: 200px;
+        top: 1440px;
+    }
+
+    .footer-home {
+        position: absolute;
+        height: 250px;
+        top: 1640px;
+    }
+
+        .footer-home h3 {
+            position: relative;
+            width: 60%;
+            top: 15%;
+            left: 2%;
+            font-size: 20px;
+        }
+
+        .footer-home h4 {
+            position: relative;
+            width: 30%;
+            top: 3%;
+            left: 70%;
+            font-size: 20px;
+        }
+
+        .footer-home p {
+            position: relative;
+            top: 50%;
+            font-size: 12px;
+        }
+
     .title-content .title {
         width: 200px;
         text-align: left;
