@@ -33,6 +33,15 @@ a:hover {
     transform: scale(1.02);
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
 .carrossel-home {
     position: absolute;
     width: 100%;
@@ -47,7 +56,7 @@ a:hover {
     height: 100%;
     top: 0%;
     left: 0%;
-    z-index: 0;
+    z-index: 1;
 }
 
     .carrossel-home h3 {
@@ -58,7 +67,7 @@ a:hover {
         letter-spacing: 29px;
         text-align: center;
         color: #FFFFFF;
-        z-index: 1;
+        z-index: 2;
     }
 
 .carrossel-home h4 {
@@ -72,7 +81,7 @@ a:hover {
     letter-spacing: 6px;
     text-align: center;
     color: #FFFFFF;
-    z-index: 1;
+    z-index: 2;
 }
 
 .search-home {
@@ -548,6 +557,52 @@ a:hover {
         }
 
 @media screen and (max-width:767px) {
+    .menu-principal > ul > li {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+        .mobile-menu-icon button {
+            background-color: #283618;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 15%;
+            left: 85%;
+        }
+
+            .mobile-menu-icon button:hover {
+                transform: scale(1.11)
+            }
+
+    .mobile-menu ul {
+        position: relative;
+        top: -15px;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #FEFAE0;
+        box-shadow: 0px 3px 10px #3b3b3b;
+    }
+
+    .mobile-menu > ul > li {
+        display: block;
+        padding-top: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .open {
+        display: block;
+    }
+
     .home-button {
         position: absolute;
         left: 10%;
@@ -584,11 +639,7 @@ a:hover {
     }
 
     .title-content img {
-            position: absolute;
-            width: 25%;
-            height: 30%;
-            top: 64%;
-            left: 40%;
+            display: none;
     }
 
     .form-content {

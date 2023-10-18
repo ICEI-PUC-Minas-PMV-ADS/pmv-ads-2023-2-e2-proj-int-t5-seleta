@@ -44,7 +44,45 @@
                 }
             </ul>
         </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="~/css/img/menu_white_36dp.svg"></button>
+        </div>
     </nav>
+
+    <div class="mobile-menu">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+            </li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                        Perfil
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                        Sair
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a asp-controller="" asp-action="" class="nav-link text-dark">
+                        Criar lista de compras
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
+                        Login
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
 </header>
 
 <section class="carrossel-home">
