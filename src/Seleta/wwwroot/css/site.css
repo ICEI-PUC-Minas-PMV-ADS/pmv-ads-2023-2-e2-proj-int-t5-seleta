@@ -25,9 +25,239 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    transform: scale(1.02);
+}
+
 .btn:hover {
     transform: scale(1.02);
 }
+
+.carrossel-home {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    top: 10%;
+    left: 0px;
+}
+
+.carrossel-home img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+}
+
+    .carrossel-home h3 {
+        position: relative;
+        top: 15%;
+        font-size: 44px;
+        font-weight: 500;
+        letter-spacing: 29px;
+        text-align: center;
+        color: #FFFFFF;
+        z-index: 1;
+    }
+
+.carrossel-home h4 {
+    position: relative;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.search-home {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    top: 710px;
+    left: 0px;
+    background-color: #FEFAE0;
+}
+
+.dicas-home {
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    top: 1360px;
+    left: 0px;
+}
+
+    .dicas-home .primeiro-passo {
+        position: absolute;
+        width: 33%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background-color: #606C38;
+    }
+
+        .dicas-home .primeiro-passo h4 {
+            position: relative;
+            top: 15%;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .dicas-home .primeiro-passo p {
+            position: relative;
+            width: 80%;
+            top: 21%;
+            left: 10%;
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .dicas-home .primeiro-passo img {
+            position: relative;
+            width: 40%;
+            height: 35%;
+            top: 27%;
+            left: 28%;
+        }
+
+    .dicas-home .segundo-passo {
+        position: absolute;
+        width: 34%;
+        height: 100%;
+        top: 0px;
+        left: 33%;
+        background-color: #606C38D9;
+    }
+
+    .dicas-home .segundo-passo h4 {
+        position: relative;
+        top: 15%;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .dicas-home .segundo-passo p {
+        position: relative;
+        width: 90%;
+        top: 21%;
+        left: 5%;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .dicas-home .segundo-passo img {
+        position: relative;
+        width: 40%;
+        height: 35%;
+        top: 27%;
+        left: 30%;
+    }
+
+    .dicas-home .terceiro-passo {
+        position: absolute;
+        width: 33%;
+        height: 100%;
+        top: 0px;
+        left: 67%;
+        background-color: #606C38;
+    }
+
+        .dicas-home .terceiro-passo h4 {
+            position: relative;
+            width: 98%;
+            top: 15%;
+            left: 1%;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+        }
+
+        .dicas-home .terceiro-passo p {
+            position: relative;
+            width: 100%;
+            top: 21%;
+            left: 0%;
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .dicas-home .terceiro-passo img {
+            position: relative;
+            width: 40%;
+            height: 35%;
+            top: 27%;
+            left: 34%;
+        }
+
+.lista-compras-home {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 1800px;
+    left: 0px;
+    background-color: #FEFAE0;
+}
+
+.footer-home {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 2050px;
+    left: 0px;
+    background-color: #283618;
+}
+
+    .footer-home h3 {
+        position: relative;
+        width: 60%;
+        top: 15%;
+        left: 2%;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+
+    .footer-home h4 {
+        position: relative;
+        width: 30%;
+        top: 3%;
+        left: 70%;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+
+    .footer-home p {
+        position: relative;
+        top: 50%;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #FFF;
+    }
 
 .home-button {
     position: absolute;
@@ -42,6 +272,10 @@ a {
 .home-button:hover {
     text-decoration: underline;
     color: #283618;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 .login-button {
@@ -160,9 +394,160 @@ a {
     color: #283618;
 }
 
+.navbar-perfil {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: #FEFAE0;
+    z-index: 1;
+}
+
+.menu-principal {
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+}
+
+.conteudo-perfil {
+    background-color: #606C38;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    width: 100%;
+    height: 70%;
+    z-index: 1;
+}
+
+.conteudo-perfil .side-buttons-perfil {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    top: 5%;
+    left: 2%;
+}
+
+.conteudo-perfil .adicionar-estabelecimento img {
+    position: absolute;
+    width: 8%;
+    height: 25%;
+    top: 10%;
+    left: 30%;
+    cursor: pointer;
+}
+
+    .conteudo-perfil .adicionar-estabelecimento h3 {
+        position: absolute;
+        width: 15%;
+        height: 10%;
+        top: 37%;
+        left: 26.5%;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .conteudo-perfil .gerenciar-estabelecimento img {
+        position: absolute;
+        width: 8%;
+        height: 25%;
+        top: 8%;
+        left: 55%;
+        cursor: pointer;
+    }
+
+    .conteudo-perfil .gerenciar-estabelecimento h3 {
+        position: absolute;
+        width: 15%;
+        height: 10%;
+        top: 37%;
+        left: 52%;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .conteudo-perfil .visualizar-estabelecimento img {
+        position: absolute;
+        width: 8%;
+        height: 25%;
+        top: 12%;
+        left: 80%;
+        cursor: pointer;
+    }
+
+    .conteudo-perfil .visualizar-estabelecimento h3 {
+        position: absolute;
+        width: 15%;
+        height: 10%;
+        top: 37%;
+        left: 76.5%;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        cursor: pointer;
+    }
+
+.footer-perfil {
+    background-color: #FEFAE0;
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+}
+
+    .footer-perfil .imagem-footer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        background-color: #BC6C25BD;
+    }
+
+    .footer-perfil h3 {
+        position: absolute;
+        width: 22%;
+        height: 20%;
+        top: 5%;
+        left: 5%;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35px;
+        text-align: left;
+        color: #FEFAE0;
+    }
+
+    .footer-perfil img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+    }
+
+        .footer-perfil .container {
+            position: relative;
+            top: 70%;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: #283618;
+        }
 
 @media screen and (max-width:767px) {
-
     .home-button {
         position: absolute;
         left: 10%;
@@ -231,6 +616,79 @@ a {
             left: 20%;
             padding: 30px;
         }
+
+
+        .conteudo-perfil .side-buttons-perfil {
+            position: absolute;
+            width: 80%;
+            height: 15%;
+            top: 5%;
+            left: 10%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento img {
+            position: absolute;
+            width: 15%;
+            height: 10%;
+            top: 30%;
+            left: 42%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento h3 {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 41%;
+            left: 2%;
+            font-size: 16px;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento img {
+            position: absolute;
+            width: 15%;
+            height: 10%;
+            top: 52%;
+            left: 42%;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento h3 {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 63%;
+            left: 2%;
+            font-size: 16px;
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento img {
+            position: absolute;
+            width: 15%;
+            height: 13%;
+            top: 74%;
+            left: 42%;
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento h3 {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 85%;
+            left: 2%;
+            font-size: 16px;
+        }
+
+
+        .footer-perfil h3 {
+            position: absolute;
+            width: 100%;
+            left: 0%;
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .footer-perfil .container {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -258,6 +716,49 @@ a {
         width: 50%;
         height: 50%;
     }
+
+
+
+        .conteudo-perfil .side-buttons-perfil {
+            width: 20%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento img {
+            width: 10%;
+            height: 20%;
+        }
+
+        .conteudo-perfil .adicionar-estabelecimento h3 {
+            position: absolute;
+            top: 33%;
+            left: 27%;
+            font-size: 18px;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento img {
+            width: 10%;
+            height: 20%;
+        }
+
+        .conteudo-perfil .gerenciar-estabelecimento h3 {
+            position: absolute;
+            top: 33%;
+            left: 52%;
+            font-size: 18px;
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento img {
+            width: 10%;
+            height: 20%;
+
+        }
+
+        .conteudo-perfil .visualizar-estabelecimento h3 {
+            position: absolute;
+            top: 33%;
+            left: 77%;
+            font-size: 18px;
+        }
 }
 
 
