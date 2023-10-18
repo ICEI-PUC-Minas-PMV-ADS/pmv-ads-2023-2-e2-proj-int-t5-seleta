@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QzJB/j3cdhfBw2YnBTiWrQw3ycWQCNXxkEpPyB6neXw=",
+  "Hash": "WMo7eiEjiDQKkCa2RKq59Ej4sAq/0TruAeyYtGkpslo=",
   "Source": "Seleta",
   "BasePath": "_content/Seleta",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\carrossel 1.png"
     },
     {
+      "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/facebook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\facebook.png"
+    },
+    {
       "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\gerenciar estabelecimento.png",
       "SourceId": "Seleta",
       "SourceType": "Discovered",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\img\\gerenciar estabelecimento.png"
+    },
+    {
+      "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\instagram.png",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/instagram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\instagram.png"
     },
     {
       "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\lista-de-controle 1.png",

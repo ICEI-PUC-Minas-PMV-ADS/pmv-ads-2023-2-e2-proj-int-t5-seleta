@@ -16,12 +16,14 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-center" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
+                    position: absolute; width:80px; height: 30px; top: 15%; left:85%; border-radius: 5px; padding:2px;">
                                     Perfil
                                 </a>
                             </li>
                             <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
                                     Sair
                                 </a>
                             </li>
@@ -29,7 +31,8 @@
                         else
                         {
                             <li class="nav-item">
-                                <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
+                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
                                     Login
                                 </a>
                             </li>
