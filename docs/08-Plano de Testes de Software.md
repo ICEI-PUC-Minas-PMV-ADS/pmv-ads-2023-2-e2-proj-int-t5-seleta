@@ -49,14 +49,21 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Buscar produtos disponíveis <br> - Selecionar os produtos que quer em uma lista <br> - Informar o email <br> - Criar uma lista <br> - Finalizar lista <br> - Pedir para enviar para email informado |
 |Critério de Êxito | - O usuário visitante consegue receber sua lista de compras no email informado. |
 
-| Caso de Teste 	| **CT-06 – Cadastro do estabelecimento**	|
+| Caso de Teste 	| **CT-06 – Cadastro do usuário**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-007	- A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta  |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na plataforma. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Login" <br> - Clicar no botão "Cadastre-se" no final da página <br> - Inserir as informações pedidas e clicar em "Cadastrar" <br> - Verificar se o e-mail e senha cadastrados dão acesso a uma conta na plataforma |
+|Critério de Êxito | - O usuário consegue se cadastrar na plataforma. |
+
+| Caso de Teste 	| **CT-07 – Cadastro do estabelecimento**	|
 |:---:	|:---:	|
 |Requisito Associado | RF-007	- A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta <br> RF-008 - A aplicação deve permitir o estabelecimento especificar a sua localidade |
 | Objetivo do Teste 	| Verificar se o usuário consegue criar a página de seu estabelecimento na plataforma. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Fazer login no site <br> - Selecionar a opção de cadastrar estabelecimento <br> - Inserir as informações pedidas sobre o estabelecimento e clicar no botão de Cadastrar <br> - Verificar se o estabelecimento foi criado e salvo no perfil do usuário |
 |Critério de Êxito | - O usuário consegue cadastrar seu estabelecimento na plataforma. |
 
-| Caso de Teste 	| **CT-07 – Cadastro de produtos**	|
+| Caso de Teste 	| **CT-08 – Cadastro de produtos**	|
 |:---:	|:---:	|
 |Requisito Associado | RF-009	- A aplicação deve permitir que o estabelecimento adicione seus produtos <br> RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos <br> RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar produtos na página do seu estabelecimento. |
