@@ -45,10 +45,7 @@ Para acessar a aplicação Seleta, sigo os passos descritos abaixo:
   1. Abra o navegador de sua preferência;
   2. Insira o link de acesso a aplicação Seleta;
   3. Pressione "Enter" para carregar a página, em seguida você será redirecionado para a home page da aplicação;
-  4. No canto superior direito, clique em "login";
-  5. Insira as credenciais de usuário fornecidas acima, nos referidos campos;
-  6. Você será direcionado para o perfil de usuário.
-
+  
 
 > **Links Úteis**:
 >
