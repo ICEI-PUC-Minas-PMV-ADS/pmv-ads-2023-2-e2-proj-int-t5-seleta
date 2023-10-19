@@ -10,6 +10,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |:---:	|:---:	|
 |	Vídeo 	| <video src=> |
 |  	|  	|
+
 | Testes 	| CT-07 – Cadastro do estabelecimento	|
 |:---:	|:---:	|
 |	Vídeo 	| <video src=> |
