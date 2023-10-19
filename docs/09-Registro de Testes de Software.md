@@ -8,7 +8,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | Testes 	| CT-06 – Cadastro do usuário	|
 |:---:	|:---:	|
-|	Vídeo 	| <video src="docs/img/CT 06.mp4"> |
+|	Vídeo 	| <video src=" https://user-images.githubusercontent.com/img/CT 06.mp4"> |
 |  	|  	|
 
 | Testes 	| CT-07 – Cadastro do estabelecimento	|
