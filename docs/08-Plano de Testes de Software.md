@@ -11,7 +11,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma |
 | Objetivo do Teste 	| Verificar existe na página inicial dicas que facilitem a experiência do usuário no site |
-| Passos 	| - Acessar a aplicação <br> - Buscar na página inicial um botão de ajuda <br> - Clicar em cima do botão e verificar se abrem instruções de uso |
+| Passos 	| - Acessar a aplicação <br> - Buscar na página inicial dicas ou botões de ajuda <br> - Clicar em cima do botão e verificar se abrem instruções de uso |
 |Critério de Êxito | - O usuário visitante consegue visualizar as dicas na página inicial |
 
  
