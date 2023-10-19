@@ -26,16 +26,22 @@ A tabela a seguir mostra os artefatos desenvolvidos para cada requisito implemen
 # Instruções de acesso
 
 Para acessar a aplicação Seleta, sigo os passos descritos abaixo: 
-- Link de acesso: para abrir a aplicação copie e cole o link a seguir na barra de endereço do navegador
+- Link de acesso
+  
+  Para abrir a aplicação copie e cole o link a seguir na barra de endereço do seu navegador 
   
   https://seleta.azurewebsites.net/
   
-- Usuário Teste: foi criado a seguinte credencial de usuário teste
+- Usuário Teste
+  
+  Foi criado a seguinte credencial de usuário teste para possibilitar os testes e o acesso ao sistema:
   
   Email: usuarioteste@gmail.com
+  
   Senha: 123456
 
 - Instruções de acesso
+  
   1. Abra o navegador de sua preferência;
   2. Insira o link de acesso a aplicação Seleta;
   3. Pressione "Enter" para carregar a página, em seguida você será redirecionado para a home page da aplicação;
@@ -43,9 +49,6 @@ Para acessar a aplicação Seleta, sigo os passos descritos abaixo:
   5. Insira as credenciais de usuário fornecidas acima, nos referidos campos;
   6. Você será direcionado para o perfil de usuário.
 
-
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 > **Links Úteis**:
 >
