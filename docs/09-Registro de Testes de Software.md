@@ -16,7 +16,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |	Vídeo 	| <video src=> |
 |  	|  	|
 
-## Relatório de testes de software
+## Relatório de Testes de Software
 
 | 1 	| Cadastrar usuário 	|
 |:---:	|:---:	|
