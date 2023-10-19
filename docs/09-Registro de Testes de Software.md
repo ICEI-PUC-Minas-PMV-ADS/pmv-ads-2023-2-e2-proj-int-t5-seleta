@@ -18,7 +18,13 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 ## Relatório de testes de software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+| 1 	| Cadastrar usuário 	|
+|:---:	|:---:	|
+|	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta |
+| Observação | ---------- |
+|  	|  	|
+| 2 	| Cadastrar estabelecimento	|
+|:---:	|:---:	|
+|	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta <br> RF-008 - A aplicação deve permitir o estabelecimento especificar a sua localidade |
+| Observação | ---------- |
+|  	|  	|
