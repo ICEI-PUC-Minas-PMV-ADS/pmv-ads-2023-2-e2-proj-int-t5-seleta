@@ -19,5 +19,7 @@ namespace Seleta.Models
         [Required(ErrorMessage = "Necessario criar uma senha!")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
+
+        public List<Estabelecimento> ? Estabelecimentos { get; set; }
     }
 }

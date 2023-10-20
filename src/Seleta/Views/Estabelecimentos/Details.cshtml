@@ -1,0 +1,37 @@
+﻿@page
+@model Seleta.Views.Estabelecimentos.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Dados do estabelecimento</h1>
+
+<div>
+    <h4>Estabelecimento</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Estabelecimento.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estabelecimento.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Estabelecimento.Endereco)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estabelecimento.Endereco)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Estabelecimento.Contato)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estabelecimento.Contato)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" class="btn btn-warning" asp-route-id="@Model.Estabelecimento?.Cnpj">Editar</a> |
+    <a asp-page="./Index" class="btn btn-info">Voltar</a>
+</div>
