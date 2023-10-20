@@ -27,73 +27,73 @@
 
 Abaixo está a lista de tarefas a serem executadas pelos participantes:
 
-| **Caso de Teste** 	| **CT-01 – Cadastro de novo usuário** 	|
+| **Caso de Teste** 	| **CTU-01 – Cadastro de novo usuário** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a tela de cadastro de novo usuário |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Clicar na opção "Cadastre-se"; <br> 4. Preencher as informações solicitadas; <br> 5. Concordar com os termos e condições; <br> 6. Clicar em “Cadastrar". |
 
-| **Caso de Teste** 	| **CT-02 – Login de usuário** 	|
+| **Caso de Teste** 	| **CTU-02 – Login de usuário** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da tela de Login |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Preencher as informações de email e senha; <br> 4. Clicar em “Entrar". |
 
-| **Caso de Teste** 	| **CT-03 – Criar Lista de Compras** 	|
+| **Caso de Teste** 	| **CTU-03 – Criar Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Criar Lista de Compras” no canto superior direito; <br> 3. Criar um nome para a lista; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CT-04 – Criar Lista de Compras sem login** 	|
+| **Caso de Teste** 	| **CTU-04 – Criar Lista de Compras sem login** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Digitar o e-mail 3. Clicar na opção “Criar Lista de Compras” na parte infeior da tela; <br> 4. Criar um nome para a lista; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CT-05 – Gerenciar Lista de Compras** 	|
+| **Caso de Teste** 	| **CTU-05 – Gerenciar Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CT-06 – Enviar Lista de Compras por email** 	|
+| **Caso de Teste** 	| **CTU-06 – Enviar Lista de Compras por email** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login; 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Enviar lista para email". |
 
-| **Caso de Teste** 	| **CT-07 – Fazer Download da Lista de Compras** 	|
+| **Caso de Teste** 	| **CTU-07 – Fazer Download da Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
 
-| **Caso de Teste** 	| **CT-08 – Cadastrar estabelecimento** 	|
+| **Caso de Teste** 	| **CTU-08 – Cadastrar estabelecimento** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de cadastro de estabelecimento |
 | Ações Necessárias 	| 1. Após se cadastrar (CT-01) clicar em "Editar Perfil"; <br> 2. Preencher todas as informações solicaitadas na aba que irá abrir;  3. Clicar em "Cadastrar"; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
 
-| **Caso de Teste** 	| **CT-09 – Cadastrar produtos** 	|
+| **Caso de Teste** 	| **CTU-09 – Cadastrar produtos** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de cadastro de produtos |
 | Ações Necessárias 	| 1. Após cadastrar o estabelecimento (CT-08) clicar em "Cadastrar Produto"; <br> 2. Preencher todas as informações solicitadas na aba que irá abrir;  3. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CT-10 – Buscar produto por localidade** 	|
+| **Caso de Teste** 	| **CTU-10 – Buscar produto por localidade** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por localidade |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Localidade";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-| **Caso de Teste** 	| **CT-10 – Buscar produto por categoria** 	|
+| **Caso de Teste** 	| **CTU-10 – Buscar produto por categoria** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por categoria |
 | Ações Necessárias 	|  1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Categoria";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-| **Caso de Teste** 	| **CT-10 – Buscar produto por restrição alimentar** 	|
+| **Caso de Teste** 	| **CTU-10 – Buscar produto por restrição alimentar** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por restrição alimentar |
