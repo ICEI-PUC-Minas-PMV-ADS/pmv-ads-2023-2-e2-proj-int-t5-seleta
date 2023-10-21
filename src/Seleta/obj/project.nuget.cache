@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GDPuLVlSB7hIKSNg0cnqbKJVPX3P43bvLUhOSWzYepcfq7y7QQO4xWnrFs3A+LKaYvssAGZt+Y4Xx2zElauruA==",
+  "dgSpecHash": "0jyfb/XZmsIrWsVtXIyWa/93tkKUH16kTxS4WybopXB9faSSC7yj/UfGjIHMsR6LXPIY8zGxTRLAiZkYKbSOTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ana_m\\Source\\Repos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+  "projectFilePath": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\Seleta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ana_m\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ana_m\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

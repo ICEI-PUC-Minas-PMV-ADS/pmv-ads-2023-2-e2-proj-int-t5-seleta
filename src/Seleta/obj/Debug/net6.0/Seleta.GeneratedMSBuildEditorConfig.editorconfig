@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Seleta
 build_property.RootNamespace = Seleta
-build_property.ProjectDir = C:\Users\ana_m\Source\Repos\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\
+build_property.ProjectDir = C:\Users\ana_m\OneDrive\Área de Trabalho\Seleta\src\Seleta\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\ana_m\Source\Repos\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta
+build_property.MSBuildProjectDirectory = C:\Users\ana_m\OneDrive\Área de Trabalho\Seleta\src\Seleta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Estabelecimento.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Estabelecimentos/Estabelecimento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xFc3RhYmVsZWNpbWVudG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/IndexEstabelecimento.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Estabelecimentos/IndexEstabelecimento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xJbmRleEVzdGFiZWxlY2ltZW50by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Index.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Privacy.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/Error.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Cadastro.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Usuario/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Login.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Perfil.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Usuario/Perfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewImports.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewStart.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ana_m/Source/Repos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_Layout.cshtml]
+[C:/Users/ana_m/OneDrive/Área de Trabalho/Seleta/src/Seleta/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1pvfgjxjaa
