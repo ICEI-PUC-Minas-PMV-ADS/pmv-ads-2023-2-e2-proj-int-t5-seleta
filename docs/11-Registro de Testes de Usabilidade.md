@@ -2,7 +2,7 @@
 
 A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual contém as evidências dos testes e relatos dos usuários participantes. 
 
-| **Usuário** 	| **Artefato** 	| **Clicks** 	|  **Tempo** |  **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
+| **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
 |Usuário 1 | CTU-01 | ---- | --- | --- | --- |
 
