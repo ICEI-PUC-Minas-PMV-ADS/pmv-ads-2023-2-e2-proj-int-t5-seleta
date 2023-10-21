@@ -1,5 +1,4 @@
-﻿@page
-@model Seleta.Views.Estabelecimentos.DetailsModel
+@model Estabelecimento
 
 @{
     ViewData["Title"] = "Details";
@@ -12,26 +11,26 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estabelecimento.Nome)
+            @Html.DisplayNameFor(model => model.Nome)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estabelecimento.Nome)
+            @Html.DisplayFor(model => model.Nome)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estabelecimento.Endereco)
+            @Html.DisplayNameFor(model => model.Endereco)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estabelecimento.Endereco)
+            @Html.DisplayFor(model => model.Endereco)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estabelecimento.Contato)
+            @Html.DisplayNameFor(model => model.Contato)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estabelecimento.Contato)
+            @Html.DisplayFor(model => model.Contato)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" class="btn btn-warning" asp-route-id="@Model.Estabelecimento?.Cnpj">Editar</a> |
-    <a asp-page="./Index" class="btn btn-info">Voltar</a>
+    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model?.Cnpj">Editar</a> |
+    <a asp-action="Index" class="btn btn-info">Voltar</a>
 </div>

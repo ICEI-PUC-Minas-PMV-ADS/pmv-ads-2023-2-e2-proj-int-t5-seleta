@@ -1,5 +1,4 @@
-﻿@page
-@model Seleta.Views.Estabelecimentos.DeleteModel
+@model Estabelecimento
 
 @{
     ViewData["Title"] = "Delete";
@@ -13,28 +12,29 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estabelecimento.Nome)
+            @Html.DisplayNameFor(model => model.Nome)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estabelecimento.Nome)
+            @Html.DisplayFor(model => model.Nome)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estabelecimento.Endereco)
+            @Html.DisplayNameFor(model => model.Endereco)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estabelecimento.Endereco)
+            @Html.DisplayFor(model => model.Endereco)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estabelecimento.Contato)
+            @Html.DisplayNameFor(model => model.Contato)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estabelecimento.Contato)
+            @Html.DisplayFor(model => model.Contato)
         </dd>
     </dl>
     
     <form method="post">
-        <input type="hidden" asp-for="Estabelecimento.Cnpj" />
-        <input type="submit" value="Remover" class="btn btn-danger" /> |
-        <a class="btn btn-info" asp-page="./Index">Voltar</a>
+        <input type="hidden" asp-for="Cnpj" />
+        <input type="submit" value="Remover" class="btn btn-danger" />
+        <a class="btn btn-info" asp-action="Index">Voltar</a>
     </form>
+
 </div>

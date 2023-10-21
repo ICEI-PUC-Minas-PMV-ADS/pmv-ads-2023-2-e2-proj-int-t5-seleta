@@ -16,15 +16,18 @@ namespace Seleta.Controllers
 			_context = context;
 		}
 
+		[HttpGet]
 		public async Task<IActionResult> Index ()
 		{
-			var dados = await _context.Estabelecimentos.ToListAsync();
+            var usuarioLogadoCPF = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var dados = await _context.Estabelecimentos.
+				Where(estabelecimento => estabelecimento.UsuarioCPF == usuarioLogadoCPF).ToListAsync();
 
-			return View(dados);
+            return View(dados);
 		}
 
 		//CREATE
-
+		[HttpGet]
 		public IActionResult Create()
 		{
 			return View();
@@ -33,16 +36,13 @@ namespace Seleta.Controllers
 		[HttpPost]
         public async Task<IActionResult> Create(Estabelecimento estabelecimento)
         {
+            var usuarioCPF = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var usuario = await _context.Usuarios.FindAsync(usuarioCPF);
+            estabelecimento.Usuario = usuario;
+            estabelecimento.UsuarioCPF = usuarioCPF;
 
-			if (ModelState.IsValid)
+            if (ModelState.IsValid)
 			{
-               var cpfUsuarioLogado = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-
-                if (cpfUsuarioLogado != null)
-                {
-                    estabelecimento.UsuarioCPF = cpfUsuarioLogado;
-                }
-
                 _context.Estabelecimentos.Add(estabelecimento);
 				await _context.SaveChangesAsync();
 				return RedirectToAction("Index");
@@ -51,18 +51,14 @@ namespace Seleta.Controllers
 			return View(estabelecimento);
         }
 
-        //EDIT
-
-        public async Task<IActionResult> Edit(int? id)
+		//EDIT
+		[HttpGet]
+        public async Task<IActionResult> Edit(string? id)
 		{
 			if (id == null)
 				return NotFound();
 
 			var dados = await _context.Estabelecimentos.FindAsync(id);
-
-            if (id == null)
-				return NotFound();
-
 
             return View(dados);
 		}
@@ -72,6 +68,9 @@ namespace Seleta.Controllers
 		{
 			if (id != estabelecimento.Cnpj)
 				return NotFound();
+
+			var usuario = await _context.Usuarios.FindAsync(estabelecimento.UsuarioCPF);
+			estabelecimento.Usuario = usuario;
 
 			if (ModelState.IsValid)
 			{
@@ -85,7 +84,7 @@ namespace Seleta.Controllers
 
 		//DETAILS
 
-		public async Task<IActionResult> Details(int? id)
+		public async Task<IActionResult> Details(string? id)
 		{
 			if (id == null)
 				return NotFound();
@@ -100,7 +99,7 @@ namespace Seleta.Controllers
 
         //DELETE
 
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string? id)
         {
             if (id == null)
                 return NotFound();
@@ -114,7 +113,7 @@ namespace Seleta.Controllers
         }
 
 		[HttpPost, ActionName("Delete")]
-		public async Task<IActionResult> DeleteConfirmed(int? id)
+		public async Task<IActionResult> DeleteConfirmed(string? id)
         {
             if (id == null)
                 return NotFound();

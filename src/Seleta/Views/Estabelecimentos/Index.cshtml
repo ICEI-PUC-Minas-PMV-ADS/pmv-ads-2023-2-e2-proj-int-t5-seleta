@@ -1,11 +1,10 @@
-﻿@model IEnumerable<Seleta.Models.Estabelecimento>
-
+﻿@model IEnumerable<Estabelecimento>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Estabelecimentos</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,6 +12,9 @@
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cnpj)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -30,6 +32,9 @@
         {
             <tr>
                 <td>
+                    @Html.DisplayFor(modelItem => item.Cnpj)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Nome)
                 </td>
                 <td>
@@ -39,9 +44,9 @@
                     @Html.DisplayFor(modelItem => item.Contato)
                 </td>
                 <td>
-                    <a asp-action="./Edit" asp-route-id="@item.Cnpj">Edit</a> |
-                    <a asp-action="./Details" asp-route-id="@item.Cnpj">Details</a> |
-                    <a asp-action="./Delete" asp-route-id="@item.Cnpj">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Cnpj">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Cnpj">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Cnpj">Delete</a>
                 </td>
             </tr>
         }

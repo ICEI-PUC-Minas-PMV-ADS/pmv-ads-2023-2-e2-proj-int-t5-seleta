@@ -20,8 +20,8 @@ namespace Seleta.Models
         [Required(ErrorMessage = "Obrigatório informar o contato do estabelecimento")]
         public string Contato { get; set; }
 
-        public string UsuarioCPF { get; set; }
+        public string? UsuarioCPF { get; set; }
 
-        public Usuario Usuario { get; set; }
+        public Usuario? Usuario { get; set; }
     }
 }
