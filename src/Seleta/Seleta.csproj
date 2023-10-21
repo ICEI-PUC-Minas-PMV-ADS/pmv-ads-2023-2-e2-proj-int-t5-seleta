@@ -23,6 +23,16 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\css\img\" />
+    <Folder Include="Views\Estabelecimentos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Estabelecimentos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Estabelecimentos\Create.cshtml" />
+    <Content Remove="Views\Estabelecimentos\Index.cshtml" />
+    <Content Remove="Views\Estabelecimentos\Delete.cshtml" />
+    <Content Remove="Views\Estabelecimentos\Details.cshtml" />
+  </ItemGroup>
 </Project>
