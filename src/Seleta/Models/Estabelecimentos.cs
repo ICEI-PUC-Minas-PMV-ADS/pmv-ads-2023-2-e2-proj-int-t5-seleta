@@ -15,6 +15,7 @@ namespace Seleta.Models
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o endereço do estabelecimento")]
+        [Display(Name = "Endereço")]
         public string Endereco { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o contato do estabelecimento")]
