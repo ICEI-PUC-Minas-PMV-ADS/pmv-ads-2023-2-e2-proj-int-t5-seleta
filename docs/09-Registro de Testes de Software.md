@@ -8,7 +8,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | Testes 	| CT-06 – Cadastro do usuário	|
 |:---:	|:---:	|
-|	Vídeo 	| <iframe width="560" height="315" src="https://www.youtube.com/embed/Ip64HgVzUE0?si=TBL_ZvivS2qKKY9V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+|	Vídeo 	| <video src="https://www.youtube.com/embed/Ip64HgVzUE0?si=TBL_ZvivS2qKKY9V">|
 |  	|  	|
 
 | Testes 	| CT-07 – Cadastro do estabelecimento	|
