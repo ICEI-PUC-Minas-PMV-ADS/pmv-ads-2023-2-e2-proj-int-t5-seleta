@@ -20,13 +20,26 @@ O projeto Seleta consiste em um aplicativo para que pessoas com restrições ali
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar a aplicação Seleta, siga os passos descritos abaixo: 
+- Link de acesso
+  
+  Para abrir a aplicação copie e cole o link a seguir na barra de endereço do seu navegador 
+  
+  https://seleta.azurewebsites.net/
+  
+- Usuário Teste
+  
+  Foi criado a seguinte credencial de usuário teste para possibilitar os testes e o acesso ao sistema:
+  
+  Email: usuarioteste@gmail.com
+  
+  Senha: 123456
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+- Instruções de acesso
+  
+  1. Abra o navegador de sua preferência;
+  2. Insira o link de acesso a aplicação Seleta;
+  3. Pressione "Enter" para carregar a página, em seguida você será redirecionado para a home page da aplicação;
 
 # Documentação
 
