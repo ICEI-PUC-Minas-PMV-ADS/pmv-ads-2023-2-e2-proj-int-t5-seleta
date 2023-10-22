@@ -13,7 +13,7 @@ O layout padrão a ser utilizado pela aplicação tem correspondência ao projet
 
 ## Logotipo
  <div align="center">
-<img src="img/seleta.png" width="50%"><br>
+<img src="img/Seleta.png" width="50%"><br>
 <b>Figura 23</b> - Logotipo do site
 </div><br>
 
