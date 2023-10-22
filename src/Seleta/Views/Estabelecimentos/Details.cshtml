@@ -1,36 +1,71 @@
-@model Estabelecimento
+﻿@model Seleta.Models.Estabelecimento
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Dados do estabelecimento</h1>
+<body style="background-color: #606C38">
+        <header>
+            <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+                <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <img src="~/css/img/Seleta.png" alt="Logo" style="position: relative; width: 45px; height: 45px; top: 2%; left: 7%;">
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="left: 10%">HOME</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <h1>Dados do Estabelecimento</h1>
 
-<div>
-    <h4>Estabelecimento</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Endereco)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Endereco)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contato)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contato)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model?.Cnpj">Editar</a> |
-    <a asp-action="Index" class="btn btn-info">Voltar</a>
-</div>
+    <div>
+        <h4>Estabelecimento</h4>
+        <hr />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Endereco)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Endereco)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Contato)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Contato)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Usuario)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Usuario.CPF)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
+            Voltar
+        </a>
+        <a asp-action="Edit" asp-route-id="@Model?.Cnpj" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF">Editar</a> 
+
+    </div>
+        <footer class="footer-home mb-3" background-color: #DDA15E>
+            <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
+            <h4>ENTRE EM CONTATO</h4>
+            <img src="~/css/img/facebook.png" alt="facebook" style="position: relative; width: 30px; height: 33.06px; top: 5%; left: 5%;">
+            <img src="~/css/img/instagram.png" alt="instagram" style="position: relative; width: 35px; height: 35px; top: 5%; left: 7%;">
+            <p> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+        </footer>
+</body>

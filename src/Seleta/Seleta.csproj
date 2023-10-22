@@ -31,8 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Estabelecimentos\Estabelecimento.cshtml" />
-    <Content Remove="Views\Estabelecimentos\Delete.cshtml" />
-    <Content Remove="Views\Estabelecimentos\Details.cshtml" />
     <Content Remove="Views\Estabelecimentos\IndexEstabelecimento.cshtml" />
   </ItemGroup>
 </Project>
