@@ -11,6 +11,12 @@ O layout padrão a ser utilizado pela aplicação tem correspondência ao projet
 ## Tipografia
 <div align="justify"> A fonte escolhida para a construção da interface foi a Inter, para garantir a legibilidade com um estilo moderno e uma sensação de harmonia. </div><br>
 
+## Logotipo
+ <div align="center">
+<img src="img/seleta.png" width="50%"><br>
+<b>Figura 23</b> - Logotipo do site
+</div><br>
+
 ## Telas
 <div align="justify">Todas as telas apresentam um layout responsivo, tendo seu conteúdo ajustado para qualquer tamanho de tela. 
 O template criado é composto pelos seguintes layouts:
@@ -31,7 +37,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Home page.png" width="50%"><br>
-<b>Figura 23</b>
+<b>Figura 24</b>
 </div><br>
 <div align="justify">
 <br>RF-001 - A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma 
@@ -49,7 +55,7 @@ O template criado é composto pelos seguintes layouts:
 
    <div align="center">
 <img src="img/Perfil do Produto.png" width="50%"><br>
-<b>Figura 24</b> - Tela de Perfil do produto
+<b>Figura 25</b> - Tela de Perfil do produto
   </div>
 
 ### Tela - Lista de compras
@@ -59,7 +65,7 @@ O template criado é composto pelos seguintes layouts:
 
    <div align="center">
 <img src="img/Criar Lista.png" width="50%"><br>
-<b>Figura 25</b> 
+<b>Figura 26</b> 
   </div><br>
 <div align="justify">
 <br>RF-013 - A aplicação deve oferecer a opção de realizar download da lista de compras elaborada
@@ -74,7 +80,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/cadastro.png" width="50%"><br>
-<b>Figura 26</b> 
+<b>Figura 27</b> 
 </div><br>
 
 ### Tela - Login do usuário
@@ -84,7 +90,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/login.png" width="50%"><br>
-<b>Figura 27</b> - Tela de Login/Entrar
+<b>Figura 28</b> - Tela de Login/Entrar
   </div>
 
   ### Tela - Perfil do usuário
@@ -94,7 +100,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Perfil do Usuário.png" width="50%"><br>
-<b>Figura 28</b>
+<b>Figura 29</b>
 </div><br>
 <div align="justify">
 <br>RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta
@@ -107,7 +113,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Cadastrar estabelecimento.png" width="50%"><br>
-<b>Figura 29</b> 
+<b>Figura 30</b> 
 </div><br>
 <div align="justify">
 <br>RF-008 - A aplicação deve permitir ao estabelecimento especificar a sua localidade
@@ -119,7 +125,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Gerenciar estabelecimentos.png" width="50%"><br>
-<b>Figura 30</b> - Tela de Gerenciamento de estabelecimentos
+<b>Figura 31</b> - Tela de Gerenciamento de estabelecimentos
   </div>
 
 ### Tela - Cadastro de produto
@@ -129,7 +135,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Adicionar Produto.png" width="50%"><br>
-<b>Figura 31</b> - Tela de Cadastro de produtos
+<b>Figura 32</b> - Tela de Cadastro de produtos
   </div>
  <br>RF-011 - A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende <br>RF-010 - A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos
 </div><br>
@@ -141,7 +147,7 @@ O template criado é composto pelos seguintes layouts:
 
 <div align="center">
 <img src="img/Gerenciamento de produtos.png" width="50%"><br>
-<b>Figura 32</b> 
+<b>Figura 33</b> 
 </div><br>
 <div align="justify">
 <br>RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos
