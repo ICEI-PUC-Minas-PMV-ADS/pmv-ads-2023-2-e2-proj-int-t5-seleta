@@ -85,20 +85,20 @@
     </section>
 
     <section class="main-buttons-perfil">
-        <div class="adicionar-estabelecimento">
+        <a asp-controller="Estabelecimentos" asp-action="Create" class="adicionar-estabelecimento">
             <h3>ADICIONAR ESTABELECIMENTO</h3>
             <img src="~/css/img/adicionar estabelecimento.png" alt="adicionar">
-        </div>
+        </a>
 
         <div class="gerenciar-estabelecimento">
             <h3>GERENCIAR ESTABELECIMENTOS</h3>
             <img src="~/css/img/gerenciar estabelecimento.png" alt="gerenciar">
         </div>
 
-        <div class="visualizar-estabelecimento">
+        <a asp-controller="Estabelecimentos" asp-action="Index" class="visualizar-estabelecimento">
             <h3>VISUALIZAR ESTABELECIMENTOS</h3>
             <img src="~/css/img/visualizar estabelecimento.png" alt="visualizar">
-        </div>
+        </a>
 
     </section>
 </div>
