@@ -13,7 +13,7 @@ A tabela a seguir mostra os artefatos desenvolvidos para cada requisito implemen
 |RF-005| A aplicação deve permitir que o usuário visitante gerencie sua lista de compras com produtos selecionados  | Em desenvolvimento |
 |RF-006| A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras | Em desenvolvimento |
 |RF-007| A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta | Cadastro.cshtml / Usuario.cs / UsuarioController.cs / Perfil.cshtml | 
-|RF-008| A aplicação deve permitir o estabelecimento especificar a sua localidade | EstabelecimentoController.cs / Create.cshtml / Index.cshtml / Edit.cshtml / Delete.cshtml | 
+|RF-008| A aplicação deve permitir o estabelecimento especificar a sua localidade | EstabelecimentoController.cs / Create.cshtml / Index.cshtml / Details / Edit.cshtml / Delete.cshtml | 
 |RF-009| A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos | Em desenvolvimento | 
 |RF-010| A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos | Em desenvolvimento | 
 |RF-011| A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende | Em desenvolvimento |
