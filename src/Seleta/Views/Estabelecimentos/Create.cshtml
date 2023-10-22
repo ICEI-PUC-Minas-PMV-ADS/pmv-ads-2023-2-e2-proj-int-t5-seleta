@@ -1,44 +1,68 @@
-@model Estabelecimento
+﻿@model Seleta.Models.Estabelecimento
 
 @{
     ViewData["Title"] = "Create";
 }
+<header>
+    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index">
+                        Seleta
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-<h1>Cadastrar novo estabelecimento</h1>
+<body>
+    <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38; padding: 5%">
 
-<h4>Estabelecimento</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Cnpj" class="control-label"></label>
-                <input asp-for="Cnpj" class="form-control" />
-                <span asp-validation-for="Cnpj" class="text-danger"></span>
+        <h1 style="color: #FEFAE0;">Cadastro de Estabelecimento</h1>
+
+        <hr />
+        <div class="row" style="color: #FEFAE0;">
+            <div class="col-md-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Cnpj" class="control-label"></label>
+                        <input asp-for="Cnpj" class="form-control" />
+                        <span asp-validation-for="Cnpj" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Nome" class="control-label"></label>
+                        <input asp-for="Nome" class="form-control" />
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Endereco" class="control-label"></label>
+                        <input asp-for="Endereco" class="form-control" />
+                        <span asp-validation-for="Endereco" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Contato" class="control-label"></label>
+                        <input asp-for="Contato" class="form-control" />
+                        <span asp-validation-for="Contato" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UsuarioCPF" class="control-label"></label>
+                        <select asp-for="UsuarioCPF" class ="form-control" asp-items="ViewBag.UsuarioCPF"></select>
+                    </div>
+                    <br />
+                    <div class="form-group">
+
+                        <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
+                            Voltar</a>
+                        <input type="submit" value="Salvar" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF" />
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contato" class="control-label"></label>
-                <input asp-for="Contato" class="form-control" />
-                <span asp-validation-for="Contato" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-success">Salvar</button>
-                <a class="btn btn-info" asp-action="Index">Voltar</a>
-            </div>
-        </form>
+        </div>       
     </div>
-</div>
+</body>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

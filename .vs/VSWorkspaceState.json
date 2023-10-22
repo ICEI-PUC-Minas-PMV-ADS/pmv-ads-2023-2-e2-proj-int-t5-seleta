@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Seleta",
+    "\\src\\Seleta\\Controllers",
+    "\\src\\Seleta\\Models",
+    "\\src\\Seleta\\Views",
+    "\\src\\Seleta\\Views\\Estabelecimentos"
   ],
-  "SelectedNode": "\\Seleta.sln",
+  "SelectedNode": "\\src\\Seleta\\Controllers\\EstabelecimentosController.cs",
   "PreviewInSolutionExplorer": false
 }
