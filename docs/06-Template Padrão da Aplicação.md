@@ -4,7 +4,7 @@ O layout padrão a ser utilizado pela aplicação tem correspondência ao projet
 
 ## Paleta de Cores
  <div align="center">
-<img src="img/paleta-cores.png" width="40%"><br>
+<img src="img/paleta-cores.png" width="50%"><br>
 <b>Figura 22</b> - Paleta de Cores
 </div><br>
 
