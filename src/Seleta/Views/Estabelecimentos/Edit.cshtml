@@ -1,0 +1,77 @@
+﻿@model Seleta.Models.Estabelecimento
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<body style="background-color: #606C38">
+    <header>
+        <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <img src="~/css/img/Seleta.png" alt="Logo" style="position: relative; width: 45px; height: 45px; top: 2%; left: 7%;">
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="left: 10%">HOME</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Edição do Estabelecimento</h1>
+    <br />
+    <h4>Estabelecimento</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Cnpj"  />
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" style="background-color: #FEFAE0" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco" class="control-label"></label>
+                    <input asp-for="Endereco" class="form-control" style="background-color: #FEFAE0" />
+                    <span asp-validation-for="Endereco" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Contato" class="control-label"></label>
+                    <input asp-for="Contato" class="form-control" style="background-color: #FEFAE0" />
+                    <span asp-validation-for="Contato" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UsuarioCPF" class="control-label"></label>
+                    <select asp-for="UsuarioCPF" class="form-control" asp-items="ViewBag.UsuarioCPF" style="background-color: #FEFAE0"></select>
+                    <span asp-validation-for="UsuarioCPF" class="text-danger"></span>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
+                        Voltar
+                    </a>
+                    <input type="submit" value="Salvar" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer-home mb-3" background-color: #DDA15E>
+        <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
+        <h4>ENTRE EM CONTATO</h4>
+        <img src="~/css/img/facebook.png" alt="facebook" style="position: relative; width: 30px; height: 33.06px; top: 5%; left: 5%;">
+        <img src="~/css/img/instagram.png" alt="instagram" style="position: relative; width: 35px; height: 35px; top: 5%; left: 7%;">
+        <p> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+    </footer>
+</body>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
