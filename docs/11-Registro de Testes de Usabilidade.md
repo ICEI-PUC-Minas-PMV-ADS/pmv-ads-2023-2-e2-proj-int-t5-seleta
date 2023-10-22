@@ -4,11 +4,11 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
-|Usuário 1 | CTU-01 | ---- | --- | --- | --- |
+|Usuário 1 | CTU-01 | 3 | 0 | --- | Usuário estranhou não ter botão de cadastro na tela inicial, mas achou o processo fácil |
 
 | **Usuário** 	| **Artefato** 	| **Clicks** 	| **Erros**  | **Se recuperou do erro**  | **Comentários/Observações**  |
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
-|Usuário 1 | CTU-02 | ---- | --- | --- | --- |
+|Usuário 1 | CTU-02 | 2 | 0 | --- | Login efetuado com sucesso |
 
 | **Usuário** 	| **Artefato** 	| **Clicks** 	| **Erros**  | **Se recuperou do erro**  | **Comentários/Observações**  |
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
