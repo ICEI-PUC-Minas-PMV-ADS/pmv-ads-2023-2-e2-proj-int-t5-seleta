@@ -12,4 +12,4 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks** 	| **Erros**  | **Se recuperou do erro**  | **Comentários/Observações**  |
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
-|Usuário 1 | CTU-08 | ---- | --- | --- | --- |
+|Usuário 1 | CTU-08 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
