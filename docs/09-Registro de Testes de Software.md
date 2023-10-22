@@ -13,7 +13,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | Testes 	| CT-07 – Cadastro do estabelecimento	|
 |:---:	|:---:	|
-|	Vídeo 	| [![CT07](https://youtu.be/Ip64HgVzUE0?si=vOgABg3nBaLbCuU)](https://youtu.be/FUtDAp6iNX0)  |
+|	Vídeo 	| [![CT07](https://youtu.be/Ip64HgVzUE0?si=vOgABg3nBaLbCuU](https://i9.ytimg.com/vi_webp/FUtDAp6iNX0/mq2.webp?sqp=CPzn1qkG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACpgWKAgwIABABGFUgZSgyMA8=&rs=AOn4CLA8rNZnzqDPXvhlod-fC5IQjxHoAQ)](https://youtu.be/FUtDAp6iNX0)  |
 |  	|  	|
 
 ## Relatório de Testes de Software
