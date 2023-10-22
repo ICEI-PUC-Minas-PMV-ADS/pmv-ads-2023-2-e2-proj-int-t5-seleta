@@ -3,9 +3,20 @@
 @{
     ViewData["Title"] = "Index";
 }
+<head>
+    <title>Estabelecimento</title>
+    <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
+</head>
+<body style="background-color: #606C38">
+
 <header>
     <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
         <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <img src="~/css/img/Seleta.png" alt="Logo" style="position: relative; width: 45px; height: 45px; top: 2%; left: 7%;">
+                    </li>
+                </ul>
             <ul class="navbar-nav flex-grow-1">
                 <li class="nav-item">
                     <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Seleta
@@ -15,12 +26,12 @@
         </div> 
     </nav>
 </header>
-<h1>Estabelecimentos</h1>
-
-<p>
-    <a asp-action="Create">Cadastrar novo estabelecimento</a>
-</p>
-<table class="table">
+    <h1 style =" color: #FEFAE0">Estabelecimentos</h1>
+    <br />
+    <p>  
+        <a asp-action="Create" class="btn btn-outline-light">Cadastrar novo estabelecimento</a>
+    </p>
+    <table class="table" style=" color: #FEFAE0">
     <thead>
         <tr>
             <th>
@@ -57,11 +68,12 @@
                 @Html.DisplayFor(modelItem => item.Usuario.CPF)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Cnpj">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Cnpj">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Cnpj">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.Cnpj" class="btn btn-outline-primary">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Cnpj" class="btn btn-outline-light">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Cnpj" class="btn btn-outline-danger">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</body>

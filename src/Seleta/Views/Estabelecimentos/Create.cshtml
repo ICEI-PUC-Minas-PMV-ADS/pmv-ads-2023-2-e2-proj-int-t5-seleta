@@ -9,21 +9,30 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
-
+<head>
+    <title> Cadastro de Estabelecimento</title>
+    <link rel="icon" type="image/x-icon"  href="~/css/img/Seleta.png">
+   
+</head>
 <body>
     <header>
         <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index">
-                            Seleta
-                        </a>
+                        <img src="~/css/img/Seleta.png" alt="Logo" style="position: relative; width: 45px; height: 45px; top: 2%; left: 7%;">
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="left: 10%">HOME</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+    
     <div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38">
         <div class="mb-3">
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UEQWejQaDnadIW7OpbXgIfjE7OzgWKwjR7qgAl1lE7k=",
+  "Hash": "qh8J92/d8fF5y8rA1tjtjsmvFLbuOYd4Vnxs4pYjOGc=",
   "Source": "Seleta",
   "BasePath": "_content/Seleta",
   "Mode": "Default",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\img\\seguranca 1.png"
+    },
+    {
+      "Identity": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\css\\img\\Seleta.png",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/Seleta.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\Seleta.png"
+    },
+    {
+      "Identity": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\css\\img\\SeletaEstabelecimento.jpg",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/SeletaEstabelecimento.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\SeletaEstabelecimento.jpg"
     },
     {
       "Identity": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\css\\img\\visualizar estabelecimento.png",

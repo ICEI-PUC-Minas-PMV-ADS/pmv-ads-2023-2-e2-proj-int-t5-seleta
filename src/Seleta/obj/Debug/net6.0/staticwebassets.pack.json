@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Seleta.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\css\\img\\Seleta.png",
+      "PackagePath": "staticwebassets\\css\\img\\Seleta.png"
+    },
+    {
+      "Id": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\css\\img\\SeletaEstabelecimento.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\SeletaEstabelecimento.jpg"
+    },
+    {
       "Id": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta\\src\\Seleta\\wwwroot\\css\\img\\adicionar estabelecimento.png",
       "PackagePath": "staticwebassets\\css\\img\\adicionar estabelecimento.png"
     },
