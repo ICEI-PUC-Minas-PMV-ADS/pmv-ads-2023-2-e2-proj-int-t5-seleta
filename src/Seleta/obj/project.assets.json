@@ -10850,19 +10850,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ana_m\\.nuget\\packages\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta 2\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+      "projectUniqueName": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
       "projectName": "Seleta",
-      "projectPath": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta 2\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
-      "packagesPath": "C:\\Users\\ana_m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ana_m\\OneDrive\\Área de Trabalho\\Seleta 2\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
+      "projectPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ana_m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
