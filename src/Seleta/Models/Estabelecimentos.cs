@@ -9,10 +9,12 @@ namespace Seleta.Models
     public class Estabelecimento
     {
         [Key]
-        public string Cnpj { get; set; }
+        [Required(ErrorMessage = "Obrigatório informar o CNPJ do estabelecimento")]
         [Display(Name = "CNPJ")]
+        public string Cnpj { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o nome do estabelecimento")]
+        [Display(Name = "Nome do Estabecimento")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o endereço do estabelecimento")]
@@ -25,6 +27,7 @@ namespace Seleta.Models
         [Display(Name = "CPF do Usuário")]
         public string? UsuarioCPF { get; set; }
 
+        [Display(Name = "Responsável pelo estabelecimento")]
         public Usuario? Usuario { get; set; }
     }
 }
