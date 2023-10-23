@@ -6,10 +6,10 @@
 <header>
     <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
         <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Seleta</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta"></a>
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="position: relative; left: 55%;">HOME</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
@@ -90,10 +90,10 @@
             <img src="~/css/img/adicionar estabelecimento.png" alt="adicionar">
         </a>
 
-        <div class="gerenciar-estabelecimento">
+        <a asp-controller="Estabelecimentos" asp-action="Index" class="gerenciar-estabelecimento">
             <h3>GERENCIAR ESTABELECIMENTOS</h3>
             <img src="~/css/img/gerenciar estabelecimento.png" alt="gerenciar">
-        </div>
+        </a>
 
         <a asp-controller="Estabelecimentos" asp-action="Index" class="visualizar-estabelecimento">
             <h3>VISUALIZAR ESTABELECIMENTOS</h3>
