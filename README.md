@@ -1,4 +1,4 @@
-# SELETA
+# <img align="center" height="60px" width="60px" src="./docs/img/Seleta.png"> SELETA
 
 `Análise e Desenvolvimento de Sistemas`
 
