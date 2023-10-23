@@ -14,7 +14,7 @@ namespace Seleta.Models
         public string Cnpj { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o nome do estabelecimento")]
-        [Display(Name = "Nome do Estabecimento")]
+        [Display(Name = "Nome do Estabelecimento")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o endereço do estabelecimento")]
