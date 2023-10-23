@@ -7,7 +7,6 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 1 | CTU-01 | 3 | 0 | --- | Usuário estranhou não ter botão de cadastro na tela inicial, mas achou o processo fácil |
 | Usuário 2	| CTU-01 	|  07  | 0 | --- | Usuário achou a tela intuitiva e não teve muita dificuldade |
 |Usuário 3 | CTU-01 | 3 | 0 | --- | Informação de cadastro confusa pelo botão está escrito login e não uma informação mas generica, como entrar ou cadastrar. |
-|Usuário 1 | CTU-08 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
 
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
