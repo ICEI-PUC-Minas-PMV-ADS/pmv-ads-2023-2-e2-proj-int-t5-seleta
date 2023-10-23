@@ -88,48 +88,57 @@
         <a asp-action="Create" class="btn btn-outline-light">Cadastrar novo estabelecimento</a>
     </p>
     <table class="table" style=" color: #FEFAE0">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Cnpj)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Endereco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Contato)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Endereco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Contato)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario.CPF)
-            </td>
-            <td>
-                        <a asp-action="Edit" asp-route-id="@item.Cnpj" class="btn btn-outline-primary">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Cnpj" class="btn btn-outline-light">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Cnpj" class="btn btn-outline-danger">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contato)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cnpj)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Usuario)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Contato)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Usuario.CPF)
+                </td>
+                <td>
+                            <a asp-action="Edit" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #698E3F; border-radius: 10px; border-color:#FFFFFF;">Editar</a> 
+                            <a asp-action="Details" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF;">Detalhes</a> 
+                            <a asp-action="Delete" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #8F0A2A; border-radius: 10px; border-color:#FFFFFF;">Deletar</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+    <footer class="footer-perfil">
+        <div class="imagem-footer">
+            <h3>Amplie sua presença online e alcance mais clientes.</h3>
+            <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+        </div>
+        <div class="container">
+            &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+        </div>
+    </footer>
 </body>
