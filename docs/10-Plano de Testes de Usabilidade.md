@@ -69,11 +69,11 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
 
-| **Caso de Teste** 	| **CTU-08 – Cadastrar estabelecimento** 	|
+| **Caso de Teste** 	| **CTU-08 – Gerenciar estabelecimento** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
-| Objetivo do Teste 	| Avaliar a usabilidade de cadastro de estabelecimento |
-| Ações Necessárias 	| 1. Após se cadastrar (CT-01) clicar em "Editar Perfil"; <br> 2. Preencher todas as informações solicaitadas na aba que irá abrir;  3. Clicar em "Cadastrar"; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
+| Objetivo do Teste 	| Avaliar a usabilidade de gerenciamento do estabelecimento, criar, editar e excluir |
+| Ações Necessárias 	| 1. Após se cadastrar (CT-01) e efetuar o login (CTU-02) clicar em "Gerenciar estabelecimentos"; <br> 2. Clicar em "Cadastrar novo estabelecimento" - Preencher todas as informações solicitadas na aba que irá abrir; <br> 3. Clicar em "Cadastrar"; <br> 4. Na página de gerenciamento de estabelecimentos, clicar em editar; <br> 5. Modificar o campo que desejar; <br> 6. Clicar em "Salvar"; <br> 7.  Na página de gerenciamento de estabelecimentos, clicar em Detalhes; <br> 8. Visualizar os detalhes e clicar em "Voltar" ou "Editar". <br> 9. Na página de gerenciamento de estabelecimentos, clicar em Deletar; <br> 10. Clicar em "Deletar".|
 
 | **Caso de Teste** 	| **CTU-09 – Cadastrar produtos** 	|
 |:---:	|:---:	|
