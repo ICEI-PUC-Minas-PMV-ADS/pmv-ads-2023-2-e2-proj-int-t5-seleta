@@ -36,7 +36,7 @@ Para acessar a aplicação Seleta, sigo os passos descritos abaixo:
   
   Foi criado a seguinte credencial de usuário teste para possibilitar os testes e o acesso ao sistema:
   
-  Email: usuarioteste@gmail.com
+  Email: teste@teste.com
   
   Senha: 123456
 
