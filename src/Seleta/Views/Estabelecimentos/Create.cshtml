@@ -95,7 +95,8 @@
 
             <h1 style="color: #FEFAE0;padding-top: 5%; margin-left: 2%">Cadastro de Estabelecimento</h1>
 
-            <hr />
+            <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
+
             <div class="row" style="color: #FEFAE0">
 
                 <div class="col-md-4">
@@ -105,50 +106,43 @@
                         <input type="hidden" asp-for="UsuarioCPF" />
                         <div class="form-group">
                             <label asp-for="Cnpj" class="control-label"></label>
-                            <input asp-for="Cnpj" class="form-control" style="background-color: #FEFAE0;" />
+                            <input asp-for="Cnpj" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
                             <span asp-validation-for="Cnpj" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Nome" class="control-label"></label>
-                            <input asp-for="Nome" class="form-control" style="background-color: #FEFAE0;" />
+                            <input asp-for="Nome" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
                             <span asp-validation-for="Nome" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Endereco" class="control-label"></label>
-                            <input asp-for="Endereco" class="form-control" style="background-color: #FEFAE0;" />
+                            <input asp-for="Endereco" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
                             <span asp-validation-for="Endereco" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Contato" class="control-label"></label>
-                            <input asp-for="Contato" class="form-control" style="background-color: #FEFAE0;" />
+                            <input asp-for="Contato" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
                             <span asp-validation-for="Contato" class="text-danger"></span>
                         </div>
                         <br />
                         <div class="form-group">
 
-                            <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
+                            <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border: 1px solid #283618;;">
                                 Voltar</a>
-                            <input type="submit" value="Salvar" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF" />
+                            <input type="submit" value="Cadastrar" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border: 1px solid #DDA15E;" />
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-
-        <div class="mb-3" style=" width: 100%; height: 100px; background-color: #606C38; padding: 0">
-            <img src="~/css/img/SeletaEstabelecimento.jpg" style=" max-width: 100%; heigt: 10%" alt="Imagem" >
-        </div>
-
-        <div class="mb-3" style="max-width: 40%; height: 40%; padding: 3%">
-            <h4 style="color: #283618; object-fit: cover; position: relative; top: 10px; left: 10px; font-size: 30px;">Amplie sua presença online e alcance mais clientes.</h4>
-        </div>
-    </div>
-
-    <footer class="footer-home mb-3" background-color: #DDA15E>
-        <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
-        <h4>ENTRE EM CONTATO</h4>
-        <img src="~/css/img/facebook.png" alt="facebook" style="position: relative; width: 30px; height: 33.06px; top: 5%; left: 5%;">
-        <img src="~/css/img/instagram.png" alt="instagram" style="position: relative; width: 35px; height: 35px; top: 5%; left: 7%;">
-        <p> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
-    </footer>
 </body>
+
+<footer class="footer-estabelecimento">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
