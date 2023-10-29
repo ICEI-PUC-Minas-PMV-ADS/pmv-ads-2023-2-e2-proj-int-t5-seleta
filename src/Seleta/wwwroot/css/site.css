@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap') 
 
+/* GERAL */
+
 html {
     font-size: 14px;
     font-family: 'Inter';
@@ -45,6 +47,8 @@ a {
     display: none;
 }
 
+
+/* PÁGINA INICIAL */
 
 .carrossel-home {
     position: absolute;
@@ -272,6 +276,9 @@ a {
         color: #FFF;
     }
 
+
+/* LOGIN E CADASTRO */
+
 .home-button {
     position: absolute;
     top: 40px;
@@ -406,6 +413,9 @@ a {
     text-align: center;
     color: #283618;
 }
+
+
+/* PERFIL DO USUÁRIO */
 
 .navbar-perfil {
     position: absolute;
@@ -560,7 +570,62 @@ a {
             color: #283618;
         }
 
+    /* CADASTRO DE ESTABELECIMENTO */
+
+.footer-estabelecimento {
+    background-color: #FEFAE0;
+    position: absolute;
+    top: 92%;
+    left: 0px;
+    width: 100%;
+    height: 342px;
+    z-index: 1;
+}
+
+    .footer-estabelecimento .imagem-footer {
+        position: absolute;
+        width: 100%;
+        height: 170px;
+        top: 0%;
+        left: 0%;
+        background-color: #BC6C25BD;
+    }
+
+    .footer-estabelecimento h3 {
+        position: absolute;
+        width: 22%;
+        height: 20%;
+        top: 15%;
+        left: 5%;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35px;
+        text-align: left;
+        color: #FEFAE0;
+    }
+
+    .footer-estabelecimento img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+    }
+
+    .footer-estabelecimento .container {
+        position: relative;
+        top: 90%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #283618;
+    }
+
 @media screen and (max-width:767px) {
+
+    /* GERAL */
+
     .menu-principal > ul > li {
         display: none;
     }
@@ -606,6 +671,9 @@ a {
     .open {
         display: block;
     }
+
+
+    /* PÁGINA INICIAL */
 
     .carrossel-home {
         height: 400px;
@@ -773,6 +841,9 @@ a {
             font-size: 12px;
         }
 
+
+    /* LOGIN E CADASTRO */
+
     .home-button {
         position: absolute;
         left: 10%;
@@ -838,6 +909,8 @@ a {
             padding: 30px;
         }
 
+
+    /* PERFIL DO USUÁRIO */
 
         .conteudo-perfil .side-buttons-perfil {
             position: absolute;
@@ -913,6 +986,10 @@ a {
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
+
+
+    /* GERAL */
+
     .menu-principal > ul > li {
         display: none;
     }
@@ -959,6 +1036,8 @@ a {
         display: block;
     }
 
+
+    /* PÁGINA INICIAL */
 
     .carrossel-home {
         position: absolute;
@@ -1096,6 +1175,9 @@ a {
             font-size: 12px;
         }
 
+
+    /* LOGIN E CADASTRO */
+
     .title-content .title {
         width: 200px;
         text-align: left;
@@ -1122,6 +1204,7 @@ a {
     }
 
 
+    /* PERFIL DO USUÁRIO */
 
         .conteudo-perfil .side-buttons-perfil {
             width: 20%;

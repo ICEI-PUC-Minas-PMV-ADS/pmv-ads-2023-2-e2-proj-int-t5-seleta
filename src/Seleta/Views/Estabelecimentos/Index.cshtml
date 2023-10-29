@@ -7,65 +7,28 @@
     <title>Estabelecimento</title>
     <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
 </head>
-<body style="background-color: #606C38">
 
-    <header>
-        <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
-            <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta"></a>
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="position: relative; left: 55%;">HOME</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <li class="nav-item">
-                            <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-center" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
-                    position: absolute; width:80px; height: 30px; top: 15%; left:85%; border-radius: 5px; padding:2px;">
-                                Perfil
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
-                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
-                                Sair
-                            </a>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item">
-                            <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
-                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
-                                Login
-                            </a>
-                        </li>
-                    }
-                </ul>
-            </div>
-
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="~/css/img/menu_white_36dp.svg"></button>
-            </div>
-        </nav>
-
-        <div class="mobile-menu">
-            <ul class="navbar-nav">
+<header>
+    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta"></a>
+            <ul class="navbar-nav flex-grow-1">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="position: relative; left: 55%;">HOME</a>
                 </li>
+            </ul>
+            <ul class="navbar-nav">
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-center" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
+                    position: absolute; width:80px; height: 30px; top: 15%; left:85%; border-radius: 5px; padding:2px;">
                             Perfil
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
                             Sair
                         </a>
                     </li>
@@ -73,20 +36,59 @@
                 else
                 {
                     <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
+                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
                             Login
                         </a>
                     </li>
                 }
             </ul>
         </div>
-    </header>
+
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="~/css/img/menu_white_36dp.svg"></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+            </li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                        Perfil
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                        Sair
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
+                        Login
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</header>
+
+<body style="background-color: #606C38; height: 80%;">
 
     <h1 style =" color: #FEFAE0">Estabelecimentos</h1>
-    <br />
+    <hr / style="position: relative; width: 520px; left: 0%; color: #FEFAE0;">
     <p>  
         <a asp-action="Create" class="btn btn-outline-light">Cadastrar novo estabelecimento</a>
     </p>
+    <br />
     <table class="table" style=" color: #FEFAE0">
         <thead>
             <tr>
@@ -132,13 +134,14 @@
     }
         </tbody>
     </table>
-    <footer class="footer-perfil">
-        <div class="imagem-footer">
-            <h3>Amplie sua presença online e alcance mais clientes.</h3>
-            <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
-        </div>
-        <div class="container">
-            &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
-        </div>
-    </footer>
 </body>
+
+<footer class="footer-estabelecimento">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
