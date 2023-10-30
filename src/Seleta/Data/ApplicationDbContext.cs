@@ -12,6 +12,8 @@ namespace Seleta.Data
         }
         public DbSet<Estabelecimento> Estabelecimentos { get; set; }
 
+        public DbSet<Produto> Produtos { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>()
