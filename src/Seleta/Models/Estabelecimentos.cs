@@ -25,7 +25,7 @@ namespace Seleta.Models
         public string Contato { get; set; }
 
         [Display(Name = "CPF do Usuário")]
-        public int UsuarioCPF { get; set; }
+        public string UsuarioCPF { get; set; }
 
         [ForeignKey("UsuarioCPF")]
         public Usuario Usuario { get; set; }
