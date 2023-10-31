@@ -33,9 +33,9 @@ namespace Seleta.Models
 
         [Display(Name = "Estabelecimento")]
         [Required(ErrorMessage = "Obrigatório informar o estabelecimento")]
-        public int CNPJ_Estabelecimento { get; set; }
+        public int CnpjEstabelecimento { get; set; }
 
-        [ForeignKey("CNPJ_Estabelecimento")]
+        [ForeignKey("CnpjEstabelecimento")]
         public Estabelecimento Estabelecimento { get; set; }
 
     }
