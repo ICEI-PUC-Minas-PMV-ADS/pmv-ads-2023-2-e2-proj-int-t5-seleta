@@ -44,6 +44,17 @@ namespace Seleta.Models
     {
         LactoseIntolerancia,
         Diabetes,
-        GlutenIntolerancia
+        GlutenIntolerancia,
+        Vegano
+    }
+    public enum TipoCategoria
+    {
+        Massa,
+        Laticínio,
+        Bebida,
+        Padaria,
+        Biscoito,
+        Refeição,
+        Sobremesa
     }
 }
