@@ -31,20 +31,19 @@ namespace Seleta.Models
         [Display(Name = "Restrição(ões) alimentar(es)")]
         public Restricoes Restricoes { get; set; }
 
-        [Display(Name = "Estabelecimento")]
-        [Required(ErrorMessage = "Obrigatório informar o estabelecimento")]
+        [Display(Name = "CNPJ do Estabelecimento")]
         public string CnpjEstabelecimento { get; set; }
 
         [ForeignKey("CnpjEstabelecimento")]
-        public Estabelecimento Estabelecimento { get; set; }
+        public Estabelecimento? Estabelecimento { get; set; }
 
     }
 
     public enum Restricoes
     {
-        LactoseIntolerancia,
+        LactoseIntolerância,
         Diabetes,
-        GlutenIntolerancia,
+        GlutenIntolerância,
         Vegano
     }
     public enum TipoCategoria
@@ -53,7 +52,9 @@ namespace Seleta.Models
         Laticínio,
         Bebida,
         Padaria,
-        Biscoito,
+        Verduras,
+        Frutas,
+        Lanches,
         Refeição,
         Sobremesa
     }

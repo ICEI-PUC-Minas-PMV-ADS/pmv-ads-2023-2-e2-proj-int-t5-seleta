@@ -23,7 +23,7 @@ namespace Seleta.Controllers
         //CREATE
         public IActionResult Create()
         {
-            ViewData["EstabelecimentoId"] = new SelectList(_context.Estabelecimentos, "Id", "Nome");
+            ViewData["CnpjEstabelecimento"] = new SelectList(_context.Estabelecimentos, "Cnpj", "Nome");
             return View();
         }
 
@@ -38,7 +38,7 @@ namespace Seleta.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewData["EstabelecimentoId"] = new SelectList(_context.Estabelecimentos, "Id", "Nome", produto.EstabelecimentoId);
+            ViewData["CnpjEstabelecimento"] = new SelectList(_context.Estabelecimentos, "Cnpj", "Nome", produto.CnpjEstabelecimento);
             return View(produto);
         }
 
@@ -57,6 +57,7 @@ namespace Seleta.Controllers
                 return NotFound();
             }
 
+            ViewData["CnpjEstabelecimento"] = new SelectList(_context.Estabelecimentos, "Cnpj", "Nome");
             return View(produto);
         }
 
@@ -89,6 +90,8 @@ namespace Seleta.Controllers
                     return RedirectToAction(nameof(Index));
                 }
             }
+
+            ViewData["CnpjEstabelecimento"] = new SelectList(_context.Estabelecimentos, "Cnpj", "Nome", produto.CnpjEstabelecimento);
             return View(produto);
         }
 
