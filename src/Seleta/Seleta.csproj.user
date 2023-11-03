@@ -12,7 +12,11 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>Seleta.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
+<<<<<<< HEAD
     <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
+=======
+    <NameOfLastUsedPublishProfile>C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\Properties\PublishProfiles\seleta - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+>>>>>>> 6cf74295e8566db8a2f04485012d70747950d2e8
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
