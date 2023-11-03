@@ -76,6 +76,7 @@ namespace Seleta.Controllers
                 {
                     _context.Update(produto);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException) 
                 { 
@@ -87,7 +88,6 @@ namespace Seleta.Controllers
                     {
                         throw;
                     }
-                    return RedirectToAction(nameof(Index));
                 }
             }
 
