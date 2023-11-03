@@ -1,7 +1,7 @@
 ﻿@model Seleta.Models.Estabelecimento
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Dados do Estabelecimento";
 }
 
 <header>
@@ -111,10 +111,10 @@
         </dl>
     </div>
     <div>
-        <a asp-action="Index" class="btn" style="width:10%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
+        <a asp-action="Edit" asp-route-id="@Model?.Cnpj" class="btn" style="width:10%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
             Voltar
         </a>
-        <a asp-action="Edit" asp-route-id="@Model?.Cnpj" class="btn" style="width:10%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF">Editar</a> 
+        <a asp-controller="Produtos" asp-action="Create" class="btn" style="width:18%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF">Cadastrar produto</a>
 
     </div>
     <footer class="footer-perfil">
