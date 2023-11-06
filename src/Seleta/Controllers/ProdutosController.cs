@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
@@ -14,6 +15,8 @@ namespace Seleta.Controllers
             _context = context;
         }
 
+
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var ApplicationDbContext = _context.Produtos.Include( e => e.Estabelecimento);
@@ -21,6 +24,8 @@ namespace Seleta.Controllers
         }
 
         //CREATE
+
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["CnpjEstabelecimento"] = new SelectList(_context.Estabelecimentos, "Cnpj", "Nome");
@@ -29,6 +34,7 @@ namespace Seleta.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto)
         {
             if (ModelState.IsValid)
@@ -44,6 +50,7 @@ namespace Seleta.Controllers
 
         //EDIT
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Produtos == null)
@@ -63,6 +70,7 @@ namespace Seleta.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind ("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto)
         {
             if (id != produto.Id)
