@@ -20,6 +20,6 @@ namespace Seleta.Models
         [DataType(DataType.Password)]
         public string Senha { get; set; }
 
-        public List<Estabelecimento> ? Estabelecimentos { get; set; }
+        public List<Estabelecimento>? Estabelecimentos { get; set; }
     }
 }

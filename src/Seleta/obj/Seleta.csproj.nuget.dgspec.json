@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj": {}
+    "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {}
   },
   "projects": {
-    "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj": {
+    "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
+        "projectUniqueName": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
         "projectName": "Seleta",
-        "projectPath": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Seleta.csproj",
-        "packagesPath": "/Users/nikitaceccon/.nuget/packages/",
-        "outputPath": "/Users/nikitaceccon/Desktop/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/obj/",
+        "projectPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nikitaceccon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
