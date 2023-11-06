@@ -6,18 +6,38 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Seleta PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Estabelecimentos/Create.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/ApplicationDbContext.cs">
     <Files>
-      <File FileName="Controllers/EstabelecimentosController.cs" Line="38" Column="10" />
-      <File FileName="Program.cs" Line="50" Column="56" />
-      <File FileName="Views/Estabelecimentos/Details.cs" Line="123" Column="88" />
-      <File FileName="Views/Estabelecimentos/Delete.cshtml" Line="1" Column="1" />
-      <File FileName="Views/Estabelecimentos/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Controllers/EstabelecimentosController.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Estabelecimentos/Delete.cshtml" />
+      <File FileName="Views/Estabelecimentos/Create.cshtml" />
+      <File FileName="Views/Estabelecimentos/Index.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Home/Privacy.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="wwwroot/css/site.css" />
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Models/Estabelecimentos.cs" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Seleta" selected="True" />
+          <Node name="Seleta">
+            <Node name="Seleta">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" selected="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
