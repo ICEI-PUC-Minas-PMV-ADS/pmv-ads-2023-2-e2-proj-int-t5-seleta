@@ -1,8 +1,19 @@
 ﻿@model Seleta.Models.Estabelecimento
 
 @{
-    ViewData["Title"] = "Dados do Estabelecimento";
+    ViewData["Title"] = "Dados do estabelecimento";
 }
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<head>
+    <title> Dados do Estabelecimento</title>
+    <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
+
+</head>
 
 <header>
     <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
@@ -77,53 +88,53 @@
     </div>
 </header>
 
-<body style="background-color: #606C38">
-    <h1 style="color: #FEFAE0">Dados do Estabelecimento</h1>
+<body>
+    <div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38">
+        <div class="mb-3">
 
-    <div>
-        <h4>Estabelecimento</h4>
-        <hr />
-        <dl class="row">
-            <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Nome)
-            </dt>
-            <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Nome)
-            </dd>
-            <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Endereco)
-            </dt>
-            <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Endereco)
-            </dd>
-            <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Contato)
-            </dt>
-            <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Contato)
-            </dd>
-            <dt class = "col-sm-2">
-                @Html.DisplayNameFor(model => model.Usuario)
-            </dt>
-            <dd class = "col-sm-10">
-                @Html.DisplayFor(model => model.Usuario.CPF)
-            </dd>
-        </dl>
-    </div>
-    <div>
-        <a asp-action="Edit" asp-route-id="@Model?.Cnpj" class="btn" style="width:10%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border-color:#FFFFFF;">
-            Voltar
-        </a>
-        <a asp-controller="Produtos" asp-action="Create" class="btn" style="width:18%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF">Cadastrar produto</a>
+            <h1 style="color: #FEFAE0;padding-top: 5%; margin-left: 2%">Dados do Estabelecimento</h1>
+            <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
 
+            <div class="row" style="color: #FEFAE0">
+
+                <dl class="row" style="margin-left: 2%">
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Nome)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Endereco)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Endereco)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Contato)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Contato)
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <a asp-action="Index" class="btn" style="width: 10%; color: #FFFFFF; background-color: #283618; border-radius: 10px; margin-left: 2%;">
+                    Voltar
+                </a>
+                <a asp-action="Edit" asp-route-id="@Model?.Cnpj" class="btn" style="width:10%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px;">Editar</a>
+            </div>
+        </div>
     </div>
-    <footer class="footer-perfil">
-        <div class="imagem-footer">
-            <h3>Amplie sua presença online e alcance mais clientes.</h3>
-            <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
-        </div>
-        <div class="container">
-            &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
-        </div>
-    </footer>
 </body>
+
+<footer class="footer-perfil">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
+

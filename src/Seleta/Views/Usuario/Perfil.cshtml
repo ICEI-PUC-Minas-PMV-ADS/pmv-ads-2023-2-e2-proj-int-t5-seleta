@@ -77,14 +77,12 @@
 </header>
 
 <div class="conteudo-perfil">
-    <section class="side-buttons-perfil">
-
-        <button type="button" class="btn" style="width:100%;color: #283618;background-color: #FEFAE0; border: 1px solid #283618; border-radius: 5px; text-align: left;">Página Inicial</button>
-        <button type="button" class="btn" style="width:100%;color: #283618;background-color: #FEFAE0; border: 1px solid #283618; border-radius: 5px; text-align: left;">Editar perfil</button>
-        <button type="button" class="btn" style="width:100%;color: #283618;background-color: #FEFAE0; border: 1px solid #283618; border-radius: 5px; text-align: left;">Segurança</button>
-    </section>
-
     <section class="main-buttons-perfil">
+        <a asp-controller="Estabelecimentos" asp-action="Index" class="visualizar-estabelecimento">
+            <h3>VISUALIZAR PERFIL</h3>
+            <img src="~/css/img/visualizar estabelecimento.png" alt="visualizar">
+        </a>
+        
         <a asp-controller="Estabelecimentos" asp-action="Create" class="adicionar-estabelecimento">
             <h3>ADICIONAR ESTABELECIMENTO</h3>
             <img src="~/css/img/adicionar estabelecimento.png" alt="adicionar">
@@ -95,10 +93,7 @@
             <img src="~/css/img/gerenciar estabelecimento.png" alt="gerenciar">
         </a>
 
-        <a asp-controller="Estabelecimentos" asp-action="Index" class="visualizar-estabelecimento">
-            <h3>VISUALIZAR ESTABELECIMENTOS</h3>
-            <img src="~/css/img/visualizar estabelecimento.png" alt="visualizar">
-        </a>
+        
 
     </section>
 </div>
