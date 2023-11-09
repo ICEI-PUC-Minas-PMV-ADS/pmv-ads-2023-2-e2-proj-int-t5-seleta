@@ -49,6 +49,46 @@ namespace Seleta.Migrations
                     b.ToTable("Estabelecimentos");
                 });
 
+            modelBuilder.Entity("Seleta.Models.Produto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Categoria")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CnpjEstabelecimento")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Preco")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuantidadePeso")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Restricoes")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CnpjEstabelecimento");
+
+                    b.ToTable("Produtos");
+                });
+
             modelBuilder.Entity("Seleta.Models.Usuario", b =>
                 {
                     b.Property<string>("CPF")
@@ -80,6 +120,22 @@ namespace Seleta.Migrations
                         .IsRequired();
 
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Seleta.Models.Produto", b =>
+                {
+                    b.HasOne("Seleta.Models.Estabelecimento", "Estabelecimento")
+                        .WithMany("Produtos")
+                        .HasForeignKey("CnpjEstabelecimento")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Estabelecimento");
+                });
+
+            modelBuilder.Entity("Seleta.Models.Estabelecimento", b =>
+                {
+                    b.Navigation("Produtos");
                 });
 
             modelBuilder.Entity("Seleta.Models.Usuario", b =>
