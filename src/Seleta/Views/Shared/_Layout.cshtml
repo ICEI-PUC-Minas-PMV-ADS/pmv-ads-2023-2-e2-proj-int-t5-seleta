@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,33 +8,43 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Seleta.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@300&family=Raleway:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <header style="background-color:#FEFAE0">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Seleta</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <div>
+                        <img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta" style="margin-top: 8px">
+                    </div>
+                </a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <div>
+                        <h2 style="margin-left: 50px; font-family: 'Inter'; font-weight: 700">SELETA</h2>
+                    </div>
+                </a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
                     </ul>
                     <ul class="navbar-nav">
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
                                 <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
-                                    Perfil
+                                    <button type="button" class="btn btn-outline-success btn-sm">Perfil</button>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
-                                    Sair
+                                    <button type="button" class="btn btn-success btn-sm">Sair</button>
                                 </a>
                             </li>
                         }
@@ -42,12 +52,12 @@
                         {
                             <li class="nav-item">
                                 <a asp-controller="" asp-action="" class="nav-link text-dark">
-                                    Criar lista de compras
+                                    <button type="button" class="btn btn-outline-success btn-sm" style="margin-top:5px">Criar Lista de Compras</button>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
-                                    Login
+                                <a asp-controller="Usuario" asp-action="Login">
+                                    <button type="button" class="btn btn-success btn-sm" style="margin-top: 8px; background-color: #283618; margin: 12px">Login</button>
                                 </a>
                             </li>
                         }
@@ -56,8 +66,8 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div>
+        <main role="main">
             @RenderBody()
         </main>
     </div>
@@ -67,4 +77,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

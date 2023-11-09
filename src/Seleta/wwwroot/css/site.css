@@ -2,7 +2,7 @@
 
 /* GERAL */
 
-html {
+html{
     font-size: 14px;
     font-family: 'Inter';
 }
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 a {
@@ -48,9 +48,9 @@ a {
 }
 
 
-/* PÁGINA INICIAL */
+/* Pï¿½GINA INICIAL */
 
-.carrossel-home {
+ .carrossel-home {
     position: absolute;
     width: 100%;
     height: 650px;
@@ -415,7 +415,7 @@ a {
 }
 
 
-/* PERFIL DO USUÁRIO */
+/* PERFIL DO USUï¿½RIO */
 
 .navbar-perfil {
     position: absolute;
@@ -673,7 +673,7 @@ a {
     }
 
 
-    /* PÁGINA INICIAL */
+    /* Pï¿½GINA INICIAL */
 
     .carrossel-home {
         height: 400px;
@@ -910,7 +910,7 @@ a {
         }
 
 
-    /* PERFIL DO USUÁRIO */
+    /* PERFIL DO USUï¿½RIO */
 
         .conteudo-perfil .side-buttons-perfil {
             position: absolute;
@@ -1037,7 +1037,7 @@ a {
     }
 
 
-    /* PÁGINA INICIAL */
+    /* Pï¿½GINA INICIAL */
 
     .carrossel-home {
         position: absolute;
@@ -1056,7 +1056,7 @@ a {
             top: 25%;
             left: 10%;
             font-size: 28px;
-        }
+        } 
 
     .search-home {
         position: absolute;
@@ -1204,7 +1204,7 @@ a {
     }
 
 
-    /* PERFIL DO USUÁRIO */
+    /* PERFIL DO USUï¿½RIO */
 
         .conteudo-perfil .side-buttons-perfil {
             width: 20%;
@@ -1247,6 +1247,12 @@ a {
             font-size: 18px;
         }
 }
+
+.pesquisar-por-categorias {
+    margin-top: 100px
+}
+
+
 
 
 

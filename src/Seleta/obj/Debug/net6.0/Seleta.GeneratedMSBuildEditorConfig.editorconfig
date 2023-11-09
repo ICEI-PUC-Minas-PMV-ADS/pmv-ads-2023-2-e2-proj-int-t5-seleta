@@ -11,7 +11,7 @@ build_property.RootNamespace = Seleta
 build_property.ProjectDir = /Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta
 build_property._RazorSourceGeneratorDebug = 
 

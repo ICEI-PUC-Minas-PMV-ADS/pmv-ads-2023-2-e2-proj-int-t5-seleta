@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{0A622CC2-1BBB-4A04-888B-6B134504A66E}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Seleta PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/x64/sdk/6.0.414/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+    <Files>
+      <File FileName="Controllers/EstabelecimentosController.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Estabelecimentos/Delete.cshtml" />
+      <File FileName="Views/Estabelecimentos/Create.cshtml" />
+      <File FileName="Views/Estabelecimentos/Index.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Home/Privacy.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="wwwroot/css/site.css" />
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Models/Estabelecimentos.cs" />
+      <File FileName="Data/ApplicationDbContext.cs" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="../../../../../usr/local/share/dotnet/x64/sdk/6.0.414/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="267" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seleta" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
