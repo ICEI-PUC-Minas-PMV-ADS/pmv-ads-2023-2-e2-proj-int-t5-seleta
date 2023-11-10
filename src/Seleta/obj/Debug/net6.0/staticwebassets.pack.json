@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\Seleta.bundle.scp.css"
     },
     {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\.DS_Store",
+      "PackagePath": "staticwebassets\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\img\\.DS_Store"
+    },
+    {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\Seleta.png",
       "PackagePath": "staticwebassets\\css\\img\\Seleta.png"
     },
@@ -19,6 +31,26 @@
     {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\adicionar-ficheiro 1.png",
       "PackagePath": "staticwebassets\\css\\img\\adicionar-ficheiro 1.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\alimentos.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\alimentos.jpg"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\banner1.png",
+      "PackagePath": "staticwebassets\\css\\img\\banner1.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\banner2.png",
+      "PackagePath": "staticwebassets\\css\\img\\banner2.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\bebidas.png",
+      "PackagePath": "staticwebassets\\css\\img\\bebidas.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\biscoitos.png",
+      "PackagePath": "staticwebassets\\css\\img\\biscoitos.png"
     },
     {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\cadastro 1.png",
@@ -49,6 +81,10 @@
       "PackagePath": "staticwebassets\\css\\img\\lista-de-controle 1.png"
     },
     {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\massas.png",
+      "PackagePath": "staticwebassets\\css\\img\\massas.png"
+    },
+    {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\menu_white_36dp.svg",
       "PackagePath": "staticwebassets\\css\\img\\menu_white_36dp.svg"
     },
@@ -57,8 +93,20 @@
       "PackagePath": "staticwebassets\\css\\img\\motor-de-busca 1.png"
     },
     {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\paes.png",
+      "PackagePath": "staticwebassets\\css\\img\\paes.png"
+    },
+    {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
       "PackagePath": "staticwebassets\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes.png",
+      "PackagePath": "staticwebassets\\css\\img\\refeicoes.png"
+    },
+    {
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\saladas.png",
+      "PackagePath": "staticwebassets\\css\\img\\saladas.png"
     },
     {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\seguranca 1.png",
