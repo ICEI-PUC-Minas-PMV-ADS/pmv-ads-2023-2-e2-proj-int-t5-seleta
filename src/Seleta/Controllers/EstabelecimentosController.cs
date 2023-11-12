@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
@@ -17,6 +18,7 @@ namespace Seleta.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var usuarioLogadoCPF = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -28,12 +30,14 @@ namespace Seleta.Controllers
 
         //CREATE
         [HttpGet]
+        [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(Estabelecimento estabelecimento)
         {
             var usuarioCPF = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -53,6 +57,7 @@ namespace Seleta.Controllers
 
         //EDIT
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Edit(string? id)
         {
             if (id == null)
@@ -64,6 +69,7 @@ namespace Seleta.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Edit(string id, Estabelecimento estabelecimento)
         {
             if (id != estabelecimento.Cnpj)

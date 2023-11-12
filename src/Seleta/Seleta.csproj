@@ -33,4 +33,11 @@
     <Content Remove="Views\Estabelecimentos\Estabelecimento.cshtml" />
     <Content Remove="Views\Estabelecimentos\IndexEstabelecimento.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="Properties\ServiceDependencies\seleta - Web Deploy\profile.arm.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
