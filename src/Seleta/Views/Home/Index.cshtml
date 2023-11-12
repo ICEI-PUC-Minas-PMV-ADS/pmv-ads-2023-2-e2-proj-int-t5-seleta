@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ListaDeCompras
+@{
     ViewData["Title"] = "Seleta";
 }
 
@@ -71,7 +72,7 @@
             else
             {
                 <li class="nav-item">
-                    <a asp-controller="" asp-action="" class="nav-link text-dark">
+                    <a asp-controller="ListaDeCompras" asp-action="Index" class="nav-link text-dark">
                         Criar lista de compras
                     </a>
                 </li>
@@ -121,8 +122,24 @@
     </div>
 </section>
 
-<section class="lista-compras-home text-center">
-    LISTA DE COMPRAS
+<section class="lista-compras-home">
+    <div class="container text-center mt-3">
+        <div class="row align-items-center">
+            <div class="col">
+                <p class="display-4 text-start bold"><strong>CRIE LISTA DE COMPRAS SEM FAZER LOGIN</strong></p>
+            </div>
+            <div class="col">
+                @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
+                {
+                    <div>
+                        <input asp-for="Email" type="text" class="border form-control text-center" placeholder="Digite aqui seu endereço de email" />
+                    </div>
+                    <div asp-validation-summary="All"></div>
+                    <button type="submit" class="btn mt-3" style="width:50%;color: #FFFFFF;background-color: #BC6C25; border-radius: 10px">CRIAR LISTA</button>
+                }
+            </div>
+        </div>
+    </div>
 </section>
 
 <footer class="footer-home">

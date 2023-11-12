@@ -49,6 +49,16 @@ namespace Seleta.Migrations
                     b.ToTable("Estabelecimentos");
                 });
 
+            modelBuilder.Entity("Seleta.Models.ListaDeCompras", b =>
+                {
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Email");
+
+                    b.ToTable("ListaDeCompras");
+                });
+
             modelBuilder.Entity("Seleta.Models.Produto", b =>
                 {
                     b.Property<int>("Id")
@@ -89,6 +99,21 @@ namespace Seleta.Migrations
                     b.ToTable("Produtos");
                 });
 
+            modelBuilder.Entity("Seleta.Models.ProdutosListaDeCompras", b =>
+                {
+                    b.Property<int>("ProdutoId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ListaDeComprasEmail")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ProdutoId", "ListaDeComprasEmail");
+
+                    b.HasIndex("ListaDeComprasEmail");
+
+                    b.ToTable("ProdutosListaDeCompras");
+                });
+
             modelBuilder.Entity("Seleta.Models.Usuario", b =>
                 {
                     b.Property<string>("CPF")
@@ -125,7 +150,7 @@ namespace Seleta.Migrations
             modelBuilder.Entity("Seleta.Models.Produto", b =>
                 {
                     b.HasOne("Seleta.Models.Estabelecimento", "Estabelecimento")
-                        .WithMany("Produtos")
+                        .WithMany()
                         .HasForeignKey("CnpjEstabelecimento")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -133,9 +158,33 @@ namespace Seleta.Migrations
                     b.Navigation("Estabelecimento");
                 });
 
-            modelBuilder.Entity("Seleta.Models.Estabelecimento", b =>
+            modelBuilder.Entity("Seleta.Models.ProdutosListaDeCompras", b =>
+                {
+                    b.HasOne("Seleta.Models.ListaDeCompras", "ListaDeCompras")
+                        .WithMany("Produtos")
+                        .HasForeignKey("ListaDeComprasEmail")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Seleta.Models.Produto", "Produto")
+                        .WithMany("ListasDeCompras")
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ListaDeCompras");
+
+                    b.Navigation("Produto");
+                });
+
+            modelBuilder.Entity("Seleta.Models.ListaDeCompras", b =>
                 {
                     b.Navigation("Produtos");
+                });
+
+            modelBuilder.Entity("Seleta.Models.Produto", b =>
+                {
+                    b.Navigation("ListasDeCompras");
                 });
 
             modelBuilder.Entity("Seleta.Models.Usuario", b =>

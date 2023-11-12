@@ -1,0 +1,11 @@
+﻿@model ListaDeCompras
+@{
+
+}
+
+<h2>@Model.Email</h2>
+
+@foreach (var produto in Model.Produtos)
+{
+    <p>@produto.ProdutoId</p>
+}
