@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\Seleta",
-    "\\src\\Seleta\\Controllers",
-    "\\src\\Seleta\\Models",
     "\\src\\Seleta\\Views",
-    "\\src\\Seleta\\Views\\Estabelecimentos"
+    "\\src\\Seleta\\Views\\Produtos"
   ],
   "PreviewInSolutionExplorer": false
 }
