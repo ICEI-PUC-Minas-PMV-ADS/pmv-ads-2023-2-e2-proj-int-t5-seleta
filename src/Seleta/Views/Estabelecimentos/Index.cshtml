@@ -3,7 +3,10 @@
 @{
     ViewData["Title"] = "Meus estabelecimentos";
 }
-
+<head>
+    <title>Estabelecimento</title>
+    <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
+</head>
 
 <header>
     <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
@@ -78,59 +81,51 @@
     </div>
 </header>
 
-<body style="background-color: #606C38; height: 80%;">
+<body>
+    <div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38">
+        <div class="mb-3">
 
-    <h1 style =" color: #FEFAE0">Estabelecimentos</h1>
-    <hr / style="position: relative; width: 520px; left: 0%; color: #FEFAE0;">
-    <p>  
-        <a asp-action="Create" class="btn btn-outline-light">Cadastrar novo estabelecimento</a>
-    </p>
-    <br />
-    <table class="table" style=" color: #FEFAE0">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Nome)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Endereco)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Contato)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Cnpj)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Usuario)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-    @foreach (var item in Model) {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Endereco)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Contato)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Usuario.CPF)
-                </td>
-                <td>
-                            <a asp-action="Edit" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #698E3F; border-radius: 10px; border-color:#FFFFFF;">Editar</a> 
-                            <a asp-action="Details" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #DDA15E; border-radius: 10px; border-color:#FFFFFF;">Detalhes</a> 
-                            <a asp-action="Delete" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #8F0A2A; border-radius: 10px; border-color:#FFFFFF;">Deletar</a>
-                </td>
-            </tr>
-    }
-        </tbody>
-    </table>
+            <h1 style="color: #FEFAE0;padding-top: 5%; margin-left: 2%">Meus Estabelecimentos</h1>
+            <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
+            <p>
+                <a asp-action="Create" class="btn btn-outline-light" style="margin-left: 2%">Cadastrar novo estabelecimento</a>
+            </p>
+            <br />
+
+            <table class="table" style="color: #FEFAE0; vertical-align: middle; margin-left: 2%;">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Nome)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Cnpj)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Cnpj)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #698E3F; border-radius: 10px;">Editar</a>
+                                <a asp-action="Details" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #DDA15E; border-radius: 10px;">Detalhes</a>
+                                <a asp-action="Delete" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #8F0A2A; border-radius: 10px;">Excluir</a>
+                                <a asp-controller="Produtos" asp-action="Index" class="btn" style="width:18%;color: #FFFFFF;background-color: #283618; border-radius: 10px;">Produto</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 
 <footer class="footer-estabelecimento">
