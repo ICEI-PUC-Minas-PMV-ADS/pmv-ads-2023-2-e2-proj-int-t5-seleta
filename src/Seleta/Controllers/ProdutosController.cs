@@ -17,17 +17,10 @@ namespace Seleta.Controllers
 
 
         [Authorize]
-        public async Task<IActionResult> Index(string filtro)
+        public async Task<IActionResult> Index()
         {
-            IQueryable<Produto> produtosQuery = _context.Produtos.Include(e => e.Estabelecimento);
-
-            if (!string.IsNullOrEmpty(filtro))
-            {
-                produtosQuery = produtosQuery.Where(p => p.Nome.Contains(filtro));
-            }
-
-            var produtos = await produtosQuery.ToListAsync();
-            return View(produtos);
+            var ApplicationDbContext = _context.Produtos.Include(e => e.Estabelecimento);
+            return View(await ApplicationDbContext.ToListAsync());
         }
 
         //CREATE

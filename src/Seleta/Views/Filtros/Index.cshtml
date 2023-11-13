@@ -1,0 +1,143 @@
+﻿@model IEnumerable<Seleta.Models.Produto>
+
+@{
+    ViewData["Title"] = "Meus Produtos";
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<head>
+    <title> Meus Produtos</title>
+    <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
+
+</head>
+
+<header>
+    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta"></a>
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="position: relative; left: 55%;">HOME</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+             
+                
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-center" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
+                    position: absolute; width:80px; height: 30px; top: 15%; left:85%; border-radius: 5px; padding:2px;">
+                            Perfil
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
+                            Sair
+                        </a>
+                    </li>
+               
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
+                            Login
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="~/css/img/menu_white_36dp.svg"></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+            </li>
+           
+            {
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                        Perfil
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                        Sair
+                    </a>
+                </li>
+            }
+            
+        </ul>
+    </div>
+</header>
+
+<body>
+    <div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38">
+        <div class="mb-3">
+
+            <h1 style="color: #FEFAE0;padding-top: 5%; margin-left: 2%">Meus Produtos</h1>
+            <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
+            <p>
+                <a asp-action="Create" class="btn btn-outline-light" style="margin-left: 2%">Cadastrar novo produto</a>
+            </p>
+            <br />
+
+            <table class="table" style="color: #FEFAE0; vertical-align: middle; margin-left: 2%;">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Id)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Nome)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Preco)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Id)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Preco)
+                            </td>
+                            <td>
+                                
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn" style="width:20%;color: #FEFAE0;background-color: #DDA15E; border-radius: 10px;">Detalhes</a>
+                                
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+<footer class="footer-estabelecimento">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
