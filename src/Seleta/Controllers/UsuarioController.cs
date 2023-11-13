@@ -104,5 +104,60 @@ namespace Seleta.Controllers
             var userLogged = await _context.Usuarios.FindAsync(userId);
             return View(userLogged);
         }
+
+        //DETAILS
+
+        public async Task<IActionResult> Details(string? id)
+        {
+            if (id == null) 
+            {
+                return NotFound();
+            }
+
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.CPF == id);
+
+            if (usuario == null) 
+            {
+                return NotFound();
+            }
+
+            return View(usuario);
+        }
+
+        //DELETE
+
+        public async Task<IActionResult> Delete(string? id)
+        {
+            if (id == null)
+               { 
+                return NotFound();
+               }
+
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.CPF == id);
+
+            if (usuario == null) 
+            {
+                return NotFound();
+            }
+
+            return View(usuario);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(string? id)
+        {
+            var usuario = await _context.Usuarios.FindAsync(id);
+             _context.Usuarios.Remove(usuario);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Login));
+        }
+
+        private bool UsuarioExists(string id)
+        {
+            return _context.Usuarios.Any(e => e.CPF == id);
+        }
     }
 }
