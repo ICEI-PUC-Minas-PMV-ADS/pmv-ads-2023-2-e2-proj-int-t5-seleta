@@ -13,6 +13,8 @@ namespace Seleta.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+        private static string? usuarioCpf;
+
         public UsuarioController(ApplicationDbContext context)
         {
             _context = context;
@@ -100,9 +102,61 @@ namespace Seleta.Controllers
         [Authorize]
         public async Task<IActionResult> Perfil()
         {
-            var userId = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var userLogged = await _context.Usuarios.FindAsync(userId);
+            usuarioCpf =  HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userLogged = await _context.Usuarios.FindAsync(usuarioCpf);
             return View(userLogged);
+        }
+
+        //DETAILS
+        [Authorize]
+        public async Task<IActionResult> Details()
+        {
+            if (usuarioCpf == null) 
+            {
+                return NotFound();
+            }
+
+            //Aqui
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.CPF == usuarioCpf);
+
+            if (usuario == null) 
+            {
+                return NotFound();
+            }
+
+            return View(usuario);
+        }
+
+        //DELETE
+        [Authorize]
+        public async Task<IActionResult> Delete()
+        {
+            //Aqui
+            if (usuarioCpf == null)
+               { 
+                return NotFound();
+               }
+
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.CPF == usuarioCpf);
+
+            if (usuario == null) 
+            {
+                return NotFound();
+            }
+
+            return View(usuario);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed()
+        {
+            var usuario = await _context.Usuarios.FindAsync(usuarioCpf);
+            _context.Usuarios.Remove(usuario);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Login));
         }
     }
 }

@@ -84,6 +84,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
