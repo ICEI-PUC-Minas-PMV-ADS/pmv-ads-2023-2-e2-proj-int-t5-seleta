@@ -49,234 +49,6 @@ a {
 }
 
 
-/* P�GINA INICIAL */
-
- .carrossel-home {
-    position: absolute;
-    width: 100%;
-    height: 650px;
-    top: 10%;
-    left: 0px;
-}
-
-.carrossel-home img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0%;
-    left: 0%;
-    z-index: 1;
-}
-
-    .carrossel-home h3 {
-        position: relative;
-        top: 15%;
-        font-size: 44px;
-        font-weight: 500;
-        letter-spacing: 29px;
-        text-align: center;
-        color: #FFFFFF;
-        z-index: 2;
-    }
-
-.carrossel-home h4 {
-    position: relative;
-    width: 80%;
-    top: 25%;
-    left: 10%;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 6px;
-    text-align: center;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.search-home {
-    position: absolute;
-    width: 100%;
-    height: 650px;
-    top: 710px;
-    left: 0px;
-    background-color: #FEFAE0;
-}
-
-.dicas-home {
-    position: absolute;
-    width: 100%;
-    height: 440px;
-    top: 1360px;
-    left: 0px;
-}
-
-    .dicas-home .primeiro-passo {
-        position: absolute;
-        width: 33%;
-        height: 100%;
-        top: 0px;
-        left: 0px;
-        background-color: #606C38;
-    }
-
-        .dicas-home .primeiro-passo h4 {
-            position: relative;
-            top: 15%;
-            font-size: 28px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-
-        .dicas-home .primeiro-passo p {
-            position: relative;
-            width: 80%;
-            top: 21%;
-            left: 10%;
-            font-size: 20px;
-            font-weight: 300;
-            letter-spacing: 1px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-
-        .dicas-home .primeiro-passo img {
-            position: relative;
-            width: 40%;
-            height: 35%;
-            top: 27%;
-            left: 28%;
-        }
-
-    .dicas-home .segundo-passo {
-        position: absolute;
-        width: 34%;
-        height: 100%;
-        top: 0px;
-        left: 33%;
-        background-color: #606C38D9;
-    }
-
-    .dicas-home .segundo-passo h4 {
-        position: relative;
-        top: 15%;
-        font-size: 28px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    .dicas-home .segundo-passo p {
-        position: relative;
-        width: 90%;
-        top: 21%;
-        left: 5%;
-        font-size: 20px;
-        font-weight: 300;
-        letter-spacing: 1px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    .dicas-home .segundo-passo img {
-        position: relative;
-        width: 40%;
-        height: 35%;
-        top: 27%;
-        left: 30%;
-    }
-
-    .dicas-home .terceiro-passo {
-        position: absolute;
-        width: 33%;
-        height: 100%;
-        top: 0px;
-        left: 67%;
-        background-color: #606C38;
-    }
-
-        .dicas-home .terceiro-passo h4 {
-            position: relative;
-            width: 98%;
-            top: 15%;
-            left: 1%;
-            font-size: 28px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            color: #FFFFFF;
-        }
-
-        .dicas-home .terceiro-passo p {
-            position: relative;
-            width: 100%;
-            top: 21%;
-            left: 0%;
-            font-size: 20px;
-            font-weight: 300;
-            letter-spacing: 1px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-
-        .dicas-home .terceiro-passo img {
-            position: relative;
-            width: 40%;
-            height: 35%;
-            top: 27%;
-            left: 34%;
-        }
-
-.lista-compras-home {
-    position: absolute;
-    width: 100%;
-    height: 250px;
-    top: 1800px;
-    left: 0px;
-    background-color: #FEFAE0;
-}
-
-.footer-home {
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    top: 2050px;
-    left: 0px;
-    background-color: #283618;
-}
-
-    .footer-home h3 {
-        position: relative;
-        width: 60%;
-        top: 15%;
-        left: 2%;
-        font-size: 24px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        color: #FFFFFF;
-    }
-
-    .footer-home h4 {
-        position: relative;
-        width: 30%;
-        top: 3%;
-        left: 70%;
-        font-size: 24px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        color: #FFFFFF;
-    }
-
-    .footer-home p {
-        position: relative;
-        top: 50%;
-        font-size: 16px;
-        font-weight: 400;
-        text-align: center;
-        color: #FFF;
-    }
-
 
 /* LOGIN E CADASTRO */
 
@@ -442,14 +214,6 @@ a {
     width: 100%;
     height: 70%;
     z-index: 1;
-}
-
-.conteudo-perfil .side-buttons-perfil {
-    position: absolute;
-    width: 15%;
-    height: 10%;
-    top: 5%;
-    left: 2%;
 }
 
 .conteudo-perfil .adicionar-estabelecimento img {
@@ -692,35 +456,6 @@ a {
         left: 5%;
     }
 
-    .footer-home {
-        position: absolute;
-        height: 350px;
-        top: 1860px;
-    }
-
-        .footer-home h3 {
-            position: relative;
-            width: 40%;
-            top: 10%;
-            left: 2%;
-            font-size: 20px;
-        }
-
-
-        .footer-home h4 {
-            position: relative;
-            width: 40%;
-            top: 40%;
-            left: 2%;
-            font-size: 20px;
-        }
-
-        .footer-home p {
-            position: relative;
-            top: 55%;
-            font-size: 12px;
-        }
-
 
     /* LOGIN E CADASTRO */
 
@@ -791,14 +526,6 @@ a {
 
 
     /* PERFIL DO USU�RIO */
-
-        .conteudo-perfil .side-buttons-perfil {
-            position: absolute;
-            width: 80%;
-            height: 15%;
-            top: 5%;
-            left: 10%;
-        }
 
         .conteudo-perfil .adicionar-estabelecimento img {
             position: absolute;
@@ -936,34 +663,6 @@ a {
         left: 7%;
     }
 
-    .footer-home {
-        position: absolute;
-        height: 250px;
-        top: 1640px;
-    }
-
-        .footer-home h3 {
-            position: relative;
-            width: 60%;
-            top: 15%;
-            left: 2%;
-            font-size: 20px;
-        }
-
-        .footer-home h4 {
-            position: relative;
-            width: 30%;
-            top: 3%;
-            left: 70%;
-            font-size: 20px;
-        }
-
-        .footer-home p {
-            position: relative;
-            top: 50%;
-            font-size: 12px;
-        }
-
 
     /* LOGIN E CADASTRO */
 
@@ -994,11 +693,6 @@ a {
 
 
     /* PERFIL DO USU�RIO */
-
-        .conteudo-perfil .side-buttons-perfil {
-            width: 20%;
-        }
-
         .conteudo-perfil .adicionar-estabelecimento img {
             width: 10%;
             height: 20%;
