@@ -133,6 +133,7 @@
     </section>
 
     <section class="pesquisar-por-categorias d-flex justify-content-center align-items-center">
+<<<<<<< HEAD
         <div class="input-group mb-3" style="width:75%">
             <a class="btn btn-transparent border-dark text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Pesquisar por
@@ -150,12 +151,33 @@
             <img src="~/css/img/botão dica.png" alt="botão dica" style="cursor:pointer; position: absolute; width: 30px; height: 30px; top: 823px; left: 63%;" onmouseover="showConteudoCategoria()" onmouseout="hideConteudoCategoria()" />
             <p class="conteudo-categoria" style="z-index: 1; position: absolute; display: none; box-sizing: border-box; place-items: center; width: 370px; top: 835px;  left: 38%; padding: 10px;  background: #FEFAE0; border: 1px solid #000000; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px;">
                 Para encontrar o(s) produto(s) que você deseja, você pode procurar de duas formas aqui no site: através da categoria do alimento ou pesquisando o nome de um produto.<br /> Caso você não tenha um produto em mente, você pode clicar em uma categoria de alimentos abaixo, que irá redirecioná-lo para uma coleção de produtos dessa categoria.</p>
+=======
+        <form action="/Filtros/Index" method="get" style="width: 75%; margin-top: 180px">
+            <div class="input-group mb-3">
+                <a class="btn btn-transparent border-dark text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pesquisar por
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Categoria</a></li>
+                    <li><a class="dropdown-item" href="#">Localidade</a></li>
+                    <li><a class="dropdown-item" href="#">Restrição Alimentar</a></li>
+                </ul>
+                <input type="text" class="form-control" name="filtro" placeholder="Digite aqui o que você procura" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary border-dark text-dark" type="submit" id="button-addon2">Pesquisar</button>
+            </div>
+        </form>
+        <div class="dica-categoria">
+            <img src="~/css/img/botão dica.png" alt="botão dica" style="cursor:pointer; position: absolute; width: 30px; height: 30px;top: 796px; left: 63%;" onmouseover="showConteudoCategoria()" onmouseout="hideConteudoCategoria()" />
+            <p class="conteudo-categoria" style="z-index: 1; position: absolute; display: none; box-sizing: border-box; place-items: center; width: 370px; top: 805px;  left: 65%; padding: 10px;  background: #FEFAE0; border: 1px solid #000000; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px;">
+                Para encontrar o(s) produto(s) que você deseja, você pode procurar de duas formas aqui no site: através da categoria do alimento ou pesquisando o nome de um produto.<br /> Caso você não tenha um produto em mente, você pode clicar em uma categoria de alimentos abaixo, que irá redirecioná-lo para uma coleção de produtos dessa categoria.
+            </p>
+>>>>>>> feature/CriandoFiltrosDePesquisa
         </div>
         <div class="dica-pesquisa">
             <img src="~/css/img/botão dica.png" alt="botão dica" style="cursor:pointer; position: absolute; width: 30px; height: 30px;top: 1670px; left: 9%;" onmouseover="showConteudoPesquisa()" onmouseout="hideConteudoPesquisa()" />
             <p class="conteudo-pesquisa" style="z-index: 2; position: absolute; display: none; box-sizing: border-box; place-items: center; width: 370px; top: 1640px;  left: 11%; padding: 10px;  background: #FEFAE0; border: 1px solid #000000; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px;">
-                    Caso você queira achar algo específico, use o campo de pesquisa ao lado e escreva o nome do produto que deseja. Utilize os filtros de localidade e restrição alimentar para que sua busca seja a mais precisa possível.
-                </p>
+                Caso você queira achar algo específico, use o campo de pesquisa ao lado e escreva o nome do produto que deseja. Utilize os filtros de localidade e restrição alimentar para que sua busca seja a mais precisa possível.
+            </p>
         </div>
     </section>
 

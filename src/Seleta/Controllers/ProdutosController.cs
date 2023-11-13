@@ -19,7 +19,7 @@ namespace Seleta.Controllers
         [Authorize]
         public async Task<IActionResult> Index()
         {
-            var ApplicationDbContext = _context.Produtos.Include( e => e.Estabelecimento);
+            var ApplicationDbContext = _context.Produtos.Include(e => e.Estabelecimento);
             return View(await ApplicationDbContext.ToListAsync());
         }
 

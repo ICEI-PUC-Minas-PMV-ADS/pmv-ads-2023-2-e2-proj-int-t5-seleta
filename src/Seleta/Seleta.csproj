@@ -24,10 +24,12 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\css\img\" />
+    <Folder Include="Views\Filtros\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Views\Estabelecimentos\" />
+    <None Remove="Views\Filtros\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Estabelecimentos\Estabelecimento.cshtml" />
