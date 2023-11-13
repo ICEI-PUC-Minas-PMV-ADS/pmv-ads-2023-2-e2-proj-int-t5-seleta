@@ -12,7 +12,7 @@ build_property.RootNamespace = Seleta
 build_property.ProjectDir = C:\Workspace\Projetos\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Workspace\Projetos\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta
 build_property._RazorSourceGeneratorDebug = 
 
@@ -34,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Filtros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdHJvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Filtros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdHJvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Index.cshtml]
