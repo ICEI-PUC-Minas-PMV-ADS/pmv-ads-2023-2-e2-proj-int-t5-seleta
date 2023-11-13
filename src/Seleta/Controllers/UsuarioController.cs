@@ -13,11 +13,6 @@ namespace Seleta.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        /**
-         * Propriedade da classe para salvar o cpf do usuario
-         * Não foi inicializado ainda, só declarado, a gente passa um valor pra ele no método do perfil
-         * Ele é estático pra sempre que usuario mudar ele mudar também e não ocupar muita memoria
-         */
         private static string? usuarioCpf;
 
         public UsuarioController(ApplicationDbContext context)
@@ -107,7 +102,6 @@ namespace Seleta.Controllers
         [Authorize]
         public async Task<IActionResult> Perfil()
         {
-            //A variável é inicializada aqui, eu uso o HttpContext pra pegar o cpf do usuario logado
             usuarioCpf =  HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var userLogged = await _context.Usuarios.FindAsync(usuarioCpf);
             return View(userLogged);
@@ -117,7 +111,6 @@ namespace Seleta.Controllers
         [Authorize]
         public async Task<IActionResult> Details()
         {
-            //Como o cpf é uma variavel da classe, eu consigo usar ela aqui
             if (usuarioCpf == null) 
             {
                 return NotFound();
@@ -145,7 +138,6 @@ namespace Seleta.Controllers
                 return NotFound();
                }
 
-            //E aqui, dai não precisa ficar pegando o cpf em todos os métodos :D
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.CPF == usuarioCpf);
 
@@ -165,17 +157,6 @@ namespace Seleta.Controllers
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Login));
-        }
-
-        /**
-         * Acho que nem precisa desse método, talvez fosse mais interessante se
-         * ele retornasse o usuario logado com o cpf
-         * Eu mudaria o codigo pra esse await _context.Usuarios.FirstOrDefaultAsync(m => m.CPF == usuarioCpf);
-         * E dai usaria essa função sempre que precisar retornar o usuario
-         */
-        private bool UsuarioExists(string id)
-        {
-            return _context.Usuarios.Any(e => e.CPF == id);
         }
     }
 }

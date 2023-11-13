@@ -1,36 +1,124 @@
 ﻿@model Seleta.Models.Usuario
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Informações do usuário";
 }
 
-<h1>Details</h1>
+<header>
+    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta"></a>
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="position: relative; left: 55%;">HOME</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-center" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
+                    position: absolute; width:80px; height: 30px; top: 15%; left:85%; border-radius: 5px; padding:2px;">
+                            Perfil
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
+                            Sair
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
+                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
+                            Login
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
 
-<div>
-    <h4>Usuario</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Senha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Senha)
-        </dd>
-    </dl>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="~/css/img/menu_white_36dp.svg"></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+            </li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
+                        Perfil
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
+                        Sair
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
+                        Login
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</header>
+
+
+<div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38">
+        <h3 style="color: #FEFAE0;padding-top: 6%; margin-left: 2%">Informações do usuário</h3>
+        <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
+
+        <div class="row" style="color: #FEFAE0">
+        <dl class="row" style="margin-left: 2%">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Nome)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Nome)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.CPF)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.CPF)
+                </dd>
+            </dl>
+        </div>
+    <div>
+        <a asp-controller="Usuario" asp-action="Perfil" class="btn" style="width: 10%; color: #FFFFFF; background-color: #283618; border-radius: 10px; margin-left: 2%;">
+            Voltar
+        </a>
+        <a asp-controller="Usuario" asp-action="Delete" class="btn" style="width:10%;color: #FFFFFF;background-color: #8F0A2A; border-radius: 10px;">Excluir conta</a>
+    </div>
+
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CPF">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<footer class="footer-estabelecimento">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
