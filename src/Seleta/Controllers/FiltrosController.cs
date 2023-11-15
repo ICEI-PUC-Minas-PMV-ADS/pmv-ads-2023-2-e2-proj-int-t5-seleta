@@ -21,9 +21,13 @@ namespace Seleta.Controllers
         {
             IQueryable<Produto> produtosQuery = _context.Produtos.Include(e => e.Estabelecimento);
 
+
             if (!string.IsNullOrEmpty(filtro))
             {
-                produtosQuery = produtosQuery.Where(p => p.Nome.Contains(filtro));
+                produtosQuery = produtosQuery.Where(p =>
+                    p.Nome.Contains(filtro)||
+                    p.Descricao.Contains (filtro));
+
             }
 
             var produtos = await produtosQuery.ToListAsync();

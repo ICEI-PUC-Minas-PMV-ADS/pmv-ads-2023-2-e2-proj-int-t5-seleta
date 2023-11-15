@@ -30,3 +30,4 @@ function hideConteudoPesquisa() {
     let conteudo = document.querySelector(".conteudo-pesquisa");
     conteudo.style.display = "none";
 }
+

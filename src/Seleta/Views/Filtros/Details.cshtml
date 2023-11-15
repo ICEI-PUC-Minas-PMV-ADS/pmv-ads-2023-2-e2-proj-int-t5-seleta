@@ -81,6 +81,7 @@
 </header>
 
 <body>
+   
     <div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #606C38">
         <div class="mb-3">
 
@@ -129,8 +130,12 @@
                 <dt class = "col-sm-2">
                     @Html.DisplayNameFor(model => model.Estabelecimento)
                 </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Estabelecimento.Nome) 
+                </dd>
+                
                 <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Estabelecimento.Cnpj)
+                    @Html.DisplayFor(model => model.Estabelecimento.Endereco)
                 </dd>
                 </dl>
             </div>
@@ -138,7 +143,7 @@
                 <a asp-action="Index" class="btn" style="width: 10%; color: #FFFFFF; background-color: #283618; border-radius: 10px; margin-left: 2%;">
                     Voltar
                 </a>
-                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn" style="width:10%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px;">Editar</a>
+                
             </div>
         </div>
     </div>
