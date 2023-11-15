@@ -10,8 +10,6 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |	Vídeo 	| [![CT06](https://img.youtube.com/vi/fRXAynvNqBM/0.jpg)](https://youtu.be/fRXAynvNqBM)|
 |  	|  	|
 
-https://youtu.be/fRXAynvNqBM
-
 | Testes 	| CT-06 – Cadastro do usuário	|
 |:---:	|:---:	|
 |	Vídeo 	| [![CT06](https://img.youtube.com/vi/Ip64HgVzUE0/0.jpg)](https://youtu.be/Ip64HgVzUE0?si=vOgABg3nBaLbCuU_)|
@@ -19,7 +17,7 @@ https://youtu.be/fRXAynvNqBM
 
 | Testes 	| CT-07 – Cadastro do estabelecimento	|
 |:---:	|:---:	|
-|	Vídeo 	| [![CT07](https://img.youtube.com/vi/FUtDAp6iNX0/0.jpg)](https://youtu.be/FUtDAp6iNX0)  |
+|	Vídeo 	| [![CT07](https://img.youtube.com/vi/K17GJHHMWbc/0.jpg)](https://youtu.be/K17GJHHMWbc)  |
 |  	|  	|
 
 ## Relatório de Testes de Software
