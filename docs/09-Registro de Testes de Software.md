@@ -5,6 +5,12 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso)
 
+| Testes 	| CT-01 – Página inicial	|
+|:---:	|:---:	|
+|	Vídeo 	| [![CT06](https://img.youtube.com/vi/fRXAynvNqBM/0.jpg)](https://youtu.be/fRXAynvNqBM)|
+|  	|  	|
+
+https://youtu.be/fRXAynvNqBM
 
 | Testes 	| CT-06 – Cadastro do usuário	|
 |:---:	|:---:	|
