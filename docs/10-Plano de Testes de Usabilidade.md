@@ -39,13 +39,13 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 | Objetivo do Teste 	| Avaliar a usabilidade da tela de Login |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Preencher as informações de email e senha; <br> 4. Clicar em “Entrar". |
 
-| **Caso de Teste** 	| **CTU-03 – Criar Lista de Compras** 	|
+| **Caso de Teste** 	| **CTU-03 – Criar Lista de Compras a partir da barra de navegação** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
-| Objetivo do Teste 	| Avaliar a usabilidade da criação de lista |
+| Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Criar Lista de Compras” no canto superior direito; <br> 3. Criar um nome para a lista; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CTU-04 – Criar Lista de Compras sem login** 	|
+| **Caso de Teste** 	| **CTU-04 – Criar Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
