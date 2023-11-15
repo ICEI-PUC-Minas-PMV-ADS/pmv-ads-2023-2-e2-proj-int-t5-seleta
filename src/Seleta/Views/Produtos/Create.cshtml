@@ -98,7 +98,7 @@
             <div class="row" style="color: #FEFAE0">
                 <div class="row">
                     <div class="col-md-4">
-                        <form asp-action="Create" style="margin-left: 7%">
+                        <form asp-action="Create" enctype="multipart/form-data" style="margin-left: 7%">
                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                             <div class="form-group">
                                 <label asp-for="Nome" class="control-label"></label>
@@ -138,6 +138,16 @@
                                 <label asp-for="CnpjEstabelecimento" class="control-label"></label>
                                 <select asp-for="CnpjEstabelecimento" class="form-control" asp-items="ViewBag.CnpjEstabelecimento"></select>
                             </div>
+                            <div class="form-group">
+                                <label asp-for="Imagem" class="control-label">Imagem do Produto</label>
+                                <input asp-for="Imagem" name="imagem" type="file" id="inputImagem" accept="image/*" onchange="previewImage()" class=" form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
+                                <span asp-validation-for="Imagem" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Pré-visualização da Imagem</label>
+                                <img id="preview" alt="Pré-visualização" style="max-width: 100%; max-height: 200px;" />
+                            </div>
+                            
                             <br />
                             <div class="form-group">
                                 <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px; border: 1px solid #283618;;">
@@ -154,12 +164,19 @@
     </div>
 </body>
 
-<footer class="footer-estabelecimento" style="position: absolute; bottom: 0; width: 100%; height: 20%; background-color: #FEFAE0; color: #fff; text-align: center; padding: 10px 0;">
-    <div class="imagem-footer">
-        <h3>Amplie sua presença online e alcance mais clientes.</h3>
-        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
-    </div>
-    <div class="container">
-        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
-    </div>
-</footer>
+<script>
+    function previewImage() {
+        var input = document.getElementById('inputImagem');
+        var preview = document.getElementById('preview');
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

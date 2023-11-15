@@ -37,7 +37,14 @@ namespace Seleta.Models
         [ForeignKey("CnpjEstabelecimento")]
         public Estabelecimento? Estabelecimento { get; set; }
 
+        [Display(Name = "Imagem do Produto")]
+        public byte[] Imagem { get; set; }  // Campo para armazenar os dados binários da imagem
+
+        [Display(Name = "Tipo de Imagem")]
+        public string TipoImagem { get; set; }  // Campo para armazenar o tipo de conteúdo da imagem
     }
+
+}
 
     public enum Restricoes
     {
@@ -58,4 +65,3 @@ namespace Seleta.Models
         Refeição,
         Sobremesa
     }
-}
