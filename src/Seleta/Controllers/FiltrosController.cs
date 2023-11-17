@@ -28,6 +28,7 @@ namespace Seleta.Controllers
                     p.Nome.Contains(filtro)||
                     p.Descricao.Contains (filtro) ||
                     p.Categoria.Contains (filtro));
+                    
 
             }
 
