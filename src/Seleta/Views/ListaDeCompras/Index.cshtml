@@ -1,11 +1,30 @@
 ﻿@model List<Produto>
 @{
-
+    ViewData["Title"] = "Lista de compras";
 }
 
-<h2>@ViewData["ListaDeComprasEmail"]</h2>
+<div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 11.5%; left: 0; background-color: #BC6C25C2;">
+    <h1 style="color: #283618;padding-top: 2%; margin-left: 3%; font-size: 32px;">
+        Minha lista de compras
+    </h1>
+    <hr / style="position: relative; width: 520px; left: 2%; color: #283618;">
+    <h4 style="color: #283618;margin-left: 3%; font-size: 18px; font-weight: 400;">E-mail do cliente: @ViewData["ListaDeComprasEmail"]</h4>
 
-@foreach (var produto in Model)
-{
-    <p>@produto.Nome</p>
-}
+    <div class="row" style="color: #D9D9D9; font-size: 18px; font-weight: 500; padding-top: 2%; margin-left: 3%; width: 608px; height: 69px">
+
+        @foreach (var produto in Model)
+        {
+            <p>@produto.Nome</p>
+        }
+    </div>
+</div>
+
+<footer class="footer-perfil" style="background-color: #FEFAE0; position: absolute; top: 100%; z-index: 1; width: 100%; height: 200px;">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container" style="position: relative; top: 90%; font-size: 16px; font-weight: 400; line-height: 24px; text-align: center; color: #283618;">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
