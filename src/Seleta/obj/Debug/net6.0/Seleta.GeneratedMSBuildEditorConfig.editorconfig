@@ -5,121 +5,120 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Seleta
 build_property.RootNamespace = Seleta
-build_property.ProjectDir = C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta\
+build_property.ProjectDir = /Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vbmac\OneDrive\Documentos\PUC Minas\Eixo 2 - Seleta\pmv-ads-2023-2-e2-proj-int-t5-seleta\src\Seleta
+build_property.MSBuildProjectDirectory = /Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xDcmVhdGUuY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xEZWxldGUuY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xEZXRhaWxzLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xFZGl0LmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJlbGVjaW1lbnRvc1xJbmRleC5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Estabelecimentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWJlbGVjaW1lbnRvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Filtros/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdHJvc1xEZXRhaWxzLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Filtros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmlsdHJvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Filtros/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsdHJvc1xJbmRleC5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Filtros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmlsdHJvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcSW5kZXguY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFEZUNvbXByYXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/SalvarProduto.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcU2FsdmFyUHJvZHV0by5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/SalvarProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFEZUNvbXByYXMvU2FsdmFyUHJvZHV0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_EstabelecimentosProdutos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Fc3RhYmVsZWNpbWVudG9zUHJvZHV0b3MuY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_EstabelecimentosProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Fc3RhYmVsZWNpbWVudG9zUHJvZHV0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Cadastro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryby5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9DYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Perfil.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQZXJmaWwuY3NodG1s
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Usuario/Perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9QZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vbmac/OneDrive/Documentos/PUC Minas/Eixo 2 - Seleta/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1pvfgjxjaa
+[/Users/naiannaduarte/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vlu31uqya4
