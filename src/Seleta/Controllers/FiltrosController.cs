@@ -26,7 +26,8 @@ namespace Seleta.Controllers
             {
                 produtosQuery = produtosQuery.Where(p =>
                     p.Nome.Contains(filtro)||
-                    p.Descricao.Contains (filtro));
+                    p.Descricao.Contains (filtro) ||
+                    p.Categoria.Contains (filtro));
 
             }
 

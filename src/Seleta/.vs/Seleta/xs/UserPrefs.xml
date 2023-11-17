@@ -11,7 +11,7 @@
       <File FileName="Views/Filtros/Details.cshtml" />
       <File FileName="Program.cs" />
       <File FileName="Views/Home/Index.cshtml" />
-      <File FileName="Controllers/FiltrosController.cs" Line="30" Column="1" />
+      <File FileName="Controllers/FiltrosController.cs" Line="31" Column="14" />
       <File FileName="Models/Estabelecimentos.cs" />
       <File FileName="Controllers/ProdutosController.cs" />
       <File FileName="Models/Produto.cs" />
@@ -27,11 +27,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Seleta">
-            <Node name="Seleta">
-              <Node name="Controllers" expanded="True">
-                <Node name="FiltrosController.cs" selected="True" />
-              </Node>
+          <Node name="Seleta" expanded="True">
+            <Node name="Seleta" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Filtros" expanded="True" />
