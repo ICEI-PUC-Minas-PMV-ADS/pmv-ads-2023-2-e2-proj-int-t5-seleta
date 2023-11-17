@@ -1,11 +1,11 @@
-﻿@model ListaDeCompras
+﻿@model List<Produto>
 @{
 
 }
 
-<h2>@Model.Email</h2>
+<h2>@ViewData["ListaDeComprasEmail"]</h2>
 
-@foreach (var produto in Model.Produtos)
+@foreach (var produto in Model)
 {
-    <p>@produto.ProdutoId</p>
+    <p>@produto.Nome</p>
 }

@@ -31,8 +31,6 @@ namespace Seleta.Data
 
             modelBuilder.Entity<ProdutosListaDeCompras>(pl =>
             {
-                pl.HasKey(p => new { p.ProdutoId, p.ListaDeComprasEmail });
-
                 pl.HasOne(pl => pl.ListaDeCompras).
                 WithMany(pl => pl.Produtos).HasForeignKey(p => p.ListaDeComprasEmail);
 
