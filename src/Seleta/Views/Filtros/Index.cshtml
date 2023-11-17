@@ -4,6 +4,7 @@
 
 @model IEnumerable<Seleta.Models.Produto>
 
+
 @{
     ViewData["Title"] = "Meus Produtos";
 }
@@ -38,7 +39,7 @@
                             <p class="card-text">Preço: R$ @item.Preco</p>
                             <p class="card-text">Adequado para: @item.Restricoes</p>
                             <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm">Ver Detalhes</a>
-                            <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm">Adicionar à lista </a>
+                            <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm">Adicionar à Lista </a>
                         </div>
                     </div>
                 </div>

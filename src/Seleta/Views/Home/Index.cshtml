@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ListaDeCompras
+@{
     ViewData["Title"] = "Seleta";
 }
 
@@ -200,8 +201,11 @@
             </div>
             <div>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary border-dark text-dark" type="button" id="button-addon2">Criar lista</button>
+                    @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
+                        {
+                    <input asp-for ="Email" type="text" class="form-control" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary border-dark text-dark" type="submit" id="button-addon2">Criar lista</button>
+                        }
                 </div>
             </div>
         </div>
