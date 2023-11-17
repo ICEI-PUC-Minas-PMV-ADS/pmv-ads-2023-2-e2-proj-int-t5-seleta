@@ -41,8 +41,10 @@ namespace Seleta.Models
 
     public enum Restricoes
     {
+        [Display(Name = "Intolerância à lactose")]
         LactoseIntolerância,
         Diabetes,
+        [Display(Name = "Intolerância à gluten")]
         GlutenIntolerância,
         Vegano
     }
@@ -52,6 +54,7 @@ namespace Seleta.Models
         Laticínio,
         Bebida,
         Padaria,
+        Legumes,
         Verduras,
         Frutas,
         Lanches,
