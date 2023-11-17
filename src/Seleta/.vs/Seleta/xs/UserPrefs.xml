@@ -1,30 +1,52 @@
 ﻿<Properties StartupConfiguration="{AA592BB1-1BE1-4678-ABCE-75D680CCB1B7}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Filtros/Details.cshtml">
+  <MonoDevelop.Ide.ItemProperties.Seleta PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/FiltrosController.cs">
     <Files>
-      <File FileName="Views/Filtros/Details.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Filtros/Details.cshtml" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Controllers/FiltrosController.cs" Line="31" Column="14" />
+      <File FileName="Models/Estabelecimentos.cs" />
+      <File FileName="Controllers/ProdutosController.cs" />
+      <File FileName="Models/Produto.cs" />
+      <File FileName="Models/ErrorViewModel.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="wwwroot/js/site.js" />
+      <File FileName="Controllers/EstabelecimentosController.cs" />
+      <File FileName="Views/Filtros/Index.cshtml" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Views/Shared/Error.cshtml" />
+      <File FileName="wwwroot/css/site.css" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Seleta">
-            <Node name="Seleta">
-              <Node name="Models" expanded="True">
-                <Node name="Estabelecimentos.cs" selected="True" />
-              </Node>
+          <Node name="Seleta" expanded="True">
+            <Node name="Seleta" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Filtros" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Seleta PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
