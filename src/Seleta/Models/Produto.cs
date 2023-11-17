@@ -37,6 +37,8 @@ namespace Seleta.Models
         [ForeignKey("CnpjEstabelecimento")]
         public Estabelecimento? Estabelecimento { get; set; }
 
+        public List<ProdutosListaDeCompras> ListasDeCompras { get; set; } = new();
+
     }
 
     public enum Restricoes

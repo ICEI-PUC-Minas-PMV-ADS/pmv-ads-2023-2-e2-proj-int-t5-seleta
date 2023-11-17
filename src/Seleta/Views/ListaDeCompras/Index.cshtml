@@ -1,0 +1,11 @@
+﻿@model List<Produto>
+@{
+
+}
+
+<h2>@ViewData["ListaDeComprasEmail"]</h2>
+
+@foreach (var produto in Model)
+{
+    <p>@produto.Nome</p>
+}

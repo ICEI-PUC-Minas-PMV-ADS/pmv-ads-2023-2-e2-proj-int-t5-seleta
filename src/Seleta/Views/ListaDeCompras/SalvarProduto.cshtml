@@ -1,0 +1,59 @@
+﻿@model Produto
+@{
+
+}
+
+<h1>Adicionar à lista de compras?</h1>
+
+<h4>Produto</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Nome)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Nome)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Preco)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Preco)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.QuantidadePeso)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.QuantidadePeso)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Categoria)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Categoria)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Descricao)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Descricao)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Restricoes)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Restricoes)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Estabelecimento)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Estabelecimento.Cnpj)
+    </dd>
+</dl>
+
+<form asp-action="SalvarProdutoConfirmado">
+    <input type="hidden" asp-for="Id" name="produtoId"/>
+    <input type="submit" value="Salvar" class="btn btn-success" /> |
+    <a asp-action="Index" class="btn btn-info">Voltar</a>
+</form>

@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ListaDeCompras
+@{
     ViewData["Title"] = "Seleta";
 }
 
@@ -162,70 +163,55 @@
     </section>
 
 
-    <br />
-    <br />
-    <section class="cards_informativos">
-        <div class="container row mx-auto">
-            <div class="card col-12 col-md-12 col-xxl-4 mt-5 text-center rounded-0 border-0 text-white" style="background-color: #606C38">
-                <div class="card-body">
-                    <h4 class="card-title">
-                        1. Explore os produtos
-                    </h4>
-                    <p class="card-text">Use a barra de pesquisa para encontrar itens específicos.</p>
-                    <img src="~/css/img/motor-de-busca 1.png" alt="...">
+<section class="dicas-home">
+    <div class="primeiro-passo">
+        <h4>
+            1. Explore os produtos
+        </h4>
+        <p>
+            Use a barra de pesquisa para encontrar itens específicos</p>
+        <img src="~/css/img/motor-de-busca 1.png" alt="buscar produtos">
+    </div>
+    <div class="segundo-passo">
+        <h4>
+            2. Crie listas de compras</h4>
+        <p>
+            Insira seu endereço de e-mail no campo abaixo e clique em "Criar lista"</p>
+        <img src="~/css/img/lista-de-controle 1.png" alt="lista de compras">
+    </div>
+    <div class="terceiro-passo">
+        <h4>
+            3. Adicione os itens à sua lista</h4>
+        <p>
+            Escolha os produtos que deseja comprar e clique em "Adicionar à lista"</p>
+        <img src="~/css/img/adicionar-ficheiro 1.png" alt="adicionar produto">
+    </div>
+</section>
 
-                </div>
+<section class="lista-compras-home">
+    <div class="container text-center mt-3">
+        <div class="row align-items-center">
+            <div class="col">
+                <p class="display-4 text-start bold"><strong>CRIE LISTA DE COMPRAS SEM FAZER LOGIN</strong></p>
             </div>
-            <div class="card col-12 col-md-12 col-xxl-4 mt-5 text-center rounded-0 border-0 text-white" style="background-color: #606C38D9">
-                <div class="card-body">
-                    <h4 class="card-title">2. Crie listas de compras</h4>
-                    <p class="card-text">Insira seu endereço de e-mail no campo abaixo.</p>
-                    <img src="~/css/img/lista-de-controle 1.png" alt="...">
-
-                </div>
-            </div>
-            <div class="card col-12 col-md-12 col-xxl-4 mt-5 text-center rounded-0 border-0 text-white" style="background-color: #606C38">
-                <div class="card-body">
-                    <h4 class="card-title"> 3. Adicione itens à sua lista</h4>
-
-                    <p class="card-text">Clique em "Criar Lista” para finalizar sua lista.</p>
-                    <img src="~/css/img/adicionar estabelecimento.png" alt="...">
-
-                </div>
+            <div class="col">
+                @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
+                {
+                    <div>
+                        <input asp-for="Email" type="text" class="border form-control text-center" placeholder="Digite aqui seu endereço de email" />
+                    </div>
+                    <div asp-validation-summary="All"></div>
+                    <button type="submit" class="btn mt-3" style="width:50%;color: #FFFFFF;background-color: #BC6C25; border-radius: 10px">CRIAR LISTA</button>
+                }
             </div>
         </div>
-    </section>
-    <br />
-    <br />
-    <br />
-    <section class="crie_listas" >
-        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-5 px-3 mt-5">
-            <div class="titulo-crie_listas text-dark text-left" style="width: 30% ">
-                <h2>CRIE LISTAS DE COMPRAS SEM FAZER LOGIN!</h2>
-            </div>
-            <div>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary border-dark text-dark" type="button" id="button-addon2">Criar lista</button>
-                </div>
-            </div>
-        </div>  
-    </section>
-</body>
-<br />
-<br />
-<footer class="w-100 " style="background-color:#283618; width: 100%; height: 300px;">
-    <div class="mx-3 text-white" style="margin-top:100px">
-        <h3 style="font-family: Inter; font-size: 20px; font-weight: 400; line-height: 36px; letter-spacing: 0.09em; width: 40%; padding: 20px;">
-            SIGA-NOS NAS REDES SOCIAIS E ENTRE EM CONTATO
-        </h3>
     </div>
-    <div class="mt-5" style="position: relative; left: 2%; top: -15%; width: 20%; height: 5%">
-        <img class="mx-3" src="~/css/img/facebook.png" alt="facebook">
-        <img class="mx-3" src="~/css/img/instagram.png" alt="instagram">
-    </div>
-    <div>
-        <p class="text-center"style="color: #FEFAE0; margin-top:100px"> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
-    </div>
-    
+</section>
+
+<footer class="footer-home">
+    <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
+    <h4>ENTRE EM CONTATO</h4>
+    <img src="~/css/img/facebook.png" alt="facebook" style="position: relative; width: 30px; height: 33.06px; top: 5%; left: 5%;">
+    <img src="~/css/img/instagram.png" alt="instagram" style="position: relative; width: 35px; height: 35px; top: 5%; left: 7%;">
+    <p> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
 </footer>
