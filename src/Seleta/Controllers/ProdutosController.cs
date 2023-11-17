@@ -101,12 +101,10 @@ namespace Seleta.Controllers
                 {
                     if (novaImagem != null && novaImagem.Length > 0)
                     {
-                        using (var stream = new MemoryStream())
-                        {
-                            await novaImagem.CopyToAsync(stream);
-                            produto.Imagem = stream.ToArray();
-                            produto.TipoImagem = novaImagem.ContentType;
-                        }
+                        var stream = new MemoryStream();
+                        await novaImagem.CopyToAsync(stream);
+                        produto.Imagem = stream.ToArray();
+                        produto.TipoImagem = novaImagem.ContentType;
                     }
 
                     _context.Update(produto);
