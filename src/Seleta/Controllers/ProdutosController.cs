@@ -88,7 +88,7 @@ namespace Seleta.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Edit(int id, [Bind ("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto)
+        public async Task<IActionResult> Edit(int id, [Bind ("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto, IFormFile novaImagem)
         {
             if (id != produto.Id)
             {
@@ -99,12 +99,22 @@ namespace Seleta.Controllers
             {
                 try
                 {
+                    if (novaImagem != null && novaImagem.Length > 0)
+                    {
+                        using (var stream = new MemoryStream())
+                        {
+                            await novaImagem.CopyToAsync(stream);
+                            produto.Imagem = stream.ToArray();
+                            produto.TipoImagem = novaImagem.ContentType;
+                        }
+                    }
+
                     _context.Update(produto);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException) 
-                { 
+                catch (DbUpdateConcurrencyException)
+                {
                     if (!ProdutoExists(produto.Id))
                     {
                         return NotFound();
