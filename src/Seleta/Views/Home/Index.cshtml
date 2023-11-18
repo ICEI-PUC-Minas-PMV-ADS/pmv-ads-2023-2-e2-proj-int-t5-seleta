@@ -200,7 +200,7 @@
                 <h2>CRIE LISTAS DE COMPRAS SEM FAZER LOGIN!</h2>
             </div>
             <div>
-                <div class="input-group mb-3">
+                <div id="criar-lista" class="input-group mb-3">
                     @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
                         {
                     <input asp-for ="Email" type="text" class="form-control" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
