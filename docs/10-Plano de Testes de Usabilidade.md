@@ -49,13 +49,13 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Digitar o e-mail <br>3. Clicar na opção “Criar Lista de Compras” na parte infeior da tela; <br> 4. Colocar o e-mail de escolha; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Digitar o e-mail <br>3. Clicar na opção “Criar Lista de Compras” na parte infeior da tela; <br> 4. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
 
 | **Caso de Teste** 	| **CTU-05 – Gerenciar Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
 
 | **Caso de Teste** 	| **CTU-06 – Enviar Lista de Compras por email** 	|
 |:---:	|:---:	|
