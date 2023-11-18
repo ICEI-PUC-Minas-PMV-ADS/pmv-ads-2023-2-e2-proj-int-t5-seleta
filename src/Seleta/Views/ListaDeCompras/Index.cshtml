@@ -27,9 +27,14 @@
                 <p>@produto.Nome</p>
             }
         </div>
-        <button id="generate-pdf" style="color: #283618; background-color: transparent; border: none; font-size: 16px; font-weight: 700; position: absolute; top: 5%; left: 70%;"> 
-            <img src="~/css/img/dowload 1.png" />download</button>
     </div>
+    <a asp-controller="Home" asp-action="Index">
+        <button type="button" class="btn" style="color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: 700; position: absolute; top: 5%; left: 45%;">
+            + Adicionar produtos à lista</button>
+    </a>
+    <button id="generate-pdf" style="color: #283618; background-color: transparent; border: none; font-size: 15px; font-weight: 700; position: absolute; top: 5%; left: 85%;">
+        <img src="~/css/img/dowload 1.png" />download
+    </button>
 </div>
 
 <footer class="footer-perfil" style="background-color: #FEFAE0; position: absolute; top: 100%; z-index: 1; width: 100%; height: 200px;">
