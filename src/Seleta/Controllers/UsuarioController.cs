@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
 using Seleta.Models;
-using Seleta.ViewModel;
+using Seleta.Models.ViewModel;
 using System.Security.Claims;
 
 namespace Seleta.Controllers
@@ -21,7 +21,7 @@ namespace Seleta.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(CadastroUsuarioViewModel usuario)
+        public async Task<IActionResult> Login(LoginUsuarioViewModel usuario)
         {
             if (ModelState.IsValid)
             {
@@ -72,10 +72,18 @@ namespace Seleta.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Cadastro(Usuario usuario)
+        public async Task<IActionResult> Cadastro(CadastroUsuarioViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+                var usuario = new Usuario
+                {
+                    CPF = viewModel.CPF,
+                    Nome = viewModel.Nome,
+                    Email = viewModel.Email,
+                    Senha = viewModel.Senha,
+                };
+
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
