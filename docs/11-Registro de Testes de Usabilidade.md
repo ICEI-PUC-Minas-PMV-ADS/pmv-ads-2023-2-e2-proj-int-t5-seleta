@@ -17,19 +17,9 @@ Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
 | Usuário 2 | CTU-02 	|  3  | 0 | --- | Usuário ficou satisfeito - achou a tela prática |
 |Usuário 3 | CTU-02 | 2 | 0 | --- | Login efetuado com sucesso. O usuario sugeriu melhorar a distribuição dos botões. |
 
-| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-03 | 8 | 0 | --- | Usuário achou o início do processo tranquilo e rápido de entender por conta do botão na barra de navegação, mas, após clicar em "Criar lista", ele ficou confuso porque o site redirecionou direto para lista de compras vazia onde só tinha o botão de download e os botões da navegação. Ele precisou de um tempo pra entender que precisava voltar pra página inicial para pesquisar os produtos e, aí sim, adicionar à lista. Ele acha que deve existir um botão "Adicionar produtos" na página da lista de compras gerada. |
-
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-04 | 6 | 0 | --- | Usuário gostou mais de criar a lista após rolar a página porque ele conseguiu ler as dicas que existem ao longo da página inicial, mas, da mesma forma que no CTU-03, após clicar em "Criar lista", ele ficou confuso porque o site redirecionou direto para lista de compras vazia onde só tinha o botão de download e os botões da navegação. Ele precisou de um tempo pra entender que precisava voltar pra página inicial para pesquisar os produtos e, aí sim, adicionar à lista. Ele acha que deve existir um botão "Adicionar produtos" na página da lista de compras gerada. |
-
-
-
-| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-08 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
-| Usuário 2	| CTU-08	|  6  | 0 | --- | O CPF apresentou problema para aparecer, mas os dados foram salvo. O usuário ficou confuso com o cadastro do Nome, ficou com dúvida se era seu nome ou o nome do estabelecimento. |
-|Usuário 3 | CTU-08 | 3 | 2 | Sim | Usuário conseguiu seguir o fluxo mas se deparou com um input em branco sem opção de edição e ficou confuso. Também encontrou as informações do estabelecimento na ordem errada de exibição. O usuário conseguiu salvar o estabelecimento. |
+|Usuário 1 | CTU-07 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
+| Usuário 2	| CTU-07	|  6  | 0 | --- | O CPF apresentou problema para aparecer, mas os dados foram salvo. O usuário ficou confuso com o cadastro do Nome, ficou com dúvida se era seu nome ou o nome do estabelecimento. |
+|Usuário 3 | CTU-07 | 3 | 2 | Sim | Usuário conseguiu seguir o fluxo mas se deparou com um input em branco sem opção de edição e ficou confuso. Também encontrou as informações do estabelecimento na ordem errada de exibição. O usuário conseguiu salvar o estabelecimento. |
