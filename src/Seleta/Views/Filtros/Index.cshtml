@@ -6,7 +6,7 @@
 
 
 @{
-    ViewData["Title"] = "Meus Produtos";
+    ViewData["Title"] = "Resultado da pesquisa";
 }
 
 @section Scripts {
@@ -15,24 +15,16 @@
     }
 }
 
-<head>
-    <title> Meus Produtos</title>
-    <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
 
-</head>
-<body class="min-vh-100" style="background-color: #FEFAE0">
-    <section style="position: relative; background-color: #606C38; text-align: center; color: white;">
-        <img src="~/css/img/banner2.png" alt="..." style=" width: 100%; height: 400px">
-        <h4 style="letter-spacing: 5px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Navegue e encontre alimentos que atendam às suas restrições alimentares, simplificando suas escolhas e cuidando da sua saúde</h4>
-    </section>
+<body class="min-vh-100" style="background-color: #606C38DB;">
 
     <section>
-        <h2>Resultado da pesquisa: </h2>
+        <h2 style="color: #000;padding-top: 2%; margin-left: 3%; font-size: 32px;">Resultado da pesquisa: </h2>
         <div class="row m-4">
             @foreach (var item in Model)
             {
                 <div class="col-md-3 mb-4">
-                    <div class="card bg-transparent">
+                    <div class="card bg-white">
                         <div class="card-body">
                             <h5 class="card-title">@item.Nome</h5>
                             <p class="card-text">Descrição: @item.Descricao</p>
@@ -46,11 +38,7 @@
             }
         </div>
     </section>
-    <section class="terceira_section" style ="height: 100%; width: 100%">
-        <div class="terceira_section-dois" style="height: 100%; width: 100%">
-            <h3>SEJA LIVRE PARA SABOREAR A VIDA SEM RESTRIÇÕES</h3>
-        </div>
-    </section>
 
 </body>
+
 

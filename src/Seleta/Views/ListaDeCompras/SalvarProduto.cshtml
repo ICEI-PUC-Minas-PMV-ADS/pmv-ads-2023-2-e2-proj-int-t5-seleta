@@ -57,7 +57,7 @@
 
     <form asp-action="SalvarProdutoConfirmado">
         <input type="hidden" asp-for="Id" name="produtoId"/>
-        <a asp-action="Index" class="btn" style="width: 10%; color: #283618;background-color: #D9D9D957; border-radius: 10px; margin-left: 3%;">Voltar</a>
+        <a asp-controller="Filtros"  asp-action="Index" class="btn" style="width: 10%; color: #283618;background-color: #D9D9D957; border-radius: 10px; margin-left: 3%;">Voltar</a>
         <input type="submit" value="Salvar" class="btn" style="width: 10%; color: #FFFFFF; background-color: #283618; border-radius: 10px; margin-left: 1%;" />
     </form>
 </div>
