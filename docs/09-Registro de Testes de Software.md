@@ -7,7 +7,12 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | Testes 	| CT-01 – Página inicial	|
 |:---:	|:---:	|
-|	Vídeo 	| [![CT06](https://img.youtube.com/vi/fRXAynvNqBM/0.jpg)](https://youtu.be/fRXAynvNqBM)|
+|	Vídeo 	| [![CT01](https://img.youtube.com/vi/fRXAynvNqBM/0.jpg)](https://youtu.be/fRXAynvNqBM)|
+|  	|  	|
+
+| Testes 	| CT-03 – Criar lista de compras	|
+|:---:	|:---:	|
+|	Vídeo 	| [![CT03](https://img.youtube.com/vi/F6BRCXeRRnY/0.jpg)](https://youtu.be/F6BRCXeRRnY)|
 |  	|  	|
 
 | Testes 	| CT-06 – Cadastro do usuário	|
