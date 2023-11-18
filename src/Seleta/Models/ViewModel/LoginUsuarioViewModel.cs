@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Seleta.ViewModel
+namespace Seleta.Models.ViewModel
 {
-    public class CadastroUsuarioViewModel
+    public class LoginUsuarioViewModel
     {
         [Required(ErrorMessage = "Necessario usar um email!")]
         [EmailAddress]
