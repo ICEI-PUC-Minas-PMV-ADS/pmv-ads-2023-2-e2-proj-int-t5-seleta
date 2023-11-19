@@ -748,3 +748,9 @@ a {
     background-color: #606C38;
 }
 
+.link_cards_categoria a {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: inherit;
+}
