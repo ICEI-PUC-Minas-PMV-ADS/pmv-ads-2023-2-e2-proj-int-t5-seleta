@@ -32,6 +32,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-04 | 4 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Pesquisa não retorna sem acentos. Botão de buscar produtos não retorna produtos na lista de compras. Falta de botão para acessar a lista de forma rápida. |
+|Usuário 5 | CTU-04 | 4 | 0 | --- | O usuário conseguiu excluir produtos de sua lista e também conseguiu adicionar. Porém sentiu falta de um botão para acessar os detalhes do produto, como o nome e local onde o produto é vendido. Também sentiu falta de um acesso na home direto para as sua lista de compras já criada. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
