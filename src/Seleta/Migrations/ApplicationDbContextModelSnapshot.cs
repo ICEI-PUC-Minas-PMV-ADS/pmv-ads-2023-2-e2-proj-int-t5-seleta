@@ -166,19 +166,13 @@ namespace Seleta.Migrations
                 {
                     b.HasOne("Seleta.Models.Estabelecimento", "Estabelecimento")
                         .WithMany()
-<<<<<<< HEAD
-                        .HasForeignKey("CnpjEstabelecimento");
-=======
                         .HasForeignKey("CnpjEstabelecimento")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
->>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
 
                     b.Navigation("Estabelecimento");
                 });
 
-<<<<<<< HEAD
-=======
             modelBuilder.Entity("Seleta.Models.ProdutosListaDeCompras", b =>
                 {
                     b.HasOne("Seleta.Models.ListaDeCompras", "ListaDeCompras")
@@ -208,7 +202,6 @@ namespace Seleta.Migrations
                     b.Navigation("ListasDeCompras");
                 });
 
->>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
             modelBuilder.Entity("Seleta.Models.Usuario", b =>
                 {
                     b.Navigation("Estabelecimentos");

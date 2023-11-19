@@ -69,15 +69,12 @@
       "PackagePath": "staticwebassets\\css\\img\\close_white_36dp.svg"
     },
     {
-<<<<<<< HEAD
       "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
-=======
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\dowload 1.png",
       "PackagePath": "staticwebassets\\css\\img\\dowload 1.png"
     },
     {
       "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
->>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
       "PackagePath": "staticwebassets\\css\\img\\facebook.png"
     },
     {

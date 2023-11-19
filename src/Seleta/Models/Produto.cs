@@ -37,13 +37,11 @@ namespace Seleta.Models
         [ForeignKey("CnpjEstabelecimento")]
         public Estabelecimento? Estabelecimento { get; set; }
 
-<<<<<<< HEAD
         [Display(Name = "Imagem do Produto")]
         public byte[] Imagem { get; set; }  // Campo para armazenar os dados binários da imagem
 
         [Display(Name = "Tipo de Imagem")]
         public string TipoImagem { get; set; }  // Campo para armazenar o tipo de conteúdo da imagem
-=======
         public List<ProdutosListaDeCompras> ListasDeCompras { get; set; } = new();
 
     }
@@ -93,7 +91,6 @@ namespace Seleta.Models
             Console.WriteLine(sobremesaString);
             Console.ReadKey();
         }
->>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
     }
 
 }
