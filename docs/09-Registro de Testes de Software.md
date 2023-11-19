@@ -40,8 +40,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | 2	| Criar Lista de Compras	|
 |:---:	|:---:	|
-|	Requisito	| RF-005 - A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados.<br>
-RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
+|	Requisito	| RF-005 - A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados.<br>RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
 | Observação | Na página inicial, a aplicação apresenta o botão de Criar lista de compras na barra de navegação. Ao clicar no botão, o site é redirecionado para a seção de Criar lista de compras, onde o usuário deve colocar seu e-mail, afim de fornecer identificação para a lista. Após ser criada, o usuário irá gerenciar sua lista de compras, podendo tanto clicar em Adicionar produtos à lista, para que ele seja redirecionado para a barra de pesquisa de produtos, assim como ele poderá excluir produtos adicionados. Dessa forma, o Seleta atende ao requisito cadastrar usuário. |
 |  	|  	|
 
