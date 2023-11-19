@@ -37,31 +37,99 @@ namespace Seleta.Models
         [ForeignKey("CnpjEstabelecimento")]
         public Estabelecimento? Estabelecimento { get; set; }
 
+<<<<<<< HEAD
         [Display(Name = "Imagem do Produto")]
         public byte[] Imagem { get; set; }  // Campo para armazenar os dados binários da imagem
 
         [Display(Name = "Tipo de Imagem")]
         public string TipoImagem { get; set; }  // Campo para armazenar o tipo de conteúdo da imagem
+=======
+        public List<ProdutosListaDeCompras> ListasDeCompras { get; set; } = new();
+
+    }
+
+    public class pesquisa
+    {
+        public static void Main()
+        {
+            EnumToString();
+            Console.ReadKey();
+        }
+
+        private static void EnumToString()
+        {
+            var massa = TipoCategoria.Massa;
+            var massaString = massa.ToString();
+            var laticinio = TipoCategoria.Laticínio;
+            var laticinioString = laticinio.ToString();
+            var bebida = TipoCategoria.Bebida;
+            var bebidaString = bebida.ToString();
+            var padaria = TipoCategoria.Padaria;
+            var padariaString = padaria.ToString();
+            var legumes = TipoCategoria.Legumes;
+            var legumesString = legumes.ToString();
+            var verduras = TipoCategoria.Verduras;
+            var verdurasString = verduras.ToString();
+            var frutas = TipoCategoria.Frutas;
+            var frutasString = frutas.ToString();
+            var lanches = TipoCategoria.Lanches;
+            var lanchesString = lanches.ToString();
+            var refeicao = TipoCategoria.Refeição;
+            var refeicaoString = refeicao.ToString();
+            var sobremesa = TipoCategoria.Sobremesa;
+            var sobremesaString = sobremesa.ToString();
+
+
+
+            Console.WriteLine(massaString);
+            Console.WriteLine(laticinioString);
+            Console.WriteLine(bebidaString);
+            Console.WriteLine(padariaString);
+            Console.WriteLine(legumesString);
+            Console.WriteLine(verdurasString);
+            Console.WriteLine(frutasString);
+            Console.WriteLine(lanchesString);
+            Console.WriteLine(refeicaoString);
+            Console.WriteLine(sobremesaString);
+            Console.ReadKey();
+        }
+>>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
     }
 
 }
 
     public enum Restricoes
     {
+        [Display(Name = "Intolerância à lactose")]
         LactoseIntolerância,
+        [Display(Name = "Diabetes")]
         Diabetes,
+        [Display(Name = "Intolerância à gluten")]
         GlutenIntolerância,
+        [Display(Name = "Vegano")]
         Vegano
     }
+
     public enum TipoCategoria
     {
+        [Display(Name = "Massa")]
         Massa,
+        [Display(Name = "Laticínio")]
         Laticínio,
+        [Display(Name = "Bebida")]
         Bebida,
+        [Display(Name = "Padaria")]
         Padaria,
+        [Display(Name = "Legumes")]
+        Legumes,
+        [Display(Name = "Verduras")]
         Verduras,
+        [Display(Name = "Frutas")]
         Frutas,
+        [Display(Name = "Lanches")]
         Lanches,
+        [Display(Name = "Refeição")]
         Refeição,
+        [Display(Name = "Sobremesa")]
         Sobremesa
     }

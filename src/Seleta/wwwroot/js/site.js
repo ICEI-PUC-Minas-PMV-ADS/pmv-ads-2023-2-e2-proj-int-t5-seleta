@@ -30,3 +30,18 @@ function hideConteudoPesquisa() {
     let conteudo = document.querySelector(".conteudo-pesquisa");
     conteudo.style.display = "none";
 }
+
+
+// DOWNLOAD
+const btnGenerate = document.querySelector("#generate-pdf");
+
+btnGenerate.addEventListener("click", () => {
+    const container = document.querySelector("#container")
+    const options = {
+        margin: [5, 5, 5, 5],
+        filename: "listadecompras.pdf",
+        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+    };
+
+    html2pdf().set(options).from(container).save();
+});

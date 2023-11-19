@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "YAxgosWfHWFiG5NBfO0vB0xQfKK7+EK3y6LfVMTuvCQ=",
+=======
+  "Hash": "ZC3/2auJUsrMA+ryFFzMOTd3Tk2Pm7WI0nCUomdhRbk=",
+>>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
   "Source": "Seleta",
   "BasePath": "_content/Seleta",
   "Mode": "Default",
@@ -289,7 +293,28 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\close_white_36dp.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
+=======
+      "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\dowload 1.png",
+      "SourceId": "Seleta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\",
+      "BasePath": "_content/Seleta",
+      "RelativePath": "css/img/dowload 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\dowload 1.png"
+    },
+    {
+      "Identity": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
+>>>>>>> 908c53f3a5090cb3f798741dbde6cdf2de4744fd
       "SourceId": "Seleta",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\",

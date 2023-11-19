@@ -9,6 +9,12 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
+builder.Services.AddSession(opts => 
+{
+    opts.IdleTimeout = TimeSpan.FromMinutes(10);
+    opts.Cookie.HttpOnly = true;
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(opts => opts.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection"))
 );
@@ -40,6 +46,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 

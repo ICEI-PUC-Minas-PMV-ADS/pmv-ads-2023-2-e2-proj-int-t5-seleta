@@ -1,10 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Seleta.Models
+namespace Seleta.Models.ViewModel
 {
-    [Table("Usuarios")]
-    public class Usuario
+    public class CadastroUsuarioViewModel
     {
         [Key]
         public string CPF { get; set; }
@@ -20,6 +18,10 @@ namespace Seleta.Models
         [DataType(DataType.Password)]
         public string Senha { get; set; }
 
-        public List<Estabelecimento>? Estabelecimentos { get; set; }
+
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirmar Senha")]
+        [Compare(nameof(Senha), ErrorMessage = "Senha e confirmação de senha devem ser iguais!")]
+        public string ConfirmarSenha { get; set; }
     }
 }
