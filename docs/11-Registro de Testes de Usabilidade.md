@@ -25,17 +25,14 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-03 | 12 | 0 | --- | O usuário conseguiu realizar o teste e criar a lista de compras, mas não achou que seja um processo fácil, principalmente para pessoas com menor afinidade com tecnologia. Ele se disse incomodado a quantidade de clicks que precisa dar para criar uma lista com 5 produtos |
 |Usuário 4 | CTU-03 | 2 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Botão de adicionar produtos na lista não retorna a lista de produtos. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-04 | 11 | 0 | --- | O usuário manteve seu incômodo com a quantidade de clicks necessários para criar uma lista simples, mas relatou que as dicas ao longo da página inicial ajudam. Ele preferiu esse processo para criar a lista do que ao clicar imediatamente no botão "Criar lista de compras" na barra de navegação, exatamente por dar a oportunidade de rolar a página e perceber que existem dicas de uso. |
 |Usuário 4 | CTU-04 | 4 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Pesquisa não retorna sem acentos. Botão de buscar produtos não retorna produtos na lista de compras. Falta de botão para acessar a lista de forma rápida. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-06 | 1 | 1 | não | Ao fazer download da lista de compras criada, o usuário percebeu que ela vem cortada, mostrando apenas o primeiro produto adicionado. |
 |Usuário 4 | CTU-06 | 2 | 1 | não | Conseguiu fazer o download completamente. PDF veio cortado com apenas o primeiro produto. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
