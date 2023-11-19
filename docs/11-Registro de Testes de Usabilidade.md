@@ -27,6 +27,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-03 | 2 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Botão de adicionar produtos na lista não retorna a lista de produtos. |
+|Usuário 5 | CTU-03 | 4 | 1 | Sim, voltou para a página inicial e clicou em "Criar lista de compras" | O usuário teve um pouco de dificuldade para entender que não precisava fazer login no site, apenas quando clicou em fazer lista de compras que identificou no final da página que precisava apenas do email para criar a sua lista. | 
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
