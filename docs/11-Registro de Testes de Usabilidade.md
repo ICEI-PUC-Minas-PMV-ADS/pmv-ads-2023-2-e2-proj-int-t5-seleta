@@ -6,8 +6,8 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| Descrição
 |:---:	|:---:	|  
 |Usuário 1| 23 anos, tem facilidade com entender e mexer em tecnologias. |
-|Usuário 3| 41 anos, tem média facilidade em entender e mexer com tecnologias. |
-|Usuário 4| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. |
+|Usuário 2| 41 anos, tem média facilidade em entender e mexer com tecnologias. |
+|Usuário 3| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. |
 
 ## Testes
 | **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
