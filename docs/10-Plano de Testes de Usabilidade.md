@@ -39,61 +39,56 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 | Objetivo do Teste 	| Avaliar a usabilidade da tela de Login |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Login”; <br> 3. Preencher as informações de email e senha; <br> 4. Clicar em “Entrar". |
 
-| **Caso de Teste** 	| **CTU-03 – Criar Lista de Compras** 	|
-|:---:	|:---:	|
-|	Perfil 	| Usuário (todos) |
-| Objetivo do Teste 	| Avaliar a usabilidade da criação de lista |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Criar Lista de Compras” no canto superior direito; <br> 3. Criar um nome para a lista; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar". |
-
-| **Caso de Teste** 	| **CTU-04 – Criar Lista de Compras sem login** 	|
+| **Caso de Teste** 	| **CTU-03 – Criar Lista de Compras a partir da barra de navegação** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Digitar o e-mail 3. Clicar na opção “Criar Lista de Compras” na parte infeior da tela; <br> 4. Criar um nome para a lista; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Criar Lista de Compras” no canto superior direito; <br> 3. Colocar o e-mail de escolha; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CTU-05 – Gerenciar Lista de Compras** 	|
+| **Caso de Teste** 	| **CTU-04 – Criar e gerenciar Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
-| Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar". |
+| Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Digitar o e-mail <br>3. Clicar na opção “Criar Lista de Compras” na parte infeior da tela; <br> 4. Clicar em Adicionar produtos à lista; <br> 5. Pesquisar produtos e e salvar na lista os produtos escolhidos<br> 6. Excluir produtos existentes na lista e salvar. |
 
-| **Caso de Teste** 	| **CTU-06 – Enviar Lista de Compras por email** 	|
+
+| **Caso de Teste** 	| **CTU-05 – Enviar Lista de Compras por email** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login; 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Enviar lista para email". |
 
-| **Caso de Teste** 	| **CTU-07 – Fazer Download da Lista de Compras** 	|
+| **Caso de Teste** 	| **CTU-06 – Fazer Download da Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
 
-| **Caso de Teste** 	| **CTU-08 – Gerenciar estabelecimento** 	|
+| **Caso de Teste** 	| **CTU-07 – Gerenciar estabelecimento** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de gerenciamento do estabelecimento, criar, editar e excluir |
 | Ações Necessárias 	| 1. Após se cadastrar (CT-01) e efetuar o login (CTU-02) clicar em "Gerenciar estabelecimentos"; <br> 2. Clicar em "Cadastrar novo estabelecimento" - Preencher todas as informações solicitadas na aba que irá abrir; <br> 3. Clicar em "Cadastrar"; <br> 4. Na página de gerenciamento de estabelecimentos, clicar em editar; <br> 5. Modificar o campo que desejar; <br> 6. Clicar em "Salvar"; <br> 7.  Na página de gerenciamento de estabelecimentos, clicar em Detalhes; <br> 8. Visualizar os detalhes e clicar em "Voltar" ou "Editar". <br> 9. Na página de gerenciamento de estabelecimentos, clicar em Deletar; <br> 10. Clicar em "Deletar".|
 
-| **Caso de Teste** 	| **CTU-09 – Cadastrar produtos** 	|
+| **Caso de Teste** 	| **CTU-08 – Cadastrar produtos** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de cadastro de produtos |
 | Ações Necessárias 	| 1. Após cadastrar o estabelecimento (CT-08) clicar em "Cadastrar Produto"; <br> 2. Preencher todas as informações solicitadas na aba que irá abrir;  3. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CTU-10 – Buscar produto por localidade** 	|
+| **Caso de Teste** 	| **CTU-09 – Buscar produto por localidade** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por localidade |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Localidade";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-| **Caso de Teste** 	| **CTU-10 – Buscar produto por categoria** 	|
+| **Caso de Teste** 	| **CTU-09 – Buscar produto por categoria** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por categoria |
 | Ações Necessárias 	|  1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Categoria";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-| **Caso de Teste** 	| **CTU-10 – Buscar produto por restrição alimentar** 	|
+| **Caso de Teste** 	| **CTU-09 – Buscar produto por restrição alimentar** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por restrição alimentar |

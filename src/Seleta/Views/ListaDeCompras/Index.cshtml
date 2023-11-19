@@ -1,0 +1,50 @@
+﻿@model List<Produto>
+@{
+    ViewData["Title"] = "Lista de compras";
+}
+
+<head>
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" 
+            integrity = "sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" 
+            crossorigin = "anonymous" 
+            referrerpolicy = "no-referrer" 
+        ></script>
+</head>
+
+<div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 11.5%; left: 0; background-color: #BC6C25C2;">
+    <div id="container">
+        <h1 style="color: #283618;padding-top: 2%; margin-left: 3%; font-size: 32px;">
+            Minha lista de compras
+        </h1>
+        <hr / style="position: relative; width: 520px; left: 2%; color: #283618;">
+        <h4 style="color: #283618;margin-left: 3%; font-size: 18px; font-weight: 400;">E-mail do cliente: @ViewData["ListaDeComprasEmail"]</h4>
+
+        <div class="row" style="color: #283618; font-size: 18px; font-weight: 500; padding-top: 2%; margin-left: 3%; width: 608px; height: 69px">
+
+            @foreach (var produto in Model)
+            {
+                <p>@produto.Nome</p>
+
+                <a asp-action="RemoverProduto" asp-route-produtoId="@produto.Id" class="btn btn-danger">Remover Produto</a>
+            }
+        </div>
+    </div>
+    <a asp-controller="Home" asp-action="Index">
+        <button type="button" class="btn" style="color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: 700; position: absolute; top: 5%; left: 45%;">
+            + Adicionar produtos à lista</button>
+    </a>
+    <button id="generate-pdf" style="color: #283618; background-color: transparent; border: none; font-size: 15px; font-weight: 700; position: absolute; top: 5%; left: 85%;">
+        <img src="~/css/img/dowload 1.png" />download
+    </button>
+</div>
+
+<footer class="footer-perfil" style="background-color: #FEFAE0; position: absolute; top: 100%; z-index: 1; width: 100%; height: 200px;">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container" style="position: relative; top: 90%; font-size: 16px; font-weight: 400; line-height: 24px; text-align: center; color: #283618;">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
