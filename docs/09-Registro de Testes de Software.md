@@ -25,6 +25,11 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |	Vídeo 	| [![CT04](https://img.youtube.com/vi/e7NaAXRcSbs/0.jpg)](https://youtu.be/e7NaAXRcSbs)|
 |  	|  	|
 
+| Testes 	| CT-05 – Enviar Lista de Compras por e-mail |
+|:---:	|:---:	|
+|	Vídeo 	| Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes.|
+|  	|  	|
+
 | Testes 	| CT-06 – Cadastro do usuário	|
 |:---:	|:---:	|
 |	Vídeo 	| [![CT06](https://img.youtube.com/vi/Ip64HgVzUE0/0.jpg)](https://youtu.be/Ip64HgVzUE0?si=vOgABg3nBaLbCuU_)|
