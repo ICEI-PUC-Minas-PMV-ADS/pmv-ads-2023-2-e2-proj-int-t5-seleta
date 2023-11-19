@@ -19,6 +19,11 @@ namespace Seleta.Controllers
         public IActionResult Index()
         {
             var listaDeComprasEmail = HttpContext.Session.GetString(SessionListaDeCompras);
+            if (listaDeComprasEmail == null)
+            {
+                return RedirectToAction(nameof(Index), "Home");
+            }
+
             var produtosDaLista = _context.ProdutosListaDeCompras
                 .Where(lista => lista.ListaDeComprasEmail == listaDeComprasEmail)
                 .Select(lista => lista.Produto).ToList();
@@ -67,8 +72,29 @@ namespace Seleta.Controllers
             var produtosListaDeCompras = await GerarProdutosListaDeCompras(produtoId, listaDeComprasLogada);
             _context.ProdutosListaDeCompras.Add(produtosListaDeCompras);
             await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
 
-            
+        [HttpGet]
+        public async Task<IActionResult> RemoverProduto(int produtoId)
+        {
+            var produto = await _context.Produtos
+                .Include(e => e.Estabelecimento)
+                .FirstOrDefaultAsync(m => m.Id == produtoId);
+            return View(produto);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoverProdutoConfirmado(int produtoId)
+        {
+            var listaDeComprasEmail = HttpContext.Session.GetString(SessionListaDeCompras);
+
+            var produtoListaDeCompras =
+                _context.ProdutosListaDeCompras.FirstOrDefault(lista => lista.ListaDeComprasEmail == listaDeComprasEmail
+                && lista.ProdutoId == produtoId);
+
+            _context.ProdutosListaDeCompras.Remove(produtoListaDeCompras);
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

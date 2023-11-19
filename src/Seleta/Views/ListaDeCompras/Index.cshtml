@@ -25,6 +25,8 @@
             @foreach (var produto in Model)
             {
                 <p>@produto.Nome</p>
+
+                <a asp-action="RemoverProduto" asp-route-produtoId="@produto.Id" class="btn btn-danger">Remover Produto</a>
             }
         </div>
         <button id="generate-pdf" style="color: #283618; background-color: transparent; border: none; font-size: 16px; font-weight: 700; position: absolute; top: 5%; left: 70%;"> 

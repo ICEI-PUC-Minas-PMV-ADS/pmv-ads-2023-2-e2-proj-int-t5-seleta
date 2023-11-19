@@ -1,0 +1,74 @@
+﻿@model Produto
+@{
+    ViewData["Title"] = "Remover Produto";
+}
+
+
+<div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 12%; left: 0; background-color: #BC6C25C2;">
+
+    <h1 style="color: #283618;padding-top: 2%; margin-left: 3%; font-size: 32px;">Remover @Model.Nome da lista de compras?</h1>
+
+    <h4 style="color: #283618;padding-top: 1%; margin-left: 3%; font-size: 22px;">Produto</h4>
+    <hr / style="position: relative; width: 520px; left: 2%; color: #283618;">
+    <dl class="row" style="margin-left: 2%; color: #283618">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.QuantidadePeso)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QuantidadePeso)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Categoria)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Restricoes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Restricoes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Estabelecimento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estabelecimento.Cnpj)
+        </dd>
+    </dl>
+
+    <form asp-action="RemoverProdutoConfirmado">
+        <input type="hidden" asp-for="Id" name="produtoId" />
+        <a asp-action="Index" class="btn" style="width: 10%; color: #283618;background-color: #D9D9D957; border-radius: 10px; margin-left: 3%;">Voltar</a>
+        <input type="submit" value="Remover" class="btn btn-warning" style="width: 10%; color: #FFFFFF; background-color: #283618; border-radius: 10px; margin-left: 1%;" />
+    </form>
+</div>
+
+
+<footer class="footer-perfil" style="background-color: #FEFAE0; position: absolute; top: 100%; z-index: 1; width: 100%; height: 200px;">
+    <div class="imagem-footer">
+        <h3>Amplie sua presença online e alcance mais clientes.</h3>
+        <img src="~/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png" alt="img">
+    </div>
+    <div class="container" style="position: relative; top: 90%; font-size: 16px; font-weight: 400; line-height: 24px; text-align: center; color: #283618;">
+        &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda
+    </div>
+</footer>
