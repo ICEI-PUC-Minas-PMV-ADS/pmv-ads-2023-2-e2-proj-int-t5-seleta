@@ -35,7 +35,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-06 | 12 | 1 | não | Ao fazer download da lista de compras criada, o usuário percebeu que ela vem cortada, mostrando apenas o primeiro produto adicionado. |
+|Usuário 1 | CTU-06 | 1 | 1 | não | Ao fazer download da lista de compras criada, o usuário percebeu que ela vem cortada, mostrando apenas o primeiro produto adicionado. |
 |Usuário 4 | CTU-06 | 2 | 1 | não | Conseguiu fazer o download completamente. PDF veio cortado com apenas o primeiro produto. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
@@ -43,3 +43,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 1 | CTU-07 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
 | Usuário 2	| CTU-07	|  6  | 0 | --- | O CPF apresentou problema para aparecer, mas os dados foram salvo. O usuário ficou confuso com o cadastro do Nome, ficou com dúvida se era seu nome ou o nome do estabelecimento. |
 |Usuário 3 | CTU-07 | 5 | 2 | Sim | Usuário conseguiu seguir o fluxo, mas se deparou com cnpj diferente de sua loja e com a filtragem de produtos com produtos que não cadastrou |
+
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 1 | CTU-08 | 6 | 0 | --- | O usuário conseguiu realizar o cadastro do produto com facilidade, além de ter conseguido editar e visualizar os detalhes do produto. |
