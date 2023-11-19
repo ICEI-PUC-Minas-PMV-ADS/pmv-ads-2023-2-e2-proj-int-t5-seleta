@@ -55,3 +55,8 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 1 | CTU-08 | 6 | 0 | --- | O usuário conseguiu realizar o cadastro do produto com facilidade, além de ter conseguido editar e visualizar os detalhes do produto. |
 |Usuário 2 | CTU-08 | 6 | 0 | --- | O usuário realizou o cadastro do produto com tranquilidade, mas estranhou que, na tela "Meus produtos", aparecem também produtos que ele não cadastrou. |
 |Usuário 3 | CTU-08 | 8 | 0 | --- | O processo de cadastro de produtos é um pouco lento na primeira vez por não ser muito fácil de entender a princípio, mas com a prática é mais tranquilo. |
+
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 4 | CTU-09 | - | 0 | --- | ---- |
+|Usuário 5 | CTU-09 | - | 0 | --- | ---- |
