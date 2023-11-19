@@ -49,6 +49,12 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 | Observação | Na página inicial, a aplicação apresenta algumas instruções de uso para auxiliar os usuários. Na seção de categorias, assim como na barra de pesquisa, existe um ícone de interrogação que, ao passar o mouse em cima, abre-se um card com dicas de uso. Além disso, após a barra de pesquisa, há também instruções sobre como criar uma lista de compras. Dessa forma, o Seleta atende ao requisito apresentar na página inicial instruções de navegação. |
 |  	|  	|
 
+| 2	| Buscar Produtos	|
+|:---:	|:---:	|
+|	Requisito	| RF-002 - A aplicação deve permitir que o usuário visitante pesquise por produtos, resultando em todos os produtos equivalentes ao que foi pesquisado.<br>RF-003 - A aplicação deve permitir que o usuário visitante pesquise produtos de acordo com tipo específico de restrição alimentar, resultando em todos os produtos próprios para o tipo de restrição pesquisado.<br>RF-004 - A aplicação deve permitir que o usuário visitante busque por produtos desejados e/ou estabelecimentos de acordo com a localidade inserida no filtro de pesquisa.<br>RF-012 - A aplicação deve permitir que o usuário visitante busque por produtos desejados de acordo com a categoria inserida no filtro de pesquisa |
+| Observação | Na página inicial, a aplicação apresenta na barra de navegação um botão de Pesquisar produtos. Ao clicar nesse botão, o usuário será direcionado para a barra de pesquisa. Na barra de pesquisa, o usuário pode clicar direto em pesquisar, sendo redirecionado para uma página com todos os produtos cadastrados no site. Ele também pode digitar o nome do produto desejado, a restrição alimentar associada ao produto ou o endereço que quer encontrar o produto para que tenha uma busca mais específica. Além disso, existe uma seção de categorias dos alimentos acima da barra de pesquisa, ao clicar na categoria desejada, o usuário será redirecionado para os produtos daquela categoria cadastrados no site. O Seleta atende parcialmente este requisito, pois, ao fazer uma busca por restrição alimentar ou endereço, não retorna os produtos referentes ao que é pesquisado. |
+|  	|  	|
+
 | 2	| Criar Lista de Compras	|
 |:---:	|:---:	|
 |	Requisito	| RF-005 - A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados.<br>RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
@@ -76,5 +82,5 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 | 6 	| Cadastrar produto	|
 |:---:	|:---:	|
 |	Requisito	| RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos |
-| Observação | Após realizar o login na plataforma, o usuário terá acesso a relação de todos os estabelecimentos cadastrados e deverá clicar no botão produto. Ele irá clicar em cadastrar novo produto, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o produto e suas informações ficarão salvas no perfil do estabelecimento, podendo gerenciar esses produtos cadastrados. Dessa forma, o Seleta atende ao requisito cadastrar estabelecimento. |
+| Observação | Após realizar o login na plataforma, o usuário terá acesso a relação de todos os estabelecimentos cadastrados e deverá clicar no botão produto. Ele irá clicar em cadastrar novo produto, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o produto e suas informações ficarão salvas no perfil do estabelecimento, podendo gerenciar esses produtos cadastrados. Dessa forma, o Seleta atende ao requisito cadastrar produto. |
 |  	|  	|
