@@ -36,6 +36,10 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
+|... | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-06 | 2 | 1 | não | Conseguiu fazer o download completamente. PDF veio cortado com apenas o primeiro produto. |
 |Usuário 5 | CTU-06 | 2 | 1 | não | O usuário conseguiu fazer o download da sua lista porém, o PDF veio cortado, apenas o primeiro produto e sem o estabelecimento no qual o produto é vendido. |
 
