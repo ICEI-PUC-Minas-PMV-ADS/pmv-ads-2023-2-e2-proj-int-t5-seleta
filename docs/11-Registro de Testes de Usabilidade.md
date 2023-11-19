@@ -2,7 +2,9 @@
 
 A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual contém as evidências dos testes e relatos dos usuários participantes. 
 
+### Usuários
 Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
+Usuário 3 - 41 anos, tem média facilidade em entender e mexer com tecnologias.
 
 | **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
@@ -15,7 +17,7 @@ Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 1 | CTU-02 | 2 | 0 | --- | Login efetuado com sucesso |
 | Usuário 2 | CTU-02 	|  3  | 0 | --- | Usuário ficou satisfeito - achou a tela prática |
-|Usuário 3 | CTU-02 | 2 | 0 | --- | Login efetuado com sucesso. O usuario sugeriu melhorar a distribuição dos botões. |
+|Usuário 3 | CTU-02 | 2 | 0 | --- | Login efetuado com sucesso. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
@@ -33,4 +35,4 @@ Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 1 | CTU-07 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
 | Usuário 2	| CTU-07	|  6  | 0 | --- | O CPF apresentou problema para aparecer, mas os dados foram salvo. O usuário ficou confuso com o cadastro do Nome, ficou com dúvida se era seu nome ou o nome do estabelecimento. |
-|Usuário 3 | CTU-07 | 3 | 2 | Sim | Usuário conseguiu seguir o fluxo mas se deparou com um input em branco sem opção de edição e ficou confuso. Também encontrou as informações do estabelecimento na ordem errada de exibição. O usuário conseguiu salvar o estabelecimento. |
+|Usuário 3 | CTU-07 | 5 | 2 | Sim | Usuário conseguiu seguir o fluxo, mas se deparou com cnpj diferente de sua loja e com a filtragem de produtos com produtos que não cadastrou |
