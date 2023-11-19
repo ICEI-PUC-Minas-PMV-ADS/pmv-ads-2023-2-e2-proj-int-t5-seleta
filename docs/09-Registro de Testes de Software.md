@@ -10,6 +10,11 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |	Vídeo 	| [![CT01](https://img.youtube.com/vi/fRXAynvNqBM/0.jpg)](https://youtu.be/fRXAynvNqBM)|
 |  	|  	|
 
+| Testes 	| CT-02 – Buscar Produtos	|
+|:---:	|:---:	|
+|	Vídeo 	| [![CT02](https://img.youtube.com/vi/QmDmZIZff7k/0.jpg)](https://youtu.be/QmDmZIZff7k)|
+|  	|  	|
+
 | Testes 	| CT-03 – Criar Lista de Compras	|
 |:---:	|:---:	|
 |	Vídeo 	| [![CT03](https://img.youtube.com/vi/ZvuHq91xTjw/0.jpg)](https://youtu.be/ZvuHq91xTjw)|
