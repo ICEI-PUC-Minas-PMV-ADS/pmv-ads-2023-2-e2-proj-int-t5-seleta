@@ -15,11 +15,11 @@ namespace Seleta.Models
 
         [Required(ErrorMessage = "Obrigatório informar o preço")]
         [Display(Name = "Preço")]
-        public int Preco { get; set; }
+        public double Preco { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a quantidade e/ou peso do produto")]
         [Display(Name = "Quantidade/Peso")]
-        public int QuantidadePeso { get; set; }
+        public string QuantidadePeso { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a categoria a qual pertence esse alimento")]
         public string Categoria { get; set; }
@@ -28,7 +28,7 @@ namespace Seleta.Models
         [Display(Name ="Descrição")]
         public string Descricao { get; set; }
 
-        [Display(Name = "Restrição(ões) alimentar(es)")]
+        [Display(Name = "Restrição alimentar")]
         public Restricoes Restricoes { get; set; }
 
         [Display(Name = "CNPJ do Estabelecimento")]
@@ -38,10 +38,10 @@ namespace Seleta.Models
         public Estabelecimento? Estabelecimento { get; set; }
 
         [Display(Name = "Imagem do Produto")]
-        public byte[] Imagem { get; set; }  // Campo para armazenar os dados binários da imagem
+        public byte[] Imagem { get; set; }
 
         [Display(Name = "Tipo de Imagem")]
-        public string TipoImagem { get; set; }  // Campo para armazenar o tipo de conteúdo da imagem
+        public string TipoImagem { get; set; }
         public List<ProdutosListaDeCompras> ListasDeCompras { get; set; } = new();
 
     }
