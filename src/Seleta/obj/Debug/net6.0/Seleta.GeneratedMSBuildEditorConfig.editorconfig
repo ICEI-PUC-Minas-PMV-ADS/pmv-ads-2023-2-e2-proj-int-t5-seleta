@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/RemoverProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcUmVtb3ZlclByb2R1dG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/SalvarProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcU2FsdmFyUHJvZHV0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
