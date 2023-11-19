@@ -52,6 +52,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/ListaDeCompras/SalvarProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZUNvbXByYXNcU2FsdmFyUHJvZHV0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_EstabelecimentosProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Fc3RhYmVsZWNpbWVudG9zUHJvZHV0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Workspace/Projetos/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/Views/Shared/_ValidationScriptsPartial.cshtml]
