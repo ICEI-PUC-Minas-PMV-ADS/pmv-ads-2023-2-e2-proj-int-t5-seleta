@@ -35,6 +35,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 1 | CTU-06 | 12 | 1 | não | Ao fazer download da lista de compras criada, o usuário percebeu que ela vem cortada, mostrando apenas o primeiro produto adicionado. |
+|Usuário 4 | CTU-06 | 2 | 1 | não | Conseguiu fazer o download completamente. PDF veio cortado com apenas o primeiro produto. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
