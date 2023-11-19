@@ -93,8 +93,6 @@ namespace Seleta.Models
         }
     }
 
-}
-
     public enum Restricoes
     {
         [Display(Name = "Intolerância à lactose")]
@@ -130,3 +128,5 @@ namespace Seleta.Models
         [Display(Name = "Sobremesa")]
         Sobremesa
     }
+}
+
