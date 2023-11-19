@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Seleta"
   ],
+  "SelectedNode": "\\src\\Seleta\\Seleta.sln",
   "PreviewInSolutionExplorer": false
 }

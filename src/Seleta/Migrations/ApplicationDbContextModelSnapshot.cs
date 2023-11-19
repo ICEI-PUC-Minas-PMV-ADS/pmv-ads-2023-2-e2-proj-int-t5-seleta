@@ -86,11 +86,12 @@ namespace Seleta.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Preco")
-                        .HasColumnType("int");
+                    b.Property<double>("Preco")
+                        .HasColumnType("float");
 
-                    b.Property<int>("QuantidadePeso")
-                        .HasColumnType("int");
+                    b.Property<string>("QuantidadePeso")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Restricoes")
                         .HasColumnType("int");
@@ -114,7 +115,6 @@ namespace Seleta.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ListaDeComprasEmail")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("ProdutoId")
@@ -166,9 +166,7 @@ namespace Seleta.Migrations
                 {
                     b.HasOne("Seleta.Models.Estabelecimento", "Estabelecimento")
                         .WithMany()
-                        .HasForeignKey("CnpjEstabelecimento")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CnpjEstabelecimento");
 
                     b.Navigation("Estabelecimento");
                 });
@@ -177,9 +175,7 @@ namespace Seleta.Migrations
                 {
                     b.HasOne("Seleta.Models.ListaDeCompras", "ListaDeCompras")
                         .WithMany("Produtos")
-                        .HasForeignKey("ListaDeComprasEmail")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ListaDeComprasEmail");
 
                     b.HasOne("Seleta.Models.Produto", "Produto")
                         .WithMany("ListasDeCompras")
