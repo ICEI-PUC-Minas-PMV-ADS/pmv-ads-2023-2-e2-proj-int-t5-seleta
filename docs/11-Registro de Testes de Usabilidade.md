@@ -5,7 +5,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 ### Usuários
 | **Usuário** 	| Descrição | Tipo de usuario |
 |:---:	|:---:	|:---:	| 
-|Usuário 1| 23 anos, tem facilidade com entender e mexer em tecnologias. Dono(a) de estabelecimento. |
+|Usuário 1| 23 anos, tem facilidade com entender e mexer em tecnologias. |  Dono(a) de estabelecimento |
 |Usuário 2| 41 anos, tem média facilidade em entender e mexer com tecnologias. | Dono(a) de estabelecimento |
 |Usuário 3| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 
