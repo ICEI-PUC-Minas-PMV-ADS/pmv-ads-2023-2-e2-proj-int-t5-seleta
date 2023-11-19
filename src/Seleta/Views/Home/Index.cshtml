@@ -53,7 +53,7 @@
 
         <div class="container row mx-auto">
             <div class="col-6 col-md-4 col-xxl-2" style="cursor:pointer;">
-                <div class="card rounded-0 border-0">
+                <div class="card rounded-0 border-0 card_categorias">
                     <img class="d-md-none d-block" src="~/css/img/bebidas.png"
                          alt="">
                     <img class="d-none d-md-block d-xl-none" src="~/css/img/bebidas.png"
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-xxl-2" style="cursor:pointer;">
-                <div class="card rounded-0 border-0">
+                <div class="card rounded-0 border-0 card_categorias">
                     <img class="d-md-none d-block" src="~/css/img/massas.png"
                          alt="">
                     <img class="d-none d-md-block d-xl-none" src="~/css/img/massas.png"
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-xxl-2" style="cursor:pointer;">
-                <div class="card rounded-0 border-0">
+                <div class="card rounded-0 border-0 card_categorias">
                     <img class="d-md-none d-block" src="~/css/img/biscoitos.png"
                          alt="">
                     <img class="d-none d-md-block d-xl-none" src="~/css/img/biscoitos.png"
@@ -92,7 +92,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-xxl-2" style="cursor:pointer;">
-                <div class="card rounded-0 border-0">
+                <div class="card rounded-0 border-0 card_categorias">
                     <img class="d-md-none d-block" src="~/css/img/paes.png"
                          alt="">
                     <img class="d-none d-md-block d-xl-none" src="~/css/img/paes.png"
@@ -105,7 +105,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-xxl-2" style="cursor:pointer;">
-                <div class="card rounded-0 border-0">
+                <div class="card rounded-0 border-0 card_categorias">
                     <img class="d-md-none d-block" src="~/css/img/refeicoes.png"
                          alt="">
                     <img class="d-none d-md-block d-xl-none" src="~/css/img/refeicoes.png"
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-xxl-2" style="cursor:pointer;">
-                <div class="card rounded-0 border-0">
+                <div class="card rounded-0 border-0 card_categorias">
                     <img class="d-md-none d-block" src="~/css/img/saladas.png"
                          alt="">
                     <img class="d-none d-md-block d-xl-none" src="~/css/img/saladas.png"
@@ -137,7 +137,7 @@
         <form action="/Filtros/Index" method="get" style="width: 75%; margin-top: 60px">
             <div id="pesquisar-produtos" class="input-group mb-3">
 
-                <input type="text" class="form-control" name="filtro" placeholder="Digite aqui o que você procura" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <input type="text" class="form-control bg-transparent border-dark" name="filtro" placeholder="Digite aqui o que você procura" aria-label="Recipient's username" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary border-dark text-dark" type="submit" id="button-addon2">Pesquisar</button>
             </div>
 
@@ -200,14 +200,16 @@
                 <h2>CRIE LISTAS DE COMPRAS SEM FAZER LOGIN!</h2>
             </div>
             <div>
-                <div id="criar-lista" class="input-group mb-3">
-                    @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
-                        {
-                    <input asp-for ="Email" type="text" class="form-control" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary border-dark text-dark" type="submit" id="button-addon2">Criar lista</button>
-                        }
+
+                @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
+                {
+                    <div id="criar-lista" class="input-group mb-3">
+                        <input asp-for="Email" type="text" class="form-control border-dark" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary border-dark text-dark" style="background-color: #DDA15E" type="submit" id="button-addon2">Criar lista</button>
+                    </div>
+                 }
+                    
                 </div>
-            </div>
         </div>
     </section>
 

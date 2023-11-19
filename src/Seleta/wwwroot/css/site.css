@@ -735,19 +735,16 @@ a {
     margin-top: 100px
 }
 
-.terceira_section {
+
+.card_categorias {
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.resultado_pesquisa h2 {
+    margin: 20px 0 0 35px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.botao_adicionar-lista {
     background-color: #606C38;
-    height: 200px
 }
-.terceira_section-dois {
-    padding:32px 952px 22px 197px;
-}
-
-.terceira_section-dois h3 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 32px;
-}
-
-
 

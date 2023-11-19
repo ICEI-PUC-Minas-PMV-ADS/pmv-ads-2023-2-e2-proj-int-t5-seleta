@@ -6,7 +6,7 @@
 
 
 @{
-    ViewData["Title"] = "Resultado da pesquisa";
+    ViewData["Title"] = "Meus Produtos";
 }
 
 @section Scripts {
@@ -15,30 +15,51 @@
     }
 }
 
+<head>
+    <title> Meus Produtos</title>
+    <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
 
-<body class="min-vh-100" style="background-color: #606C38DB;">
+</head>
+<body style="background-color: #FEFAE0">
+    <section style="position: relative; background-color: #606C38; text-align: center; color: white;">
+        <img src="~/css/img/banner2.png" alt="..." style=" width: 100%; height: 400px">
+        <h4 style="letter-spacing: 5px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Navegue e encontre alimentos que atendam às suas restrições alimentares, simplificando suas escolhas e cuidando da sua saúde</h4>
+    </section>
 
-    <section>
-        <h2 style="color: #000;padding-top: 2%; margin-left: 3%; font-size: 32px;">Resultado da pesquisa: </h2>
+    <section class="resultado_pesquisa">
+        <h2>Resultado da pesquisa: </h2>
         <div class="row m-4">
             @foreach (var item in Model)
             {
                 <div class="col-md-3 mb-4">
-                    <div class="card bg-white">
+                    <div class="card bg-transparent">
                         <div class="card-body">
                             <h5 class="card-title">@item.Nome</h5>
                             <p class="card-text">Descrição: @item.Descricao</p>
                             <p class="card-text">Preço: R$ @item.Preco</p>
                             <p class="card-text">Adequado para: @item.Restricoes</p>
-                            <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm">Ver Detalhes</a>
-                            <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm">Adicionar à Lista </a>
+                            <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm border-0" style="background-color: #BC6C25">Ver Detalhes</a>
+                            <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm border-0" style="background-color: #606C38">Adicionar à Lista </a>
                         </div>
                     </div>
                 </div>
             }
         </div>
     </section>
-
+  
 </body>
+<footer class="w-100 " style="background-color:#283618; width: 100%; height: 300px;">
+    <div class="mx-3 text-white" style="margin-top:100px">
+        <h3 style="font-family: Inter; font-size: 20px; font-weight: 400; line-height: 36px; letter-spacing: 0.09em; width: 40%; padding: 20px;">
+            SIGA-NOS NAS REDES SOCIAIS E ENTRE EM CONTATO
+        </h3>
+    </div>
+    <div class="mt-5" style="position: relative; left: 2%; top: -15%; width: 20%; height: 5%">
+        <img class="mx-3" src="~/css/img/facebook.png" alt="facebook">
+        <img class="mx-3" src="~/css/img/instagram.png" alt="instagram">
+    </div>
+    <div>
+        <p class="text-center" style="color: #FEFAE0; margin-top:100px"> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+    </div>
 
-
+</footer>
