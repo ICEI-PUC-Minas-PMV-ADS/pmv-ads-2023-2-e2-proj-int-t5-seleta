@@ -26,6 +26,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 1 | CTU-03 | 12 | 0 | --- | O usuário conseguiu realizar o teste e criar a lista de compras, mas não achou que seja um processo fácil, principalmente para pessoas com menor afinidade com tecnologia. Ele se disse incomodado a quantidade de clicks que precisa dar para criar uma lista com 5 produtos |
+|Usuário 4 | CTU-03 | 2 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Botão de adicionar produtos na lista não retorna a lista de produtos. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
