@@ -25,6 +25,9 @@ Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 1 | CTU-04 | 11 | 0 | --- | O usuário manteve seu incômodo com a quantidade de clicks necessários para criar uma lista simples, mas relatou que as dicas ao longo da página inicial ajudam. Ele preferiu esse processo para criar a lista do que ao clicar imediatamente no botão "Criar lista de compras" na barra de navegação, exatamente por dar a oportunidade de rolar a página e perceber que existem dicas de uso. |
 
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 1 | CTU-06 | 12 | 1 | não | Ao fazer download da lista de compras criada, o usuário percebeu que ela vem cortada, mostrando apenas o primeiro produto adicionado. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
