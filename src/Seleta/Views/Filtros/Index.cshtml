@@ -5,6 +5,7 @@
 @model IEnumerable<Seleta.Models.Produto>
 
 
+
 @{
     ViewData["Title"] = "Meus Produtos";
 }
@@ -34,6 +35,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card bg-transparent">
                         <div class="card-body">
+                     
                             <h5 class="card-title">@item.Nome</h5>
                             <p class="card-text">Descrição: @item.Descricao</p>
                             <p class="card-text">Preço: R$ @item.Preco</p>
