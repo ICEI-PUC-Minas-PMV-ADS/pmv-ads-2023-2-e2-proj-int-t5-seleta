@@ -35,17 +35,34 @@ namespace Seleta.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Create([Bind("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto)
+        public async Task<IActionResult> Create([Bind("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto, IFormFile imagem)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _context.Produtos.Add(produto);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    if (imagem != null && imagem.Length > 0)
+                    {
+                        using (var stream = new MemoryStream())
+                        {
+                            await imagem.CopyToAsync(stream);
+                            produto.Imagem = stream.ToArray();
+                            produto.TipoImagem = imagem.ContentType;
+                        }
+                    }
+
+                    _context.Produtos.Add(produto);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Ocorreu um erro durante a criação do produto.");
             }
 
             ViewData["CnpjEstabelecimento"] = new SelectList(_context.Estabelecimentos, "Cnpj", "Nome", produto.CnpjEstabelecimento);
-            return View(produto);
+            return View("Create", produto ?? new Produto());
         }
 
         //EDIT
@@ -71,7 +88,7 @@ namespace Seleta.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Edit(int id, [Bind ("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto)
+        public async Task<IActionResult> Edit(int id, [Bind ("Id, Nome, Preco, QuantidadePeso, Categoria, Descricao, Restricoes, CnpjEstabelecimento")] Produto produto, IFormFile novaImagem)
         {
             if (id != produto.Id)
             {
@@ -82,12 +99,20 @@ namespace Seleta.Controllers
             {
                 try
                 {
+                    if (novaImagem != null && novaImagem.Length > 0)
+                    {
+                        var stream = new MemoryStream();
+                        await novaImagem.CopyToAsync(stream);
+                        produto.Imagem = stream.ToArray();
+                        produto.TipoImagem = novaImagem.ContentType;
+                    }
+
                     _context.Update(produto);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException) 
-                { 
+                catch (DbUpdateConcurrencyException)
+                {
                     if (!ProdutoExists(produto.Id))
                     {
                         return NotFound();
