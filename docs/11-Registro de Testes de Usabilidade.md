@@ -37,7 +37,8 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|... | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+|Usuário 4 | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+|Usuário 5 | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
@@ -58,5 +59,5 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 4 | CTU-09 | - | 0 | --- | ---- |
-|Usuário 5 | CTU-09 | - | 0 | --- | ---- |
+|Usuário 4 | CTU-09 | - | 0 | --- | Funcionalidade de enviar buscar produto por localidade ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+|Usuário 5 | CTU-09 | - | 0 | --- | Funcionalidade de enviar buscar produto por localidade ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
