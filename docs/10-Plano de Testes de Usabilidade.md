@@ -82,13 +82,13 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por localidade |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Localidade";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-| **Caso de Teste** 	| **CTU-09 – Buscar produto por categoria** 	|
+| **Caso de Teste** 	| **CTU-10 – Buscar produto por categoria** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário visitante |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por categoria |
 | Ações Necessárias 	|  1. Acessar a tela home da aplicação; <br> 2. Selecionar no filtro "Buscar por" a opção "Categoria";  3. Digitar o produto que deseja pesquisar; 4. Clicar em "Pesquisar". |
 
-| **Caso de Teste** 	| **CTU-09 – Buscar produto por restrição alimentar** 	|
+| **Caso de Teste** 	| **CTU-11 – Buscar produto por restrição alimentar** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário visitante |
 | Objetivo do Teste 	| Avaliar a usabilidade de busca de produto por restrição alimentar |
