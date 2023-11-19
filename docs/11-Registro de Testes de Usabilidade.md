@@ -17,6 +17,14 @@ Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
 | Usuário 2 | CTU-02 	|  3  | 0 | --- | Usuário ficou satisfeito - achou a tela prática |
 |Usuário 3 | CTU-02 | 2 | 0 | --- | Login efetuado com sucesso. O usuario sugeriu melhorar a distribuição dos botões. |
 
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 1 | CTU-03 | 12 | 0 | --- | O usuário conseguiu realizar o teste e criar a lista de compras, mas não achou que seja um processo fácil, principalmente para pessoas com menor afinidade com tecnologia. Ele se disse incomodado a quantidade de clicks que precisa dar para criar uma lista com 5 produtos |
+
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 1 | CTU-04 | 11 | 0 | --- | O usuário manteve seu incômodo com a quantidade de clicks necessários para criar uma lista simples, mas relatou que as dicas ao longo da página inicial ajudam. Ele preferiu esse processo para criar a lista do que ao clicar imediatamente no botão "Criar lista de compras" na barra de navegação, exatamente por dar a oportunidade de rolar a página e perceber que existem dicas de uso. |
+
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
