@@ -3,11 +3,11 @@
 A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual contém as evidências dos testes e relatos dos usuários participantes. 
 
 ### Usuários
-| **Usuário** 	| Descrição
-|:---:	|:---:	|  
+| **Usuário** 	| Descrição | Tipo de usuario |
+|:---:	|:---:	|:---:	| 
 |Usuário 1| 23 anos, tem facilidade com entender e mexer em tecnologias. |
-|Usuário 2| 41 anos, tem média facilidade em entender e mexer com tecnologias. |
-|Usuário 3| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. |
+|Usuário 2| 41 anos, tem média facilidade em entender e mexer com tecnologias. | Dono de estabelecimento |
+|Usuário 3| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 
 ## Testes
 | **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
