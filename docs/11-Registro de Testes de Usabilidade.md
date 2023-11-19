@@ -31,6 +31,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 1 | CTU-04 | 11 | 0 | --- | O usuário manteve seu incômodo com a quantidade de clicks necessários para criar uma lista simples, mas relatou que as dicas ao longo da página inicial ajudam. Ele preferiu esse processo para criar a lista do que ao clicar imediatamente no botão "Criar lista de compras" na barra de navegação, exatamente por dar a oportunidade de rolar a página e perceber que existem dicas de uso. |
+|Usuário 4 | CTU-04 | 4 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Pesquisa não retorna sem acentos. Botão de buscar produtos não retorna produtos na lista de compras. Falta de botão para acessar a lista de forma rápida. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
