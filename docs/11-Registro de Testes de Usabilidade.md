@@ -8,6 +8,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 1| 23 anos, tem facilidade com entender e mexer em tecnologias. |  Dono(a) de estabelecimento |
 |Usuário 2| 41 anos, tem média facilidade em entender e mexer com tecnologias. | Dono(a) de estabelecimento |
 |Usuário 3| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. | Usuário Visitante |
+|Usuário 5| 53 anos, tem média facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 
 ## Testes
 | **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
