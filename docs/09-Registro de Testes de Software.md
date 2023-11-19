@@ -12,7 +12,12 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | Testes 	| CT-03 – Criar Lista de Compras	|
 |:---:	|:---:	|
-|	Vídeo 	| [![CT03](https://img.youtube.com/vi/F6BRCXeRRnY/0.jpg)](https://youtu.be/F6BRCXeRRnY)|
+|	Vídeo 	| [![CT03](https://img.youtube.com/vi/ZvuHq91xTjw/0.jpg)](https://youtu.be/ZvuHq91xTjw)|
+|  	|  	|
+
+| Testes 	| CT-04 – Fazer Download Lista de Compras	|
+|:---:	|:---:	|
+|	Vídeo 	| [![CT04](https://img.youtube.com/vi/e7NaAXRcSbs/0.jpg)](https://youtu.be/e7NaAXRcSbs)|
 |  	|  	|
 
 | Testes 	| CT-06 – Cadastro do usuário	|
@@ -27,15 +32,32 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 ## Relatório de Testes de Software
 
-| 1 	| Cadastrar usuário 	|
+| 1 	| Página inicial	|
+|:---:	|:---:	|
+|	Requisito	| RF-001 - A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma |
+| Observação | Na página inicial, a aplicação apresenta algumas instruções de uso para auxiliar os usuários. Na seção de categorias, assim como na barra de pesquisa, existe um ícone de interrogação que, ao passar o mouse em cima, abre-se um card com dicas de uso. Além disso, após a barra de pesquisa, há também instruções sobre como criar uma lista de compras. Dessa forma, o Seleta atende ao requisito apresentar na página inicial instruções de navegação. |
+|  	|  	|
+
+| 2	| Criar Lista de Compras	|
+|:---:	|:---:	|
+|	Requisito	| RF-005 - A aplicação deve permitir que o usuário visitante crie e gerencie listas de compras com produtos selecionados.<br>RF-006 - A aplicação deve solicitar nome da lista e e-email para compartilhamento sempre que o usuário visitante criar uma lista de compras |
+| Observação | Na página inicial, a aplicação apresenta o botão de Criar lista de compras na barra de navegação. Ao clicar no botão, o site é redirecionado para a seção de Criar lista de compras, onde o usuário deve colocar seu e-mail, afim de fornecer identificação para a lista. Após ser criada, o usuário irá gerenciar sua lista de compras, podendo tanto clicar em Adicionar produtos à lista, para que ele seja redirecionado para a barra de pesquisa de produtos, assim como ele poderá excluir produtos adicionados. Dessa forma, o Seleta atende ao requisito cadastrar usuário. |
+|  	|  	|
+
+| 3 	| Fazer Download Lista de Compras		|
+|:---:	|:---:	|
+|	Requisito	| RF-013 - A aplicação deve oferecer a opção de realizar download da lista de compras elaborada. |
+| Observação | Após a finalização da criação e gerenciamento da lista de compras, o usuário tem a opção de fazer dowload da lista. Ao clicar no botão download no canto superior, um pdf será gerado com os produtos que foram adicionados na lista de compras. O Seleta atende parcialmente este requisito, pois o pdf da lista é gerado, porém, ao abri-lo, ele aparece cortado, sem mostrar todos os produtos da lista.  |
+|  	|  	|
+
+| 4 	| Cadastrar usuário 	|
 |:---:	|:---:	|
 |	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta |
 | Observação | Na página inicial, a aplicação apresenta o botão de login na barra de navegação. Ao clicar no botão, o visitante é redirecionado para a página de login, onde irá encontrar o botão de cadastro para criar uma conta na plataforma. Após o preenchimento de informações cadastrais e clicar em "Cadastrar", o usuário será redirecionado de volta para página de login, onde colocará o e-mail e senha escolhida para entrar em seu perfil no site. Ao estar logado no seu perfil, o usuário poderá gerenciar os itens e informações da sua conta. Dessa forma, o Seleta atende ao requisito cadastrar usuário.|
 |  	|  	|
 
-
-| 2 	| Cadastrar estabelecimento	|
+| 5 	| Cadastrar estabelecimento	|
 |:---:	|:---:	|
 |	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta <br> RF-008 - A aplicação deve permitir o estabelecimento especificar a sua localidade |
-| Observação | Após realizar o login na plataforma, o usuário poderá cadastrar seu estabelecimento. Ele irá clicar no botão para realizar cadastro, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o estabelecimento e suas informações ficarão salvas no perfil do usuário e ele poderá partir para o cadastro dos produtos deste estabelecimento. O Seleta atende parcialmente ao requisito cadastrar estabelecimento, pois contém alguns erros no processo que deverão ser ajustados. |
+| Observação | Após realizar o login na plataforma, o usuário poderá cadastrar seu estabelecimento. Ele irá clicar no botão para realizar cadastro, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o estabelecimento e suas informações ficarão salvas no perfil do usuário e ele poderá partir para o cadastro dos produtos deste estabelecimento. Dessa forma, o Seleta atende ao requisito cadastrar estabelecimento. |
 |  	|  	|
