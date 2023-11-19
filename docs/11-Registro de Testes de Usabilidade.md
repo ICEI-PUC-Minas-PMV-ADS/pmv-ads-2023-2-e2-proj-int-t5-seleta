@@ -8,7 +8,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 1| 23 anos, tem facilidade com entender e mexer em tecnologias. |  Dono(a) de estabelecimento |
 |Usuário 2| 41 anos, tem média facilidade em entender e mexer com tecnologias. | Dono(a) de estabelecimento |
 |Usuário 3| 20 anos, tem baixa facilidade em entender e mexer com tecnologias. | Dono(a) de estabelecimento |
-|Usuário 4| 00 anos, tem -- facilidade em entender e mexer com tecnologias. | Usuário Visitante |
+|Usuário 4| 30 anos, tem média facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 |Usuário 5| 53 anos, tem baixa facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 
 ## Testes
@@ -61,3 +61,13 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-09 | - | 0 | --- | Funcionalidade de enviar buscar produto por localidade ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 |Usuário 5 | CTU-09 | - | 0 | --- | Funcionalidade de enviar buscar produto por localidade ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 4 | CTU-10 | - | 4 | --- | Usuário conseguiu localizar o produto por categoria (massas) com facilidade e adicionar a sua lista de compras. |
+|Usuário 5 | CTU-10 | - | 4 | --- | Usuário, apesar de ter conseguido encontrar o produto por categoria, identificou que há produtos que não estão cadastrados dentro da categoria, exemplo: macarrão que deveria estar em massas. |
+
+| **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| ---  | --- | --- | --- |
+|Usuário 4 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+|Usuário 5 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
