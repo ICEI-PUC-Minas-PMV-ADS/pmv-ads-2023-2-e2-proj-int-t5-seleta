@@ -37,7 +37,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-06 | 2 | 1 | não | Conseguiu fazer o download completamente. PDF veio cortado com apenas o primeiro produto. |
-|Usuário 5 | CTU-06 | 2 | 0 | --- | O usuário conseguiu fazer o download da sua lista porém, o PDF veio cortado, apenas o primeiro produto e sem o estabelecimento no qual o produto é vendido. |
+|Usuário 5 | CTU-06 | 2 | 1 | não | O usuário conseguiu fazer o download da sua lista porém, o PDF veio cortado, apenas o primeiro produto e sem o estabelecimento no qual o produto é vendido. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
