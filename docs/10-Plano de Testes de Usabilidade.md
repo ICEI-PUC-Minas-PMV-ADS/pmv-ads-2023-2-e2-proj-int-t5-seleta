@@ -45,7 +45,7 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
 | Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na opção “Criar Lista de Compras” no canto superior direito; <br> 3. Colocar o e-mail de escolha; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar". |
 
-| **Caso de Teste** 	| **CTU-04 – Criar e gerenciar Lista de Compras ** 	|
+| **Caso de Teste** 	| **CTU-04 – Criar e gerenciar Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário (todos) |
 | Objetivo do Teste 	| Avaliar a usabilidade da criação de lista de compras |
