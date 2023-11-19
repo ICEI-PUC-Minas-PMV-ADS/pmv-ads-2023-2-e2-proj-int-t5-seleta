@@ -30,6 +30,12 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |	Vídeo 	| [![CT07](https://img.youtube.com/vi/K17GJHHMWbc/0.jpg)](https://youtu.be/K17GJHHMWbc)  |
 |  	|  	|
 
+| Testes 	| CT-08 – Cadastro do produto	|
+|:---:	|:---:	|
+|	Vídeo 	| [![CT07](https://img.youtube.com/vi/2WMw-HRKBG8/0.jpg)](https://youtu.be/2WMw-HRKBG8) |
+|  	|  	|
+
+
 ## Relatório de Testes de Software
 
 | 1 	| Página inicial	|
@@ -60,4 +66,10 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |:---:	|:---:	|
 |	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta <br> RF-008 - A aplicação deve permitir o estabelecimento especificar a sua localidade |
 | Observação | Após realizar o login na plataforma, o usuário poderá cadastrar seu estabelecimento. Ele irá clicar no botão para realizar cadastro, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o estabelecimento e suas informações ficarão salvas no perfil do usuário e ele poderá partir para o cadastro dos produtos deste estabelecimento. Dessa forma, o Seleta atende ao requisito cadastrar estabelecimento. |
+|  	|  	|
+
+| 6 	| Cadastrar produto	|
+|:---:	|:---:	|
+|	Requisito	| RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos |
+| Observação | Após realizar o login na plataforma, o usuário terá acesso a relação de todos os estabelecimentos cadastrados e deverá clicar no botão produto. Ele irá clicar em cadastrar novo produto, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o produto e suas informações ficarão salvas no perfil do estabelecimento, podendo gerenciar esses produtos cadastrados. Dessa forma, o Seleta atende ao requisito cadastrar estabelecimento. |
 |  	|  	|
