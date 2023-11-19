@@ -18,7 +18,7 @@ A tabela a seguir mostra os artefatos desenvolvidos para cada requisito implemen
 |RF-010| A aplicação deve garantir que o estabelecimento forneça informações detalhadas sobre os produtos | ProdutosController.cs / Produto.cs / Create.cshtml / Details.cshtml / Edit.cshtml  | 
 |RF-011| A aplicação deve garantir que o estabelecimento indique claramente qual(is) restrição(ões) alimentar(es) o produto atende | ProdutosController.cs / Produto.cs / Create.cshtml / Details.cshtml / Edit.cshtml |
 |RF-012| A aplicação deve permitir que o usuário visitante busque por produtos desejados de acordo com a categoria inserida no filtro de pesquisa | FiltrosController.cs / Index.cshtml / Details.cshtml |
-|RF-013| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada | Em desenvolvimento |
+|RF-013| A aplicação deve oferecer a opção de realizar download da lista de compras elaborada | ListaDeComprasController.cs / Index.cshtml / site.js |
 |RF-014| A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante  | Em desenvolvimento |
 
 

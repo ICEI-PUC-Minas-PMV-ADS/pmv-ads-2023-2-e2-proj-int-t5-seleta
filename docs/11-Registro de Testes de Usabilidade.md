@@ -20,6 +20,6 @@ Usuário 1 - 23 anos, tem facilidade com entender e mexer em tecnologias.
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 1 | CTU-08 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
-| Usuário 2	| CTU-08	|  6  | 0 | --- | O CPF apresentou problema para aparecer, mas os dados foram salvo. O usuário ficou confuso com o cadastro do Nome, ficou com dúvida se era seu nome ou o nome do estabelecimento. |
-|Usuário 3 | CTU-08 | 3 | 2 | Sim | Usuário conseguiu seguir o fluxo mas se deparou com um input em branco sem opção de edição e ficou confuso. Também encontrou as informações do estabelecimento na ordem errada de exibição. O usuário conseguiu salvar o estabelecimento. |
+|Usuário 1 | CTU-07 | 4 | 1 | Sim | O CPF do usuário não apareceu na hora de cadastrar o estabelecimento, mas, no final, o estabelecimento foi salvo |
+| Usuário 2	| CTU-07	|  6  | 0 | --- | O CPF apresentou problema para aparecer, mas os dados foram salvo. O usuário ficou confuso com o cadastro do Nome, ficou com dúvida se era seu nome ou o nome do estabelecimento. |
+|Usuário 3 | CTU-07 | 3 | 2 | Sim | Usuário conseguiu seguir o fluxo mas se deparou com um input em branco sem opção de edição e ficou confuso. Também encontrou as informações do estabelecimento na ordem errada de exibição. O usuário conseguiu salvar o estabelecimento. |

@@ -135,7 +135,7 @@
 
     <section class="pesquisar-por-categorias d-flex justify-content-center align-items-center">
         <form action="/Filtros/Index" method="get" style="width: 75%; margin-top: 60px">
-            <div class="input-group mb-3">
+            <div id="pesquisar-produtos" class="input-group mb-3">
 
                 <input type="text" class="form-control" name="filtro" placeholder="Digite aqui o que você procura" aria-label="Recipient's username" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary border-dark text-dark" type="submit" id="button-addon2">Pesquisar</button>
@@ -200,7 +200,7 @@
                 <h2>CRIE LISTAS DE COMPRAS SEM FAZER LOGIN!</h2>
             </div>
             <div>
-                <div class="input-group mb-3">
+                <div id="criar-lista" class="input-group mb-3">
                     @using (Html.BeginForm("ConsultaLista", "ListaDeCompras", FormMethod.Post))
                         {
                     <input asp-for ="Email" type="text" class="form-control" placeholder="Digite seu e-email" aria-label="Recipient's username" aria-describedby="button-addon2">
