@@ -1,363 +1,363 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Seleta.bundle.scp.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Seleta.bundle.scp.css",
       "PackagePath": "staticwebassets\\Seleta.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\.DS_Store",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\.DS_Store",
       "PackagePath": "staticwebassets\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\.DS_Store",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\.DS_Store",
       "PackagePath": "staticwebassets\\css\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\.DS_Store",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\.DS_Store",
       "PackagePath": "staticwebassets\\css\\img\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\Seleta.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\Seleta.png",
       "PackagePath": "staticwebassets\\css\\img\\Seleta.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\SeletaEstabelecimento.jpg",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\SeletaEstabelecimento.jpg",
       "PackagePath": "staticwebassets\\css\\img\\SeletaEstabelecimento.jpg"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\adicionar estabelecimento.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\adicionar estabelecimento.png",
       "PackagePath": "staticwebassets\\css\\img\\adicionar estabelecimento.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\adicionar-ficheiro 1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\adicionar-ficheiro 1.png",
       "PackagePath": "staticwebassets\\css\\img\\adicionar-ficheiro 1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\alimentos.jpg",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\alimentos.jpg",
       "PackagePath": "staticwebassets\\css\\img\\alimentos.jpg"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\banner1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\banner1.png",
       "PackagePath": "staticwebassets\\css\\img\\banner1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\banner2.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\banner2.png",
       "PackagePath": "staticwebassets\\css\\img\\banner2.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\bebidas.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\bebidas.png",
       "PackagePath": "staticwebassets\\css\\img\\bebidas.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\biscoitos.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\biscoitos.png",
       "PackagePath": "staticwebassets\\css\\img\\biscoitos.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\botão dica.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\botão dica.png",
       "PackagePath": "staticwebassets\\css\\img\\botão dica.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\cadastro 1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\cadastro 1.png",
       "PackagePath": "staticwebassets\\css\\img\\cadastro 1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\carrossel 1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\carrossel 1.png",
       "PackagePath": "staticwebassets\\css\\img\\carrossel 1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\close_white_36dp.svg",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\close_white_36dp.svg",
       "PackagePath": "staticwebassets\\css\\img\\close_white_36dp.svg"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\facebook.png",
       "PackagePath": "staticwebassets\\css\\img\\facebook.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\gerenciar estabelecimento.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\gerenciar estabelecimento.png",
       "PackagePath": "staticwebassets\\css\\img\\gerenciar estabelecimento.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\instagram.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\instagram.png",
       "PackagePath": "staticwebassets\\css\\img\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\lista-de-controle 1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\lista-de-controle 1.png",
       "PackagePath": "staticwebassets\\css\\img\\lista-de-controle 1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\massas.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\massas.png",
       "PackagePath": "staticwebassets\\css\\img\\massas.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\menu_white_36dp.svg",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\menu_white_36dp.svg",
       "PackagePath": "staticwebassets\\css\\img\\menu_white_36dp.svg"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\motor-de-busca 1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\motor-de-busca 1.png",
       "PackagePath": "staticwebassets\\css\\img\\motor-de-busca 1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\paes.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\paes.png",
       "PackagePath": "staticwebassets\\css\\img\\paes.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
       "PackagePath": "staticwebassets\\css\\img\\refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\refeicoes.png",
       "PackagePath": "staticwebassets\\css\\img\\refeicoes.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\saladas.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\saladas.png",
       "PackagePath": "staticwebassets\\css\\img\\saladas.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\seguranca 1.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\seguranca 1.png",
       "PackagePath": "staticwebassets\\css\\img\\seguranca 1.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\visualizar estabelecimento.png",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\img\\visualizar estabelecimento.png",
       "PackagePath": "staticwebassets\\css\\img\\visualizar estabelecimento.png"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\site.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\favicon.ico",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\js\\site.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

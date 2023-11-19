@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {}
+    "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {
+    "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+        "projectUniqueName": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
         "projectName": "Seleta",
-        "projectPath": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
-        "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikit\\Desktop\\Projetos VS\\Clone\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
+        "projectPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\Seleta.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Projetos\\pmv-ads-2023-2-e2-proj-int-t5-seleta\\src\\Seleta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
