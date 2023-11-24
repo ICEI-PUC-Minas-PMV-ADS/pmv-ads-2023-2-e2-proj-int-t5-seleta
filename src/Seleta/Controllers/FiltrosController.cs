@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
@@ -15,8 +14,6 @@ namespace Seleta.Controllers
             _context = context;
         }
 
-
-        
         public async Task<IActionResult> Index(string filtro)
         {
             IQueryable<Produto> produtosQuery = _context.Produtos.Include(e => e.Estabelecimento);
@@ -25,19 +22,19 @@ namespace Seleta.Controllers
             if (!string.IsNullOrEmpty(filtro))
             {
                 produtosQuery = produtosQuery.Where(p =>
-                    p.Nome.Contains(filtro)||
-                    p.Descricao.Contains (filtro) ||
-                    p.Categoria.Contains (filtro));
-                    
-
+                    p.Nome.Contains(filtro) ||
+                    p.Descricao.Contains(filtro) ||
+                    p.Categoria.Contains(filtro) ||
+                    p.Estabelecimento.Endereco.Contains(filtro) ||
+                    p.Estabelecimento.Nome.Contains(filtro));
             }
 
             var produtos = await produtosQuery.ToListAsync();
             return View(produtos);
         }
 
-        //DETAILS
-        public async Task<IActionResult> Details(int? id)
+    //DETAILS
+    public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Produtos == null)
             {
