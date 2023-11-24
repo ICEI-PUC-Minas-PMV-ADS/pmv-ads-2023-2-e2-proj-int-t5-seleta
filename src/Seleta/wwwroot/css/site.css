@@ -759,3 +759,8 @@ a {
     height: 200px; 
     object-fit: cover; 
 }
+.card-imagem {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
