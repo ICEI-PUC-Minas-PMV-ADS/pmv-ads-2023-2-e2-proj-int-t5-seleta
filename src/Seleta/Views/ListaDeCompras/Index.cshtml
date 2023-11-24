@@ -20,11 +20,15 @@
         <hr / style="position: relative; width: 520px; left: 2%; color: #283618;">
         <h4 style="color: #283618;margin-left: 3%; font-size: 18px; font-weight: 400;">E-mail do cliente: @ViewData["ListaDeComprasEmail"]</h4>
 
-        <div class="row" style="color: #283618; font-size: 18px; font-weight: 500; padding-top: 2%; margin-left: 3%; width: 608px; height: 69px">
+        <div class="row" style="color: #283618; padding-top: 2%; margin-left: 3%; width: 608px; height: 69px">
 
             @foreach (var produto in Model)
             {
-                <p>@produto.Nome</p>
+                <p style="font-size: 18px; font-weight: 500;">@produto.Nome</p>
+                <p style="font-size: 14px; font-weight: 400;">Preço: R$ @produto.Preco</p>
+                <p style="font-size: 14px; font-weight: 400; padding-bottom: 1%;">Restrição(ões) alimentar(es): @produto.Restricoes</p>
+
+            
 
                 <a asp-action="RemoverProduto" asp-route-produtoId="@produto.Id" class="btn btn-danger" style="width: 30%; border-radius: 10px; margin-top: -2%; margin-bottom: 5%;">Remover Produto</a>
             }
