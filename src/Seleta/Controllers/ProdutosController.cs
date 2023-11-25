@@ -10,16 +10,20 @@ namespace Seleta.Controllers
     public class ProdutosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private static string cnpjEstabelecimentoSalvo;
+
         public ProdutosController(ApplicationDbContext context) 
         {
             _context = context;
         }
 
-
         [Authorize]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string cnpjEstabelecimento)
         {
-            var ApplicationDbContext = _context.Produtos.Include(e => e.Estabelecimento);
+            if (cnpjEstabelecimento != null) cnpjEstabelecimentoSalvo = cnpjEstabelecimento;
+
+            var ApplicationDbContext = _context.Produtos.Include(e => e.Estabelecimento)
+                .Where(produto => produto.CnpjEstabelecimento == cnpjEstabelecimentoSalvo);
             return View(await ApplicationDbContext.ToListAsync());
         }
 

@@ -118,7 +118,7 @@
                                 <a asp-action="Edit" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #698E3F; border-radius: 10px;">Editar</a>
                                 <a asp-action="Details" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #DDA15E; border-radius: 10px;">Detalhes</a>
                                 <a asp-action="Delete" asp-route-id="@item.Cnpj" class="btn" style="width:20%;color: #FEFAE0;background-color: #8F0A2A; border-radius: 10px;">Excluir</a>
-                                <a asp-controller="Produtos" asp-action="Index" class="btn" style="width:18%;color: #FFFFFF;background-color: #283618; border-radius: 10px;">Produto</a>
+                                <a asp-controller="Produtos" asp-action="Index" asp-route-cnpjEstabelecimento="@item.Cnpj" class="btn" style="width:18%;color: #FFFFFF;background-color: #283618; border-radius: 10px;">Produtos</a>
                             </td>
                         </tr>
                     }
