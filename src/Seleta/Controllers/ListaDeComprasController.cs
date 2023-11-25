@@ -26,6 +26,7 @@ namespace Seleta.Controllers
 
             var produtosDaLista = _context.ProdutosListaDeCompras
                 .Where(lista => lista.ListaDeComprasEmail == listaDeComprasEmail)
+                .Include(lista => lista.Produto.Estabelecimento)
                 .Select(lista => lista.Produto).ToList();
             ViewData["ListaDeComprasEmail"] = listaDeComprasEmail;
             return View(produtosDaLista);
