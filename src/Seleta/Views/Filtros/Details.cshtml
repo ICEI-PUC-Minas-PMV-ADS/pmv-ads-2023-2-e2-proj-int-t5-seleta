@@ -15,74 +15,53 @@
 
 </head>
 
-<body>
-   
-    <div class="mb-3" style="position: absolute; width: 100%; height: 100%; top: 12%; left: 0; background-color: #606C38DB;">
-        <div class="mb-3">
+<body style="background-color: #FEFAE0">
+    <section style="background-color:#606C38DB">
+        <div class="container-fluid ">
+            <div class="row p-5">
+                <div class="col-lg-6 col-md-12">
+                    @if (Model.Imagem != null && Model.Imagem.Length > 0)
+                    {
+                        <img class="card-imagem" src="data:@Model.TipoImagem;base64,@Convert.ToBase64String(Model.Imagem)" style="width:100%" alt="Imagem de capa do card">
+                    }
+                </div>
+                <div class="col-lg-6 col-md-12 mt-md-4 ">
+                    <h3 class= "card-title"> @Html.DisplayFor(model => model.Nome)</h3>
+                    <h4 class="card-subtitle mt-5">R$@Html.DisplayFor(model => model.Preco)</h4>
+                    <p class="card-text mt-5"> Disponível em: @Html.DisplayFor(model => model.Estabelecimento.Nome)</p>
+                    <p class="card-text mt-2"> Endereço:  @Html.DisplayFor(model => model.Estabelecimento.Endereco)</p>
+                    <a asp-action="Index" class="btn btn-dark btn-lg btn-block border-0">Voltar</a>
+                    <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@Model.Id" class="btn btn-lg btn-block border-0" style="background-color: #DDA15E">Adicionar à Lista </a>
+                </div>
 
-            <h1 style="color: #000;padding-top: 2%; margin-left: 3%; font-size: 32px;">Informações do produto</h1>
-            <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
-
-            <div class="row" style="color: #000">
-
-                <dl class="row" style="margin-left: 2%">
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.Nome)
-                </dt>
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Nome)
-                </dd>
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.Preco)
-                </dt>
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Preco)
-                </dd>
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.QuantidadePeso)
-                </dt>
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.QuantidadePeso)
-                </dd>
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.Categoria)
-                </dt>
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Categoria)
-                </dd>
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.Descricao)
-                </dt>
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Descricao)
-                </dd>
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.Restricoes)
-                </dt>
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Restricoes)
-                </dd>
-                <dt class = "col-sm-2">
-                    @Html.DisplayNameFor(model => model.Estabelecimento)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.Estabelecimento.Nome) 
-                </dd>
-                
-                <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.Estabelecimento.Endereco)
-                </dd>
-                </dl>
             </div>
+<<<<<<< HEAD
             <div>
                 <a asp-controller="Home" asp-action="Index" class="btn" style="width: 10%; color: #=#283618; background-color: #D9D9D957; border-radius: 10px;border: 1px solid #283618; margin-left: 3%;">
                     Voltar
                 </a>
+=======
+>>>>>>> feature/AjustandoFuncionalidades
 
-                
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h3 class="m-5"> Descrição: </h3>
+                <p class="m-5">@Html.DisplayFor(model => model.Descricao)</p>
+            </div>
+            <div class="col-lg">
+                <h3 class="m-5"> Adequado para:  </h3>
+                <p class="m-5"> @Html.DisplayFor(model => model.Restricoes) </p>
             </div>
         </div>
-    </div>
+       
+      
+        
+    </section>
+     
 </body>
 
 <footer class="footer-perfil" style="background-color: #FEFAE0; position: absolute; top: 100%; z-index: 1; width: 100%; height: 80px;">
