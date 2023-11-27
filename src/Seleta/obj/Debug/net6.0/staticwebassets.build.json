@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "arN4yKHHJ4eBI0YBOo3w6HfUmwz0j9BEDXiPHNvRktk=",
+  "Hash": "6WV9g4ZzT7bGxHlj+1snmdDp4dYxwNeS+LdaQO+C3/Q=",
   "Source": "Seleta",
   "BasePath": "_content/Seleta",
   "Mode": "Default",
@@ -442,12 +442,12 @@
       "OriginalItemSpec": "wwwroot/css/img/paes.png"
     },
     {
-      "Identity": "/Users/naiannaduarte/branchs/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/wwwroot/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
+      "Identity": "/Users/naiannaduarte/branchs/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/wwwroot/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco2.png",
       "SourceId": "Seleta",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/naiannaduarte/branchs/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/wwwroot/",
       "BasePath": "_content/Seleta",
-      "RelativePath": "css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png",
+      "RelativePath": "css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,7 +456,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco 2.png"
+      "OriginalItemSpec": "wwwroot/css/img/refeicoes-de-comida-brasileira-simples-com-copia-espaco2.png"
     },
     {
       "Identity": "/Users/naiannaduarte/branchs/pmv-ads-2023-2-e2-proj-int-t5-seleta/src/Seleta/wwwroot/css/img/refeicoes.png",
