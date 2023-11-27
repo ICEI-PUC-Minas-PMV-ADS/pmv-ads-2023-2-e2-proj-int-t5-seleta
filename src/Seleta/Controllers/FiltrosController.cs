@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-<<<<<<< HEAD
-=======
 using Microsoft.AspNetCore.Mvc.Rendering;
->>>>>>> feature/AjustandoFuncionalidades
 using Microsoft.EntityFrameworkCore;
 using Seleta.Data;
 using Seleta.Models;
@@ -17,11 +14,7 @@ namespace Seleta.Controllers
         {
             _context = context;
         }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> feature/AjustandoFuncionalidades
         public async Task<IActionResult> Index(string filtro)
         {
             IQueryable<Produto> produtosQuery = _context.Produtos.Include(e => e.Estabelecimento);
@@ -29,26 +22,19 @@ namespace Seleta.Controllers
             var filtroRestricao = CriarFiltroResticao(filtro);
             if (!string.IsNullOrEmpty(filtro))
             {
-<<<<<<< HEAD
                 if (filtroRestricao == null)
                 {
                     produtosQuery = produtosQuery.Where(p =>
                     p.Nome.Contains(filtro) ||
                     p.Descricao.Contains(filtro) ||
-                    p.Categoria.Contains(filtro));
+                    p.Categoria.Contains(filtro) ||
+                    p.Estabelecimento.Endereco.Contains(filtro) ||
+                    p.Estabelecimento.Nome.Contains(filtro));
                 }
                 else
                 {
                     produtosQuery = produtosQuery.Where(p => p.Restricoes.Equals(filtroRestricao));
                 }
-=======
-                produtosQuery = produtosQuery.Where(p =>
-                    p.Nome.Contains(filtro) ||
-                    p.Descricao.Contains(filtro) ||
-                    p.Categoria.Contains(filtro) ||
-                    p.Estabelecimento.Endereco.Contains(filtro) ||
-                    p.Estabelecimento.Nome.Contains(filtro));
->>>>>>> feature/AjustandoFuncionalidades
             }
 
             var produtos = await produtosQuery.ToListAsync();
