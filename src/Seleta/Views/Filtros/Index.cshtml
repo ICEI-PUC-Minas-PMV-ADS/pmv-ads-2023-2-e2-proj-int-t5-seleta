@@ -30,18 +30,22 @@
                 <div class="col-md-3 mb-4">
                     <div class="card bg-transparent">
                         @if (item.Imagem != null && item.Imagem.Length > 0)
-                            {
+                        {
                             <img class="card-img-top card-img-fixed-size" src="data:@item.TipoImagem;base64,@Convert.ToBase64String(item.Imagem)" alt="Imagem de capa do card">
-                            }
-                            <div class="card-body">
-                                <h5 class="card-title">@item.Nome</h5>
-                                <p class="card-text">Preço: R$ @item.Preco</p>
-                                <p class="card-text">Adequado para: @item.Restricoes</p>
-                                <p class="card-text">Disponível em: @item.Estabelecimento.Nome</p>
-                                <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm border-0" style="background-color: #BC6C25">Ver Detalhes</a>
-                                <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm border-0" style="background-color: #606C38">Adicionar à Lista </a>
-                            </div>
+                        }
+                        else
+                        {
+                            <img class="card-img-top card-img-fixed-size" src="~/css/img/download.png" alt="Imagem padrão">
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Nome</h5>
+                            <p class="card-text">Preço: R$ @item.Preco</p>
+                            <p class="card-text">Adequado para: @item.Restricoes</p>
+                            <p class="card-text">Disponível em: @item.Estabelecimento.Nome</p>
+                            <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm border-0" style="background-color: #BC6C25">Ver Detalhes</a>
+                            <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm border-0" style="background-color: #606C38">Adicionar à Lista </a>
                         </div>
+                    </div>
                 </div>
             }
         </div>
