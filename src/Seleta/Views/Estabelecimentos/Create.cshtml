@@ -14,14 +14,14 @@
     <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
 
 </head>
-<body>
+<body style="background-color: #FEFAE0">
     <section class="details_usuario">
         <div class="titulo_informacao-usuario">
             <h3>Cadastro de Estabelecimento</h3>
             <hr />
         </div>
         <div class="w-50">
-            <form asp-action="Create" style="margin-left: 7%">
+            <form asp-action="Create" style="margin-left: 20px">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="UsuarioCPF" />
                 <div class="form-group">
@@ -46,7 +46,7 @@
                 </div>
                 <br />
                 <div class="form-group">
-                    <a asp-action="Index" class="btn btn-dark btn-lg btn-block border-0 botoes_perfil-usuario">
+                    <a asp-controller="Usuario" asp-action="Perfil" class="btn btn-dark btn-lg btn-block border-0 botoes_perfil-usuario">
                         Voltar
                     </a>
                     <input type="submit" value="Cadastrar" class="btn btn-primary btn-lg btn-block border-0 botoes_perfil-usuario"/>
