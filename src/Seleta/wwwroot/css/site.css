@@ -773,3 +773,16 @@ a {
     height: 500px;
     object-fit: cover;
 }
+.titulo_footer {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.16px;
+    margin: 30px;
+}
+.rodape_footer {
+    color: #606C38;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 90px;
+}
