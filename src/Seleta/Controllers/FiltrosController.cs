@@ -9,19 +9,19 @@ namespace Seleta.Controllers
     public class FiltrosController : Controller
     {
         private readonly ApplicationDbContext _context;
-        
+
         public FiltrosController(ApplicationDbContext context)
         {
             _context = context;
         }
-        
+
         public async Task<IActionResult> Index(string filtro)
         {
             IQueryable<Produto> produtosQuery = _context.Produtos.Include(e => e.Estabelecimento);
 
-            var filtroRestricao = CriarFiltroResticao(filtro);
             if (!string.IsNullOrEmpty(filtro))
             {
+                var filtroRestricao = CriarFiltroResticao(filtro);
                 if (filtroRestricao == null)
                 {
                     produtosQuery = produtosQuery.Where(p =>
@@ -41,8 +41,8 @@ namespace Seleta.Controllers
             return View(produtos);
         }
 
-    //DETAILS
-    public async Task<IActionResult> Details(int? id)
+        //DETAILS
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Produtos == null)
             {
@@ -64,7 +64,7 @@ namespace Seleta.Controllers
         {
             var palavraFiltro = "";
             var palavrasFiltro = filtro.Split(" ");
-            foreach(var palavra in palavrasFiltro)
+            foreach (var palavra in palavrasFiltro)
             {
                 var palavraCaptalize = char.ToUpper(palavra[0]) + palavra[1..];
                 palavraFiltro += palavraCaptalize;
