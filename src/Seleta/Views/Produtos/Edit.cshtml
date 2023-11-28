@@ -13,160 +13,106 @@
 <head>
     <title> Editar Produto</title>
     <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
-
 </head>
 
-<header>
-    <nav class="navbar-perfil navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
-        <div class="menu-principal navbar-collapse collapse d-sm-inline-flex justify-content-between container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/css/img/Seleta.png" class="logo" alt="Logo Seleta"></a>
-            <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item">
-                    <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="Home" asp-action="Index" style="position: relative; left: 55%;">HOME</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                @if (User.Identity.IsAuthenticated)
-                {
-                    <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-center" style="background-color:transparent; color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: bold;
-                    position: absolute; width:80px; height: 30px; top: 15%; left:85%; border-radius: 5px; padding:2px;">
-                            Perfil
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
-                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
-                            Sair
-                        </a>
-                    </li>
-                }
-                else
-                {
-                    <li class="nav-item">
-                        <a asp-controller="Usuario" asp-action="Login" class="nav-link text-white text-center" style="background-color: #283618; border: 1px solid #283618; font-size: 16px; position: absolute;
-                            width: 80px; height: 30px; top: 15%; left: 92%; border-radius: 5px; padding:1px;">
-                            Login
-                        </a>
-                    </li>
-                }
-            </ul>
+<body style="background-color: #FEFAE0">
+    <section class="details_usuario">
+        <div class="titulo_informacao-usuario">
+            <h3>Editar Produto</h3>
+            <hr />
         </div>
-
-
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="~/css/img/menu_white_36dp.svg"></button>
+        <div class="w-50" style="margin-left: 20px">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Preco" class="control-label"></label>
+                    <input asp-for="Preco" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
+                    <span asp-validation-for="Preco" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="QuantidadePeso" class="control-label"></label>
+                    <input asp-for="QuantidadePeso" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
+                    <span asp-validation-for="QuantidadePeso" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Categoria" class="control-label"></label>
+                    <select asp-for="Categoria" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="Html.GetEnumSelectList<TipoCategoria>()"></select>
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Descricao" class="control-label"></label>
+                    <textarea asp-for="Descricao" class="form-control" rows="" style="background-color: #D9D9D980; border: 1px solid #283618;"></textarea>
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Restricoes" class="control-label"></label>
+                    <select asp-for="Restricoes" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="Html.GetEnumSelectList<Restricoes>()"></select>
+                    <span asp-validation-for="Restricoes" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CnpjEstabelecimento" class="control-label"></label>
+                    <select asp-for="CnpjEstabelecimento" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="ViewBag.CnpjEstabelecimento"></select>
+                    <span asp-validation-for="CnpjEstabelecimento" class="text-danger"></span>
+                </div>
+                <br />
+                @if (Model.Imagem != null && Model.Imagem.Length > 0)
+                {
+                    <div class="form-group row">
+                        <label class="mb-2">Imagem Atual</label>
+                        <img src="data:image;base64,@Convert.ToBase64String(Model.Imagem)" alt="Imagem Atual" style="max-width: 50%; max-height: 200px;" />
+                    </div>
+                }
+                <br />
+                <div class="form-group">
+                    <label asp-for="Imagem" class="control-label mb-2" for="inputNovaImagem">Nova Imagem do Produto</label>
+                    <input asp-for="Imagem" name="novaImagem" type="file" id="inputNovaImagem" accept="image/*" onchange="previewNovaImagem()" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
+                    <span asp-validation-for="Imagem" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group" style="padding-bottom: 25%">
+                    <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px;">
+                        Voltar
+                    </a>
+                    <input type="submit" value="Salvar" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px;" />
+                </div>
+            </form>
         </div>
-    </nav>
-
-    <div class="mobile-menu">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
-            </li>
-            @if (User.Identity.IsAuthenticated)
-            {
-                <li class="nav-item">
-                    <a asp-controller="Usuario" asp-action="Perfil" class="nav-link text-dark">
-                        Perfil
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a asp-controller="Usuario" asp-action="Logout" class="nav-link text-dark">
-                        Sair
-                    </a>
-                </li>
-            }
-            else
-            {
-                <li class="nav-item">
-                    <a asp-controller="Usuario" asp-action="Login" class="nav-link text-dark">
-                        Login
-                    </a>
-                </li>
-            }
-        </ul>
-    </div>
-</header>
-
-<body style="background-color: #606C38; height: 80%;">
-    <div class="mb-3" style="position: absolute; width: 100%; top: 0; left: 0;">
-        <div class="mb-3">
-
-            <h1 style="color: #FEFAE0;padding-top: 5%; margin-left: 2%">Editar Produto</h1>
-
-            <hr / style="position: relative; width: 520px; left: 2%; color: #FEFAE0;">
-
-            <div class="row" style="color: #FEFAE0">
-                <div class="col-md-4">
-                    <form asp-action="Edit" style="margin-left: 7%" method="post" enctype="multipart/form-data">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <input type="hidden" asp-for="Id" />
-                        <div class="form-group">
-                            <label asp-for="Nome" class="control-label"></label>
-                            <input asp-for="Nome" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
-                            <span asp-validation-for="Nome" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Preco" class="control-label"></label>
-                            <input asp-for="Preco" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
-                            <span asp-validation-for="Preco" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="QuantidadePeso" class="control-label"></label>
-                            <input asp-for="QuantidadePeso" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
-                            <span asp-validation-for="QuantidadePeso" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Categoria" class="control-label"></label>
-                            <select asp-for="Categoria" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="Html.GetEnumSelectList<TipoCategoria>()"></select>
-                            <span asp-validation-for="Categoria" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Descricao" class="control-label"></label>
-                            <textarea asp-for="Descricao" class="form-control" rows="" style="background-color: #D9D9D980; border: 1px solid #283618;"></textarea>
-                            <span asp-validation-for="Descricao" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Restricoes" class="control-label"></label>
-                            <select asp-for="Restricoes" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="Html.GetEnumSelectList<Restricoes>()"></select>
-                            <span asp-validation-for="Restricoes" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="CnpjEstabelecimento" class="control-label"></label>
-                            <select asp-for="CnpjEstabelecimento" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="ViewBag.CnpjEstabelecimento"></select>
-                            <span asp-validation-for="CnpjEstabelecimento" class="text-danger"></span>
-                        </div>
-                        <br />
-                        @if (Model.Imagem != null && Model.Imagem.Length > 0)
-                        {
-                            <div class="form-group">
-                                <label>Imagem Atual</label>
-                                <img src="data:image;base64,@Convert.ToBase64String(Model.Imagem)" alt="Imagem Atual" style="max-width: 100%; max-height: 200px;" />
-                            </div>
-                        }
-                        <br />
-                        <div class="form-group">
-                            <label asp-for="Imagem" class="control-label" for="inputNovaImagem">Nova Imagem do Produto</label>
-                            <input asp-for="Imagem" name="novaImagem" type="file" id="inputNovaImagem" accept="image/*" onchange="previewNovaImagem()" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />
-                            <span asp-validation-for="Imagem" class="text-danger"></span>
-                        </div>
-                        <br />
-                        <div class="form-group" style="padding-bottom: 25%">
-                            <a asp-action="Index" class="btn" style="width:30%;color: #FFFFFF;background-color: #DDA15E; border-radius: 10px;">
-                                Voltar
-                            </a>
-                            <input type="submit" value="Salvar" class="btn" style="width:30%;color: #FFFFFF;background-color: #283618; border-radius: 10px;" />
-                        </div>
-                    </form>
+    </section>
+    <section class="perfil_usuario-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="texto_logo">Amplie sua presença online e alcance mais clientes.</h3>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
+<footer class="footer_ajustes" style="background-color: #283618; height:200px">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="titulo_footer">SIGA-NOS NAS REDES SOCIAIS</h3>
+            </div>
+            <div>
+                <img class="mx-3" src="~/css/img/facebook.png" alt="facebook">
+                <img class="mx-3" src="~/css/img/instagram.png" alt="instagram">
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="rodape_footer"> © 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+    </div>
+</footer>
 
-<script>
-    function previewNovaImagem() {
+
+<script>function previewNovaImagem() {
         var input = document.getElementById('inputNovaImagem');
         var preview = document.getElementById('previewNovaImagem');
 
@@ -181,5 +127,4 @@
         } else {
             preview.src = null;
         }
-    }
-</script>
+    }</script>

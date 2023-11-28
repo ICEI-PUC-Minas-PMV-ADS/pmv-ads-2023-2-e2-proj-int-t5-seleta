@@ -44,7 +44,7 @@
                                 <a asp-action="Edit" asp-route-id="@item.Cnpj" type="button" class="btn btn-dark btn_index-estabelecimento">Editar</a>
                                 <a asp-action="Details" asp-route-id="@item.Cnpj" type="button" class="btn btn-info btn_index-estabelecimento">Detalhes</a>
                                 <a asp-action="Delete" asp-route-id="@item.Cnpj" type="button" class="btn btn-danger btn_index-estabelecimento">Excluir</a>
-                                <a asp-controller="Produtos" asp-action="Index" type="button" class="btn btn-light btn_index-estabelecimento">Produtos</a>
+                                <a asp-controller="Produtos" asp-action="Index" asp-route-cnpjEstabelecimento="@item.Cnpj" type="button" class="btn btn-light btn_index-estabelecimento">Produtos</a>
 
                             </td>
                         </tr>
