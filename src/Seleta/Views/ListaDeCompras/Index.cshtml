@@ -4,43 +4,75 @@
 }
 
 <head>
-        <script 
-            src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" 
-            integrity = "sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" 
-            crossorigin = "anonymous" 
-            referrerpolicy = "no-referrer" 
-        ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+            integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
 </head>
 
-<body style="background-color: #BC6C25C2;">
-    <div class="mb-3" style="position: absolute; width: 100%; top: 11.5%; left: 0;">
-        <div id="container">
-            <h1 style="color: #283618;padding-top: 2%; margin-left: 3%; font-size: 32px;">
-                Minha lista de compras
-            </h1>
-            <hr / style="position: relative; width: 520px; left: 2%; color: #283618;">
-            <h4 style="color: #283618;margin-left: 3%; font-size: 18px; font-weight: 400;">E-mail do cliente: @ViewData["ListaDeComprasEmail"]</h4>
-
-            <div class="row" style="color: #283618; padding-top: 1%; margin-left: 3%; width: 608px">
-
-                @foreach (var produto in Model)
-                {
-                    <p style="font-size: 18px; font-weight: 500;">@produto.Nome</p>
-                    <p style="font-size: 14px; font-weight: 400;"><b>Preço:</b> R$ @produto.Preco &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <b>Restrição(ões) alimentar(es):</b> @produto.Restricoes</p>
-                    <p style="font-size: 14px; font-weight: 400; padding-bottom: 1%;"><b>Mercado:</b> @produto.Estabelecimento.Nome (@produto.Estabelecimento.Endereco)</p>
-
-            
-
-                    <a asp-action="RemoverProduto" asp-route-produtoId="@produto.Id" class="btn btn-danger" style="width: 30%; border-radius: 10px; margin-top: -2%; margin-bottom: 5%;">Remover Produto</a>
-                }
+<body style="background-color: #BC6C25C2">
+    <section id="container">
+        <div class="container m-0">
+            <div class="row">
+                <div class="col titulo_informacao-usuario" style="color: #283618">
+                    <h3>Minha Lista de Compras - SELETA</h3>
+                    <h6>E-mail do cliente: @ViewData["ListaDeComprasEmail"]</h6>
+                    <hr />
+                    <a asp-controller="Home" asp-action="Index" type="button" class="btn btn-outline-dark">
+                        + Adicionar produtos à lista
+                    </a>
+                </div>
+                <div class="col text-center mt-5">
+                    <a id="generate-pdf" style="color: #283618; background-color: transparent; border: none; font-size: 15px; font-weight: 700">
+                        <img src="~/css/img/dowload 1.png" />download
+                    </a>
+                </div>
             </div>
         </div>
-        <a asp-controller="Home" asp-action="Index">
-            <button type="button" class="btn" style="color: #283618; border: 1px solid #283618; font-size: 16px; font-weight: 700; position: absolute; top: 5%; left: 45%;">
-                + Adicionar produtos à lista</button>
-        </a>
-        <button id="generate-pdf" style="color: #283618; background-color: transparent; border: none; font-size: 15px; font-weight: 700; position: absolute; top: 5%; left: 85%;">
-            <img src="~/css/img/dowload 1.png" />download
-        </button>
-    </div>
+        <section class="container text-center">
+            <div class="row table-responsive">
+                <table class="col table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Preço</th>
+                            <th scope="col">Estabelecimento</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col"></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var produto in Model)
+                        {
+                            <tr>
+                                <td class="ajustes_lista-compras">@produto.Nome</td>
+                                <td class="ajustes_lista-compras">@produto.Preco</td>
+                                <td class="ajustes_lista-compras">@produto.Estabelecimento.Nome</td>
+                                <td class="ajustes_lista-compras">@produto.Estabelecimento.Endereco</td>
+                                <td> <a asp-action="RemoverProduto" asp-route-produtoId="@produto.Id" class="btn btn-sm btn-danger">Excluir</a></td>
+                            </tr>
+                           
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
 </body>
+<footer class="footer_ajustes" style="background-color: #283618; height:213px">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="titulo_footer">SIGA-NOS NAS REDES SOCIAIS</h3>
+            </div>
+            <div>
+                <img class="mx-3" src="~/css/img/facebook.png" alt="facebook">
+                <img class="mx-3" src="~/css/img/instagram.png" alt="instagram">
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #FEFAE0; height:30px">
+        <p class="rodape_footer">© 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+    </div>
+</footer>

@@ -30,18 +30,22 @@
                 <div class="col-md-3 mb-4">
                     <div class="card bg-transparent">
                         @if (item.Imagem != null && item.Imagem.Length > 0)
-                            {
+                        {
                             <img class="card-img-top card-img-fixed-size" src="data:@item.TipoImagem;base64,@Convert.ToBase64String(item.Imagem)" alt="Imagem de capa do card">
-                            }
-                            <div class="card-body">
-                                <h5 class="card-title">@item.Nome</h5>
-                                <p class="card-text">Preço: R$ @item.Preco</p>
-                                <p class="card-text">Adequado para: @item.Restricoes</p>
-                                <p class="card-text">Disponível em: @item.Estabelecimento.Nome</p>
-                                <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm border-0" style="background-color: #BC6C25">Ver Detalhes</a>
-                                <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm border-0" style="background-color: #606C38">Adicionar à Lista </a>
-                            </div>
+                        }
+                        else
+                        {
+                            <img class="card-img-top card-img-fixed-size" src="~/css/img/download.png" alt="Imagem padrão">
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Nome</h5>
+                            <p class="card-text">Preço: R$ @item.Preco</p>
+                            <p class="card-text">Adequado para: @item.Restricoes</p>
+                            <p class="card-text">Disponível em: @item.Estabelecimento.Nome</p>
+                            <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-secondary btn-sm border-0" style="background-color: #BC6C25">Ver Detalhes</a>
+                            <a asp-action="SalvarProduto" asp-controller="ListaDeCompras" asp-route-produtoId="@item.Id" class="btn btn-secondary btn-sm border-0" style="background-color: #606C38">Adicionar à Lista </a>
                         </div>
+                    </div>
                 </div>
             }
         </div>
@@ -49,18 +53,19 @@
   
 </body>
 
-<footer class="w-100 " style="background-color:#283618; width: 100%; height: 300px;">
-    <div class="mx-3 text-white" style="margin-top:100px">
-        <h3 style="font-family: Inter; font-size: 20px; font-weight: 400; line-height: 36px; letter-spacing: 0.09em; width: 40%; padding: 20px;">
-            SIGA-NOS NAS REDES SOCIAIS E ENTRE EM CONTATO
-        </h3>
-    </div>
-    <div class="mt-5" style="position: relative; left: 2%; top: -15%; width: 20%; height: 5%">
-        <img class="mx-3" src="~/css/img/facebook.png" alt="facebook">
-        <img class="mx-3" src="~/css/img/instagram.png" alt="instagram">
+<footer class="footer_ajustes" style="background-color: #283618; height:200px">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="titulo_footer">SIGA-NOS NAS REDES SOCIAIS</h3>
+            </div>
+            <div>
+                <img class="mx-3" src="~/css/img/facebook.png" alt="facebook">
+                <img class="mx-3" src="~/css/img/instagram.png" alt="instagram">
+            </div>
+        </div>
     </div>
     <div>
-        <p class="text-center" style="color: #FEFAE0; margin-top:100px"> &copy; 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
+        <p class="rodape_footer">© 2023 - Seleta - Idiomas - Política de Privacidade - Ajuda</p>
     </div>
-
 </footer>

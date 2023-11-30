@@ -778,11 +778,65 @@ a {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 2.16px;
-    margin: 30px;
+    margin: 30px 0 30px 9px;
 }
 .rodape_footer {
     color: #606C38;
     font-size: 16px;
     text-align: center;
     margin-top: 90px;
+}
+.rodape_footer_estabalecimento {
+    color: #606C38;
+    font-size: 16px;
+    text-align: center;
+}
+.perfil_usuario-logo {
+    background: url('img/refeicoes-de-comida-brasileira-simples-com-copia-espaco2.png');
+    background-color: #BC6C25;
+    padding: 20px;
+}
+.texto_perfil-usuario {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    padding-top: 20px;
+}
+.texto_logo {
+    color: #FEFAE0;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 30%;
+    padding-top:20px;
+}
+.imagem_perfil-usuario{
+    width: 50%;
+}
+.titulo_informacao-usuario {
+    padding: 20px;
+    color: #FEFAE0;
+}
+.details_usuario {
+    background-color: #606C38;
+}
+.tabela_info-usuario {
+    color: #FEFAE0;
+}
+.botoes_perfil-usuario {
+    width: 120px;
+}
+
+.lista_informacao-usuario {
+    font-size: 1.3rem;
+    color: #FEFAE0;
+    text-decoration: none;
+}
+.btn_index-estabelecimento {
+    width: 90px;
+}
+.ajustes_lista-compras {
+    color: #283618;
+    font-size: 1rem;
+    font-weight: 600;
 }
