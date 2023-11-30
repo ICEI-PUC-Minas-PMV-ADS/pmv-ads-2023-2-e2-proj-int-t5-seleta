@@ -824,13 +824,14 @@ a {
     color: #FEFAE0;
 }
 .botoes_perfil-usuario {
-    margin: 30px 0 30px 10px;
+    width: 120px;
 }
+
 .lista_informacao-usuario {
     font-size: 1.3rem;
-    font-weight: 700;
+    color: #FEFAE0;
     text-decoration: none;
 }
 .btn_index-estabelecimento {
-    width: 100px;
+    width: 90px;
 }
