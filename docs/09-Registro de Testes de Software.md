@@ -27,7 +27,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 | Testes 	| CT-05 – Enviar Lista de Compras por e-mail |
 |:---:	|:---:	|
-|	Vídeo 	| Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes.|
+|	Vídeo 	| Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma não houve testes.|
 |  	|  	|
 
 | Testes 	| CT-06 – Cadastro do usuário	|
@@ -72,19 +72,25 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 | Observação | Após a finalização da criação e gerenciamento da lista de compras, o usuário tem a opção de fazer dowload da lista. Ao clicar no botão download no canto superior, um pdf será gerado com os produtos que foram adicionados na lista de compras. O Seleta atende parcialmente este requisito, pois o pdf da lista é gerado, porém, ao abri-lo, ele aparece cortado, sem mostrar todos os produtos da lista.  |
 |  	|  	|
 
-| 5 	| Cadastrar usuário 	|
+| 5 	| Enviar Lista de Compras por e-mail 	|
+|:---:	|:---:	|
+|	Requisito	| RF-014 - A aplicação deve oferecer a opção de enviar a lista de compras elaborada direto para o e-mail do usuário visitante |
+| Observação | Funcionalidade ainda não foi completamente desenvolvida, dessa forma não houve testes. |
+|  	|  	|
+
+| 6 	| Cadastrar usuário 	|
 |:---:	|:---:	|
 |	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta |
 | Observação | Na página inicial, a aplicação apresenta o botão de login na barra de navegação. Ao clicar no botão, o visitante é redirecionado para a página de login, onde irá encontrar o botão de cadastro para criar uma conta na plataforma. Após o preenchimento de informações cadastrais e clicar em "Cadastrar", o usuário será redirecionado de volta para página de login, onde colocará o e-mail e senha escolhida para entrar em seu perfil no site. Ao estar logado no seu perfil, o usuário poderá gerenciar os itens e informações da sua conta. Dessa forma, o Seleta atende ao requisito cadastrar usuário.|
 |  	|  	|
 
-| 6 	| Cadastrar estabelecimento	|
+| 7 	| Cadastrar estabelecimento	|
 |:---:	|:---:	|
 |	Requisito	| RF-007 - A aplicação deve permitir que o estabelecimento crie e gerencie os itens da sua conta <br> RF-008 - A aplicação deve permitir o estabelecimento especificar a sua localidade |
 | Observação | Após realizar o login na plataforma, o usuário poderá cadastrar seu estabelecimento. Ele irá clicar no botão para realizar cadastro, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o estabelecimento e suas informações ficarão salvas no perfil do usuário e ele poderá partir para o cadastro dos produtos deste estabelecimento. Dessa forma, o Seleta atende ao requisito cadastrar estabelecimento. |
 |  	|  	|
 
-| 7 	| Cadastrar produto	|
+| 8 	| Cadastrar produto	|
 |:---:	|:---:	|
 |	Requisito	| RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos |
 | Observação | Após realizar o login na plataforma, o usuário terá acesso a relação de todos os estabelecimentos cadastrados e deverá clicar no botão produto. Ele irá clicar em cadastrar novo produto, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o produto e suas informações ficarão salvas no perfil do estabelecimento, podendo gerenciar esses produtos cadastrados. Dessa forma, o Seleta atende ao requisito cadastrar produto. |
