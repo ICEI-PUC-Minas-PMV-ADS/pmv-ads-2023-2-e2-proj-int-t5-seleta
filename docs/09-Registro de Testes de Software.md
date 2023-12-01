@@ -51,7 +51,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 | 1 	| Página inicial	|
 |:---:	|:---:	|
 |	Requisito	| RF-001 - A aplicação deve apresentar na página inicial instruções sobre como navegar na plataforma |
-| Observação | Na página inicial, a aplicação apresenta algumas instruções de uso para auxiliar os usuários. Na seção de categorias, assim como na barra de pesquisa, existe um ícone de interrogação que, ao passar o mouse em cima, abre-se um card com dicas de uso. Além disso, após a barra de pesquisa, há também instruções sobre como criar uma lista de compras. Dessa forma, o Seleta atende ao requisito apresentar na página inicial instruções de navegação. |
+| Observação | Na página inicial, a aplicação apresenta algumas instruções de uso para auxiliar os usuários. Na seção de categorias, assim como na barra de pesquisa, existe um ícone de interrogação que, ao passar o mouse em cima, abre-se um card com dicas de uso. Além disso, após a barra de pesquisa, há também instruções sobre como criar uma lista de compras. Dessa forma, o Seleta atende ao requisito. |
 |  	|  	|
 
 | 2	| Buscar Produtos	|
@@ -99,5 +99,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 
 ## Pontos de Correção
   
--
+- Há uma certa dificuldade de gerenciar contas com muitos estabelecimentos cadastrados, ocorrendo erros ao tentar acessar o detalhamento do estabelecimento e ao tentar excluir o estabelecimento.
+- A equipe deve fornecer a opção de enviar a lista de compras para o e-mail do usuário visitante ou algum outro e-mail de escolha.
+- As dicas da Página Inicial funcionam bem em uma tela de desktop, mas, ao diminuir o monitor, elas não acompanham a responsividade.
 
