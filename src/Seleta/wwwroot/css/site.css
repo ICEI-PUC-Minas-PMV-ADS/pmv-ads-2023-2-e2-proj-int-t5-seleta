@@ -180,6 +180,18 @@ a {
         padding: 40px;
     }
 
+    .form-content .caixa-login {
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        top: 15%;
+        left: 25%;
+        border-radius: 50px;
+        border: 1px solid #606C38;
+        background-color: transparent;
+        padding: 40px;
+    }
+
 .form-login h5 {
     font-size: 1rem;
     line-height: 25px;
