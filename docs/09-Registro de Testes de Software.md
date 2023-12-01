@@ -89,3 +89,10 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |	Requisito	| RF-009 - A aplicação deve permitir que o estabelecimento adicione e gerencie seus produtos |
 | Observação | Após realizar o login na plataforma, o usuário terá acesso a relação de todos os estabelecimentos cadastrados e deverá clicar no botão produto. Ele irá clicar em cadastrar novo produto, preencherá as informações pedidas e, no final, clicará em salvar. Com isso, o produto e suas informações ficarão salvas no perfil do estabelecimento, podendo gerenciar esses produtos cadastrados. Dessa forma, o Seleta atende ao requisito cadastrar produto. |
 |  	|  	|
+<br>
+
+##Pontos de Correção
+  
+Como possíveis pontos de correção, sugerimos as seguintes ações:
+- 
+
