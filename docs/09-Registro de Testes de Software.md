@@ -91,7 +91,7 @@ Registro das evidências dos testes feitos na aplicação pela equipe, baseado e
 |  	|  	|
 <br>
 
-##Pontos de Correção
+## Pontos de Correção
   
 Como possíveis pontos de correção, sugerimos as seguintes ações:
 - 
