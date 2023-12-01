@@ -78,3 +78,58 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 
 ## Relatório
+
+**Teste de Usabilidade da aplicação Seleta: estudo de caso**
+
+Com o aumento de diagnósticos médicos relacionados à intolerância e alergia ou com a percepção de reações do organismo a certos alimentos, as restrições alimentares têm ganhado cada vez mais destaque nos hábitos de consumo da população. Tendo isso em vista, atender esta demanda crescente pode beneficiar os mercados ao aumentar a fidelidade do cliente, atrair um público mais amplo e diversificado, demonstrar sensibilidade às necessidades individuais e melhorar a reputação da marca por meio do fornecimento de opções inclusivas e seguras. 
+
+Este teste tem o objetivo de analisar e avaliar os resultados obtidos mediante o teste de usabilidade da aplicação Seleta.
+
+O método utilizado foi a observação do uso da ferramenta com parâmetros de tempo, clicks, erros e observações. A partir dos dados coletados, realizamos o mapeamento dos padrões de comportamento, possíveis problemas e soluções.
+
+O teste foi realizado em três etapas e com dois tipos de usuários. E um primeiro momento, 3 usuários donos de estabelecimentos e/ou prospectivos donos de estabelecimentos testaram os casos de testes 01, 02 e 07. Na segunda etapa, os mesmos 3 usuários da primeira etapa testaram o caso de teste 08 e, além deles, tivemos 2 usuários visitantes que testaram os casos de testes 03, 04, 06, 09, 10 e 11. Já na terceira etapa, buscamos mais um usuário dono de estabelecimento e mais dois usuários visitantes para testar a aplicação em sua totalidade.
+
+O CTU-05 não foi possível de se mapear, devido ao requisito não ter sido implementado até o momento do teste.
+
+Seguem resultados:
+
+**CTU-01 - Cadastro de novo usuário**
+
+
+**CTU-02 - Login de usuário**
+
+
+**CTU-03 - Criar Lista de Compras a partir da barra de navegação**
+
+
+**CTU-04 - Criar e gerenciar Lista de Compras**
+
+
+**CTU-05 - Enviar Lista de Compras por email**
+
+O teste não pode ser executado pois não foi implementada essa funcionalidade a tempo do teste.
+
+**CTU-06 - Fazer Download da Lista de Compras**
+
+
+**CTU-07 - Gerenciar estabelecimento**
+
+**CTU-08 - Cadastrar produtos**
+
+
+**CTU-09 - Buscar produto por localidade**
+
+**CTU-10 - Buscar produto por categoria**
+
+**CTU-11 - Buscar produto por restrição alimentar**
+
+
+**Problemas de usabilidade** 
+
+
+**Plano de correção:**
+
+
+**Conclusão**
+
+
