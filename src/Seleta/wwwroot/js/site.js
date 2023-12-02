@@ -45,3 +45,4 @@ btnGenerate.addEventListener("click", () => {
 
     html2pdf().set(options).from(container).save();
 });
+
