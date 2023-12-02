@@ -11,7 +11,6 @@
 <head>
     <title> Cadastrar Produto</title>
     <link rel="icon" type="image/x-icon" href="~/css/img/Seleta.png">
-
 </head>
 
 <body style="background-color: #FEFAE0">
@@ -48,16 +47,11 @@
                                 <textarea asp-for="Descricao" class="form-control" rows="" style="background-color: #D9D9D980; border: 1px solid #283618;" placeholder="Insira informações relevantes sobre o produto."></textarea>
                                 <span asp-validation-for="Descricao" class="text-danger"></span>
                             </div>
-                     
                             <div class="form-group">
                                 <label asp-for="Restricoes" class="control-label"></label>
                                 <select asp-for="Restricoes" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="Html.GetEnumSelectList<Restricoes>()" multiple size="5"></select>
                                 <span asp-validation-for="Restricoes" class="text-danger"></span>
                             </div>                         
-                            <div class="form-group">
-                                <label asp-for="CnpjEstabelecimento" class="control-label"></label>
-                                <select asp-for="CnpjEstabelecimento" class="form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" asp-items="ViewBag.CnpjEstabelecimento"></select>
-                            </div>
                             <div class="form-group">
                                 <label asp-for="Imagem" class="control-label">Imagem do Produto</label>
                                 <input asp-for="Imagem" name="imagem" type="file" id="inputImagem" accept="image/*" onchange="previewImage()" class=" form-control" style="background-color: #D9D9D980; border: 1px solid #283618;" />

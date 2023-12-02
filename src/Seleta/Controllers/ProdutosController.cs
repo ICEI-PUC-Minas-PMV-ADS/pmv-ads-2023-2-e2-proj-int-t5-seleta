@@ -21,7 +21,6 @@ namespace Seleta.Controllers
         public async Task<IActionResult> Index(string cnpjEstabelecimento)
         {
             if (cnpjEstabelecimento != null) cnpjEstabelecimentoSalvo = cnpjEstabelecimento;
-
             var ApplicationDbContext = _context.Produtos.Include(e => e.Estabelecimento)
                 .Where(produto => produto.CnpjEstabelecimento == cnpjEstabelecimentoSalvo);
             return View(await ApplicationDbContext.ToListAsync());
@@ -54,6 +53,8 @@ namespace Seleta.Controllers
                             produto.TipoImagem = imagem.ContentType;
                         }
                     }
+                    produto.CnpjEstabelecimento = cnpjEstabelecimentoSalvo;
+                    produto.Estabelecimento = await _context.Estabelecimentos.FindAsync(cnpjEstabelecimentoSalvo);
 
                     _context.Produtos.Add(produto);
                     await _context.SaveChangesAsync();
