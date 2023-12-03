@@ -17,7 +17,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |:---:	|:---:	| :---:	|:---:	| :---:	|:---:	| 
 |Usuário 1 | CTU-01 | 3 | 0 | --- | Usuário estranhou não ter botão de cadastro na tela inicial, mas achou o processo fácil |
 |Usuário 2	| CTU-01 	|  7  | 0 | --- | Usuário achou a tela intuitiva e não teve muita dificuldade |
-|Usuário 3 | CTU-01 | 3 | 0 | --- | Informação de cadastro confusa pelo botão está escrito login e não uma informação mas generica, como entrar ou cadastrar. |
+|Usuário 3 | CTU-01 | 3 | 0 | --- | Informação de cadastro confusa pelo botão estar escrito login e não uma informação mais genérica, como entrar ou cadastrar. |
 |Usuário 6 | CTU-01 | 3 | 0 | --- | Usuário achou o cadastro intuitivo, mas estranhou o fato de que o campo do CPF permite letras. |
 
 
@@ -40,8 +40,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
-|Usuário 4 | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
-|Usuário 5 | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+| --- | CTU-05 | 0 | 0 | --- | Funcionalidade de enviar lista por email ainda não foi completamente desenvolvida, dessa forma não houve testes. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
@@ -100,9 +99,11 @@ Seguem resultados:
 
 **CTU-01 - Cadastro de novo usuário**
 
+Os usuários ficaram próximos da média de clicks para efetuar a ação e, no geral, acharam o processo intuitivo e sem muita dificuldade. Usuário 3 teve dificuldade pois o botão de Login não estava em português, enquanto o Usuário 6 apontou um erro no campo CPF.
 
 **CTU-02 - Login de usuário**
 
+Todos os usuários ficaram próximos da média de clicks para efetuar a ação e não tiveram problemas e nem sugestões.
 
 **CTU-03 - Criar Lista de Compras a partir da barra de navegação**
 
@@ -119,8 +120,12 @@ O teste não pode ser executado pois não foi implementada essa funcionalidade a
 
 **CTU-07 - Gerenciar estabelecimento**
 
+Essa funcionalidade apresentou alguns problemas ao longo do desenvolvimento. Os primeiros usuários apontaram problemas em campos do cadastro, mas que não impediam de salvar o estabelecimento, portanto se mostraram sem utilidade. Corrigido este problema, surgiu um novo problema, onde o usuário cadastrava o estabelecimento e, ao abrir Produtos deste estabelecimento, apareciam produtos que ele não cadastrou. Mais uma vez, o problema foi corrigido e, na última rodada de testagem, não houve nenhuma reclamação.
+
+
 **CTU-08 - Cadastrar produtos**
 
+A princípio, a funcionalidade apresentou problemas de responsividade, que foram resolvidos. Outra questão que foi resolvida foi sobre a página "Meus Produtos", em que apareciam produtos que não foram cadastrados pelo usuário. Por fim, na última rodada de testagem, o usuário conseguiu cadastrar e gerenciar o produto sem nenhum impedimento, porém reclamou um pouco do processo de cadastro, não entendeu claramente um campo de informação do produto e não gostou de não poder selecionar mais de uma restrição por produto. 
 
 **CTU-09 - Buscar produto por localidade**
 
