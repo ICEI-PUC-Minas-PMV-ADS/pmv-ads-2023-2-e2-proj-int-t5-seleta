@@ -77,9 +77,6 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 5 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 <br>
 
-## Observações e conclusão
-
-
 
 ## Relatório
 
@@ -140,6 +137,6 @@ A princípio, a funcionalidade apresentou problemas de responsividade, que foram
 **Plano de correção:**
 
 
-**Conclusão**
+**Observações e conclusão**
 
 
