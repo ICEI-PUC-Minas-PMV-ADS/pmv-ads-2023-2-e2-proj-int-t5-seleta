@@ -81,8 +81,9 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 |Usuário 5 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
-<br>
 |Usuário 7 | CTU-11 | 1 | 0 | --- | Usuário digitou sua restrição alimentar na barra de pesquisa e os produtos relacionados foram disponibilizados, sem dificuldade para executar a atividade. |
+<br>
+
 
 
 ## Relatório
