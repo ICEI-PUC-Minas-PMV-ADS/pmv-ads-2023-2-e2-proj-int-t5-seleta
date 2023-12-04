@@ -11,6 +11,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 |Usuário 4| 30 anos, tem média facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 |Usuário 5| 53 anos, tem baixa facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 |Usuário 6| 30 anos, tem facilidade em entender e mexer com tecnologias. | Dono(a) de estabelecimento  |
+|Usuário 7| 45 anos, tem facilidade em entender e mexer com tecnologias. | Usuário Visitante |
 
 ## Testes
 | **Usuário** 	| **Artefato** 	| **Clicks** | **Erros**  | **Se recuperou do erro**  | **Comentários/Observações** |
@@ -32,11 +33,13 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-03 | 2 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Botão de adicionar produtos na lista não retorna a lista de produtos. |
 |Usuário 5 | CTU-03 | 4 | 1 | Sim. O usuário tentou fazer login para criar a lista de compras, depois conseguiu voltar para a página inicial e clicou em "Criar lista de compras" | O usuário teve um pouco de dificuldade para entender que não precisava fazer login no site, apenas quando clicou em fazer lista de compras que identificou no final da página que precisava apenas do email para criar a sua lista. | 
+|Usuário 7 | CTU-03 | 2 | 0 | --- | O usuário conseguiu realizar a tarefa sem dificuldade. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-04 | 4 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Pesquisa não retorna sem acentos. Botão de buscar produtos não retorna produtos na lista de compras. Falta de botão para acessar a lista de forma rápida. |
 |Usuário 5 | CTU-04 | 6 | 0 | --- | O usuário conseguiu excluir produtos de sua lista e também conseguiu adicionar. Porém sentiu falta de um botão para acessar os detalhes do produto, como o nome e local onde o produto é vendido. Também sentiu falta de um acesso na home direto para as sua lista de compras já criada. |
+|Usuário 7 |  CTU-04 | 8 | 0 | --- | O usuário conseguiu adicionar produto a sua lista de compra e também excluir o produto. Sentiu falta de um site do estabelecimento para consultar se seria possível fazer a compra do produto de forma online. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
@@ -46,6 +49,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-06 | 2 | 1 | não | Conseguiu fazer o download completamente. PDF veio cortado com apenas o primeiro produto. |
 |Usuário 5 | CTU-06 | 2 | 1 | não | O usuário conseguiu fazer o download da sua lista porém, o PDF veio cortado, apenas o primeiro produto e sem o estabelecimento no qual o produto é vendido. |
+|Usuário 7 | CTU-06 | 2 | 1 | --- | Conseguiu fazer o download do PDF sem nenhum dificuldade.|
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
@@ -65,17 +69,20 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-09 | - | 0 | --- | Funcionalidade de enviar buscar produto por localidade ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 |Usuário 5 | CTU-09 | - | 0 | --- | Funcionalidade de enviar buscar produto por localidade ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
+|Usuário 7 | CTU-09 | 3 | 0 | --- | A pesquisa retorna produtos que tem a palavra digitada, não necessariamente o endereço. Sentiu um pouco de dificuldade por ter poucos estabelecimentos cadastrados para busca. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-10 | - | 4 | --- | Usuário conseguiu localizar o produto por categoria (massas) com facilidade e adicionar a sua lista de compras. |
 |Usuário 5 | CTU-10 | - | 4 | --- | Usuário, apesar de ter conseguido encontrar o produto por categoria, identificou que há produtos que não estão cadastrados dentro da categoria, exemplo: macarrão que deveria estar em massas. |
+|Usuário 7 | CTU-09 | 2 | 0 | --- | Usuário clicou na imagem e nada aconteceu, mas em seguida clicou no nome da categoria e foi direcionado para os produtos da categoria. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 |Usuário 5 | CTU-11 | - | 0 | --- | Funcionalidade de enviar buscar produto por restrição ainda não foi completamente desenvolvida, dessa forma, não houve testes. |
 <br>
+|Usuário 7 | CTU-11 | 1 | 0 | --- | Usuário digitou sua restrição alimentar na barra de pesquisa e os produtos relacionados foram disponibilizados, sem dificuldade para executar a atividade. |
 
 
 ## Relatório
