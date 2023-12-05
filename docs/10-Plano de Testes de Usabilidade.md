@@ -56,13 +56,13 @@ Abaixo está a lista de tarefas a serem executadas pelos participantes:
 |:---:	|:---:	|
 |	Perfil 	| Usuário visitante |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login; 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Enviar lista para email". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na lista de compras já criada anteriormente; <br> 3. Clicar em editar; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar"; 6. Clicar em "Enviar lista para email". |
 
 | **Caso de Teste** 	| **CTU-06 – Fazer Download da Lista de Compras** 	|
 |:---:	|:---:	|
 |	Perfil 	| Usuário visitante |
 | Objetivo do Teste 	| Avaliar a usabilidade do gerenciamento da lista de compras |
-| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Fazer login 3. Clicar na lista de compras já criada anteriormente; <br> 4. Clicar em editar; <br> 5. Adicionar produtos a lista; <br> 6. Clicar em "Salvar"; 7. Clicar em "Download". |
+| Ações Necessárias 	| 1. Acessar a tela home da aplicação; <br> 2. Clicar na lista de compras já criada anteriormente; <br> 3. Clicar em editar; <br> 4. Adicionar produtos a lista; <br> 5. Clicar em "Salvar"; 6. Clicar em "Download". |
 
 | **Caso de Teste** 	| **CTU-07 – Gerenciar estabelecimento** 	|
 |:---:	|:---:	|
