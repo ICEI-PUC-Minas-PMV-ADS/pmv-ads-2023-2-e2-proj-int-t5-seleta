@@ -4,7 +4,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Conjunto de Slides
 
-Para visualizar [clique aqui](src="presentation/Seleta.pdf").
+Para visualizar [clique aqui](presentation/Seleta.pdf).
 
 
 ## Vídeo  
