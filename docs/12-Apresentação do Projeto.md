@@ -10,4 +10,4 @@ Para visualizar [clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-
 
 ## Vídeo  
 
-Para acessar o vídeo de apresentação da aplicação [clique aqui]().
+Para acessar o vídeo de apresentação da aplicação [clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t5-seleta/blob/main/presentation/Video%20Seleta%20-%20Etapa%20Final.mp4).
