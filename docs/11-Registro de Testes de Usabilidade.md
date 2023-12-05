@@ -150,7 +150,8 @@ De forma geral, os usuários não tiveram dificuldades com a funcionalidade.
 
 Não foram identificados problemas de usabilidade, apenas pontos de melhoria que podem aprimorar a experiência do usuário na aplicação.
 
-**Plano de correção:**
+**Plano de correção**
+
 Com base nos testes de usabilidade, foram traçadas algumas ações para melhoria: 
 - Melhorar o cadastro do estabelecimento, com campos específicos para preenchimento (bairro, cep, cidade). para proporcionar uma pesquisa mais assertiva baseada na localidade.
 - Disponibilizar o envio da lista por e-mail. A funcionalidade foi proposta inicialmente no projeto, mas não foi desenvolvida.
