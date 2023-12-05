@@ -156,6 +156,7 @@ Com base nos testes de usabilidade, foram traçadas algumas ações para melhori
 - Melhorar o cadastro do estabelecimento, com campos específicos para preenchimento (bairro, cep, cidade). para proporcionar uma pesquisa mais assertiva baseada na localidade.
 - Disponibilizar o envio da lista por e-mail. A funcionalidade foi proposta inicialmente no projeto, mas não foi desenvolvida.
 - Disponibilizar campo de pesquisa também na página de Resultado da Pesquisa, permitindo que o usuário faça uma nova busca sem ter que voltar para a página inicial da aplicação.
+- Permitir que no cadastro do produto seja selecionada mais de um tipo de restrição alimentar. 
 
 **Observações e conclusão**
 
