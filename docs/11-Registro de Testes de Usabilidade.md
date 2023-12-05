@@ -39,7 +39,7 @@ A partir dos Testes de Usabilidade, foi feito um relatório de registro, no qual
 | --- 	| --- 	| ---  | --- | --- | --- |
 |Usuário 4 | CTU-04 | 4 | 0 | --- | O usuário conseguiu realizar a tarefa tranquilamente. Pesquisa não retorna sem acentos. Botão de buscar produtos não retorna produtos na lista de compras. Falta de botão para acessar a lista de forma rápida. |
 |Usuário 5 | CTU-04 | 6 | 0 | --- | O usuário conseguiu excluir produtos de sua lista e também conseguiu adicionar. Porém sentiu falta de um botão para acessar os detalhes do produto, como o nome e local onde o produto é vendido. Também sentiu falta de um acesso na home direto para as sua lista de compras já criada. |
-|Usuário 7 |  CTU-04 | 8 | 0 | --- | O usuário conseguiu adicionar produto a sua lista de compra e também excluir o produto. Sentiu falta de um site do estabelecimento para consultar se seria possível fazer a compra do produto de forma online. |
+|Usuário 7 |  CTU-04 | 8 | 0 | --- | O usuário conseguiu adicionar produto a sua lista de compra e também excluir o produto. Sentiu falta de um site do estabelecimento para consultar se seria possível fazer a compra do produto de forma online. Quando clica para adicionar um novo produto a página não permite refinar sua busca por produtos, acaba aparecendo todo os produtos cadastrados na aplicação. |
 
 | **Usuário** 	| **Artefato** 	| **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| ---  | --- | --- | --- |
@@ -112,9 +112,11 @@ Todos os usuários ficaram próximos da média de clicks para efetuar a ação e
 
 **CTU-03 - Criar Lista de Compras a partir da barra de navegação**
 
+A maioria dos usuários não tiveram dificuldades e como melhoria ao adicionar um produto na lista, a lista aparece atualizada com o novo produto inserido.
 
 **CTU-04 - Criar e gerenciar Lista de Compras**
 
+Usuários não tiveram dificuldade de executar a ação. As sugestões de melhoria foram incorporadas e testadas na versão final da aplicação. Foram elas: botão para acessar a lista de forma rápida e botão para visualizar os detalhes do produto.
 
 **CTU-05 - Enviar Lista de Compras por email**
 
@@ -122,11 +124,11 @@ O teste não pode ser executado pois não foi implementada essa funcionalidade a
 
 **CTU-06 - Fazer Download da Lista de Compras**
 
+Usuários não tiveram dificuldade de executar a ação, mas inicialmente gerava um pdf que cortava as informações da lista de compras. O erro reportado no pdf foi corrigido e testado posteriormente.
 
 **CTU-07 - Gerenciar estabelecimento**
 
 Essa funcionalidade apresentou alguns problemas ao longo do desenvolvimento. Os primeiros usuários apontaram problemas em campos do cadastro, mas que não impediam de salvar o estabelecimento, portanto se mostraram sem utilidade. Corrigido este problema, surgiu um novo problema, onde o usuário cadastrava o estabelecimento e, ao abrir Produtos deste estabelecimento, apareciam produtos que ele não cadastrou. Mais uma vez, o problema foi corrigido e, na última rodada de testagem, não houve nenhuma reclamação.
-
 
 **CTU-08 - Cadastrar produtos**
 
@@ -134,17 +136,27 @@ A princípio, a funcionalidade apresentou problemas de responsividade, que foram
 
 **CTU-09 - Buscar produto por localidade**
 
+A busca por localidade está sendo feita por palavra-chave. Para melhorar a experiência do usuário seria preciso ter mais produtos cadastrados com diversas localidades para facilitar a localização.
+
 **CTU-10 - Buscar produto por categoria**
+
+De forma geral, os usuários não tiveram dificuldades com a funcionalidade. Para melhorar a experiência do usuário seria preciso ter mais produtos cadastrados com todas as informações.
 
 **CTU-11 - Buscar produto por restrição alimentar**
 
+De forma geral, os usuários não tiveram dificuldades com a funcionalidade.
 
 **Problemas de usabilidade** 
 
+Não foram identificados problemas de usabilidade, apenas pontos de melhoria que podem aprimorar a experiência do usuário na aplicação.
 
 **Plano de correção:**
-
+Com base nos testes de usabilidade, foram traçadas algumas ações para melhoria: 
+- Melhorar o cadastro do estabelecimento, com campos específicos para preenchimento (bairro, cep, cidade). para proporcionar uma pesquisa mais assertiva baseada na localidade.
+- Disponibilizar o envio da lista por e-mail. A funcionalidade foi proposta inicialmente no projeto, mas não foi desenvolvida.
+- Disponibilizar campo de pesquisa também na página de Resultado da Pesquisa, permitindo que o usuário faça uma nova busca sem ter que voltar para a página inicial da aplicação.
 
 **Observações e conclusão**
 
+Os resultados dos testes de usabilidade demonstraram que a aplicação é simples, interativa e que atendem as necessidades dos usuários (pessoas com restrições e estabelecimentos comerciais).
 
