@@ -8,7 +8,7 @@ O projeto Seleta consiste em um aplicativo para que pessoas com restrições ali
 
 ## Integrantes
 
-* Ana Carolina Nazareth Nogueira
+* Ana Carolina Nogueira
 * Gabriela Penaforte
 * Naianna Duarte
 * Nikita Ceccon
