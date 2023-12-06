@@ -8,17 +8,23 @@ authors:
     given-names: Gabriela
   - family-names: Bastos Maciel
     given-names: Victor
-  - family-names:
-    given-names:
-  - family-names: 
-    given-names:
+  - family-names: Nazareth Nogueira
+    given-names: Ana Carolina 
+  - family-names: Ceccon
+    given-names: Nikita
   - name-suffix: Luciana de Nardin
     affiliation: PUC Minas
     family-names:
     given-names:
 keywords:
-  -
-  -
+  - Selete
+  - Restrição
+  - Alimentos
+  - Intolerância
+  - Diabetes
+  - Vegano
+  - Saúde
+ 
 repository-code:
 license: CC-BY-4.0
 version: 1.0.0
