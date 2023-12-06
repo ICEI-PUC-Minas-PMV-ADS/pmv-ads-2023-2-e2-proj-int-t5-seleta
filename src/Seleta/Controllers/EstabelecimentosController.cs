@@ -125,16 +125,16 @@ namespace Seleta.Controllers
                 return NotFound();
 
             var estabelecimento = await _context.Estabelecimentos
-                .Include(e => e.Produtos) // Certifique-se de incluir os produtos para evitar carregamento preguiçoso
+                .Include(e => e.Produtos)
                 .FirstOrDefaultAsync(e => e.Cnpj == id);
 
             if (estabelecimento == null)
                 return NotFound();
 
-            // Excluir produtos associados ao estabelecimento
+            
             _context.Produtos.RemoveRange(estabelecimento.Produtos);
 
-            // Agora, você pode excluir o estabelecimento
+            
             _context.Estabelecimentos.Remove(estabelecimento);
 
             await _context.SaveChangesAsync();
