@@ -2,6 +2,8 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title:
 authors:
+  - family-names: Silva Duarte Cavalcante
+    given-names:Naianna
   - family-names:
     given-names:
   - family-names:
@@ -10,9 +12,7 @@ authors:
     given-names:
   - family-names:
     given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - name-suffix: Luciana de Nardin
     affiliation: PUC Minas
     family-names:
     given-names:
