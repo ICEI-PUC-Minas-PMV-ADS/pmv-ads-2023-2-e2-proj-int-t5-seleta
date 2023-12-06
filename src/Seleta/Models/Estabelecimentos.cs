@@ -29,5 +29,7 @@ namespace Seleta.Models
 
         [Display(Name = "Responsável pelo estabelecimento")]
         public Usuario? Usuario { get; set; }
+
+        public ICollection<Produto> Produtos { get; set; } 
     }
 }

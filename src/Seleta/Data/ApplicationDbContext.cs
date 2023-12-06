@@ -29,6 +29,13 @@ namespace Seleta.Data
                 .HasForeignKey(estabelecimento => estabelecimento.UsuarioCPF)
                 .IsRequired();
 
+            modelBuilder.Entity<Estabelecimento>()
+                .HasMany(estabelecimento => estabelecimento.Produtos)
+                .WithOne(produto => produto.Estabelecimento)
+                .HasForeignKey(produto => produto.CnpjEstabelecimento)
+                .OnDelete(DeleteBehavior.Cascade);
+
+
             modelBuilder.Entity<ProdutosListaDeCompras>(pl =>
             {
                 pl.HasOne(pl => pl.ListaDeCompras).

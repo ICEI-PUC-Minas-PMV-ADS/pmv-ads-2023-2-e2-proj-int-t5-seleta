@@ -124,16 +124,24 @@ namespace Seleta.Controllers
             if (id == null)
                 return NotFound();
 
-            var dados = await _context.Estabelecimentos.FindAsync(id);
+            var estabelecimento = await _context.Estabelecimentos
+                .Include(e => e.Produtos) // Certifique-se de incluir os produtos para evitar carregamento preguiçoso
+                .FirstOrDefaultAsync(e => e.Cnpj == id);
 
-            if (dados == null)
+            if (estabelecimento == null)
                 return NotFound();
 
-            _context.Estabelecimentos.Remove(dados);
+            // Excluir produtos associados ao estabelecimento
+            _context.Produtos.RemoveRange(estabelecimento.Produtos);
+
+            // Agora, você pode excluir o estabelecimento
+            _context.Estabelecimentos.Remove(estabelecimento);
+
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index");
         }
+
 
     }
 }
